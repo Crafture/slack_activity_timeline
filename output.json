@@ -1,0 +1,500 @@
+{
+    "meta": {
+        "version": "1.4.0",
+        "locale": "en-us"
+    },
+    "style": {
+        "textColor": "#000000",
+        "timelineStrokeColor": "#24ff6d",
+        "strokeColor": "#353C4B",
+        "backgroundColor": "#F7F6EB",
+        "fillColor": "#F2E7DC"
+    },
+    "days": [
+        {
+            "date": "2024-06-18",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:39:42",
+                    "title": "[ User ] : ' De regen houdt de gemoederen bezig..",
+                    "description": "[ User ] : ' De regen houdt de gemoederen bezig ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078YTR31KK/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:07:51",
+                    "title": "[ Anniek ] : ' Update: op dit moment zijn *alle pa..",
+                    "description": "[ Anniek ] : ' Update: op dit moment zijn *alle parkeertickets* via Eventim voor vandaag uitverkocht ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:12:39",
+                    "title": "[ Anniek ] : ' Nog een artikel, weer niks nieuws: ..",
+                    "description": "[ Anniek ] : ' Nog een artikel, weer niks nieuws: <a href=\"https://www.gelderlander.nl/nijmegen/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b/\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://images0.persgroep.net/rcs/3_xUC0kGczkfjNg5m58GuVZtH80/diocontent/232681332/_focus/0.38/0.2/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7"
+                },
+                {
+                    "timestamp": "11:39:45",
+                    "title": "[ Anniek ] : ' Update: de Park &amp; Shuttle ticke..",
+                    "description": "[ Anniek ] : ' Update: de Park &amp; Shuttle tickets zijn opgehoogd ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:31:46",
+                    "title": "[ User ] : ' Zo nu en dan dit soort berichten, maa..",
+                    "description": "[ User ] : ' Zo nu en dan dit soort berichten, maar over het algemeen blijft het rustig ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078HTJ9XEZ/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:07:23",
+                    "title": "[ User ] : ' wat communiceren jullie nu mbt het we..",
+                    "description": "[ User ] : ' wat communiceren jullie nu mbt het weer? <@U078C3JVC04> ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:07:09",
+                    "title": "[ Malik Sanders ] : ' wat communiceren jullie nu m..",
+                    "description": "[ Malik Sanders ] : ' wat communiceren jullie nu mbt het weer? <@U078C3JVC04> ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:32:59",
+                    "title": "[ Anniek ] : ' dat het weer nauwlettend in de gate..",
+                    "description": "[ Anniek ] : ' dat het weer nauwlettend in de gaten gehouden wordt en dat er maatregelen worden genomen waar nodig (dit is vooral voor de mensen die zich zorgen maken over onweer, overstromingen etc) ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:43:11",
+                    "title": "[ Anniek ] : ' Nog een artikel, weer alleen prakti..",
+                    "description": "[ Anniek ] : ' Nog een artikel, weer alleen praktische info die ze van onze site hebben geplukt <a href=\"https://www.gld.nl/nieuws/8164314/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&amp;utm_medium=Social%20media&amp;at_campaign=Twitter&amp;utm_campaign=Twitter&amp;utm_source=twitter&amp;utm_content=artikel&amp;utm_term=omroepgld|https://www.gld.nl/nieuws/8164314/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?[\u2026]itter&amp;utm_source=twitter&amp;utm_content=artikel&amp;utm_term=omroepgld\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://i.regiogroei.cloud/4ac1bfab-ddcb-3d63-9afb-f60d9603c2b9.jpg?width=1200&height=630&aspect_ratio=1200:630"
+                },
+                {
+                    "timestamp": "13:43:47",
+                    "title": "[ User ] : ' sommige mensen blijven bang dat het c..",
+                    "description": "[ User ] : ' sommige mensen blijven bang dat het concert wordt afgelast, media blijft verder rustig ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078M1N83RR/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:13:36",
+                    "title": "[ User ] : ' <@U063S6JMT8T> klopt het dat er geen ..",
+                    "description": "[ User ] : ' <@U063S6JMT8T> klopt het dat er geen extra treinen worden ingezet na afloop van het concert? ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078JC5CK1T/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "14:14:07",
+                    "title": "[ Sven Watervoort ] : ' <@U078C3JVC04> nee dat klo..",
+                    "description": "[ Sven Watervoort ] : ' <@U078C3JVC04> nee dat klopt niet, er worden extra treinen ingezet. ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:16:17",
+                    "title": "[ Sven Watervoort ] : ' *Dinsdag 18 juni*\n22:55, 2..",
+                    "description": "[ Sven Watervoort ] : ' *Dinsdag 18 juni*\n22:55, 23:25 uur IC richting Arnhem Centraal / Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal / Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting \u2019s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting \u2018s-Hertogenbosch\n\n*Woensdag 19 juni*\n22:55, 23:25 uur IC richting Arnhem Centraal / Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal / Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting \u2019s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting \u2018s-Hertogenbosch ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:17:34",
+                    "title": "[ Sven Watervoort ] : ' extra treinen vanaf Nijmeg..",
+                    "description": "[ Sven Watervoort ] : ' extra treinen vanaf Nijmegen ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:17:47",
+                    "title": "[ Sven Watervoort ] : ' Kan zijn dat ROtterdam nie..",
+                    "description": "[ Sven Watervoort ] : ' Kan zijn dat ROtterdam niet goed aansluit ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:20:18",
+                    "title": "[ Anniek ] : ' oke check, thanks!",
+                    "description": "[ Anniek ] : ' oke check, thanks! ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:36:28",
+                    "title": "[ Anniek ] : ' <@U063S6JMT8T> zijn er hoogtebeperk..",
+                    "description": "[ Anniek ] : ' <@U063S6JMT8T> zijn er hoogtebeperkingen voor auto\u2019s in de premium parking en de miva parking? ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:42:41",
+                    "title": "[ Sven Watervoort ] : ' MIva niet",
+                    "description": "[ Sven Watervoort ] : ' MIva niet ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:43:24",
+                    "title": "[ Sven Watervoort ] : ' Premium wel tot 2.10..",
+                    "description": "[ Sven Watervoort ] : ' Premium wel tot 2.10 ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "15:00",
+            "activities": []
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "16:00",
+            "activities": [
+                {
+                    "timestamp": "16:18:37",
+                    "title": "[ Sven Watervoort ] : ' Hoe is beeld op de socials..",
+                    "description": "[ Sven Watervoort ] : ' Hoe is beeld op de socials? ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:48:17",
+                    "title": "[ Anniek ] : ' tot nu toe rustig, nog geen gekke d..",
+                    "description": "[ Anniek ] : ' tot nu toe rustig, nog geen gekke dingen voorbij zien komen ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:48:26",
+                    "title": "[ Anniek ] : ' nog nul vragen/issues m.b.t. parker..",
+                    "description": "[ Anniek ] : ' nog nul vragen/issues m.b.t. parkeren ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:50:16",
+                    "title": "[ Anniek ] : ' https://www.gld.nl/nieuws/8164312/d..",
+                    "description": "[ Anniek ] : ' <a href=\"https://www.gld.nl/nieuws/8164312/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://i.regiogroei.cloud/564b4903-7c4d-3833-8b34-9932a76ba1a3.jpg?width=1200&height=630&aspect_ratio=1200:630"
+                },
+                {
+                    "timestamp": "16:54:24",
+                    "title": "[ Anniek ] : ' https://www.gld.nl/nieuws/8164325/c..",
+                    "description": "[ Anniek ] : ' <a href=\"https://www.gld.nl/nieuws/8164325/concertgangers-rammstein-gaan-het-niet-droog-houden\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://i.regiogroei.cloud/2336131b-6d4d-3ca9-ab3a-b45785168a9e.jpg?width=1200&height=630&aspect_ratio=1200:630"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:19:26",
+                    "title": "[ Anniek ] : ' Ik heb deze mensen niet gesproken, ..",
+                    "description": "[ Anniek ] : ' Ik heb deze mensen niet gesproken, maar er worden gelukkig geen gekke dingen gezegd: <a href=\"https://riffreport.nl/nieuws/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer/\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://riffreport.nl/wp-content/uploads/2024/06/IMG_3898.jpeg"
+                },
+                {
+                    "timestamp": "17:30:45",
+                    "title": "[ Sven Watervoort ] : ' zien we door het slechte w..",
+                    "description": "[ Sven Watervoort ] : ' zien we door het slechte weer nog aantrek in kaarten van morgen? ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:33:20",
+                    "title": "[ Anniek ] : ' we hebben 132 tickets verkocht in d..",
+                    "description": "[ Anniek ] : ' we hebben 132 tickets verkocht in de afgelopen 24 uur ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:33:24",
+                    "title": "[ Anniek ] : ' niet extreem dus",
+                    "description": "[ Anniek ] : ' niet extreem dus ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:41:26",
+                    "title": "[ Anniek ] : ' voor vandaag zijn er inmiddels 4,58..",
+                    "description": "[ Anniek ] : ' voor vandaag zijn er inmiddels 4,582 P&amp;W tickets verkocht, voor morgen blijft het ook goed doorverkopen maar tot nu toe hoeven we nog niet op te hogen ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:41:29",
+                    "title": "[ Anniek ] : ' houd het in de gaten",
+                    "description": "[ Anniek ] : ' houd het in de gaten ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "18:00",
+            "activities": [
+                {
+                    "timestamp": "18:23:12",
+                    "title": "[ User ] : ' Toch nog een persvraag over de regen...",
+                    "description": "[ User ] : ' Toch nog een persvraag over de regen. Hier hetzelfde geantwoord: we houden het in de gaten en waar nodig treffen we maatregelen ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078NRLHBPD/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "19:00",
+            "activities": [
+                {
+                    "timestamp": "19:12:08",
+                    "title": "[ User ] : ' Een van de weinige negatieve berichte..",
+                    "description": "[ User ] : ' Een van de weinige negatieve berichten, zonder enige context ook verder ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078LBQ44RK/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:12:27",
+                    "title": "[ User ] : ' [ ZONDER TEKST ]",
+                    "description": "[ User ] : ' [ ZONDER TEKST ] ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078P8U2MDG/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:19:57",
+                    "title": "[ User ] : ' [ ZONDER TEKST ]",
+                    "description": "[ User ] : ' [ ZONDER TEKST ] ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078LD2H2AH/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:24:34",
+                    "title": "[ User ] : ' [ ZONDER TEKST ]",
+                    "description": "[ User ] : ' [ ZONDER TEKST ] ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078P7LKYG3/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:25:45",
+                    "title": "[ Anniek ] : ' Er wordt geschat dat er op dit mome..",
+                    "description": "[ Anniek ] : ' Er wordt geschat dat er op dit moment zo\u2019n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:26:03",
+                    "title": "[ User ] : ' Er wordt geschat dat er op dit moment..",
+                    "description": "[ User ] : ' Er wordt geschat dat er op dit moment zo\u2019n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:27:48",
+                    "title": "[ User ] : ' Eerste negatieve bericht m.b.t. het p..",
+                    "description": "[ User ] : ' Eerste negatieve bericht m.b.t. het parkeren ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F0788QDNRP1/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:31:02",
+                    "title": "[ User ] : ' Update:",
+                    "description": "[ User ] : ' Update: ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F0788R4KHF1/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "19:40:24",
+                    "title": "[ Sven Watervoort ] : ' Drukte op de wegen valt ge..",
+                    "description": "[ Sven Watervoort ] : ' Drukte op de wegen valt gezien het weer en de spits allerzins mee. ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:44:45",
+                    "title": "[ Anniek ] : ' https://www.ad.nl/nijmegen/drijfnat..",
+                    "description": "[ Anniek ] : ' <a href=\"https://www.ad.nl/nijmegen/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908/\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://images0.persgroep.net/rcs/fNB_txd_8rAE-OqDdza2pP2_B9c/diocontent/245000615/_focus/0.51/0.39/_fill/1200/630/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "20:00",
+            "activities": [
+                {
+                    "timestamp": "20:10:32",
+                    "title": "[ Anniek ] : ' Nog steeds geen toename qua kaartve..",
+                    "description": "[ Anniek ] : ' Nog steeds geen toename qua kaartverkoop voor morgen, inmiddels 160 tickets verkocht in de afgelopen 24 uur ' ",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "21:00",
+            "activities": []
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "22:00",
+            "activities": []
+        },
+        {
+            "date": "2024-06-18",
+            "hour": "23:00",
+            "activities": [
+                {
+                    "timestamp": "23:03:11",
+                    "title": "[ Anniek ] : ' https://x.com/DeGelderlander/status..",
+                    "description": "[ Anniek ] : ' <a href=\"https://x.com/DeGelderlander/status/1803171251025797491\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1803171229773258752/pu/img/JX0YbynPa-bVXws3.jpg:large"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-19",
+            "hour": "00:00",
+            "activities": [
+                {
+                    "timestamp": "00:18:52",
+                    "title": "[ User ] : ' Eerste \u2018klacht\u2019 is een feit ..",
+                    "description": "[ User ] : ' Eerste \u2018klacht\u2019 is een feit  ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F079DLP0TCG/img_2517.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "00:25:43",
+                    "title": "[ User ] : ' Bericht over P&amp;W",
+                    "description": "[ User ] : ' Bericht over P&amp;W ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F078QTM4ZKL/img_2518.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139"
+                },
+                {
+                    "timestamp": "00:55:23",
+                    "title": "[ Sven Watervoort ] : ' DIt komt omdat de pin gepl..",
+                    "description": "[ Sven Watervoort ] : ' DIt komt omdat de pin geplaatst is naar ingang van parkeergebied A, vanaf daar wordt men opgepakt door VKR en gestuurd naar waar er plek is ' ",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "00:57:20",
+                    "title": "[ Sven Watervoort ] : ' Weten we waar dit is op Pa..",
+                    "description": "[ Sven Watervoort ] : ' Weten we waar dit is op Park en Walk, parkeerterreinen zijn open tot 01.00. wegslepen doen we alleen als bezoekers een briefje hebben getekend. ' ",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "00:59:48",
+                    "title": "[ Sven Watervoort ] : ' Er is door ons niet geslee..",
+                    "description": "[ Sven Watervoort ] : ' Er is door ons niet gesleept op Park en Walk, wel op Park en SHuttle vol aan het slepen ' ",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-19",
+            "hour": "01:00",
+            "activities": [
+                {
+                    "timestamp": "01:22:30",
+                    "title": "[ Sven Watervoort ] : ' Ik verwacht dat er morgen ..",
+                    "description": "[ Sven Watervoort ] : ' Ik verwacht dat er morgen klachten zullen komen over Park &amp; Walk bij Lincoln terrein. Dan weten jullie dat ' ",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        }
+    ]
+}
