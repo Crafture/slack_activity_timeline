@@ -833,9 +833,11 @@ class Timeline {
                     if(key === 'date') {
                         currentDate = value;
                         value = new Date(value);
-                    }else if(key === 'timestamp') {
+                    } else if(key === 'timestamp') {
                         value = new Date(currentDate + ' ' + value);
-                    }
+                    } else if (key === 'hour') {
+						value = value.trim();
+					}
 
                     if(typeof value === 'string') {
                         value.trim();
@@ -1056,6 +1058,10 @@ class Timeline {
         
         // Make the first letter capialized
         return weekDay.charAt(0).toUpperCase() + weekDay.slice(1);
+    }
+
+	private getHour(day: Day): string {
+        return day.hour || "00:00"; // Return the hour from the activity or default to "00:00"
     }
 
     /**
@@ -1364,7 +1370,7 @@ class Timeline {
             // Render date-label
             const dateLabel = this.isToday(day.date) 
                 ? day.date.toLocaleDateString(this.meta.locale) + ' (Today)' 
-                : day.date.toLocaleDateString(this.meta.locale) + ' (' + this.getWeekDayName(day.date) + ')';
+                : day.date.toLocaleDateString(this.meta.locale) + ' (' + this.getHour(day) + ')';
             ctx.fillStyle = this.style.textColor;
             ctx.fillText(
                 dateLabel, 
