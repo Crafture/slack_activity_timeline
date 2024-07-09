@@ -1,5 +1,5 @@
 import { Day } from '../models/day.model';
-import { Menu } from './menu/menu';
+import { Menu } from './menu/Menu';
 import { Data } from '../models/data.model';
 import { Zoom } from '../models/zoom.model';
 import { Meta } from '../models/meta.model';
