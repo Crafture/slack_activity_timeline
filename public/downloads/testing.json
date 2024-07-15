@@ -1,0 +1,2727 @@
+[
+    {
+        "text": "De regen houdt de gemoederen bezig",
+        "files": [
+            {
+                "id": "F078YTR31KK",
+                "created": 1718699977,
+                "timestamp": 1718699977,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 254924,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078YTR31KK\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078YTR31KK\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 319,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 426,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 639,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 710,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 852,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078YTR31KK-c69e1194b1\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 908,
+                "original_w": 1188,
+                "original_h": 1054,
+                "thumb_tiny": "AwAqADC8IyrMd5O49PSnbT3Yj8TSfvNzZxtzxijL+\/5UAO2n1pRn+8PypBupQW9P1oAOfUUc55IoyfT9aWgBCR6j86TK9m\/WgqOcdSeaQpx1NADx7UU3Z7n86Aox3\/OgB1FJtHv+dGMHv+dADShyxyTk9M9KTkdjUlB6UAMw3+TS\/N7U6gdKAG\/P6ihd2eaUdaD1oA\/\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078YTR31KK\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078YTR31KK-59929c3718",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EboBs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "De regen houdt de gemoederen bezig"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718699982.505339",
+        "client_msg_id": "8671cdea-e5fa-474c-bc12-1e0fe8247b65"
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718701671.536309",
+        "client_msg_id": "637464b1-9802-4cbb-908f-867e84133dc9",
+        "text": "Update: op dit moment zijn *alle parkeertickets* via Eventim voor vandaag uitverkocht",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "thread_ts": "1718701671.536309",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1718703585.996079",
+        "reply_users": [
+            "U078C3JVC04"
+        ],
+        "replies": [
+            {
+                "user": "U078C3JVC04",
+                "ts": "1718703585.996079"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CMvX3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Update: op dit moment zijn "
+                            },
+                            {
+                                "type": "text",
+                                "text": "alle parkeertickets",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " via Eventim voor vandaag uitverkocht"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718701959.053079",
+        "client_msg_id": "67f70ac7-a197-47ff-96c3-93ff94d59eac",
+        "text": "Nog een artikel, weer niks nieuws: <https:\/\/www.gelderlander.nl\/nijmegen\/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b\/>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "image_url": "https:\/\/images0.persgroep.net\/rcs\/3_xUC0kGczkfjNg5m58GuVZtH80\/diocontent\/232681332\/_focus\/0.38\/0.2\/_fill\/1200\/630\/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 74286,
+                "from_url": "https:\/\/www.gelderlander.nl\/nijmegen\/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b\/",
+                "service_icon": "https:\/\/statics.gelderlander.nl\/\/img\/apple-touch-icon-120x120-precomposed.png",
+                "ts": 1718693814,
+                "id": 1,
+                "original_url": "https:\/\/www.gelderlander.nl\/nijmegen\/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b\/",
+                "fallback": "gelderlander.nl: Rocken in Gelderland: alles wat je moet weten over de optredens van Rammstein en Green Day",
+                "text": "De grote concerten in Arnhem en Nijmegen weten van geen ophouden. Deze week staan Rammstein en Green Day op het programma om de Gelderse steden op zijn kop te zetten. Benieuwd naar het weerbericht en de reisinformatie? Hier nog even alles op een rijtje.",
+                "title": "Rocken in Gelderland: alles wat je moet weten over de optredens van Rammstein en Green Day",
+                "title_link": "https:\/\/www.gelderlander.nl\/nijmegen\/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b\/",
+                "service_name": "gelderlander.nl"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sya6R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Nog een artikel, weer niks nieuws: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.gelderlander.nl\/nijmegen\/rocken-in-gelderland-alles-wat-je-moet-weten-over-de-optredens-van-rammstein-en-green-day~af46525b\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718703585.996079",
+        "client_msg_id": "9d879214-4d9e-4d5a-b99f-9c275f0e1471",
+        "text": "Update: de Park &amp; Shuttle tickets zijn opgehoogd",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "thread_ts": "1718701671.536309",
+        "parent_user_id": "U078C3JVC04",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2S0Om",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Update: de Park & Shuttle tickets zijn opgehoogd"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Zo nu en dan dit soort berichten, maar over het algemeen blijft het rustig",
+        "files": [
+            {
+                "id": "F078HTJ9XEZ",
+                "created": 1718706518,
+                "timestamp": 1718706518,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 67508,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078HTJ9XEZ\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078HTJ9XEZ\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 66,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 88,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 131,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 146,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 175,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078HTJ9XEZ-bf2dd12825\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 187,
+                "original_w": 1316,
+                "original_h": 240,
+                "thumb_tiny": "AwAIADC+WLj5QwwcdMU35\/epR3+tLQBF847GjL+n6VLRQBGN59qcAc8n9KdRQB\/\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078HTJ9XEZ\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078HTJ9XEZ-27fed02be1",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E4Q6q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Zo nu en dan dit soort berichten, maar over het algemeen blijft het rustig"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718706706.788459",
+        "client_msg_id": "2e8dbd16-dbb9-4402-ba28-39584ce11007"
+    },
+    {
+        "type": "message",
+        "user": "U03H0551PAR",
+        "upload": false,
+        "ts": "1718708843.000000",
+        "text": "wat communiceren jullie nu mbt het weer? <@U078C3JVC04>",
+        "subtype": "message_changed",
+        "thread_ts": "0000000000.000000",
+        "editor_id": "U03H0551PAR",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nudv6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "wat communiceren jullie nu mbt het weer? "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U078C3JVC04"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "original": {
+            "user": "U03H0551PAR",
+            "type": "message",
+            "ts": "1718708829.556929",
+            "client_msg_id": "34857e7a-6a05-454e-b748-30e766af5016",
+            "text": "wat communiceren jullie nu mbt het weer?",
+            "team": "T3WLSG6Q3",
+            "user_team": "T3WLSG6Q3",
+            "source_team": "T3WLSG6Q3",
+            "user_profile": {
+                "avatar_hash": "25b6fef5e013",
+                "image_72": "https:\/\/avatars.slack-edge.com\/2022-07-05\/3773297365841_25b6fef5e013126baa08_72.jpg",
+                "first_name": "Malik",
+                "real_name": "Malik Sanders",
+                "display_name": "Malik Sanders",
+                "team": "T3WLSG6Q3",
+                "name": "m.sanders",
+                "is_restricted": false,
+                "is_ultra_restricted": false
+            },
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GFpBz",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "wat communiceren jullie nu mbt het weer?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "edited_by": "U03H0551PAR"
+    },
+    {
+        "user": "U03H0551PAR",
+        "type": "message",
+        "ts": "1718708829.556929",
+        "edited": {
+            "user": "U03H0551PAR",
+            "ts": "1718708843.000000"
+        },
+        "client_msg_id": "34857e7a-6a05-454e-b748-30e766af5016",
+        "text": "wat communiceren jullie nu mbt het weer? <@U078C3JVC04>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "25b6fef5e013",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2022-07-05\/3773297365841_25b6fef5e013126baa08_72.jpg",
+            "first_name": "Malik",
+            "real_name": "Malik Sanders",
+            "display_name": "Malik Sanders",
+            "team": "T3WLSG6Q3",
+            "name": "m.sanders",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nudv6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "wat communiceren jullie nu mbt het weer? "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "U078C3JVC04"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718710379.036779",
+        "client_msg_id": "f0b42ccd-b74a-4fb1-9e7f-7995f3bd072a",
+        "text": "dat het weer nauwlettend in de gaten gehouden wordt en dat er maatregelen worden genomen waar nodig (dit is vooral voor de mensen die zich zorgen maken over onweer, overstromingen etc)",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bRxIL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "dat het weer nauwlettend in de gaten gehouden wordt en dat er maatregelen worden genomen waar nodig (dit is vooral voor de mensen die zich zorgen maken over onweer, overstromingen etc)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718710991.671539",
+        "client_msg_id": "e9e562e4-e50b-4d0c-8375-ffb04ab01ff1",
+        "text": "Nog een artikel, weer alleen praktische info die ze van onze site hebben geplukt <https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&amp;utm_medium=Social%20media&amp;at_campaign=Twitter&amp;utm_campaign=Twitter&amp;utm_source=twitter&amp;utm_content=artikel&amp;utm_term=omroepgld|https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?[…]itter&amp;utm_source=twitter&amp;utm_content=artikel&amp;utm_term=omroepgld>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&utm_medium=Social%20media&at_campaign=Twitter&utm_campaign=Twitter&utm_source=twitter&utm_content=artikel&utm_term=omroepgld",
+                "ts": 1718708665,
+                "image_url": "https:\/\/i.regiogroei.cloud\/4ac1bfab-ddcb-3d63-9afb-f60d9603c2b9.jpg?width=1200&height=630&aspect_ratio=1200:630",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 89065,
+                "service_icon": "https:\/\/s.regiogroei.cloud\/img\/favicons\/gelderland\/apple-touch-icon.png?v=1718627278625",
+                "id": 1,
+                "original_url": "https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&amp;utm_medium=Social%20media&amp;at_campaign=Twitter&amp;utm_campaign=Twitter&amp;utm_source=twitter&amp;utm_content=artikel&amp;utm_term=omroepgld",
+                "fallback": "Naar Rammstein in Nijmegen? Zo kom je er (op tijd)",
+                "text": "Rammstein speelt de dinsdag en woensdag de vurige sterren van de Nijmeegse hemel in het Goffertpark. Lees hier hoe je op tijd bij de Duitse rockgroep kunt komen.",
+                "title": "Naar Rammstein in Nijmegen? Zo kom je er (op tijd)",
+                "title_link": "https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&utm_medium=Social%20media&at_campaign=Twitter&utm_campaign=Twitter&utm_source=twitter&utm_content=artikel&utm_term=omroepgld",
+                "service_name": "gld.nl"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HyXSO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Nog een artikel, weer alleen praktische info die ze van onze site hebben geplukt "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?at_medium=Social%20media&utm_medium=Social%20media&at_campaign=Twitter&utm_campaign=Twitter&utm_source=twitter&utm_content=artikel&utm_term=omroepgld",
+                                "text": "https:\/\/www.gld.nl\/nieuws\/8164314\/naar-rammstein-in-nijmegen-zo-kom-je-er-op-tijd?[…]itter&utm_source=twitter&utm_content=artikel&utm_term=omroepgld"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "sommige mensen blijven bang dat het concert wordt afgelast, media blijft verder rustig",
+        "files": [
+            {
+                "id": "F078M1N83RR",
+                "created": 1718711010,
+                "timestamp": 1718711010,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 964195,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078M1N83RR\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078M1N83RR\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 344,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 458,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 687,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 764,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 916,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078M1N83RR-a94d5baef7\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 977,
+                "original_w": 1184,
+                "original_h": 1130,
+                "thumb_tiny": "AwAtADC+SMnJNINvv+dOI5+6350o4\/hP50AIHAH\/ANel8wf5xRk\/3T+lLk\/3TQAnmClDBqMn+6aAfbFADWDE\/LgfWq0080JGUTnp1pkl46TuvBAPeg3sbgB4sj61NyrEf9oSqTlEz+NIdTm\/uJ+tD\/ZZCDl09scVVZAGwGBHrRcdkWf7Tm\/uR\/rTotRleVFKJhiAcZqgRxkdKktv9fHn+8P50xWJLn\/j6l\/3jUeTV6ez3TO2\/wC8c4x\/9eo\/sP8A00\/8d\/8Ar0rDuVDk0qkKwYjgGrX2H\/pr\/wCO\/wD16GsST\/rcf8B\/+vRYLlNzk0tv\/wAfEf8AvD+dWf7P4\/1v\/jv\/ANenxWO2ZG8zoQcbadhNn\/\/Z",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078M1N83RR\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078M1N83RR-8b0a222411",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2myBf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sommige mensen blijven bang dat het concert wordt afgelast, media blijft verder rustig"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718711027.050749",
+        "client_msg_id": "eb27ada7-5634-4059-b3d5-909ca560d933"
+    },
+    {
+        "text": "<@U063S6JMT8T> klopt het dat er geen extra treinen worden ingezet na afloop van het concert?",
+        "files": [
+            {
+                "id": "F078JC5CK1T",
+                "created": 1718712812,
+                "timestamp": 1718712812,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 519398,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078JC5CK1T\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078JC5CK1T\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 323,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 431,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 647,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 891,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 862,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078JC5CK1T-ebccdb8d87\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 920,
+                "thumb_1024_h": 1024,
+                "original_w": 1180,
+                "original_h": 1314,
+                "thumb_tiny": "AwAwACu9sKknczbjnr0pefQ\/nTz0pADjlj+dACZbsDQC59BT6M0AN+b1FOpCTS0AI3Tk4puP9pqcxAHNN3DngmgBykAdc\/Wlpm4D+E0+gBCOvNLTSw5FOoADnHHWmnOTilPPcik2\/wC0aAAE+lOHvTdp\/vNTugoAQ9KWkP1paAP\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078JC5CK1T\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078JC5CK1T-2713c72bc0",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+8EP2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U063S6JMT8T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " klopt het dat er geen extra treinen worden ingezet na afloop van het concert?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718712816.195769",
+        "client_msg_id": "a0db7400-5ca8-4106-ae92-a87c55bcaaad"
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718712847.237279",
+        "client_msg_id": "184a06e1-5c5b-407d-b814-8c44dd74bee7",
+        "text": "<@U078C3JVC04> nee dat klopt niet, er worden extra treinen ingezet.",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wjTJK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U078C3JVC04"
+                            },
+                            {
+                                "type": "text",
+                                "text": " nee dat klopt niet, er worden extra treinen ingezet."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718712977.201489",
+        "client_msg_id": "2b4b66ba-36f2-4283-a971-fb3023b9ae7d",
+        "text": "*Dinsdag 18 juni*\n22:55, 23:25 uur IC richting Arnhem Centraal \/ Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal \/ Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting ’s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting ‘s-Hertogenbosch\n\n*Woensdag 19 juni*\n22:55, 23:25 uur IC richting Arnhem Centraal \/ Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal \/ Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting ’s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting ‘s-Hertogenbosch",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q1sZO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Dinsdag 18 juni",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n22:55, 23:25 uur IC richting Arnhem Centraal \/ Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal \/ Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting ’s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting ‘s-Hertogenbosch\n\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Woensdag 19 juni",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n22:55, 23:25 uur IC richting Arnhem Centraal \/ Zwolle\n22:43, 23:13, 23:43, 23:58 uur IC richting Arnhem Centraal \/ Utrecht Centraal\n23:03, 00:03 uur Sprinter richting Arnhem Centraal\n22:38, 23:08, 23:38 uur IC richting ’s-Hertogenbosch\n22:51, 23:51, 00:27 uur Sprinter richting ‘s-Hertogenbosch"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718713054.169459",
+        "client_msg_id": "a3a8945c-9369-4c70-a8a3-388f8dd17b59",
+        "text": "extra treinen vanaf Nijmegen",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "89uCo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "extra treinen vanaf Nijmegen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718713067.426389",
+        "client_msg_id": "0f7314ad-22fb-4560-b3cf-bbc03545d68b",
+        "text": "Kan zijn dat ROtterdam niet goed aansluit",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "95KpM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Kan zijn dat ROtterdam niet goed aansluit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718713218.735489",
+        "client_msg_id": "e17554f6-911e-4dec-b770-dd0da9ca8603",
+        "text": "oke check, thanks!",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9Y2Rr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oke check, thanks!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718714188.895509",
+        "client_msg_id": "91914eae-cf25-4635-bdd1-d235e8e3c65e",
+        "text": "<@U063S6JMT8T> zijn er hoogtebeperkingen voor auto’s in de premium parking en de miva parking?",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tOXxn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U063S6JMT8T"
+                            },
+                            {
+                                "type": "text",
+                                "text": " zijn er hoogtebeperkingen voor auto’s in de premium parking en de miva parking?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718714561.947479",
+        "client_msg_id": "0f114d53-a4d4-4f94-a112-85bf66261cd1",
+        "text": "MIva niet",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y5LwM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "MIva niet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718714604.750229",
+        "client_msg_id": "2be57263-0ad4-40b7-add0-95448e15f92d",
+        "text": "Premium wel tot 2.10",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xrHZ\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Premium wel tot 2.10"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718720317.978669",
+        "client_msg_id": "cf306fcc-c210-4d74-9491-145a6ef92b82",
+        "text": "Hoe is beeld op de socials?",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e+RZH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hoe is beeld op de socials?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718722097.992949",
+        "client_msg_id": "5b93363e-e333-424a-95b8-57cf760bb71f",
+        "text": "tot nu toe rustig, nog geen gekke dingen voorbij zien komen",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vHZoh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "tot nu toe rustig, nog geen gekke dingen voorbij zien komen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718722106.215759",
+        "client_msg_id": "a34464e4-1688-4716-a19a-6be8fbe6ba93",
+        "text": "nog nul vragen\/issues m.b.t. parkeren",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y4RSD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nog nul vragen\/issues m.b.t. parkeren"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U063S6JMT8T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718722216.568509",
+        "client_msg_id": "8cd2a892-da52-43c6-bf0e-303432facb11",
+        "text": "<https:\/\/www.gld.nl\/nieuws\/8164312\/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.gld.nl\/nieuws\/8164312\/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat",
+                "ts": 1718701675,
+                "image_url": "https:\/\/i.regiogroei.cloud\/564b4903-7c4d-3833-8b34-9932a76ba1a3.jpg?width=1200&height=630&aspect_ratio=1200:630",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 136844,
+                "service_icon": "https:\/\/s.regiogroei.cloud\/img\/favicons\/gelderland\/apple-touch-icon.png?v=1718627267850",
+                "id": 1,
+                "original_url": "https:\/\/www.gld.nl\/nieuws\/8164312\/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat",
+                "fallback": "Dit is waarom Rammstein zo graag in het Goffertpark staat",
+                "text": "De Duitse band Rammstein treedt dinsdag- en woensdagavond weer op in het Goffertpark in Nijmegen. Maar waarom kiest zo'n grote band voor dit grote groene park? En niet bijvoorbeeld voor de Amsterdam Arena, ZiggoDome of een andere overdekte concertlocatie?",
+                "title": "Dit is waarom Rammstein zo graag in het Goffertpark staat",
+                "title_link": "https:\/\/www.gld.nl\/nieuws\/8164312\/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat",
+                "service_name": "gld.nl"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CdkEb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.gld.nl\/nieuws\/8164312\/dit-is-waarom-rammstein-zo-graag-in-het-goffertpark-staat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718722464.641839",
+        "client_msg_id": "69a489c0-3b70-49b3-afb9-6ea392dd848c",
+        "text": "<https:\/\/www.gld.nl\/nieuws\/8164325\/concertgangers-rammstein-gaan-het-niet-droog-houden>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.gld.nl\/nieuws\/8164325\/concertgangers-rammstein-gaan-het-niet-droog-houden",
+                "ts": 1718718317,
+                "image_url": "https:\/\/i.regiogroei.cloud\/2336131b-6d4d-3ca9-ab3a-b45785168a9e.jpg?width=1200&height=630&aspect_ratio=1200:630",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 114667,
+                "service_icon": "https:\/\/s.regiogroei.cloud\/img\/favicons\/gelderland\/apple-touch-icon.png?v=1718627278625",
+                "id": 1,
+                "original_url": "https:\/\/www.gld.nl\/nieuws\/8164325\/concertgangers-rammstein-gaan-het-niet-droog-houden",
+                "fallback": "Concertgangers Rammstein gaan het niet droog houden",
+                "text": "Vooral in aanloop naar het concert van de Duitse metalband Rammstein vanavond in het Goffertpark in Nijmegen valt veel regen. Dat zegt weerman Johnny Willemsen van Weerplaza dinsdagochtend.",
+                "title": "Concertgangers Rammstein gaan het niet droog houden",
+                "title_link": "https:\/\/www.gld.nl\/nieuws\/8164325\/concertgangers-rammstein-gaan-het-niet-droog-houden",
+                "service_name": "gld.nl"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "27W8+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.gld.nl\/nieuws\/8164325\/concertgangers-rammstein-gaan-het-niet-droog-houden"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718723966.049049",
+        "client_msg_id": "6b565ef0-4970-43ff-a015-e8ca4f702ee1",
+        "text": "Ik heb deze mensen niet gesproken, maar er worden gelukkig geen gekke dingen gezegd: <https:\/\/riffreport.nl\/nieuws\/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer\/>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/riffreport.nl\/nieuws\/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer\/",
+                "ts": 1718720213,
+                "image_url": "https:\/\/riffreport.nl\/wp-content\/uploads\/2024\/06\/IMG_3898.jpeg",
+                "image_width": 1536,
+                "image_height": 2048,
+                "image_bytes": 748199,
+                "service_icon": "https:\/\/riffreport.nl\/wp-content\/uploads\/2024\/05\/cropped-2a.-RiffReport-beeldmerk-stamp-RGB-180x180.png",
+                "id": 1,
+                "original_url": "https:\/\/riffreport.nl\/nieuws\/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer\/",
+                "fallback": "RiffReport: Fans Rammstein haken massaal af: tickets voor 25 euro (!) in verkoop vanwege slecht weer",
+                "text": "Het verwachte slechte weer heeft geleid tot een toestroom van tickets voor het concert van de Duitse metalband Rammstein in Goffertpark.",
+                "title": "Fans Rammstein haken massaal af: tickets voor 25 euro (!) in verkoop vanwege slecht weer",
+                "title_link": "https:\/\/riffreport.nl\/nieuws\/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer\/",
+                "service_name": "RiffReport",
+                "fields": [
+                    {
+                        "value": "RiffReport",
+                        "title": "Geschreven door",
+                        "short": true
+                    },
+                    {
+                        "value": "2 minuten",
+                        "title": "Geschatte leestijd",
+                        "short": true
+                    }
+                ]
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xfbxb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ik heb deze mensen niet gesproken, maar er worden gelukkig geen gekke dingen gezegd: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https:\/\/riffreport.nl\/nieuws\/fans-rammstein-haken-af-ongekend-veel-tickets-voor-spotprijzen-in-verkoop-wegens-slecht-weer\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718724645.229079",
+        "client_msg_id": "63c66ca0-808f-402a-b146-5622fc292d51",
+        "text": "zien we door het slechte weer nog aantrek in kaarten van morgen?",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wnZcM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "zien we door het slechte weer nog aantrek in kaarten van morgen?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718724800.317019",
+        "client_msg_id": "70ef934b-9b6b-46cf-aa1e-0cdba13a40b9",
+        "text": "we hebben 132 tickets verkocht in de afgelopen 24 uur",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YbFZE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "we hebben 132 tickets verkocht in de afgelopen 24 uur"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718724804.821179",
+        "client_msg_id": "e0bbfc80-2691-4c7f-aacf-22897e640886",
+        "text": "niet extreem dus",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1tcmP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "niet extreem dus"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718725286.479539",
+        "client_msg_id": "2f133cc9-cf8e-4e55-b4b2-dc6ab9145272",
+        "text": "voor vandaag zijn er inmiddels 4,582 P&amp;W tickets verkocht, voor morgen blijft het ook goed doorverkopen maar tot nu toe hoeven we nog niet op te hogen",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qzNKW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "voor vandaag zijn er inmiddels 4,582 P&W tickets verkocht, voor morgen blijft het ook goed doorverkopen maar tot nu toe hoeven we nog niet op te hogen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718725289.961059",
+        "client_msg_id": "5d769e73-8278-4db4-97f2-e8a6006adde6",
+        "text": "houd het in de gaten",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UDNTC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "houd het in de gaten"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Toch nog een persvraag over de regen. Hier hetzelfde geantwoord: we houden het in de gaten en waar nodig treffen we maatregelen",
+        "files": [
+            {
+                "id": "F078NRLHBPD",
+                "created": 1718727778,
+                "timestamp": 1718727778,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 56964,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078NRLHBPD\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078NRLHBPD\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 115,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 153,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 230,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 256,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 307,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078NRLHBPD-2c1fc4ee67\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 327,
+                "original_w": 1464,
+                "original_h": 468,
+                "thumb_tiny": "AwAPADDRyQelLz7U3Zkk7V\/KlCL3VfypgL83tR83tSgADAGKKQCfN7Uc+1LRQB\/\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078NRLHBPD\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078NRLHBPD-a24f326d59",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "db7ul",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Toch nog een persvraag over de regen. Hier hetzelfde geantwoord: we houden het in de gaten en waar nodig treffen we maatregelen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718727792.859849",
+        "client_msg_id": "b5c19d30-4dc5-493f-9c75-6669bd571153"
+    },
+    {
+        "text": "Een van de weinige negatieve berichten, zonder enige context ook verder",
+        "files": [
+            {
+                "id": "F078LBQ44RK",
+                "created": 1718730715,
+                "timestamp": 1718730715,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 47071,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078LBQ44RK\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078LBQ44RK\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 59,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 79,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 119,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 132,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 158,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LBQ44RK-4bbdddbc42\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 169,
+                "original_w": 1190,
+                "original_h": 196,
+                "thumb_tiny": "AwAHADC8IiHZvMc7j0J4FO2H+8afRQA3af7xpQD60tFABRRRQB\/\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078LBQ44RK\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078LBQ44RK-69e4935897",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nqf\/S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Een van de weinige negatieve berichten, zonder enige context ook verder"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718730728.880949",
+        "client_msg_id": "3b14e650-4446-4b60-a80f-c4a1c60c22f3"
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F078P8U2MDG",
+                "created": 1718730742,
+                "timestamp": 1718730742,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 857395,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078P8U2MDG\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078P8U2MDG\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 354,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 472,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 708,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 786,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 944,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P8U2MDG-40089c5a8c\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 1007,
+                "original_w": 1182,
+                "original_h": 1162,
+                "thumb_tiny": "AwAvADC+VIzljyfpQAc\/e\/WnscUwnB4H40XAUDH8X60fRhTd27\/61NHMh7gAUrgTc+o\/Kl+pqPO44xx3p2BkUXAV+lRAAnkdOhz1qR1DDB6UmMdMUARqv7xhgAYB470uMdF69cUxjgFdxEjdKmB4pDYg2nHWlBye9ITSqfWmIcelRElm24OB1P8ASpjTSvOaGA3HB4xj0ox8vHNPx70m3NFgGil6ntkUpXPc00IwPLk\/gKAP\/9k=",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078P8U2MDG\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078P8U2MDG-7c8b46062f",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1718730747.055219",
+        "client_msg_id": "67a43535-f15a-40d3-850b-53d0a104117e"
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F078LD2H2AH",
+                "created": 1718731193,
+                "timestamp": 1718731193,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 1041962,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078LD2H2AH\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078LD2H2AH\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 251,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 335,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 502,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 558,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 669,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078LD2H2AH-dda3abf504\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 714,
+                "original_w": 1188,
+                "original_h": 828,
+                "thumb_tiny": "AwAhADC+UYFjuJyenpSAH1P50l0\/lorf7QzUTzIqFg2fQetAE\/zev604FvYVSF0AoLDqe1PmuF8vajZY+lAFr5v7y\/lSBxkDetZoncvkk+3tTonzOnJOW70rgWdQOLcf7wqid3lE7enWtSZC6YBwc9artaOwbMh5GORQBThfdIoKg57HmrKopDZAAPpQlg6OG8wcegpy2bjP778qYFe5hHl7k6KefxqC15u48n+KtE2jkY84+4xSR2WyVWLg7TnGKALh7UHpQe1B6UAFA6UUDpQAg+8aD1oH3jQetAH\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078LD2H2AH\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078LD2H2AH-d1786fcd65",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1718731197.880619",
+        "client_msg_id": "b47ec995-c4de-41af-ad38-cfb76620e0b3"
+    },
+    {
+        "text": "",
+        "files": [
+            {
+                "id": "F078P7LKYG3",
+                "created": 1718731471,
+                "timestamp": 1718731471,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 83692,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078P7LKYG3\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078P7LKYG3\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 116,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 154,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 231,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 257,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 309,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078P7LKYG3-d273af48ec\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 329,
+                "original_w": 1182,
+                "original_h": 380,
+                "thumb_tiny": "AwAPADC8A29suSCeAB0pwOO5P1BpSoyeKMD+4KAF3D3\/ACo3D3\/KkwP7gpdq+g\/KgA3D3\/KgMD6\/lRgegpcD0oA\/\/9k=",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078P7LKYG3\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078P7LKYG3-ac055287fd",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "type": "message",
+        "ts": "1718731474.440089",
+        "client_msg_id": "59658a8c-91dc-4125-a67c-69a3ae72912a"
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718731545.581269",
+        "edited": {
+            "user": "U078C3JVC04",
+            "ts": "1718731563.000000"
+        },
+        "client_msg_id": "26aca2a6-ccc1-4ab7-82fb-eaa589fb2c03",
+        "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NDBX4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U078C3JVC04",
+        "upload": false,
+        "ts": "1718731563.000000",
+        "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond",
+        "subtype": "message_changed",
+        "thread_ts": "0000000000.000000",
+        "editor_id": "U078C3JVC04",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NDBX4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE voor de show van vanavond"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "original": {
+            "user": "U078C3JVC04",
+            "type": "message",
+            "ts": "1718731545.581269",
+            "client_msg_id": "26aca2a6-ccc1-4ab7-82fb-eaa589fb2c03",
+            "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE",
+            "team": "T3WLSG6Q3",
+            "user_team": "T3WLSG6Q3",
+            "source_team": "T3WLSG6Q3",
+            "user_profile": {
+                "avatar_hash": "g1f82d335ccb",
+                "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+                "first_name": "Anniek",
+                "real_name": "Anniek",
+                "display_name": "Anniek",
+                "team": "T3WLSG6Q3",
+                "name": "anniek",
+                "is_restricted": true,
+                "is_ultra_restricted": true
+            },
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GftDf",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Er wordt geschat dat er op dit moment zo’n 775 tickets te koop worden aangeboden via fanSALE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "edited_by": "U078C3JVC04"
+    },
+    {
+        "text": "Eerste negatieve bericht m.b.t. het parkeren",
+        "files": [
+            {
+                "id": "F0788QDNRP1",
+                "created": 1718731662,
+                "timestamp": 1718731662,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 52599,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F0788QDNRP1\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F0788QDNRP1\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 57,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 76,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 114,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 127,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 152,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788QDNRP1-7c1f40d210\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 162,
+                "original_w": 1174,
+                "original_h": 186,
+                "thumb_tiny": "AwAHADDQCEMx3kgnp6Uu3Hc\/nTqDQAmD60Dd6j8qWigBPm9R+VHOeT+lLSGgD\/\/Z",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F0788QDNRP1\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F0788QDNRP1-e5fb1a0875",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1ETiR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eerste negatieve bericht m.b.t. het parkeren"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718731668.621239",
+        "client_msg_id": "0d428712-6501-48fd-9bbf-38952cf65494",
+        "thread_ts": "1718731668.621239",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1718731862.469539",
+        "reply_users": [
+            "U078C3JVC04"
+        ],
+        "replies": [
+            {
+                "user": "U078C3JVC04",
+                "ts": "1718731862.469539"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "text": "Update:",
+        "files": [
+            {
+                "id": "F0788R4KHF1",
+                "created": 1718731859,
+                "timestamp": 1718731859,
+                "name": "image.png",
+                "title": "image.png",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 158131,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F0788R4KHF1\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F0788R4KHF1\/download\/image.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 245,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 327,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 491,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 546,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 655,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F0788R4KHF1-95d7a3c8dd\/image_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 698,
+                "original_w": 1182,
+                "original_h": 806,
+                "thumb_tiny": "AwAgADC\/vViyjdkHmlU4\/vfiaaJgzuu1htPX1pxf2P5igB24euKNy\/3h+dJvFKDx0NABuX+8PzoDA9CDS0YoAj8zLMNrfKevrTwSeoI\/GmkHJ5P60AHPJP60APopNo9T+dG0ep\/OgBaKTaPU\/nQBj1\/OgD\/\/2Q==",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F0788R4KHF1\/image.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F0788R4KHF1-e94438ef80",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LdZ6Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Update:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718731862.469539",
+        "client_msg_id": "424c085b-dfce-467b-b6ec-8b02a604669e",
+        "thread_ts": "1718731668.621239",
+        "parent_user_id": "U078C3JVC04"
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718732424.372909",
+        "client_msg_id": "462e7537-2121-4b03-b39c-ab914375d7c0",
+        "text": "Drukte op de wegen valt gezien het weer en de spits allerzins mee.",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xb7lI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Drukte op de wegen valt gezien het weer en de spits allerzins mee."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718732685.594919",
+        "client_msg_id": "d87e6933-1167-4513-963f-e3997cf1246b",
+        "text": "<https:\/\/www.ad.nl\/nijmegen\/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908\/>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/www.ad.nl\/nijmegen\/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908\/",
+                "ts": 1718730780,
+                "image_url": "https:\/\/images0.persgroep.net\/rcs\/fNB_txd_8rAE-OqDdza2pP2_B9c\/diocontent\/245000615\/_focus\/0.51\/0.39\/_fill\/1200\/630\/?appId=21791a8992982cd8da851550a453bd7f&quality=0.7",
+                "image_width": 1200,
+                "image_height": 630,
+                "image_bytes": 125213,
+                "service_icon": "https:\/\/statics.ad.nl\/\/img\/apple-touch-icon-120x120-precomposed.png",
+                "id": 1,
+                "original_url": "https:\/\/www.ad.nl\/nijmegen\/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908\/",
+                "fallback": "AD.nl: Drijfnat in modderpoel Goffertpark, maar dat deert Rammstein-bezoeker nauwelijks; druk op wegen rond Nijmegen",
+                "text": "Het giet en het plenst en daar lijkt voorlopig geen einde aan te komen. De grasmat van het Goffertpark wordt steeds zompiger en verandert ongetwijfeld meer en meer in een modderpoel. Maar de duizenden enthousiaste bezoekers die naar Nijmegen zijn gekomen hebben daar maling aan. Ze zijn klaar voor de bombastische geluiden van de Duitse metalband Rammstein en het – hoogstwaarschijnlijk – vuur dat de lucht in wordt geblazen.",
+                "title": "Drijfnat in modderpoel Goffertpark, maar dat deert Rammstein-bezoeker nauwelijks; druk op wegen rond Nijmegen",
+                "title_link": "https:\/\/www.ad.nl\/nijmegen\/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908\/",
+                "service_name": "AD.nl"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UFYPh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/www.ad.nl\/nijmegen\/drijfnat-in-modderpoel-goffertpark-maar-dat-deert-rammstein-bezoeker-nauwelijks-druk-op-wegen-rond-nijmegen~ad884908\/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718734232.496519",
+        "client_msg_id": "26476df1-12ee-4e6d-8ae3-3c3d8a9a8e3a",
+        "text": "Nog steeds geen toename qua kaartverkoop voor morgen, inmiddels 160 tickets verkocht in de afgelopen 24 uur",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "X+xci",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Nog steeds geen toename qua kaartverkoop voor morgen, inmiddels 160 tickets verkocht in de afgelopen 24 uur"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U063S6JMT8T"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U078C3JVC04",
+        "type": "message",
+        "ts": "1718744591.175709",
+        "client_msg_id": "f1aa2191-b3a0-4e07-a0c1-f5dbc6b1eb12",
+        "text": "<https:\/\/x.com\/DeGelderlander\/status\/1803171251025797491>",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "g1f82d335ccb",
+            "image_72": "https:\/\/secure.gravatar.com\/avatar\/1f82d335ccbb5c2e5206808807525432.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0003-72.png",
+            "first_name": "Anniek",
+            "real_name": "Anniek",
+            "display_name": "Anniek",
+            "team": "T3WLSG6Q3",
+            "name": "anniek",
+            "is_restricted": true,
+            "is_ultra_restricted": true
+        },
+        "attachments": [
+            {
+                "from_url": "https:\/\/x.com\/DeGelderlander\/status\/1803171251025797491",
+                "image_url": "https:\/\/pbs.twimg.com\/ext_tw_video_thumb\/1803171229773258752\/pu\/img\/JX0YbynPa-bVXws3.jpg:large",
+                "image_width": 848,
+                "image_height": 480,
+                "image_bytes": 42726,
+                "service_icon": "http:\/\/abs.twimg.com\/favicons\/twitter.3.ico",
+                "id": 1,
+                "original_url": "https:\/\/x.com\/DeGelderlander\/status\/1803171251025797491",
+                "fallback": "X (formerly Twitter): De Gelderlander (@DeGelderlander) on X",
+                "text": "Bezoekers verlaten #rammstein concert in Nijmegen via een blubberzee. Zal de Goffert er morgen, als het droger weer wordt, beter bij liggen voor show 2?",
+                "title": "De Gelderlander (@DeGelderlander) on X",
+                "title_link": "https:\/\/x.com\/DeGelderlander\/status\/1803171251025797491",
+                "service_name": "X (formerly Twitter)"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VIVBV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https:\/\/x.com\/DeGelderlander\/status\/1803171251025797491"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Eerste ‘klacht’ is een feit ",
+        "files": [
+            {
+                "id": "F079DLP0TCG",
+                "created": 1718749006,
+                "timestamp": 1718749006,
+                "name": "IMG_2517.png",
+                "title": "IMG_2517",
+                "mimetype": "image\/png",
+                "filetype": "png",
+                "pretty_type": "PNG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 272625,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F079DLP0TCG\/img_2517.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F079DLP0TCG\/download\/img_2517.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_64.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_80.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_360.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 166,
+                "thumb_360_h": 360,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_480.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 222,
+                "thumb_480_h": 480,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_160.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_720.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 333,
+                "thumb_720_h": 720,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_800.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 1731,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_960.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 444,
+                "thumb_960_h": 960,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F079DLP0TCG-2b4d7a38a2\/img_2517_1024.png?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 473,
+                "thumb_1024_h": 1024,
+                "original_w": 1170,
+                "original_h": 2532,
+                "thumb_tiny": "AwAwABaiWyBxSZ9qOOPkpMD0oAUuMY5pN496Me1JgelAD93HFG4+lJk46HFJu+tAATk80UZzRQBNEXMZVQmPU0pjlP8Ac\/M1Go9CadsbnlqAImQo2D1oxTmHuSfem0Af\/9k=",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F079DLP0TCG\/img_2517.png",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F079DLP0TCG-bfd6d13a1c",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QvCRz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Eerste ‘klacht’ is een feit "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718749132.716809",
+        "client_msg_id": "1F003DAD-71E3-4E4C-96BD-7F17741C5B2A",
+        "thread_ts": "1718749132.716809",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1718751323.656159",
+        "reply_users": [
+            "U063S6JMT8T"
+        ],
+        "replies": [
+            {
+                "user": "U063S6JMT8T",
+                "ts": "1718751323.656159"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "text": "Bericht over P&amp;W",
+        "files": [
+            {
+                "id": "F078QTM4ZKL",
+                "created": 1718749536,
+                "timestamp": 1718749536,
+                "name": "IMG_2518.jpg",
+                "title": "IMG_2518",
+                "mimetype": "image\/jpeg",
+                "filetype": "jpg",
+                "pretty_type": "JPEG",
+                "user": "U078C3JVC04",
+                "user_team": "T3WLSG6Q3",
+                "editable": false,
+                "size": 61628,
+                "mode": "hosted",
+                "is_external": false,
+                "external_type": "",
+                "is_public": false,
+                "public_url_shared": false,
+                "display_as_bot": false,
+                "username": "",
+                "url_private": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078QTM4ZKL\/img_2518.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3WLSG6Q3-F078QTM4ZKL\/download\/img_2518.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "media_display_type": "unknown",
+                "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_64.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_80.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_360.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_360_w": 360,
+                "thumb_360_h": 233,
+                "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_480.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_480_w": 480,
+                "thumb_480_h": 311,
+                "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_160.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_720.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_720_w": 720,
+                "thumb_720_h": 466,
+                "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_800.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_800_w": 800,
+                "thumb_800_h": 518,
+                "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_960.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_960_w": 960,
+                "thumb_960_h": 621,
+                "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T3WLSG6Q3-F078QTM4ZKL-a75d23a916\/img_2518_1024.jpg?t=xoxe-132706550819-7315463144599-7327119422613-f485b300c79c6c1c18aec1269735f139",
+                "thumb_1024_w": 1024,
+                "thumb_1024_h": 663,
+                "original_w": 1170,
+                "original_h": 757,
+                "thumb_tiny": "AwAfADCkpULygPvS7l\/55CmrjHNLigBdy\/8APMUm5f7gpMUY96AF3L\/cFIxUjhQKMe9IaAAU4dKYHHpRv9hQA\/PvRxjrTN49BRvHoKAH596a1JvHoKC49KAP\/9k=",
+                "permalink": "https:\/\/crafture.slack.com\/files\/U078C3JVC04\/F078QTM4ZKL\/img_2518.jpg",
+                "permalink_public": "https:\/\/slack-files.com\/T3WLSG6Q3-F078QTM4ZKL-22ad230190",
+                "is_starred": false,
+                "has_rich_preview": false,
+                "file_access": "visible"
+            }
+        ],
+        "upload": false,
+        "user": "U078C3JVC04",
+        "display_as_bot": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xe8K0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Bericht over P&W"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "type": "message",
+        "ts": "1718749543.245539",
+        "client_msg_id": "81900A8B-E584-4EC1-95CD-05928332C951",
+        "thread_ts": "1718749543.245539",
+        "reply_count": 2,
+        "reply_users_count": 1,
+        "latest_reply": "1718751588.651139",
+        "reply_users": [
+            "U063S6JMT8T"
+        ],
+        "replies": [
+            {
+                "user": "U063S6JMT8T",
+                "ts": "1718751440.592569"
+            },
+            {
+                "user": "U063S6JMT8T",
+                "ts": "1718751588.651139"
+            }
+        ],
+        "is_locked": false,
+        "subscribed": false
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718751323.656159",
+        "client_msg_id": "edd47287-d7b0-4ee9-a524-a7f74725aaae",
+        "text": "DIt komt omdat de pin geplaatst is naar ingang van parkeergebied A, vanaf daar wordt men opgepakt door VKR en gestuurd naar waar er plek is",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718749132.716809",
+        "parent_user_id": "U078C3JVC04",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GaddS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "DIt komt omdat de pin geplaatst is naar ingang van parkeergebied A, vanaf daar wordt men opgepakt door VKR en gestuurd naar waar er plek is"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718751440.592569",
+        "client_msg_id": "1b95e244-dd44-4239-a0cf-59f0395839b7",
+        "text": "Weten we waar dit is op Park en Walk, parkeerterreinen zijn open tot 01.00. wegslepen doen we alleen als bezoekers een briefje hebben getekend.",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718749543.245539",
+        "parent_user_id": "U078C3JVC04",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K0KKU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Weten we waar dit is op Park en Walk, parkeerterreinen zijn open tot 01.00. wegslepen doen we alleen als bezoekers een briefje hebben getekend."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718751588.651139",
+        "client_msg_id": "737d6a2b-e9f0-40cd-9e50-68a2fb8dfe28",
+        "text": "Er is door ons niet gesleept op Park en Walk, wel op Park en SHuttle vol aan het slepen",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "thread_ts": "1718749543.245539",
+        "parent_user_id": "U078C3JVC04",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3cMQD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Er is door ons niet gesleept op Park en Walk, wel op Park en SHuttle vol aan het slepen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U063S6JMT8T",
+        "type": "message",
+        "ts": "1718752950.474269",
+        "client_msg_id": "0c660d08-138f-4728-9a69-afa4004aa97d",
+        "text": "Ik verwacht dat er morgen klachten zullen komen over Park &amp; Walk bij Lincoln terrein. Dan weten jullie dat",
+        "team": "T3WLSG6Q3",
+        "user_team": "T3WLSG6Q3",
+        "source_team": "T3WLSG6Q3",
+        "user_profile": {
+            "avatar_hash": "0a99ed8903e5",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2024-05-31\/7203799269490_0a99ed8903e589bf108f_72.jpg",
+            "first_name": "Sven",
+            "real_name": "Sven Watervoort",
+            "display_name": "Sven",
+            "team": "T3WLSG6Q3",
+            "name": "s.watervoort",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B37ib",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ik verwacht dat er morgen klachten zullen komen over Park & Walk bij Lincoln terrein. Dan weten jullie dat"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

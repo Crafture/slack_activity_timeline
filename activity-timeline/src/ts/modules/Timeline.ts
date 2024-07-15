@@ -92,7 +92,6 @@ class Timeline {
         ['dragleave', 'drop'].forEach((eventName: string) => {
             this.canvas.addEventListener(eventName, this.unhighlight.bind(this));
         });
-
         // Render the landing page as the default screen
         this.renderLandingPage();
 
@@ -820,6 +819,8 @@ class Timeline {
      * Parse the given JSON-file that was dropped and render the Timeline
      * @param file The file that was dropped
      */
+	
+
     private parseJSONFile(file: File): void {
         const reader = new FileReader();
         reader.readAsText(file);

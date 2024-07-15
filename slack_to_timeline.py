@@ -26,7 +26,7 @@ exportdata = {
 
 async def formatJSON(file_path, exportdata, output_file_path, slack_token):
     with open(file_path, 'r') as file:
-        importdata = json.load(file)
+        importdata = json.load(file)['messages']
 
     first_timestamp = float(importdata[0]['ts'])
     last_timestamp = float(importdata[-1]['ts'])
@@ -118,11 +118,30 @@ def get_name(message):
                     return f"<@{user_id}>"
     return name
 
+def extract_text_from_blocks(blocks):
+    text = ""
+    for block in blocks:
+        if block.get('type') == 'rich_text':
+            elements = block.get('elements', [])
+            for element in elements:
+                if element.get('type') == 'rich_text_section':
+                    for sub_element in element.get('elements', []):
+                        if sub_element.get('type') == 'text':
+                            text += sub_element.get('text', '')
+                        elif sub_element.get('type') == 'link':
+                            text += sub_element.get('url', '')
+    return text
+
 async def process_message(msgdate, message, date_str, hour_str, slack_token):
     daynum = int(msgdate.date().strftime('%u'))
     color = f"#{palette[daynum]}"
     pattern = re.compile(r'<(https?://[^>]+)>')
-    msg = message.get('text', '')
+    
+    if 'blocks' in message:
+        msg = extract_text_from_blocks(message['blocks'])
+    else:
+        msg = message.get('text', '')
+        
     user_name = get_name(message)
     
     activity = {
