@@ -18,9 +18,37 @@ DOWNLOAD_FOLDER = os.path.join(app.static_folder, 'downloads')
 def index():
     return render_template('index.html')
 
-@app.route('/test/<channel>')
+
+@app.route('/download', methods=['POST'])
+def handle_slash_command():
+    data = request.form
+    print(request.form)
+    command = data.get('command')  # This will be '/download'
+    text = data.get('text')  # This will contain the parameters 'chat_id param2'
+    user_id = data.get('user_id')
+    channel_id = data.get('channel_id')
+
+    # Parse parameters
+    params = text.split()
+    
+    if len(params) < 1:
+        return jsonify(response_type="ephemeral", text="Invalid parameters. Please provide a chat ID.")
+    
+    chat_id = params[0]
+
+    # Generate the link
+    link = f"https://49de9e74a6b0e7854abed8476fe2ee32.loophole.site/timeline/{channel_id}"
+
+    # Return the link to the user
+    response_message = {
+        "response_type": "in_channel",
+        "text": f"Here is your timeline link: {link}"
+    }
+    return jsonify(response_message)
+
+@app.route('/timeline/<channel>')
 def get_history(channel):
-    output_file_path = os.path.join(UPLOAD_FOLDER, f"{channel}.json")
+    output_file_path = os.path.join(DOWNLOAD_FOLDER, f"{channel}.json")
     load_dotenv()
     SLACK_TOKEN = os.getenv('SLACK_TOKEN')
     
@@ -35,7 +63,6 @@ def get_history(channel):
     params = {
         'channel': channel,
         'limit': 100,
-        'oldest': datetime.now
     }
     
     if oldest:
@@ -50,7 +77,10 @@ def get_history(channel):
         if data['ok']:
             with open(output_file_path, 'w') as file:
                 json.dump(data, file, indent=4)
-            return data
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            loop.run_until_complete(conversion(channel))
+            return download_file(channel)
         else:
             return {"error": data.get('error', 'Unknown error')}, response.status_code
     else:
@@ -60,7 +90,7 @@ def get_history(channel):
 
 
 
-@app.route('/download/<chat_id>', methods=['GET'])
+@app.route('/get_timeline/<chat_id>', methods=['GET'])
 def download_file(chat_id):
     try:
         loop = asyncio.new_event_loop()
@@ -144,7 +174,6 @@ async def conversion(chat_id):
         tasks = []
         for message in array:
             msg = message.get('text', '')
-            print('msg')
             if msg == "":
                 msg = "[ ZONDER TEKST ]"
             timestamp = float(message.get('ts'))

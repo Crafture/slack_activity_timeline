@@ -2,6 +2,69 @@
     "ok": true,
     "messages": [
         {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1721041327.105559",
+            "client_msg_id": "187C1599-68E0-4071-A47F-B2859ECCBE00",
+            "text": "Alles is x2 binnengekomen ",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "lbLml",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Alles is x2 binnengekomen "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1721041317.452929",
+            "client_msg_id": "D121A592-BED6-484E-A4BE-9861AE5105B6",
+            "text": "<@U06DFUFSRG8> heb je toevallig dubbel besteld?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721041317.452929",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1721041763.468499",
+            "reply_users": [
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "njVVH",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " heb je toevallig dubbel besteld?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "subtype": "channel_join",
             "user": "U07C7A1L0TC",
             "text": "<@U07C7A1L0TC> has joined the channel",
@@ -3130,81 +3193,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "user": "U04V6DLELQ4",
-            "type": "message",
-            "ts": "1700753391.839729",
-            "client_msg_id": "56a111f4-8c98-4f1b-a68e-3668be82badd",
-            "text": "Sterrenmunt thee",
-            "team": "T3WLSG6Q3",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "fr7m1",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "Sterrenmunt thee"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "reactions": [
-                {
-                    "name": "white_check_mark",
-                    "users": [
-                        "U03N59FM75G"
-                    ],
-                    "count": 1
-                },
-                {
-                    "name": "heart",
-                    "users": [
-                        "U05EU0DH2LD"
-                    ],
-                    "count": 1
-                }
-            ]
-        },
-        {
-            "user": "U0675M5P1UG",
-            "type": "message",
-            "ts": "1700752918.487219",
-            "client_msg_id": "7d069295-a837-4d4a-9cca-83fd0015ca6d",
-            "text": "Havermelk!",
-            "team": "T3WLSG6Q3",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "gVVk0",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "Havermelk!"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "reactions": [
-                {
-                    "name": "white_check_mark",
-                    "users": [
-                        "U03N59FM75G"
-                    ],
-                    "count": 1
-                }
-            ]
         }
     ],
     "has_more": true,
@@ -3212,6 +3200,6 @@
     "channel_actions_ts": null,
     "channel_actions_count": 0,
     "response_metadata": {
-        "next_cursor": "bmV4dF90czoxNzAwNzUyODgxNjA4NjE5"
+        "next_cursor": "bmV4dF90czoxNzAwNzUzMzkxODM5NzI5"
     }
 }

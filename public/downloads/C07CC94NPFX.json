@@ -1,0 +1,57 @@
+{
+    "ok": true,
+    "messages": [
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1721042125.910329",
+            "client_msg_id": "8383e9d1-648a-4526-a705-2110aa23051d",
+            "text": "test",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "gB9fq",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "test"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U07C7A1L0TC",
+            "text": "<@U07C7A1L0TC> has joined the channel",
+            "inviter": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1721042108.207149"
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U06QXUN2E9L",
+            "text": "<@U06QXUN2E9L> has joined the channel",
+            "inviter": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1721042068.509439"
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U02PLSTMG90",
+            "text": "<@U02PLSTMG90> has joined the channel",
+            "type": "message",
+            "ts": "1721042063.745249"
+        }
+    ],
+    "has_more": false,
+    "pin_count": 0,
+    "channel_actions_ts": null,
+    "channel_actions_count": 0
+}
