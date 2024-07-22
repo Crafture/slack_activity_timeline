@@ -4,6 +4,7 @@ async-timeout==4.0.3
 asyncio==3.4.3
 attrs==23.2.0
 blinker==1.8.2
+build==1.2.1
 certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
@@ -14,9 +15,13 @@ itsdangerous==2.2.0
 Jinja2==3.1.4
 MarkupSafe==2.1.5
 multidict==6.0.5
+packaging==24.1
+pyproject_hooks==1.1.0
 python-dotenv==1.0.1
 requests==2.32.3
 slack_sdk==3.31.0
+tomli==2.0.1
 urllib3==2.2.2
+waitress==3.0.0
 Werkzeug==3.0.3
 yarl==1.9.4
