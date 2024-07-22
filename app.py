@@ -348,4 +348,4 @@ async def conversion(chat_id):
     return formatted_data
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()
