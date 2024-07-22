@@ -24,9 +24,9 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "13:14:28",
-                    "title": "[ Devlin ] : ' Devlin has joined the channel '",
-                    "description": "[ Devlin ] : ' Devlin has joined the channel ' ",
+                    "timestamp": "13:14:23",
+                    "title": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel '",
+                    "description": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -40,9 +40,23 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "13:14:23",
-                    "title": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel '",
-                    "description": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel ' ",
+                    "timestamp": "13:14:28",
+                    "title": "[ Devlin ] : ' Devlin has joined the channel '",
+                    "description": "[ Devlin ] : ' Devlin has joined the channel ' ",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-22",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:09:59",
+                    "title": "[ Timeline ] : ' test '",
+                    "description": "[ Timeline ] : ' test ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""

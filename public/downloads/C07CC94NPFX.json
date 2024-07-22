@@ -2,6 +2,45 @@
     "ok": true,
     "messages": [
         {
+            "user": "U07C7A1L0TC",
+            "type": "message",
+            "ts": "1721635799.415159",
+            "bot_id": "B07CL03RM33",
+            "app_id": "A07C748V5PC",
+            "text": "test",
+            "team": "T3WLSG6Q3",
+            "bot_profile": {
+                "id": "B07CL03RM33",
+                "deleted": false,
+                "name": "Timeline",
+                "updated": 1720795133,
+                "app_id": "A07C748V5PC",
+                "icons": {
+                    "image_36": "https://a.slack-edge.com/80588/img/plugins/app/bot_36.png",
+                    "image_48": "https://a.slack-edge.com/80588/img/plugins/app/bot_48.png",
+                    "image_72": "https://a.slack-edge.com/80588/img/plugins/app/service_72.png"
+                },
+                "team_id": "T3WLSG6Q3"
+            },
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "=oW",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "test"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "user": "U06QXUN2E9L",
             "type": "message",
             "ts": "1721042125.910329",

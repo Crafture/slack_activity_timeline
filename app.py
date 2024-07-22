@@ -18,33 +18,72 @@ DOWNLOAD_FOLDER = os.path.join(app.static_folder, 'downloads')
 def index():
     return render_template('index.html')
 
-
-@app.route('/download', methods=['POST'])
-def handle_slash_command():
-    data = request.form
-    print(request.form)
-    command = data.get('command')  # This will be '/download'
-    text = data.get('text')  # This will contain the parameters 'chat_id param2'
-    user_id = data.get('user_id')
-    channel_id = data.get('channel_id')
-
-    # Parse parameters
-    params = text.split()
-    
-    if len(params) < 1:
-        return jsonify(response_type="ephemeral", text="Invalid parameters. Please provide a chat ID.")
-    
-    chat_id = params[0]
-
-    # Generate the link
-    link = f"https://49de9e74a6b0e7854abed8476fe2ee32.loophole.site/timeline/{channel_id}"
-
-    # Return the link to the user
-    response_message = {
-        "response_type": "in_channel",
-        "text": f"Here is your timeline link: {link}"
+@app.route('/dm/<channel>')
+def send_dm(channel):
+    load_dotenv()
+    SLACK_TOKEN = os.getenv('SLACK_TOKEN')
+    headers = {
+        'Authorization': f'Bearer {SLACK_TOKEN}',
+        'Content-Type': 'application/json'
     }
-    return jsonify(response_message)
+    
+    # Step 1: Open a direct message channel to yourself
+    payload_open_conversation = {
+        'users': 'U06QXUN2E9L'  # Replace YOUR_USER_ID with your actual Slack user ID
+    }
+    response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
+    
+    if response.status_code == 200:
+        data = response.json()
+        if data['ok']:
+            channel_id = data['channel']['id']
+        else:
+            return {"error": data.get('error', 'Unknown error')}, response.status_code
+    else:
+        return {"error": "Failed to open a direct message channel"}, response.status_code
+    
+    # Step 2: Send a message to the opened direct message channel
+    payload_message = {
+        'channel': channel_id,
+        'text': f"https://2e12-31-160-179-82.ngrok-free.app/timeline/{channel}"
+    }
+    response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
+    
+    if response.status_code == 200:
+        data = response.json()
+        if data['ok']:
+            return {"message": "success"}, response.status_code
+        else:
+            return {"error": data.get('error', 'Unknown error')}, response.status_code
+    else:
+        return {"error": "Failed to send message"}, response.status_code
+
+# @app.route('/download', methods=['POST'])
+# def handle_slash_command():
+#     data = request.form
+#     print(request.form)
+#     command = data.get('command')  # This will be '/download'
+#     text = data.get('text')  # This will contain the parameters 'chat_id param2'
+#     user_id = data.get('user_id')
+#     channel_id = data.get('channel_id')
+
+#     # Parse parameters
+#     params = text.split()
+    
+#     if len(params) < 1:
+#         return jsonify(response_type="ephemeral", text="Invalid parameters. Please provide a chat ID.")
+    
+#     chat_id = params[0]
+
+#     # Generate the link
+#     link = f"https://49de9e74a6b0e7854abed8476fe2ee32.loophole.site/timeline/{channel_id}"
+
+#     # Return the link to the user
+#     response_message = {
+#         "response_type": "in_channel",
+#         "text": f"Here is your timeline link: {link}"
+#     }
+#     return jsonify(response_message)
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
