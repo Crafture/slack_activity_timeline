@@ -18,45 +18,89 @@ DOWNLOAD_FOLDER = os.path.join(app.static_folder, 'downloads')
 def index():
     return render_template('index.html')
 
-@app.route('/dm/<channel>')
-def send_dm(channel):
+def send_confirmation(channel_id):
     load_dotenv()
     SLACK_TOKEN = os.getenv('SLACK_TOKEN')
+    
+    if not SLACK_TOKEN:
+        return jsonify({"error": "SLACK_TOKEN is not set in the environment"}), 500
+
+    if not channel_id:
+        return jsonify({"error": "channel_id is required"}), 400
+    
     headers = {
         'Authorization': f'Bearer {SLACK_TOKEN}',
         'Content-Type': 'application/json'
     }
-    
+
     # Step 1: Open a direct message channel to yourself
     payload_open_conversation = {
         'users': 'U06QXUN2E9L'  # Replace YOUR_USER_ID with your actual Slack user ID
     }
     response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
-    
-    if response.status_code == 200:
-        data = response.json()
-        if data['ok']:
-            channel_id = data['channel']['id']
-        else:
-            return {"error": data.get('error', 'Unknown error')}, response.status_code
-    else:
-        return {"error": "Failed to open a direct message channel"}, response.status_code
-    
+
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to open a direct message channel"
+        return jsonify({"error": error_message}), response.status_code
+
+    channel_id_personal = response.json()['channel']['id']
+
     # Step 2: Send a message to the opened direct message channel
     payload_message = {
-        'channel': channel_id,
-        'text': f"https://2e12-31-160-179-82.ngrok-free.app/timeline/{channel}"
+        'channel': channel_id_personal,
+        'text': f"Timeline for chat with id {channel_id} was just requested"
     }
     response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
+
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
+        return jsonify({"error": error_message}), response.status_code
+
+    return jsonify({"message": "success"}), 200
+
+
+@app.route('/dm', methods=['POST'])
+def send_dm():
+    load_dotenv()
+    SLACK_TOKEN = os.getenv('SLACK_TOKEN')
     
-    if response.status_code == 200:
-        data = response.json()
-        if data['ok']:
-            return {"message": "success"}, response.status_code
-        else:
-            return {"error": data.get('error', 'Unknown error')}, response.status_code
-    else:
-        return {"error": "Failed to send message"}, response.status_code
+    if not SLACK_TOKEN:
+        return jsonify({"error": "SLACK_TOKEN is not set in the environment"}), 500
+
+    data = request.form
+    channel_id = data.get('channel_id')
+    if not channel_id:
+        return jsonify({"error": "channel_id is required"}), 400
+    
+    headers = {
+        'Authorization': f'Bearer {SLACK_TOKEN}',
+        'Content-Type': 'application/json'
+    }
+
+    # Step 1: Open a direct message channel to yourself
+    payload_open_conversation = {
+        'users': 'U06QXUN2E9L'  # Replace YOUR_USER_ID with your actual Slack user ID
+    }
+    response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
+
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to open a direct message channel"
+        return jsonify({"error": error_message}), response.status_code
+
+    channel_id_personal = response.json()['channel']['id']
+
+    # Step 2: Send a message to the opened direct message channel
+    payload_message = {
+        'channel': channel_id_personal,
+        'text': f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}"
+    }
+    response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
+
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
+        return jsonify({"error": error_message}), response.status_code
+
+    return jsonify({"message": "success"}), 200
 
 # @app.route('/download', methods=['POST'])
 # def handle_slash_command():
@@ -119,6 +163,8 @@ def get_history(channel):
             loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             loop.run_until_complete(conversion(channel))
+            print("test", flush=True)
+            send_confirmation(channel)
             return download_file(channel)
         else:
             return {"error": data.get('error', 'Unknown error')}, response.status_code
