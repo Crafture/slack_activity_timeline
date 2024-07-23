@@ -48,7 +48,7 @@ def send_dm():
     }
 
     payload_open_conversation = {
-        'users': "U07C7A1L0TC"
+        'users': "U06QXUN2E9L"
     }
     response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
 
