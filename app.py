@@ -281,11 +281,13 @@ async def conversion(chat_id):
         pattern = re.compile(r'<@([A-Z0-9]+)>')
         matches = pattern.finditer(text)
 
-        if os.path.exists("public/known_users.json"):
-            with open("public/known_users.json", "r") as file:
-                known_users = json.load(file)
-        else:
-            known_users = {}
+        known_users = {}
+        if os.path.exists("known_users.json"):
+            try:
+                with open("known_users.json", "r") as file:
+                    known_users = json.load(file)
+            except (json.JSONDecodeError, FileNotFoundError):
+                known_users = {}
 
         replacements = {}
         for match in matches:
@@ -297,7 +299,7 @@ async def conversion(chat_id):
                 known_users[user_id] = user_name
             replacements[match.group(0)] = user_name
 
-        with open("public/known_users.json", "w") as file:
+        with open("known_users.json", "w") as file:
             json.dump(known_users, file)
 
         for old, new in replacements.items():
