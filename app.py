@@ -28,19 +28,20 @@ def index():
 def send_dm():
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
+
     data = request.form
     token = data.get('token')
     user_id = data.get('user_id')
     
-    # if token != VERIFICATION_TOKEN:
-    #     return jsonify({"error": "Invalid request token"}), 403
+    if token != VERIFICATION_TOKEN:
+        return jsonify({"error": "Invalid request token"}), 403
 
-    # if user_id not in AUTHORIZED_USERS:
-    #     return jsonify({"error": "Unauthorized user"}), 403
+    if user_id not in AUTHORIZED_USERS:
+        return jsonify({"error": "Unauthorized user"}), 403
 
-    # channel_id = data.get('channel_id')
-    # if not channel_id:
-    #     return jsonify({"error": "channel_id is required"}), 400
+    channel_id = data.get('channel_id')
+    if not channel_id:
+        return jsonify({"error": "channel_id is required"}), 400
     
     headers = {
         'Authorization': f'Bearer {SLACK_TOKEN}',
@@ -48,7 +49,7 @@ def send_dm():
     }
 
     payload_open_conversation = {
-        'users': "U06QXUN2E9L"
+        'users': user_id
     }
     response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
 
@@ -57,11 +58,11 @@ def send_dm():
         return jsonify({"error": error_message}), response.status_code
 
     channel_id_personal = response.json()['channel']['id']
-    # verification = generate_token(user_id)
-    payload_message_str = json.dumps(data)
+    verification = generate_token(user_id)
+
     payload_message = {
         'channel': channel_id_personal,
-        'text': payload_message_str
+        'text': f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
     }
     response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
 
