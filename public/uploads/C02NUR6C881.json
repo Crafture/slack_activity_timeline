@@ -16,6 +16,14 @@
             "hour": "11:00",
             "activities": [
                 {
+                    "timestamp": "11:18:17",
+                    "title": "[ Jolien Eijsink ] : ' chocola '",
+                    "description": "[ Jolien Eijsink ] : ' chocola ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
                     "timestamp": "11:17:57",
                     "title": "[ Deactivated User ] : ' <!channel> Ik ga boodschappen bestellen, nog ..",
                     "description": "[ Deactivated User ] : ' <!channel> Ik ga boodschappen bestellen, nog wensen?? ' ",
@@ -27,14 +35,6 @@
                     "timestamp": "11:21:33",
                     "title": "[ Dani\u00ebl Rios Mol ] : ' havermelk! ohnee toch niet '",
                     "description": "[ Dani\u00ebl Rios Mol ] : ' havermelk! ohnee toch niet ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "11:18:17",
-                    "title": "[ Jolien Eijsink ] : ' chocola '",
-                    "description": "[ Jolien Eijsink ] : ' chocola ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -60,17 +60,17 @@
             "hour": "10:00",
             "activities": [
                 {
-                    "timestamp": "10:47:55",
-                    "title": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen ko..",
-                    "description": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen komt het dan binnen :0 ' ",
+                    "timestamp": "10:48:17",
+                    "title": "[ Jarn\u00e9 ] : ' Currry '",
+                    "description": "[ Jarn\u00e9 ] : ' Currry ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "10:48:17",
-                    "title": "[ Jarn\u00e9 ] : ' Currry '",
-                    "description": "[ Jarn\u00e9 ] : ' Currry ' ",
+                    "timestamp": "10:47:55",
+                    "title": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen ko..",
+                    "description": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen komt het dan binnen :0 ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -82,17 +82,17 @@
             "hour": "13:00",
             "activities": [
                 {
-                    "timestamp": "13:37:44",
-                    "title": "[ Pim Vrakking ] : ' handzeep '",
-                    "description": "[ Pim Vrakking ] : ' handzeep ' ",
+                    "timestamp": "13:37:47",
+                    "title": "[ Pim Vrakking ] : ' chilisaus '",
+                    "description": "[ Pim Vrakking ] : ' chilisaus ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "13:37:47",
-                    "title": "[ Pim Vrakking ] : ' chilisaus '",
-                    "description": "[ Pim Vrakking ] : ' chilisaus ' ",
+                    "timestamp": "13:37:44",
+                    "title": "[ Pim Vrakking ] : ' handzeep '",
+                    "description": "[ Pim Vrakking ] : ' handzeep ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -268,65 +268,9 @@
             "hour": "12:00",
             "activities": [
                 {
-                    "timestamp": "12:28:08",
-                    "title": "[ Stallon ] : ' Krokovlokken  '",
-                    "description": "[ Stallon ] : ' Krokovlokken  ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:30:02",
-                    "title": "[ Stallon ] : ' Noodles '",
-                    "description": "[ Stallon ] : ' Noodles ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:50:56",
-                    "title": "[ Stallon ] : ' Katja biggetjes :pig:  '",
-                    "description": "[ Stallon ] : ' Katja biggetjes :pig:  ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
                     "timestamp": "12:26:08",
                     "title": "[ Arnold ] : ' <!channel> Ik ga na de lunchpauze weer boodschappen bes..",
                     "description": "[ Arnold ] : ' <!channel> Ik ga na de lunchpauze weer boodschappen bestellen. Zijn er verzoeken? ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:26:44",
-                    "title": "[ Pim Vrakking ] : ' (meer) speculaar '",
-                    "description": "[ Pim Vrakking ] : ' (meer) speculaar ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:44:11",
-                    "title": "[ Pim Vrakking ] : ' Honing '",
-                    "description": "[ Pim Vrakking ] : ' Honing ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:49:55",
-                    "title": "[ Deactivated User ] : ' Pure hagelslag '",
-                    "description": "[ Deactivated User ] : ' Pure hagelslag ' ",
-                    "fillColor": "#FFFFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:47:52",
-                    "title": "[ Deactivated User ] : ' Blikjes ice tea '",
-                    "description": "[ Deactivated User ] : ' Blikjes ice tea ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -340,6 +284,38 @@
                     "imgUrl": ""
                 },
                 {
+                    "timestamp": "12:28:19",
+                    "title": "[ Stallon ] : ' Witte chocolade vlokken  '",
+                    "description": "[ Stallon ] : ' Witte chocolade vlokken  ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:30:02",
+                    "title": "[ Stallon ] : ' Noodles '",
+                    "description": "[ Stallon ] : ' Noodles ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:08",
+                    "title": "[ Stallon ] : ' Krokovlokken  '",
+                    "description": "[ Stallon ] : ' Krokovlokken  ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:47:52",
+                    "title": "[ Deactivated User ] : ' Blikjes ice tea '",
+                    "description": "[ Deactivated User ] : ' Blikjes ice tea ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
                     "timestamp": "12:25:11",
                     "title": "[ Arnold ] : ' Plijsters '",
                     "description": "[ Arnold ] : ' Plijsters ' ",
@@ -348,9 +324,33 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:28:19",
-                    "title": "[ Stallon ] : ' Witte chocolade vlokken  '",
-                    "description": "[ Stallon ] : ' Witte chocolade vlokken  ' ",
+                    "timestamp": "12:26:44",
+                    "title": "[ Pim Vrakking ] : ' (meer) speculaar '",
+                    "description": "[ Pim Vrakking ] : ' (meer) speculaar ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:50:56",
+                    "title": "[ Stallon ] : ' Katja biggetjes :pig:  '",
+                    "description": "[ Stallon ] : ' Katja biggetjes :pig:  ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:49:55",
+                    "title": "[ Deactivated User ] : ' Pure hagelslag '",
+                    "description": "[ Deactivated User ] : ' Pure hagelslag ' ",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:44:11",
+                    "title": "[ Pim Vrakking ] : ' Honing '",
+                    "description": "[ Pim Vrakking ] : ' Honing ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -398,17 +398,17 @@
             "hour": "14:00",
             "activities": [
                 {
-                    "timestamp": "14:49:35",
-                    "title": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er ..",
-                    "description": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er verzoeken? ' ",
+                    "timestamp": "14:50:01",
+                    "title": "[ Nicky Duijf ] : ' Verse magere melk '",
+                    "description": "[ Nicky Duijf ] : ' Verse magere melk ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "14:50:01",
-                    "title": "[ Nicky Duijf ] : ' Verse magere melk '",
-                    "description": "[ Nicky Duijf ] : ' Verse magere melk ' ",
+                    "timestamp": "14:49:35",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er ..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er verzoeken? ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -420,17 +420,17 @@
             "hour": "15:00",
             "activities": [
                 {
-                    "timestamp": "15:28:17",
-                    "title": "[ Deactivated User ] : ' :knife_fork_plate: '",
-                    "description": "[ Deactivated User ] : ' :knife_fork_plate: ' ",
+                    "timestamp": "15:24:59",
+                    "title": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? '",
+                    "description": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "15:24:59",
-                    "title": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? '",
-                    "description": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? ' ",
+                    "timestamp": "15:28:17",
+                    "title": "[ Deactivated User ] : ' :knife_fork_plate: '",
+                    "description": "[ Deactivated User ] : ' :knife_fork_plate: ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -444,17 +444,17 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "15:14:49",
-                    "title": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  '",
-                    "description": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  ' ",
+                    "timestamp": "15:22:57",
+                    "title": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  '",
+                    "description": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "15:22:57",
-                    "title": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  '",
-                    "description": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  ' ",
+                    "timestamp": "15:14:49",
+                    "title": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  '",
+                    "description": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -608,6 +608,14 @@
             "hour": "10:00",
             "activities": [
                 {
+                    "timestamp": "10:46:10",
+                    "title": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  '",
+                    "description": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
                     "timestamp": "10:45:03",
                     "title": "[ Nicky Duijf ] : ' Zou er verse magere melk op het boodschappenlijstj..",
                     "description": "[ Nicky Duijf ] : ' Zou er verse magere melk op het boodschappenlijstje kunnen?  ' ",
@@ -619,14 +627,6 @@
                     "timestamp": "10:57:51",
                     "title": "[ Jolien Eijsink ] : ' chocola '",
                     "description": "[ Jolien Eijsink ] : ' chocola ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:46:10",
-                    "title": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  '",
-                    "description": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -694,17 +694,17 @@
             "hour": "13:00",
             "activities": [
                 {
-                    "timestamp": "13:45:07",
-                    "title": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er ver..",
-                    "description": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er verzoeken? ' ",
+                    "timestamp": "13:51:19",
+                    "title": "[ Stallon ] : ' Pita broodjes '",
+                    "description": "[ Stallon ] : ' Pita broodjes ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "13:51:19",
-                    "title": "[ Stallon ] : ' Pita broodjes '",
-                    "description": "[ Stallon ] : ' Pita broodjes ' ",
+                    "timestamp": "13:45:07",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er ver..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er verzoeken? ' ",
                     "fillColor": "#FFFFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -886,41 +886,9 @@
             "hour": "12:00",
             "activities": [
                 {
-                    "timestamp": "12:10:31",
-                    "title": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: '",
-                    "description": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:51:28",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:11:07",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Radler!! '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Radler!! ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:08:00",
-                    "title": "[ Arwind Gajadien ] : ' <!channel> '",
-                    "description": "[ Arwind Gajadien ] : ' <!channel> ' ",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "12:09:40",
-                    "title": "[ Arwind Gajadien ] : ' Welke ijsjesssssss '",
-                    "description": "[ Arwind Gajadien ] : ' Welke ijsjesssssss ' ",
+                    "timestamp": "12:08:17",
+                    "title": "[ Arwind Gajadien ] : ' cola flesjes en blikjes '",
+                    "description": "[ Arwind Gajadien ] : ' cola flesjes en blikjes ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -942,25 +910,33 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:08:39",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Vlokken '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Vlokken ' ",
+                    "timestamp": "12:08:04",
+                    "title": "[ Arwind Gajadien ] : ' Sligro shit '",
+                    "description": "[ Arwind Gajadien ] : ' Sligro shit ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:08:21",
-                    "title": "[ Jolien Eijsink ] : ' ice tea '",
-                    "description": "[ Jolien Eijsink ] : ' ice tea ' ",
+                    "timestamp": "12:10:31",
+                    "title": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: '",
+                    "description": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:08:59",
-                    "title": "[ Arwind Gajadien ] : ' be more specific '",
-                    "description": "[ Arwind Gajadien ] : ' be more specific ' ",
+                    "timestamp": "12:11:07",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Radler!! '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Radler!! ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:08:00",
+                    "title": "[ Arwind Gajadien ] : ' <!channel> '",
+                    "description": "[ Arwind Gajadien ] : ' <!channel> ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -982,17 +958,41 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:08:17",
-                    "title": "[ Arwind Gajadien ] : ' cola flesjes en blikjes '",
-                    "description": "[ Arwind Gajadien ] : ' cola flesjes en blikjes ' ",
+                    "timestamp": "12:08:21",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "12:08:04",
-                    "title": "[ Arwind Gajadien ] : ' Sligro shit '",
-                    "description": "[ Arwind Gajadien ] : ' Sligro shit ' ",
+                    "timestamp": "12:51:28",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:09:40",
+                    "title": "[ Arwind Gajadien ] : ' Welke ijsjesssssss '",
+                    "description": "[ Arwind Gajadien ] : ' Welke ijsjesssssss ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:08:39",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Vlokken '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Vlokken ' ",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:08:59",
+                    "title": "[ Arwind Gajadien ] : ' be more specific '",
+                    "description": "[ Arwind Gajadien ] : ' be more specific ' ",
                     "fillColor": "#FFDFBA",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""

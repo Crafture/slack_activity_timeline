@@ -29,9 +29,8 @@ def send_dm():
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
 
-    data = request.get_json()
-    token = data.get('token')
-    user_id = data.get('user_id')
+    token = request.form.get('token')
+    user_id = request.form.get('user_id')
 
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
@@ -39,7 +38,7 @@ def send_dm():
     if user_id not in AUTHORIZED_USERS:
         return jsonify({"error": "Unauthorized user"}), 403
 
-    channel_id = data.get('channel_id')
+    channel_id = request.form.get('channel_id')
     if not channel_id:
         return jsonify({"error": "channel_id is required"}), 400
     
