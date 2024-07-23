@@ -24,13 +24,36 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
+
+def convert_to_timestamp(date_string):
+    date_format = "%d-%m-%Y"
+    dt_object = datetime.strptime(date_string, date_format)
+    timestamp = dt_object.timestamp()
+    return timestamp
+
 @app.route('/dm', methods=['POST'])
 def send_dm():
+    date_pattern = r'^\d{2}-\d{2}-\d{4}$'
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
 
     token = request.form.get('token')
     user_id = request.form.get('user_id')
+    text = request.form.get('text')
+    if text:
+        if text == "help":
+            return "For now, there is no help available. Just the /timeline command. When there are new functionalities added, I will update this"
+        dates = text.split(' ')
+        if len(dates) == 2:
+            if re.match(date_pattern, dates[0]):
+                oldest = dates[0]
+            if re.match(date_pattern, dates[1]):
+                latest = dates[1]
+            if not oldest and latest:
+                return "Usage example: /timeline 21-01-2024 22-01-2024"
+            oldest = convert_to_timestamp(oldest)
+            latest = convert_to_timestamp(latest)
+            
 
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
@@ -43,8 +66,10 @@ def send_dm():
         return jsonify({"error": "channel_id is required"}), 400
 
     verification = generate_token(user_id)
-
-    return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
+    if oldest and latest:
+        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
+    else:
+        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
@@ -57,10 +82,10 @@ def get_history(channel):
 
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
-    verification = request.args.get('verification')
-    user_id = verify_token(verification)
-    if user_id not in AUTHORIZED_USERS:
-        return jsonify({"error": "unauthorized"}), 403
+    # verification = request.args.get('verification')
+    # user_id = verify_token(verification)
+    # if user_id not in AUTHORIZED_USERS:
+    #     return jsonify({"error": "unauthorized"}), 403
 
     params = {
         'channel': channel,
@@ -162,11 +187,11 @@ def download_file(chat_id, secret_key):
 
 @app.route('/send_file/<filename>', methods=['GET'])
 def send_file_route(filename):
-    secret_key = request.headers.get('Authorization')
-    if secret_key == f"Bearer {SECRET_KEY}":
-        return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
-    else:
-        return jsonify({"error": "Unauthorized"}), 403
+    # secret_key = request.headers.get('Authorization')
+    # if secret_key == f"Bearer {SECRET_KEY}":
+    return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+    # else:
+    #     return jsonify({"error": "Unauthorized"}), 403
 
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
