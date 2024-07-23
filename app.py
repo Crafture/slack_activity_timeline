@@ -69,7 +69,7 @@ def send_dm():
         error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
         return jsonify({"error": error_message}), response.status_code
 
-    return jsonify({"message": "success"}), 200
+    return jsonify({"url": f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"}), 200
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
