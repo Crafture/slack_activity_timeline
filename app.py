@@ -82,10 +82,10 @@ def get_history(channel):
 
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
-    # verification = request.args.get('verification')
-    # user_id = verify_token(verification)
-    # if user_id not in AUTHORIZED_USERS:
-    #     return jsonify({"error": "unauthorized"}), 403
+    verification = request.args.get('verification')
+    user_id = verify_token(verification)
+    if user_id not in AUTHORIZED_USERS:
+        return jsonify({"error": "unauthorized"}), 403
 
     params = {
         'channel': channel,
@@ -187,11 +187,11 @@ def download_file(chat_id, secret_key):
 
 @app.route('/send_file/<filename>', methods=['GET'])
 def send_file_route(filename):
-    # secret_key = request.headers.get('Authorization')
-    # if secret_key == f"Bearer {SECRET_KEY}":
-    return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
-    # else:
-    #     return jsonify({"error": "Unauthorized"}), 403
+    secret_key = request.headers.get('Authorization')
+    if secret_key == f"Bearer {SECRET_KEY}":
+        return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+    else:
+        return jsonify({"error": "Unauthorized"}), 403
 
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
