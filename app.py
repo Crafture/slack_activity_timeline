@@ -44,7 +44,7 @@ def send_dm():
 
     verification = generate_token(user_id)
 
-    return jsonify({"url": f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"}), 200
+    return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
