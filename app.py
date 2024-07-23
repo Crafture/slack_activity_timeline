@@ -58,10 +58,10 @@ def send_dm():
 
     channel_id_personal = response.json()['channel']['id']
     # verification = generate_token(user_id)
-
+    payload_message_str = json.dumps(data)
     payload_message = {
         'channel': channel_id_personal,
-        'text': f"token: {token}. user_id: {user_id}."
+        'text': payload_message_str
     }
     response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
 
