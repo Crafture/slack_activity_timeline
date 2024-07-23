@@ -31,8 +31,7 @@ def send_dm():
     data = request.form
     token = data.get('token')
     user_id = data.get('user_id')
-    return jsonify({data}), 200
-
+    
     # if token != VERIFICATION_TOKEN:
     #     return jsonify({"error": "Invalid request token"}), 403
 
@@ -43,34 +42,34 @@ def send_dm():
     # if not channel_id:
     #     return jsonify({"error": "channel_id is required"}), 400
     
-    # headers = {
-    #     'Authorization': f'Bearer {SLACK_TOKEN}',
-    #     'Content-Type': 'application/json'
-    # }
+    headers = {
+        'Authorization': f'Bearer {SLACK_TOKEN}',
+        'Content-Type': 'application/json'
+    }
 
-    # payload_open_conversation = {
-    #     'users': user_id
-    # }
-    # response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
+    payload_open_conversation = {
+        'users': "U07C7A1L0TC"
+    }
+    response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
 
-    # if response.status_code != 200 or not response.json().get('ok'):
-    #     error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to open a direct message channel"
-    #     return jsonify({"error": error_message}), response.status_code
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to open a direct message channel"
+        return jsonify({"error": error_message}), response.status_code
 
-    # channel_id_personal = response.json()['channel']['id']
+    channel_id_personal = response.json()['channel']['id']
     # verification = generate_token(user_id)
 
-    # payload_message = {
-    #     'channel': channel_id_personal,
-    #     'text': f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
-    # }
-    # response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
+    payload_message = {
+        'channel': channel_id_personal,
+        'text': f"token: {token}. user_id: {user_id}."
+    }
+    response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
 
-    # if response.status_code != 200 or not response.json().get('ok'):
-    #     error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
-    #     return jsonify({"error": error_message}), response.status_code
+    if response.status_code != 200 or not response.json().get('ok'):
+        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
+        return jsonify({"error": error_message}), response.status_code
 
-    # return jsonify({"message": "success"}), 200
+    return jsonify({"message": "success"}), 200
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
