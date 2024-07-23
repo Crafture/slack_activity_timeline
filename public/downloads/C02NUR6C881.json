@@ -2,6 +2,86 @@
     "ok": true,
     "messages": [
         {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721649137.097899",
+            "client_msg_id": "4bb975a2-3263-4068-ba14-36dcc37a7c8d",
+            "text": "<!channel> Nog boodschappen wensen?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "reply_count": 8,
+            "reply_users_count": 3,
+            "latest_reply": "1721649531.626709",
+            "reply_users": [
+                "U7GL2M2QZ",
+                "U05EQ2K6Z8W",
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "q3rIt",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Nog boodschappen wensen?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1721646018.420429",
+            "client_msg_id": "dc8b3751-70b3-43e7-9724-69a79bfcac1f",
+            "text": "<@U06DFUFSRG8> had jij boodschappen besteld? of aan iemand overgedragen vanwege je vakantie?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "reply_count": 9,
+            "reply_users_count": 3,
+            "latest_reply": "1721650445.853179",
+            "reply_users": [
+                "U06DFUFSRG8",
+                "U02PLSTMG90",
+                "U04V6DLELQ4"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "3r4HQ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " had jij boodschappen besteld? of aan iemand overgedragen vanwege je vakantie?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "user": "U3WNT6MUJ",
             "type": "message",
             "ts": "1721041327.105559",
@@ -34,11 +114,12 @@
             "text": "<@U06DFUFSRG8> heb je toevallig dubbel besteld?",
             "team": "T3WLSG6Q3",
             "thread_ts": "1721041317.452929",
-            "reply_count": 1,
-            "reply_users_count": 1,
-            "latest_reply": "1721041763.468499",
+            "reply_count": 3,
+            "reply_users_count": 2,
+            "latest_reply": "1721053222.522869",
             "reply_users": [
-                "U06DFUFSRG8"
+                "U06DFUFSRG8",
+                "U3WNT6MUJ"
             ],
             "is_locked": false,
             "subscribed": false,
@@ -832,7 +913,7 @@
                     "title": "Boodschappen bestellijst (2024)",
                     "mimetype": "application/vnd.google-apps.spreadsheet",
                     "filetype": "gsheet",
-                    "pretty_type": "G Suite Spreadsheet",
+                    "pretty_type": "Google Sheets",
                     "user": "U05D7C80JE8",
                     "user_team": "T3WLSG6Q3",
                     "editable": false,
@@ -1092,7 +1173,7 @@
                     "title": "Boodschappen bestellijst (2024)",
                     "mimetype": "application/vnd.google-apps.spreadsheet",
                     "filetype": "gsheet",
-                    "pretty_type": "G Suite Spreadsheet",
+                    "pretty_type": "Google Sheets",
                     "user": "U05D7C80JE8",
                     "user_team": "T3WLSG6Q3",
                     "editable": false,
@@ -3147,52 +3228,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "subtype": "channel_join",
-            "user": "U068G7FCK34",
-            "text": "<@U068G7FCK34> has joined the channel",
-            "inviter": "U02PLSTMG90",
-            "type": "message",
-            "ts": "1701685253.173659"
-        },
-        {
-            "user": "U03N59FM75G",
-            "type": "message",
-            "ts": "1701682456.176589",
-            "client_msg_id": "606c7fa0-e6bb-4a7d-ba34-bc9b71fa5b78",
-            "text": "<https://tracking.routigo.com/?trackingCode=9f81ceecc2d54ca5bc8b023da90a307d>",
-            "team": "T3WLSG6Q3",
-            "attachments": [
-                {
-                    "from_url": "https://tracking.routigo.com/?trackingCode=9f81ceecc2d54ca5bc8b023da90a307d",
-                    "image_url": "https://test-tracking.routigo.com/assets/png/meta-img.png",
-                    "image_width": 1200,
-                    "image_height": 630,
-                    "image_bytes": 352446,
-                    "id": 1,
-                    "original_url": "https://tracking.routigo.com/?trackingCode=9f81ceecc2d54ca5bc8b023da90a307d",
-                    "fallback": "1200x630px image",
-                    "service_name": "tracking.routigo.com"
-                }
-            ],
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "UqC1s",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "link",
-                                    "url": "https://tracking.routigo.com/?trackingCode=9f81ceecc2d54ca5bc8b023da90a307d"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
         }
     ],
     "has_more": true,
@@ -3200,6 +3235,6 @@
     "channel_actions_ts": null,
     "channel_actions_count": 0,
     "response_metadata": {
-        "next_cursor": "bmV4dF90czoxNzAwNzUzMzkxODM5NzI5"
+        "next_cursor": "bmV4dF90czoxNzAxNjg1MjUzMTczNjU5"
     }
 }

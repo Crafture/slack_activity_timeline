@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import requests
 import os
 import jwt
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 app = Flask(__name__, static_folder='public', template_folder='public')
 
@@ -29,10 +29,10 @@ def send_dm():
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
 
-    data = request.form
+    data = request.get_json()
     token = data.get('token')
     user_id = data.get('user_id')
-    
+
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
 
@@ -109,14 +109,14 @@ def get_history(channel):
             asyncio.set_event_loop(loop)
             loop.run_until_complete(conversion(channel))
             print("test", flush=True)
-            return download_file(channel)
+            return download_file(channel, SECRET_KEY)
         else:
             return {"error": data.get('error', 'Unknown error')}, response.status_code
     else:
         return {"error": "Failed to fetch data from Slack"}, response.status_code
 
 def generate_token(user_id):
-    expiration = datetime.datetime.utcnow() + datetime.timedelta(minutes=10)
+    expiration = datetime.now(timezone.utc) + timedelta(minutes=10)
     token = jwt.encode({
         'user_id': user_id,
         'exp': expiration
@@ -132,13 +132,13 @@ def verify_token(token):
     except jwt.InvalidTokenError:
         return 'Invalid token'
 
-def download_file(chat_id):
+def download_file(chat_id, secret_key):
     try:
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
         loop.run_until_complete(conversion(chat_id))
 
-        download_url = url_for('send_file', filename=f"{chat_id}.json")
+        download_url = url_for('send_file_route', filename=f"{chat_id}.json")
         html_content = f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -150,10 +150,32 @@ def download_file(chat_id):
         <body>
             <script>
                 function initiateDownload() {{
-                    window.location.href = "{download_url}";
-                    setTimeout(() => {{
+                    fetch("{download_url}", {{
+                        headers: {{
+                            'Authorization': 'Bearer {SECRET_KEY}'
+                        }}
+                    }}).then(response => {{
+                        if (response.ok) {{
+                            return response.blob();
+                        }} else {{
+                            throw new Error('Unauthorized');
+                        }}
+                    }}).then(blob => {{
+                        const url = window.URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.style.display = 'none';
+                        a.href = url;
+                        a.download = "{chat_id}.json";
+                        document.body.appendChild(a);
+                        a.click();
+                        window.URL.revokeObjectURL(url);
+                        setTimeout(() => {{
+                            window.location.href = "/";
+                        }}, 1000);
+                    }}).catch(error => {{
+                        console.error('Error:', error);
                         window.location.href = "/";
-                    }}, 1000);
+                    }});
                 }}
                 window.onload = initiateDownload;
             </script>
@@ -164,8 +186,13 @@ def download_file(chat_id):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
-def send_file(filename):
-    return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+@app.route('/send_file/<filename>', methods=['GET'])
+def send_file_route(filename):
+    secret_key = request.headers.get('Authorization')
+    if secret_key == f"Bearer {SECRET_KEY}":
+        return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+    else:
+        return jsonify({"error": "Unauthorized"}), 403
 
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
