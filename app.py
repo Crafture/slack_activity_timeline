@@ -41,33 +41,8 @@ def send_dm():
     channel_id = request.form.get('channel_id')
     if not channel_id:
         return jsonify({"error": "channel_id is required"}), 400
-    
-    headers = {
-        'Authorization': f'Bearer {SLACK_TOKEN}',
-        'Content-Type': 'application/json'
-    }
 
-    payload_open_conversation = {
-        'users': user_id
-    }
-    response = requests.post('https://slack.com/api/conversations.open', headers=headers, json=payload_open_conversation)
-
-    if response.status_code != 200 or not response.json().get('ok'):
-        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to open a direct message channel"
-        return jsonify({"error": error_message}), response.status_code
-
-    channel_id_personal = response.json()['channel']['id']
     verification = generate_token(user_id)
-
-    payload_message = {
-        'channel': channel_id_personal,
-        'text': f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
-    }
-    response = requests.post('https://slack.com/api/chat.postMessage', headers=headers, json=payload_message)
-
-    if response.status_code != 200 or not response.json().get('ok'):
-        error_message = response.json().get('error', 'Unknown error') if response.status_code == 200 else "Failed to send message"
-        return jsonify({"error": error_message}), response.status_code
 
     return jsonify({"url": f"https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"}), 200
 
