@@ -281,16 +281,30 @@ async def conversion(chat_id):
         pattern = re.compile(r'<@([A-Z0-9]+)>')
         matches = pattern.finditer(text)
 
+        if os.path.exists("public/known_users.json"):
+            with open("public/known_users.json", "r") as file:
+                known_users = json.load(file)
+        else:
+            known_users = {}
+
         replacements = {}
         for match in matches:
             user_id = match.group(1)
-            user_name = await get_user_info(slack_token, user_id)
+            if user_id in known_users:
+                user_name = known_users[user_id]
+            else:
+                user_name = await get_user_info(slack_token, user_id)
+                known_users[user_id] = user_name
             replacements[match.group(0)] = user_name
+
+        with open("public/known_users.json", "w") as file:
+            json.dump(known_users, file)
 
         for old, new in replacements.items():
             text = text.replace(old, new)
 
         return text
+
 
     def get_name(message):
         user_profile = message.get('user_profile', {})
