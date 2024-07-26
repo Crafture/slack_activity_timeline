@@ -24,6 +24,10 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
+@app.route('/test')
+def test():
+    d = convert_to_timestamp('27-07-2024')
+    return jsonify({"message": d}), 200
 
 def convert_to_timestamp(date_string):
     date_format = "%d-%m-%Y"
