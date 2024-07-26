@@ -54,8 +54,8 @@ def send_dm():
                 oldest = convert_to_timestamp(dates[0])
             if re.match(date_pattern, dates[1]):
                 latest = convert_to_timestamp(dates[1])
-            if oldest == "" or latest == "":
-                return "Usage example: /timeline 21-01-2024 22-01-2024"
+        if oldest == "" or latest == "":
+            return "Usage example: /timeline 21-01-2024 22-01-2024"
 
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
@@ -93,7 +93,7 @@ def get_history(channel):
         'channel': channel,
         'limit': 100,
     }
-    
+
     if oldest:
         params['oldest'] = oldest
     if latest:
@@ -220,10 +220,13 @@ async def conversion(chat_id):
             
         array = importdata.get('messages', {})
 
-        first_timestamp = float(array[0]['ts'])
-        last_timestamp = float(array[-1]['ts'])
-        first_date = datetime.fromtimestamp(first_timestamp)
-        last_date = datetime.fromtimestamp(last_timestamp)
+        if array:
+            first_timestamp = float(array[0]['ts'])
+            last_timestamp = float(array[-1]['ts'])
+            first_date = datetime.fromtimestamp(first_timestamp)
+            last_date = datetime.fromtimestamp(last_timestamp)
+        else:
+            raise ValueError("No Messages to format")
 
         current_date = first_date.replace(minute=0, second=0, microsecond=0)
         end_date = last_date.replace(minute=0, second=0, microsecond=0)
