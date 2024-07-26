@@ -26,8 +26,8 @@ def index():
 
 @app.route('/test')
 def test():
-    d = convert_to_timestamp('27-07-2024')
-    return jsonify({"message": d}), 200
+    oldest, latest = "test"
+    return jsonify({"message": oldest}), 200
 
 def convert_to_timestamp(date_string):
     date_format = "%d-%m-%Y"
@@ -37,8 +37,7 @@ def convert_to_timestamp(date_string):
 
 @app.route('/dm', methods=['POST'])
 def send_dm():
-    oldest = ""
-    latest = ""
+    oldest, latest = ""
     date_pattern = r'^\d{2}-\d{2}-\d{4}$'
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
@@ -52,14 +51,11 @@ def send_dm():
         dates = text.split(' ')
         if len(dates) == 2:
             if re.match(date_pattern, dates[0]):
-                oldest = dates[0]
+                oldest = convert_to_timestamp(dates[0])
             if re.match(date_pattern, dates[1]):
-                latest = dates[1]
+                latest = convert_to_timestamp(dates[1])
             if not oldest and latest:
                 return "Usage example: /timeline 21-01-2024 22-01-2024"
-            oldest = convert_to_timestamp(oldest)
-            latest = convert_to_timestamp(latest)
-            
 
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
