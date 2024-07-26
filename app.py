@@ -37,6 +37,8 @@ def convert_to_timestamp(date_string):
 
 @app.route('/dm', methods=['POST'])
 def send_dm():
+    oldest = ""
+    latest = ""
     date_pattern = r'^\d{2}-\d{2}-\d{4}$'
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
@@ -70,10 +72,10 @@ def send_dm():
         return jsonify({"error": "channel_id is required"}), 400
 
     verification = generate_token(user_id)
-    if oldest and latest:
-        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
-    else:
+    if not oldest and latest:
         return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
+    else:
+        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
