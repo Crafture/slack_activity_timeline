@@ -37,7 +37,7 @@ def convert_to_timestamp(date_string):
 
 @app.route('/dm', methods=['POST'])
 def send_dm():
-    oldest, latest = ""
+    oldest, latest = "", ""
     date_pattern = r'^\d{2}-\d{2}-\d{4}$'
     if not SLACK_TOKEN or not VERIFICATION_TOKEN:
         return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
