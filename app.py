@@ -24,11 +24,6 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
-@app.route('/test')
-def test():
-    oldest, latest = "test"
-    return jsonify({"message": oldest}), 200
-
 def convert_to_timestamp(date_string):
     date_format = "%d-%m-%Y"
     dt_object = datetime.strptime(date_string, date_format)
@@ -47,7 +42,7 @@ def send_dm():
     text = request.form.get('text')
     if text:
         if text == "help":
-            return "For now, there is no help available. Just the /timeline command. When there are new functionalities added, I will update this"
+            return "/timeline [oldest] [latest]. When no range is given, it will display the most recent messages. Max 100 messages."
         dates = text.split(' ')
         if len(dates) == 2:
             if re.match(date_pattern, dates[0]):
@@ -56,6 +51,8 @@ def send_dm():
                 latest = convert_to_timestamp(dates[1])
         if oldest == "" or latest == "":
             return "Usage example: /timeline 21-01-2024 22-01-2024"
+        elif oldest < latest:
+            return "Last date has to be later than oldest"
 
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "Invalid request token"}), 403
@@ -87,7 +84,7 @@ def get_history(channel):
     verification = request.args.get('verification')
     user_id = verify_token(verification)
     if user_id not in AUTHORIZED_USERS:
-        return jsonify({"error": "unauthorized"}), 403
+        return send_from_directory(app.static_folder, 'invalid_page.html')
 
     params = {
         'channel': channel,
@@ -104,12 +101,13 @@ def get_history(channel):
     if response.status_code == 200:
         data = response.json()
         if data['ok']:
+            if data['messages'] == []:
+                return send_from_directory(app.static_folder, 'no_messages_found.html')
             with open(output_file_path, 'w') as file:
                 json.dump(data, file, indent=4)
             loop = asyncio.new_event_loop()
             asyncio.set_event_loop(loop)
             loop.run_until_complete(conversion(channel))
-            print("test", flush=True)
             return download_file(channel, SECRET_KEY)
         else:
             return {"error": data.get('error', 'Unknown error')}, response.status_code
@@ -193,8 +191,7 @@ def send_file_route(filename):
     if secret_key == f"Bearer {SECRET_KEY}":
         return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
     else:
-        return jsonify({"error": "Unauthorized"}), 403
-
+        return send_from_directory(app.static_folder, 'invalid_page.html')
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
 
@@ -226,7 +223,7 @@ async def conversion(chat_id):
             first_date = datetime.fromtimestamp(first_timestamp)
             last_date = datetime.fromtimestamp(last_timestamp)
         else:
-            raise ValueError("No Messages to format")
+            return jsonify({"message": "No available messages"}), 400
 
         current_date = first_date.replace(minute=0, second=0, microsecond=0)
         end_date = last_date.replace(minute=0, second=0, microsecond=0)

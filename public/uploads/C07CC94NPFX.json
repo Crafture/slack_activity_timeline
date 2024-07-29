@@ -24,14 +24,6 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "13:14:23",
-                    "title": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel '",
-                    "description": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel ' ",
-                    "fillColor": "#FFC4C4",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
                     "timestamp": "13:15:08",
                     "title": "[ Timeline ] : ' Timeline has joined the channel '",
                     "description": "[ Timeline ] : ' Timeline has joined the channel ' ",
@@ -43,6 +35,14 @@
                     "timestamp": "13:14:28",
                     "title": "[ Devlin ] : ' Devlin has joined the channel '",
                     "description": "[ Devlin ] : ' Devlin has joined the channel ' ",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:14:23",
+                    "title": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel '",
+                    "description": "[ Jolien Eijsink ] : ' Jolien Eijsink has joined the channel ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
@@ -68,6 +68,30 @@
             "hour": "17:00",
             "activities": [
                 {
+                    "timestamp": "17:51:17",
+                    "title": "[ Devlin ] : ' plaatjes '",
+                    "description": "[ Devlin ] : ' plaatjes ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#000000",
+                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F07D2PEUD1D/logo_livecrowd-photoroom.png"
+                },
+                {
+                    "timestamp": "17:50:50",
+                    "title": "[ Devlin ] : ' ook '",
+                    "description": "[ Devlin ] : ' ook ' ",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:50:48",
+                    "title": "[ Devlin ] : ' en '",
+                    "description": "[ Devlin ] : ' en ' ",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
                     "timestamp": "17:50:43",
                     "title": "[ Devlin ] : ' testen '",
                     "description": "[ Devlin ] : ' testen ' ",
@@ -84,30 +108,6 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "17:50:38",
-                    "title": "[ Devlin ] : ' berichten '",
-                    "description": "[ Devlin ] : ' berichten ' ",
-                    "fillColor": "#FFC4C4",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "17:50:48",
-                    "title": "[ Devlin ] : ' en '",
-                    "description": "[ Devlin ] : ' en ' ",
-                    "fillColor": "#FFC4C4",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "17:51:17",
-                    "title": "[ Devlin ] : ' plaatjes '",
-                    "description": "[ Devlin ] : ' plaatjes ' ",
-                    "fillColor": "#57ebff",
-                    "strokeColor": "#000000",
-                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F07D2PEUD1D/logo_livecrowd-photoroom.png"
-                },
-                {
                     "timestamp": "17:50:40",
                     "title": "[ Devlin ] : ' om '",
                     "description": "[ Devlin ] : ' om ' ",
@@ -116,9 +116,9 @@
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "17:50:50",
-                    "title": "[ Devlin ] : ' ook '",
-                    "description": "[ Devlin ] : ' ook ' ",
+                    "timestamp": "17:50:38",
+                    "title": "[ Devlin ] : ' berichten '",
+                    "description": "[ Devlin ] : ' berichten ' ",
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
