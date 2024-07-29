@@ -70,7 +70,7 @@
                 {
                     "timestamp": "17:51:17",
                     "title": "[ Devlin ] : ' plaatjes '",
-                    "description": "[ Devlin ] : ' plaatjes ' ",
+                    "description": "[ Devlin ] : ' plaatjes '  | Image link: | <a href=\"https://crafture.slack.com/files/U06QXUN2E9L/F07D2PEUD1D/logo_livecrowd-photoroom.png\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>",
                     "fillColor": "#57ebff",
                     "strokeColor": "#000000",
                     "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F07D2PEUD1D/logo_livecrowd-photoroom.png"
@@ -122,6 +122,20 @@
                     "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-29",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:45:02",
+                    "title": "[ Devlin ] : ' https://static.vecteezy.com/vite/assets/photo-masthead-..",
+                    "description": "[ Devlin ] : ' <a href=\"https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' ",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp"
                 }
             ]
         }

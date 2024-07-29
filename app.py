@@ -81,10 +81,10 @@ def get_history(channel):
 
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
-    verification = request.args.get('verification')
-    user_id = verify_token(verification)
-    if user_id not in AUTHORIZED_USERS:
-        return send_from_directory(app.static_folder, 'invalid_page.html')
+    # verification = request.args.get('verification')
+    # user_id = verify_token(verification)
+    # if user_id not in AUTHORIZED_USERS:
+        # return send_from_directory(app.static_folder, 'invalid_page.html')
 
     params = {
         'channel': channel,
@@ -187,11 +187,12 @@ def download_file(chat_id, secret_key):
 
 @app.route('/send_file/<filename>', methods=['GET'])
 def send_file_route(filename):
-    secret_key = request.headers.get('Authorization')
-    if secret_key == f"Bearer {SECRET_KEY}":
-        return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
-    else:
-        return send_from_directory(app.static_folder, 'invalid_page.html')
+    # secret_key = request.headers.get('Authorization')
+    # if secret_key == f"Bearer {SECRET_KEY}":
+    return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+    # else:
+    #     return send_from_directory(app.static_folder, 'invalid_page.html')
+
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
 
@@ -367,8 +368,9 @@ async def conversion(chat_id):
                     activity['strokeColor'] = '#000000'
                     activity['imgUrl'] = file.get('url_private', None)
                     if 'files.slack.com' in activity['imgUrl']:
-                        activity['imgUrl'] = file.get('permalink', activity['imgUrl'])
-                        description = description + ' | Image link: | ' + activity['imgUrl']
+                        permalink = file.get('permalink', activity['imgUrl'])
+                        new_description = description + ' | Image link: | ' + f'<a href="{permalink}" target="_blank" style="text-decoration: underline; color: black; font-weight: bold;">Klik hier om link te openen.</a>'
+                        activity['description'] = new_description
                     activity['fillColor'] = '#57ebff'
                     break
 
