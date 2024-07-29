@@ -368,7 +368,6 @@ async def conversion(chat_id):
                     activity['imgUrl'] = file.get('url_private', None)
                     if 'files.slack.com' in activity['imgUrl']:
                         activity['imgUrl'] = file.get('permalink', activity['imgUrl'])
-                    if 'files.slack.com' in activity['imgUrl']:
                         description = description + ' | Image link: | ' + activity['imgUrl']
                     activity['fillColor'] = '#57ebff'
                     break
