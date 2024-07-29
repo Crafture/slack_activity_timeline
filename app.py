@@ -81,10 +81,10 @@ def get_history(channel):
 
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
-    # verification = request.args.get('verification')
-    # user_id = verify_token(verification)
-    # if user_id not in AUTHORIZED_USERS:
-        # return send_from_directory(app.static_folder, 'invalid_page.html')
+    verification = request.args.get('verification')
+    user_id = verify_token(verification)
+    if user_id not in AUTHORIZED_USERS:
+        return send_from_directory(app.static_folder, 'invalid_page.html')
 
     params = {
         'channel': channel,
@@ -187,11 +187,11 @@ def download_file(chat_id, secret_key):
 
 @app.route('/send_file/<filename>', methods=['GET'])
 def send_file_route(filename):
-    # secret_key = request.headers.get('Authorization')
-    # if secret_key == f"Bearer {SECRET_KEY}":
-    return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
-    # else:
-    #     return send_from_directory(app.static_folder, 'invalid_page.html')
+    secret_key = request.headers.get('Authorization')
+    if secret_key == f"Bearer {SECRET_KEY}":
+        return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
+    else:
+        return send_from_directory(app.static_folder, 'invalid_page.html')
 
 @app.route('/permalink/<channel_id>/<message_ts>')
 def get_message_permalink(channel_id, message_ts):
