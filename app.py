@@ -51,7 +51,7 @@ def send_dm():
                 latest = convert_to_timestamp(dates[1])
         if oldest == "" or latest == "":
             return "Usage example: /timeline 21-01-2024 22-01-2024"
-        elif oldest < latest:
+        elif oldest > latest:
             return "Last date has to be later than oldest"
 
     if token != VERIFICATION_TOKEN:
