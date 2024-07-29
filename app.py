@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_from_directory, render_template_string, url_for, render_template, request
+from flask import Flask, jsonify, send_from_directory, render_template_string, url_for, render_template, request, redirect
 import json
 import re
 import os
@@ -193,6 +193,30 @@ def send_file_route(filename):
     # else:
     #     return send_from_directory(app.static_folder, 'invalid_page.html')
 
+@app.route('/permalink/<channel_id>/<message_ts>')
+def get_message_permalink(channel_id, message_ts):
+    url = "https://slack.com/api/chat.getPermalink"
+    headers = {
+        "Authorization": f"Bearer {SLACK_TOKEN}",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+    data = {
+        "channel": channel_id,
+        "message_ts": message_ts
+    }
+
+    response = requests.get(url, headers=headers, params=data)
+
+    if response.status_code == 200:
+        response_data = response.json()
+        if response_data.get("ok"):
+            permalink = response_data["permalink"]
+            return redirect(permalink)
+        else:
+            return send_from_directory(app.static_folder, 'error_fetching_permalink.html'), 500
+    else:
+        return send_from_directory(app.static_folder, 'error_fetching_permalink.html'), 500
+
 async def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
 
@@ -212,7 +236,7 @@ async def conversion(chat_id):
         'days': []
     }
 
-    async def formatJSON(file_path, exportdata, output_file_path, slack_token):
+    async def formatJSON(file_path, exportdata, output_file_path, slack_token, channel_id):
         with open(file_path, 'r') as file:
             importdata = json.load(file)
             
@@ -248,7 +272,7 @@ async def conversion(chat_id):
             msgdate = datetime.fromtimestamp(timestamp)
             date_str = msgdate.date().isoformat()
             hour_str = msgdate.strftime('%H:00')
-            tasks.append(asyncio.create_task(process_message(msgdate, message, date_str, hour_str, slack_token)))
+            tasks.append(asyncio.create_task(process_message(msgdate, message, date_str, hour_str, slack_token, channel_id)))
 
         results = await asyncio.gather(*tasks)
         for result in results:
@@ -327,7 +351,7 @@ async def conversion(chat_id):
                         return f"<@{user_id}>"
         return name
 
-    async def process_message(msgdate, message, date_str, hour_str, slack_token):
+    async def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
         daynum = int(msgdate.date().strftime('%u'))
         color = f"#{palette[daynum]}"
         pattern = re.compile(r'<(https?://[^>]+)>')
@@ -350,6 +374,10 @@ async def conversion(chat_id):
         description = (f"[ {user_name} ] : ' {msg} ' ")
         description = pattern.sub(r'<a href="\1" target="_blank" style="text-decoration: underline; color: black; font-weight: bold;">Klik hier om link te openen.</a>', description)
         description = await replace_user_mentions(description, slack_token)
+        ts = message.get('ts', None)
+        if ts:
+            msg_link = f'/permalink/{chat_id}/{ts}'
+            description += f'<br><br><a href="{msg_link}" target="_blank" style="text-decoration: underline; color: green; font-weight: bold;">Open in slack</a>'
         activity['description'] = description
         attachments = message.get('attachments', {})
         files = message.get('files', {})
@@ -367,10 +395,6 @@ async def conversion(chat_id):
                 if 'url_private' in file:
                     activity['strokeColor'] = '#000000'
                     activity['imgUrl'] = file.get('url_private', None)
-                    if 'files.slack.com' in activity['imgUrl']:
-                        permalink = file.get('permalink', activity['imgUrl'])
-                        new_description = description + ' | Image link: | ' + f'<a href="{permalink}" target="_blank" style="text-decoration: underline; color: black; font-weight: bold;">Klik hier om link te openen.</a>'
-                        activity['description'] = new_description
                     activity['fillColor'] = '#57ebff'
                     break
 
@@ -390,7 +414,7 @@ async def conversion(chat_id):
         return exportdata
 
     file_path = os.path.join(DOWNLOAD_FOLDER, f"{chat_id}.json")
-    formatted_data = await formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN)
+    formatted_data = await formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN, chat_id)
     return formatted_data
 
 if __name__ == '__main__':
