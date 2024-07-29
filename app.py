@@ -21,7 +21,7 @@ VERIFICATION_TOKEN = os.getenv('VERIFICATION_TOKEN')
 AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 
 
-@app.route('/interactions', methods=['POST'])
+@app.route('/dm', methods=['POST'])
 def slack_command():
     if request.form.get('token') != VERIFICATION_TOKEN:
         return "Request verification failed", 400
@@ -60,7 +60,7 @@ def slack_command():
 
     return '', 200
 
-@app.route('/dm', methods=['POST'])
+@app.route('/interactions', methods=['POST'])
 def slack_interactions():
     payload = request.form.get('payload')
     if payload:
