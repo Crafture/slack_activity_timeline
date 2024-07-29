@@ -20,6 +20,64 @@ SLACK_TOKEN = os.getenv('SLACK_TOKEN')
 VERIFICATION_TOKEN = os.getenv('VERIFICATION_TOKEN')
 AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 
+
+@app.route('/interactions', methods=['POST'])
+def slack_command():
+    if request.form.get('token') != VERIFICATION_TOKEN:
+        return "Request verification failed", 400
+
+    trigger_id = request.form.get('trigger_id')
+
+    dialog = {
+        "trigger_id": trigger_id,
+        "dialog": {
+            "callback_id": "date_picker_dialog",
+            "title": "Pick a date",
+            "elements": [
+                {
+                    "type": "text",
+                    "label": "Reason",
+                    "name": "reason",
+                    "placeholder": "Reason for picking the date"
+                },
+                {
+                    "type": "text",
+                    "subtype": "datepicker",
+                    "label": "Date",
+                    "name": "date",
+                    "placeholder": "Pick a date"
+                }
+            ]
+        }
+    }
+
+    headers = {
+        'Content-Type': 'application/json',
+        'Authorization': f'Bearer {SLACK_TOKEN}'
+    }
+
+    response = requests.post('https://slack.com/api/dialog.open', json=dialog, headers=headers)
+
+    return '', 200
+
+@app.route('/dm', methods=['POST'])
+def slack_interactions():
+    payload = request.form.get('payload')
+    if payload:
+        payload = json.loads(payload)
+        if payload['type'] == 'dialog_submission':
+            # Handle the dialog submission
+            date = payload['submission']['date']
+            reason = payload['submission']['reason']
+            # Process the date and reason
+            return jsonify({
+                "response_type": "ephemeral",
+                "text": f"Date: {date}, Reason: {reason}"
+            })
+
+    return '', 200
+
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -30,7 +88,7 @@ def convert_to_timestamp(date_string):
     timestamp = dt_object.timestamp()
     return timestamp
 
-@app.route('/dm', methods=['POST'])
+@app.route('/dm_test', methods=['POST'])
 def send_dm():
     oldest, latest = "", ""
     date_pattern = r'^\d{2}-\d{2}-\d{4}$'
