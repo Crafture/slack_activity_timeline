@@ -59,7 +59,7 @@ def slack_command():
     response = requests.post('https://slack.com/api/dialog.open', json=dialog, headers=headers)
 
     if response.status_code != 200 or not response.json().get('ok', False):
-        return "Failed to open dialog", 500
+        return jsonify(response)
 
     return '', 200
 
