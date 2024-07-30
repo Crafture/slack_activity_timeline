@@ -1,43 +1,8 @@
 {
     "ok": true,
+    "latest": "1721692799.000000",
+    "oldest": "1721606400.000000",
     "messages": [
-        {
-            "user": "U06QXUN2E9L",
-            "type": "message",
-            "ts": "1722249902.845309",
-            "client_msg_id": "a5119ffe-2951-46da-b9f3-2f2f81fda8ba",
-            "text": "<https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp>",
-            "team": "T3WLSG6Q3",
-            "attachments": [
-                {
-                    "image_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
-                    "image_width": 750,
-                    "image_height": 864,
-                    "image_bytes": 26144,
-                    "from_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
-                    "id": 1,
-                    "original_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
-                    "fallback": "750x864px image"
-                }
-            ],
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "5oizF",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "link",
-                                    "url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
         {
             "text": "plaatjes",
             "files": [
@@ -287,7 +252,7 @@
             "blocks": [
                 {
                     "type": "rich_text",
-                    "block_id": "vs3",
+                    "block_id": "CwGsP",
                     "elements": [
                         {
                             "type": "rich_text_section",
@@ -301,54 +266,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "user": "U06QXUN2E9L",
-            "type": "message",
-            "ts": "1721042125.910329",
-            "client_msg_id": "8383e9d1-648a-4526-a705-2110aa23051d",
-            "text": "test",
-            "team": "T3WLSG6Q3",
-            "blocks": [
-                {
-                    "type": "rich_text",
-                    "block_id": "gB9fq",
-                    "elements": [
-                        {
-                            "type": "rich_text_section",
-                            "elements": [
-                                {
-                                    "type": "text",
-                                    "text": "test"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "subtype": "channel_join",
-            "user": "U07C7A1L0TC",
-            "text": "<@U07C7A1L0TC> has joined the channel",
-            "inviter": "U06QXUN2E9L",
-            "type": "message",
-            "ts": "1721042108.207149"
-        },
-        {
-            "subtype": "channel_join",
-            "user": "U06QXUN2E9L",
-            "text": "<@U06QXUN2E9L> has joined the channel",
-            "inviter": "U02PLSTMG90",
-            "type": "message",
-            "ts": "1721042068.509439"
-        },
-        {
-            "subtype": "channel_join",
-            "user": "U02PLSTMG90",
-            "text": "<@U02PLSTMG90> has joined the channel",
-            "type": "message",
-            "ts": "1721042063.745249"
         }
     ],
     "has_more": false,

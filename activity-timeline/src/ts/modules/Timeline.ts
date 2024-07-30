@@ -1369,9 +1369,7 @@ class Timeline {
             );
 
             // Render date-label
-            const dateLabel = this.isToday(day.date) 
-                ? day.date.toLocaleDateString(this.meta.locale) + ' (Today)' 
-                : day.date.toLocaleDateString(this.meta.locale) + ' (' + this.getHour(day) + ')';
+            const dateLabel = day.date.toLocaleDateString(this.meta.locale) + ' (' + this.getHour(day) + ')';
             ctx.fillStyle = this.style.textColor;
             ctx.fillText(
                 dateLabel, 

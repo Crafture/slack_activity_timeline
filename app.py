@@ -24,51 +24,104 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
+@app.route('/handle_command', methods=['POST'])
+def return_datepicker():
+    token = request.form.get('token')
+    if token != VERIFICATION_TOKEN:
+        abort(403)
+
+    text = request.form.get('text')
+    user_id = request.form.get('user_id')
+    channel_id = request.form.get('channel_id')
+    date_pattern = r'^\d{2}-\d{2}-\d{4}$'
+    
+    if text:
+        if text == "help":
+            return "/timeline -> pick date"
+        if text == "week":
+            dates = []
+            start_date = datetime.today() + timedelta(days=1)
+            dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
+            dates.append(start_date.strftime("%d-%m-%Y"))
+        else:
+        #     dates = text.split(' ')
+        # if len(dates) == 2 and re.match(date_pattern, dates[0]) and re.match(date_pattern, dates[1]):
+        #     oldest = convert_to_timestamp(dates[0])
+        #     latest = convert_to_timestamp(dates[1])
+        #     if oldest >= latest:
+        #         return jsonify({"text": "Last date has to be later than the oldest"})
+        #     verification = generate_token(user_id)
+        #     timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
+        #     return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+        # else:
+            return jsonify({"text": "Usage example: /timeline 21-01-2024 22-01-2024"})
+    initial_date = datetime.today() - timedelta(weeks=4)
+    formatted_initial_date = initial_date.strftime("%Y-%m-%d")
+    return_form = {
+        "blocks": [
+            {
+                "type": "section",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "To get timeline, *select a date*."
+                }
+            },
+            {
+                "type": "actions",
+                "elements": [
+                    {
+                        "type": "datepicker",
+                        "initial_date": formatted_initial_date,
+                        "placeholder": {
+                            "type": "plain_text",
+                            "text": "Select a date",
+                            "emoji": True
+                        },
+                        "action_id": "datepicker-action-2"
+                    }
+                ]
+            }
+        ]
+    }
+    return jsonify(return_form)
+
+@app.route('/interactivity', methods=['POST'])
+def interactivity():
+    payload = request.form['payload']
+    data = json.loads(payload)
+
+    token = data.get('token')
+    if token != VERIFICATION_TOKEN:
+        return send_from_directory(app.static_folder, 'invalid_page.html')
+    
+    # Extract the selected date from the payload
+    selected_date = data['actions'][0]['selected_date']
+    
+    # Extract the response_url from the payload
+    response_url = data['response_url']
+    
+    # Create the response message
+    start_date = datetime.strptime(selected_date, '%Y-%m-%d')
+    end_date = start_date + timedelta(days=1) - timedelta(seconds=1)
+    verification = generate_token(data['user']['id'])
+    channel_id = data['channel']['id']
+    timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={start_date.timestamp()}&latest={end_date.timestamp()}"
+
+    response_message = {
+        "text": f"Click here to see Timeline: {timeline_url}"
+    }
+    
+    # Send the response message to the response_url
+    requests.post(response_url, json=response_message)
+    
+    return jsonify({"text": "Thank you for selecting a date."})
+
+
 def convert_to_timestamp(date_string):
     date_format = "%d-%m-%Y"
     dt_object = datetime.strptime(date_string, date_format)
     timestamp = dt_object.timestamp()
     return timestamp
-
-@app.route('/dm', methods=['POST'])
-def send_dm():
-    oldest, latest = "", ""
-    date_pattern = r'^\d{2}-\d{2}-\d{4}$'
-    if not SLACK_TOKEN or not VERIFICATION_TOKEN:
-        return jsonify({"error": "SLACK_TOKEN or VERIFICATION_TOKEN is not set in the environment"}), 500
-
-    token = request.form.get('token')
-    user_id = request.form.get('user_id')
-    text = request.form.get('text')
-    if text:
-        if text == "help":
-            return "/timeline [oldest] [latest]. When no range is given, it will display the most recent messages. Max 100 messages."
-        dates = text.split(' ')
-        if len(dates) == 2:
-            if re.match(date_pattern, dates[0]):
-                oldest = convert_to_timestamp(dates[0])
-            if re.match(date_pattern, dates[1]):
-                latest = convert_to_timestamp(dates[1])
-        if oldest == "" or latest == "":
-            return "Usage example: /timeline 21-01-2024 22-01-2024"
-        elif oldest > latest:
-            return "Last date has to be later than oldest"
-
-    if token != VERIFICATION_TOKEN:
-        return jsonify({"error": "Invalid request token"}), 403
-
-    if user_id not in AUTHORIZED_USERS:
-        return jsonify({"error": "Unauthorized user"}), 403
-
-    channel_id = request.form.get('channel_id')
-    if not channel_id:
-        return jsonify({"error": "channel_id is required"}), 400
-
-    verification = generate_token(user_id)
-    if oldest == "" or latest == "":
-        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}"
-    else:
-        return f"Click here to see Timeline: https://slack-activity-timeline.onrender.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
 
 @app.route('/timeline/<channel>')
 def get_history(channel):
@@ -97,7 +150,7 @@ def get_history(channel):
         params['latest'] = latest
 
     response = requests.get('https://slack.com/api/conversations.history', headers=headers, params=params)
-
+    # return response.json()
     if response.status_code == 200:
         data = response.json()
         if data['ok']:
@@ -105,9 +158,7 @@ def get_history(channel):
                 return send_from_directory(app.static_folder, 'no_messages_found.html')
             with open(output_file_path, 'w') as file:
                 json.dump(data, file, indent=4)
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            loop.run_until_complete(conversion(channel))
+            conversion(channel)
             return download_file(channel, SECRET_KEY)
         else:
             return {"error": data.get('error', 'Unknown error')}, response.status_code
@@ -133,9 +184,7 @@ def verify_token(token):
 
 def download_file(chat_id, secret_key):
     try:
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
-        loop.run_until_complete(conversion(chat_id))
+        conversion(chat_id)
 
         download_url = url_for('send_file_route', filename=f"{chat_id}.json")
         html_content = f"""
@@ -191,7 +240,7 @@ def send_file_route(filename):
     if secret_key == f"Bearer {SECRET_KEY}":
         return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
     else:
-        return send_from_directory(app.static_folder, 'invalid_page.html')
+        return send_from_directory(app.static_folder, 'unauthorized.html')
 
 @app.route('/permalink/<channel_id>/<message_ts>')
 def get_message_permalink(channel_id, message_ts):
@@ -217,7 +266,7 @@ def get_message_permalink(channel_id, message_ts):
     else:
         return send_from_directory(app.static_folder, 'error_fetching_permalink.html'), 500
 
-async def conversion(chat_id):
+def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
 
     output_file_path = os.path.join(UPLOAD_FOLDER, f"{chat_id}.json")
@@ -236,46 +285,38 @@ async def conversion(chat_id):
         'days': []
     }
 
-    async def formatJSON(file_path, exportdata, output_file_path, slack_token, channel_id):
+    def formatJSON(file_path, exportdata, output_file_path, slack_token, channel_id):
         with open(file_path, 'r') as file:
             importdata = json.load(file)
             
-        array = importdata.get('messages', {})
-
+        array = importdata.get('messages', [])
         if array:
             first_timestamp = float(array[0]['ts'])
             last_timestamp = float(array[-1]['ts'])
             first_date = datetime.fromtimestamp(first_timestamp)
             last_date = datetime.fromtimestamp(last_timestamp)
         else:
-            return jsonify({"message": "No available messages"}), 400
+            return {"message": "No available messages"}, 400
 
-        current_date = first_date.replace(minute=0, second=0, microsecond=0)
-        end_date = last_date.replace(minute=0, second=0, microsecond=0)
+        while last_date <= first_date:
+            print('first_date: ', first_date, ' <= ', 'last_date: ', last_date)
+            date_str = first_date.date().isoformat()
+            for hour in range(24):
+                hour_str = f"{hour:02d}:00"
+                exportdata['days'].append({
+                    'date': date_str,
+                    'hour': hour_str,
+                    'activities': []
+                })
+            last_date += timedelta(days=1)
 
-        while current_date <= end_date:
-            date_str = current_date.date().isoformat()
-            hour_str = current_date.strftime('%H:00')
-            exportdata['days'].append({
-                'date': date_str,
-                'hour': hour_str,
-                'activities': []
-            })
-            current_date += timedelta(hours=1)
-
-        tasks = []
         for message in array:
-            msg = message.get('text', '')
-            if msg == "":
-                msg = "[ ZONDER TEKST ]"
             timestamp = float(message.get('ts'))
             msgdate = datetime.fromtimestamp(timestamp)
             date_str = msgdate.date().isoformat()
             hour_str = msgdate.strftime('%H:00')
-            tasks.append(asyncio.create_task(process_message(msgdate, message, date_str, hour_str, slack_token, channel_id)))
 
-        results = await asyncio.gather(*tasks)
-        for result in results:
+            result = process_message(msgdate, message, date_str, hour_str, slack_token, channel_id)
             if result:
                 exportdata = result
 
@@ -285,7 +326,9 @@ async def conversion(chat_id):
 
         return exportdata
 
-    async def get_user_info(slack_token, user_id):
+
+
+    def get_user_info(slack_token, user_id):
         url = "https://slack.com/api/users.info"
         headers = {
             "Authorization": f"Bearer {slack_token}",
@@ -295,16 +338,17 @@ async def conversion(chat_id):
             "user": user_id
         }
 
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url, headers=headers, params=params) as response:
-                data = await response.json()
+        response = requests.get(url, headers=headers, params=params)
 
-                if data.get("ok"):
-                    return data["user"]["profile"]["real_name"]
-                else:
-                    raise Exception(f"Error fetching user info: {data.get('error')}")
+        if response.status_code == 200:
+            response_data = response.json()
+            if response_data.get("ok"):
+                return response_data["user"]["profile"]["real_name"]
+            else:
+                raise Exception(f"Error fetching user info: {response_data.get('error')}")
 
-    async def replace_user_mentions(text, slack_token):
+
+    def replace_user_mentions(text, slack_token):
         pattern = re.compile(r'<@([A-Z0-9]+)>')
         matches = pattern.finditer(text)
 
@@ -322,7 +366,7 @@ async def conversion(chat_id):
             if user_id in known_users:
                 user_name = known_users[user_id]
             else:
-                user_name = await get_user_info(slack_token, user_id)
+                user_name = get_user_info(slack_token, user_id)
                 known_users[user_id] = user_name
             replacements[match.group(0)] = user_name
 
@@ -333,7 +377,6 @@ async def conversion(chat_id):
             text = text.replace(old, new)
 
         return text
-
 
     def get_name(message):
         user_profile = message.get('user_profile', {})
@@ -351,7 +394,11 @@ async def conversion(chat_id):
                         return f"<@{user_id}>"
         return name
 
-    async def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
+    def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
+        print("process_message")
+        palette = {
+            1: "FF0000", 2: "00FF00", 3: "0000FF", 4: "FFFF00", 5: "FF00FF", 6: "00FFFF", 7: "F0F0F0"
+        }
         daynum = int(msgdate.date().strftime('%u'))
         color = f"#{palette[daynum]}"
         pattern = re.compile(r'<(https?://[^>]+)>')
@@ -369,14 +416,14 @@ async def conversion(chat_id):
 
         title = (f"[ {user_name} ] : ' {msg} '")
         title = pattern.sub(r'\1', title)
-        title = await replace_user_mentions(title, slack_token)
+        title = replace_user_mentions(title, slack_token)
         activity['title'] = (title[:70] + '..') if len(title) > 70 else title
         description = (f"[ {user_name} ] : ' {msg} ' ")
         description = pattern.sub(r'<a href="\1" target="_blank" style="text-decoration: underline; color: black; font-weight: bold;">Klik hier om link te openen.</a>', description)
-        description = await replace_user_mentions(description, slack_token)
+        description = replace_user_mentions(description, slack_token)
         ts = message.get('ts', None)
         if ts:
-            msg_link = f'/permalink/{chat_id}/{ts}'
+            msg_link = f'/permalink/{channel_id}/{ts}'
             description += f'<br><br><a href="{msg_link}" target="_blank" style="text-decoration: underline; color: green; font-weight: bold;">Open in slack</a>'
         activity['description'] = description
         attachments = message.get('attachments', {})
@@ -398,24 +445,18 @@ async def conversion(chat_id):
                     activity['fillColor'] = '#57ebff'
                     break
 
-        date_found = False
         for day in exportdata['days']:
             if day['date'] == date_str and day.get('hour') == hour_str:
                 day['activities'].append(activity)
-                date_found = True
                 break
-        if not date_found:
-            msgobject = {
-                'date': date_str,
-                'hour': hour_str,
-                'activities': [activity]
-            }
-            exportdata['days'].append(msgobject)
         return exportdata
 
     file_path = os.path.join(DOWNLOAD_FOLDER, f"{chat_id}.json")
-    formatted_data = await formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN, chat_id)
+    formatted_data = formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN, chat_id)
     return formatted_data
 
 if __name__ == '__main__':
     app.run(debug=False, host='0.0.0.0', port=5000)
+
+
+
