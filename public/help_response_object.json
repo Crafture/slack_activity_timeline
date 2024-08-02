@@ -21,7 +21,7 @@
 						},
 						{
 							"type": "text",
-							"text": "\n\n\n\n"
+							"text": "\n\n 1.   Choose the date range you want a timeline of:\n\n"
 						}
 					]
 				},
@@ -176,7 +176,7 @@
 					"elements": [
 						{
 							"type": "text",
-							"text": "\n\n\n"
+							"text": "\n 2.   Click on the link.\n 3.   The conversation will be downloaded, and you can drag it to the web page\n\tto display the timeline.\n\n"
 						},
 						{
 							"type": "text",
@@ -253,6 +253,9 @@
 					]
 				}
 			]
+		},
+		{
+			"type": "divider"
 		}
 	]
 }

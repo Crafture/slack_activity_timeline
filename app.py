@@ -31,9 +31,9 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
-def return_help():
+def return_json_message(filename):
     try:
-        help_path = os.path.join(app.static_folder, "help_response_object.json")
+        help_path = os.path.join(app.static_folder, filename)
         with open(help_path, "r") as json_file:
             data = json.load(json_file)
         return jsonify(data), 200
@@ -41,19 +41,46 @@ def return_help():
         print(e)
         return jsonify({"error": str(e)}), 500
 
+# check if date really is valid, no edge cases
+def validate_date(date_str):
+    date_regex = r'^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}$'
+    if not re.match(date_regex, date_str):
+        return False
+
+    try:
+        day, month, year = map(int, date_str.split('-'))
+        datetime(year, month, day)
+    except ValueError:
+        return False
+    
+    return True
+
+def validate_int(text):
+    try:
+        days = int(text)
+        max_days = 365 * 5
+        if days < 0:
+            return False
+        if days > max_days:
+            return False
+        return True
+    except ValueError:
+        return False
 
 # entry point slack
 @app.route('/handle_command', methods=['POST'])
 def return_datepicker():
     token = request.form.get('token')
+    unauthorized_message = return_json_message("unauthorized.json")
     if token != VERIFICATION_TOKEN:
         return jsonify({"error": "No verification token"}), 403
 
     text = request.form.get('text')
     user_id = request.form.get('user_id')
+    if user_id not in AUTHORIZED_USERS:
+        return unauthorized_message
     channel_id = request.form.get('channel_id')
-    date_pattern = r'^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}$'
-    help_message = return_help()
+    help_message = return_json_message("help_response_object.json")
     
     if text:
         if text == "help":
@@ -64,23 +91,29 @@ def return_datepicker():
             dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
             dates.append(start_date.strftime("%d-%m-%Y"))
         elif text.isdigit():
-            days = int(text)
-            start_date = datetime.today() - timedelta(days=days)
-            end_date = datetime.today().replace(hour=23, minute=59, second=59, microsecond=0)
-            dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
+            if validate_int(text == False):
+                return jsonify({"text": "Please try again with a lower number"}), 200
+            else:
+                days = int(text)
+                start_date = datetime.today() - timedelta(days=days)
+                end_date = datetime.today() + timedelta(days=1)
+                dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
         else:
             dates = text.split(' ')
-        if len(dates) == 2 and re.match(date_pattern, dates[0]) and re.match(date_pattern, dates[1]):
-            oldest = convert_to_timestamp(dates[0])
-            latest = convert_to_timestamp(dates[1])
-            if oldest >= latest:
-                return jsonify({"text": "Last date has to be later than the oldest"}), 200
-            verification = generate_token(user_id)
-            timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
-            return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+        if len(dates) == 2:
+            if validate_date(dates[0]) == True and validate_date(dates[1]) == True:
+                oldest = convert_to_timestamp(dates[0])
+                latest = convert_to_timestamp(dates[1])
+                if oldest >= latest:
+                    return jsonify({"text": "Last date has to be later than the oldest"}), 200
+                verification = generate_token(user_id)
+                timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
+                return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+            else:
+                return jsonify({"text": "Please check if the dates you're trying to use are valid. For more information, type: /timeline help"}), 200
         else:
             return help_message
-    initial_date = datetime.today() - timedelta(weeks=4)
+    initial_date = datetime.today() + timedelta(days=1)
     formatted_initial_date = initial_date.strftime("%Y-%m-%d")
     return_form = {
         "blocks": [
@@ -134,9 +167,22 @@ def interactivity():
         "text": f"Click here to see Timeline: {timeline_url}"
     }
 
-    requests.post(response_url, json=response_message)
+    try:
+        logging.info(f"Sending response message to {response_url} with timeline URL {timeline_url}")
+        
+        response = requests.post(response_url, json=response_message)
+        response.raise_for_status()
+
+        logging.info("Response message sent successfully")
+        return jsonify({"text": "Date selected successfully"})
     
-    return jsonify({"text": "Date selected succesfully"})
+    except requests.exceptions.RequestException as e:
+        logging.error(f"Request error: {e}")
+        return jsonify({"error": "Failed to send the response message"}), 500
+    
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
+        return jsonify({"error": "An unexpected error occurred"}), 500
 
 
 def convert_to_timestamp(date_string):
@@ -327,7 +373,7 @@ def conversion(chat_id):
         'days': []
     }
 
-    def formatJSON(file_path, exportdata, output_file_path, slack_token, channel_id):
+    def formatJSON(file_path, exportdata, output_file_path, channel_id):
         with open(file_path, 'r') as file:
             importdata = json.load(file)
             
@@ -358,12 +404,12 @@ def conversion(chat_id):
             date_str = msgdate.date().isoformat()
             hour_str = msgdate.strftime('%H:00')
 
-            result = process_message(msgdate, message, date_str, hour_str, slack_token, channel_id)
+            result = process_message(msgdate, message, date_str, hour_str, channel_id)
             if result:
                 exportdata = result
 
         exportdata['days'].sort(key=lambda x: (x['date'], x['hour']))
-       try:
+        try:
             with open(output_file_path, 'w') as file:
                 json.dump(exportdata, file, indent=4)
             logging.info(f"Data successfully exported to {output_file_path}.")
@@ -405,7 +451,7 @@ def conversion(chat_id):
             logging.error(f"An error occurred: {e}")
 
 
-    def replace_user_mentions(text, slack_token):
+    def replace_user_mentions(text):
         pattern = re.compile(r'<@([A-Z0-9]+)>')
         matches = pattern.finditer(text)
 
@@ -429,7 +475,7 @@ def conversion(chat_id):
             replacements[match.group(0)] = user_name
 
         try:
-            with open("known_users.json", "w") as file:
+            with open(known_user_path, "w") as file:
                 json.dump(known_users, file)
         except Exception as e:
                 logging.error(f"An error occurred: {e}")
@@ -455,7 +501,7 @@ def conversion(chat_id):
                         return f"<@{user_id}>"
         return name
 
-    def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
+    def process_message(msgdate, message, date_str, hour_str, channel_id):
         daynum = int(msgdate.date().strftime('%u'))
         color = f"#{palette[daynum]}"
         pattern = re.compile(r'<(https?://[^>]+)>')
@@ -473,11 +519,11 @@ def conversion(chat_id):
 
         title = (f"[ {user_name} ] : ' {msg} '")
         title = pattern.sub(r'\1', title)
-        title = replace_user_mentions(title, slack_token)
+        title = replace_user_mentions(title)
         activity['title'] = (title[:70] + '..') if len(title) > 70 else title
         description = (f"[ {user_name} ] : ' {msg} ' ")
         description = pattern.sub(r'<a href="\1" target="_blank" style="text-decoration: underline; color: black; font-weight: bold;">Klik hier om link te openen.</a>', description)
-        description = replace_user_mentions(description, slack_token)
+        description = replace_user_mentions(description)
         ts = message.get('ts', None)
         if ts:
             msg_link = f'/permalink/{channel_id}/{ts}'
@@ -509,11 +555,12 @@ def conversion(chat_id):
             exportdata['days'].append(msgobject)
 
     file_path = os.path.join(DOWNLOAD_FOLDER, f"{chat_id}.json")
-    formatted_data = formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN, chat_id)
+    formatted_data = formatJSON(file_path, exportdata, output_file_path, chat_id)
     return formatted_data
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=5000)
 
 
 

@@ -1,0 +1,43 @@
+{
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "\nSorry, but you're not authorized to use this app",
+							"style": {
+								"bold": true
+							}
+						},
+						{
+							"type": "text",
+							"text": " "
+						},
+						{
+							"type": "emoji",
+							"name": "confused",
+							"unicode": "1f615"
+						},
+						{
+							"type": "text",
+							"text": "\n\n",
+							"style": {
+								"bold": true
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "divider"
+		}
+	]
+}
