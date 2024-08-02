@@ -12,260 +12,131 @@
     },
     "days": [
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "00:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "01:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "02:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "03:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "04:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "05:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "06:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "07:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "08:00",
-            "activities": []
+            "activities": [
+                {
+                    "timestamp": "08:44:25",
+                    "title": "[ Sandra ] : ' Sandra has joined the channel '",
+                    "description": "[ Sandra ] : ' Sandra has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1722329065.161289\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "09:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "10:00",
-            "activities": [
-                {
-                    "timestamp": "10:51:28",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  ' <br><br><a href=\"/permalink/C02NUR6C881/1720176688.237499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:11:07",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Radler!! '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Radler!! ' <br><br><a href=\"/permalink/C02NUR6C881/1720174267.925949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:10:31",
-                    "title": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: '",
-                    "description": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: ' <br><br><a href=\"/permalink/C02NUR6C881/1720174231.180779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:09:40",
-                    "title": "[ Arwind Gajadien ] : ' Welke ijsjesssssss '",
-                    "description": "[ Arwind Gajadien ] : ' Welke ijsjesssssss ' <br><br><a href=\"/permalink/C02NUR6C881/1720174180.210369\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:09:24",
-                    "title": "[ Jarn\u00e9 ] : ' Een bulk ijsjes '",
-                    "description": "[ Jarn\u00e9 ] : ' Een bulk ijsjes ' <br><br><a href=\"/permalink/C02NUR6C881/1720174164.552399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:09:15",
-                    "title": "[ Arwind Gajadien ] : ' flessen water '",
-                    "description": "[ Arwind Gajadien ] : ' flessen water ' <br><br><a href=\"/permalink/C02NUR6C881/1720174155.664079\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:09:08",
-                    "title": "[ Arwind Gajadien ] : ' dingen die we in bulk kunnen halen '",
-                    "description": "[ Arwind Gajadien ] : ' dingen die we in bulk kunnen halen ' <br><br><a href=\"/permalink/C02NUR6C881/1720174148.605959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:59",
-                    "title": "[ Arwind Gajadien ] : ' be more specific '",
-                    "description": "[ Arwind Gajadien ] : ' be more specific ' <br><br><a href=\"/permalink/C02NUR6C881/1720174139.927249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:39",
-                    "title": "[ Dani\u00ebl Rios Mol ] : ' Vlokken '",
-                    "description": "[ Dani\u00ebl Rios Mol ] : ' Vlokken ' <br><br><a href=\"/permalink/C02NUR6C881/1720174119.781869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:29",
-                    "title": "[ Arwind Gajadien ] : ' blikjes Jolien Eijsink '",
-                    "description": "[ Arwind Gajadien ] : ' blikjes Jolien Eijsink ' <br><br><a href=\"/permalink/C02NUR6C881/1720174109.441299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:26",
-                    "title": "[ Arwind Gajadien ] : ' cola zero '",
-                    "description": "[ Arwind Gajadien ] : ' cola zero ' <br><br><a href=\"/permalink/C02NUR6C881/1720174106.040139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:21",
-                    "title": "[ Jolien Eijsink ] : ' ice tea '",
-                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1720174101.727649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:17",
-                    "title": "[ Arwind Gajadien ] : ' cola flesjes en blikjes '",
-                    "description": "[ Arwind Gajadien ] : ' cola flesjes en blikjes ' <br><br><a href=\"/permalink/C02NUR6C881/1720174097.957479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:04",
-                    "title": "[ Arwind Gajadien ] : ' Sligro shit '",
-                    "description": "[ Arwind Gajadien ] : ' Sligro shit ' <br><br><a href=\"/permalink/C02NUR6C881/1720174084.357049\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "10:08:00",
-                    "title": "[ Arwind Gajadien ] : ' <!channel> '",
-                    "description": "[ Arwind Gajadien ] : ' <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1720174080.113859\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                }
-            ]
+            "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "11:00",
-            "activities": [
-                {
-                    "timestamp": "11:33:20",
-                    "title": "[ Carido Steinbach ] : ' Carido Steinbach has joined the channel '",
-                    "description": "[ Carido Steinbach ] : ' Carido Steinbach has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1720179200.336109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "11:33:17",
-                    "title": "[ Arwind Gajadien ] : ' Kawish Gajadien Carido Steinbach '",
-                    "description": "[ Arwind Gajadien ] : ' Kawish Gajadien Carido Steinbach ' <br><br><a href=\"/permalink/C02NUR6C881/1720179197.906829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                }
-            ]
+            "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "12:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "13:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "14:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "15:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "16:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "17:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "18:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "19:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "20:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "21:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "22:00",
             "activities": []
         },
         {
-            "date": "2024-07-05",
+            "date": "2024-07-30",
             "hour": "23:00",
             "activities": []
         }

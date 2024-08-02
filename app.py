@@ -256,7 +256,7 @@ def get_message_permalink(channel_id, message_ts):
 
     response = requests.get(url, headers=headers, params=data)
 
-    if response.status_code == 200:
+    if response.ok:
         response_data = response.json()
         if response_data.get("ok"):
             permalink = response_data["permalink"]
@@ -298,27 +298,17 @@ def conversion(chat_id):
         else:
             return {"message": "No available messages"}, 400
 
-		if first_date - last_date > timedelta(hours=24):
-			while last_date <= first_date:
-				date_str = first_date.date().isoformat()
-				for hour in range(24):
-					hour_str = f"{hour:02d}:00"
-					exportdata['days'].append({
-						'date': date_str,
-						'hour': hour_str,
-						'activities': []
-					})
-
-		else:
-			while last_date <= first_date:
-				date_str = last_date.date().isoformat()
-				hour_str = last_date.strftime('%H:00')
-				exportdata['days'].append({
-					'date': date_str,
-					'hour': hour_str,
-					'activities': []
-				})
-				last_date += timedelta(hours=1)
+        if first_date - last_date < timedelta(hours=24):
+            while last_date <= first_date:
+                date_str = first_date.date().isoformat()
+                for hour in range(24):
+                    hour_str = f"{hour:02d}:00"
+                    exportdata['days'].append({
+                        'date': date_str,
+                        'hour': hour_str,
+                        'activities': []
+                    })
+                last_date += timedelta(days=1)
 
         for message in array:
             timestamp = float(message.get('ts'))
@@ -444,19 +434,19 @@ def conversion(chat_id):
                     activity['fillColor'] = '#57ebff'
                     break
 
-        elif files:
-            for file in files:
-                if 'url_private' in file:
-                    activity['strokeColor'] = '#000000'
-                    activity['imgUrl'] = file.get('url_private', None)
-                    activity['fillColor'] = '#57ebff'
-                    break
-
+        date_found = False
         for day in exportdata['days']:
             if day['date'] == date_str and day.get('hour') == hour_str:
                 day['activities'].append(activity)
+                date_found = True
                 break
-        return exportdata
+        if not date_found:
+            msgobject = {
+                'date': date_str,
+                'hour': hour_str,
+                'activities': [activity]
+            }
+            exportdata['days'].append(msgobject)
 
     file_path = os.path.join(DOWNLOAD_FOLDER, f"{chat_id}.json")
     formatted_data = formatJSON(file_path, exportdata, output_file_path, SLACK_TOKEN, chat_id)
