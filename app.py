@@ -91,7 +91,7 @@ def return_datepicker():
             dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
             dates.append(start_date.strftime("%d-%m-%Y"))
         elif text.isdigit():
-            if validate_int(text == False):
+            if validate_int(text) == False:
                 return jsonify({"text": "Please try again with a lower number"}), 200
             else:
                 days = int(text)
