@@ -76,28 +76,6 @@
                     "imgUrl": ""
                 }
             ]
-        },
-        {
-            "date": "2024-08-02",
-            "hour": "08:00",
-            "activities": [
-                {
-                    "timestamp": "08:57:41",
-                    "title": "[ Jolien Eijsink ] : ' leuk '",
-                    "description": "[ Jolien Eijsink ] : ' leuk ' <br><br><a href=\"/permalink/C07CC94NPFX/1722589061.215409\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "08:56:34",
-                    "title": "[ Devlin ] : ' nog een test '",
-                    "description": "[ Devlin ] : ' nog een test ' <br><br><a href=\"/permalink/C07CC94NPFX/1722588994.790069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FFDFBA",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                }
-            ]
         }
     ]
 }

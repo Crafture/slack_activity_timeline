@@ -7,9 +7,16 @@ from dotenv import load_dotenv
 import requests
 import os
 import jwt
+import logging
 from datetime import datetime, timedelta, timezone
 
 app = Flask(__name__, static_folder='public', template_folder='public')
+
+logging.basicConfig(
+    filename='server.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
 
 load_dotenv()
 UPLOAD_FOLDER = os.path.join(app.static_folder, 'uploads')
@@ -19,6 +26,7 @@ SLACK_TOKEN = os.getenv('SLACK_TOKEN')
 VERIFICATION_TOKEN = os.getenv('VERIFICATION_TOKEN')
 AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 
+# home page
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -33,6 +41,8 @@ def return_help():
         print(e)
         return jsonify({"error": str(e)}), 500
 
+
+# entry point slack
 @app.route('/handle_command', methods=['POST'])
 def return_datepicker():
     token = request.form.get('token')
@@ -56,7 +66,7 @@ def return_datepicker():
         elif text.isdigit():
             days = int(text)
             start_date = datetime.today() - timedelta(days=days)
-            end_date = datetime.today()
+            end_date = datetime.today().replace(hour=23, minute=59, second=59, microsecond=0)
             dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
         else:
             dates = text.split(' ')
@@ -100,6 +110,7 @@ def return_datepicker():
     }
     return jsonify(return_form)
 
+# where the data being sent by the date picker goes to
 @app.route('/interactivity', methods=['POST'])
 def interactivity():
     payload = request.form['payload']
@@ -109,13 +120,10 @@ def interactivity():
     if token != VERIFICATION_TOKEN:
         return send_from_directory(app.static_folder, 'invalid_page.html')
     
-    # Extract the selected date from the payload
     selected_date = data['actions'][0]['selected_date']
     
-    # Extract the response_url from the payload
     response_url = data['response_url']
-    
-    # Create the response message
+
     start_date = datetime.strptime(selected_date, '%Y-%m-%d')
     end_date = start_date + timedelta(days=1) - timedelta(seconds=1)
     verification = generate_token(data['user']['id'])
@@ -125,11 +133,10 @@ def interactivity():
     response_message = {
         "text": f"Click here to see Timeline: {timeline_url}"
     }
-    
-    # Send the response message to the response_url
+
     requests.post(response_url, json=response_message)
     
-    return jsonify({"text": "Thank you for selecting a date."})
+    return jsonify({"text": "Date selected succesfully"})
 
 
 def convert_to_timestamp(date_string):
@@ -138,15 +145,10 @@ def convert_to_timestamp(date_string):
     timestamp = dt_object.timestamp()
     return timestamp
 
+# make request for conversation history in slack
 @app.route('/timeline/<channel>')
 def get_history(channel):
     output_file_path = os.path.join(DOWNLOAD_FOLDER, f"{channel}.json")
-    
-    headers = {
-        'Authorization': f'Bearer {SLACK_TOKEN}',
-        'Content-Type': 'application/x-www-form-urlencoded'
-    }
-
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
     verification = request.args.get('verification')
@@ -155,6 +157,11 @@ def get_history(channel):
     user_id = verify_token(verification)
     if user_id not in AUTHORIZED_USERS:
         return send_from_directory(app.static_folder, 'invalid_page.html')
+    
+    headers = {
+        'Authorization': f'Bearer {SLACK_TOKEN}',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
 
     params = {
         'channel': channel,
@@ -166,22 +173,36 @@ def get_history(channel):
     if latest:
         params['latest'] = latest
 
-    response = requests.get('https://slack.com/api/conversations.history', headers=headers, params=params)
-    # return response.json()
-    if response.status_code == 200:
+    try:
+        response = requests.get('https://slack.com/api/conversations.history', headers=headers, params=params)
+        response.raise_for_status()
+
         data = response.json()
         if data['ok']:
-            if data['messages'] == []:
+            if not data['messages']:
+                logging.info(f"No messages found in channel {channel}.")
                 return send_from_directory(app.static_folder, 'no_messages_found.html')
             with open(output_file_path, 'w') as file:
                 json.dump(data, file, indent=4)
+            logging.info(f"Data successfully fetched and written to {output_file_path} for channel {channel}.")
             conversion(channel)
             return download_file(channel, SECRET_KEY)
         else:
-            return {"error": data.get('error', 'Unknown error')}, response.status_code
-    else:
-        return {"error": "Failed to fetch data from Slack"}, response.status_code
+            error_message = data.get('error', 'Unknown error')
+            logging.error(f"Error fetching conversations history: {error_message}")
+            return {"error": error_message}, response.status_code
+    except requests.exceptions.HTTPError as http_err:
+        logging.error(f"HTTP error occurred: {http_err}")
+        return {"error": f"HTTP error occurred: {http_err}"}, response.status_code
+    except requests.exceptions.RequestException as req_err:
+        logging.error(f"Request error occurred: {req_err}")
+        return {"error": f"Request error occurred: {req_err}"}, response.status_code
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
+        return {"error": f"An error occurred: {e}"}, 500
 
+
+# generate JSON web token
 def generate_token(user_id):
     expiration = datetime.now(timezone.utc) + timedelta(minutes=10)
     token = jwt.encode({
@@ -190,6 +211,7 @@ def generate_token(user_id):
     }, SECRET_KEY, algorithm='HS256')
     return token
 
+# validate JSON web token
 def verify_token(token):
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
@@ -199,6 +221,7 @@ def verify_token(token):
     except jwt.InvalidTokenError:
         return 'Invalid token'
 
+# download formatted JSON file and redirect to home page
 def download_file(chat_id, secret_key):
     try:
         conversion(chat_id)
@@ -251,6 +274,7 @@ def download_file(chat_id, secret_key):
     except Exception as e:
         return jsonify({"error": str(e)}), 400
 
+# send file to download_file
 @app.route('/send_file/<filename>', methods=['GET'])
 def send_file_route(filename):
     secret_key = request.headers.get('Authorization')
@@ -259,6 +283,7 @@ def send_file_route(filename):
     else:
         return send_from_directory(app.static_folder, 'unauthorized.html')
 
+# makes the permalink to the chat message if user clicks on 'Open in Slack'.
 @app.route('/permalink/<channel_id>/<message_ts>')
 def get_message_permalink(channel_id, message_ts):
     url = "https://slack.com/api/chat.getPermalink"
@@ -314,7 +339,7 @@ def conversion(chat_id):
             last_date = datetime.fromtimestamp(last_timestamp) + timedelta(hours=2)
         else:
             return {"message": "No available messages"}, 400
-
+        # if one day is selected, it generates a block for every hour to have oversight about when many messages were sent.
         if first_date - last_date < timedelta(hours=24):
             while last_date <= first_date:
                 date_str = first_date.date().isoformat()
@@ -338,31 +363,46 @@ def conversion(chat_id):
                 exportdata = result
 
         exportdata['days'].sort(key=lambda x: (x['date'], x['hour']))
-        with open(output_file_path, 'w') as file:
-            json.dump(exportdata, file, indent=4)
+       try:
+            with open(output_file_path, 'w') as file:
+                json.dump(exportdata, file, indent=4)
+            logging.info(f"Data successfully exported to {output_file_path}.")
+        except Exception as e:
+            logging.error(f"An error occurred while writing to file {output_file_path}: {e}")
+            return {"error": f"An error occurred while writing to file: {e}"}, 500
 
         return exportdata
 
 
 
-    def get_user_info(slack_token, user_id):
+    def get_user_info(user_id):
         url = "https://slack.com/api/users.info"
         headers = {
-            "Authorization": f"Bearer {slack_token}",
+            "Authorization": f"Bearer {SLACK_TOKEN}",
             "Content-Type": "application/json"
         }
         params = {
             "user": user_id
         }
 
-        response = requests.get(url, headers=headers, params=params)
-
-        if response.status_code == 200:
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+            
             response_data = response.json()
             if response_data.get("ok"):
-                return response_data["user"]["profile"]["real_name"]
+                user_real_name = response_data["user"]["profile"]["real_name"]
+                return user_real_name
             else:
-                raise Exception(f"Error fetching user info: {response_data.get('error')}")
+                error_message = response_data.get('error', 'Unknown error')
+                logging.error(f"Error fetching user info: {error_message}")
+                raise Exception(f"Error fetching user info: {error_message}")
+        except requests.exceptions.HTTPError as http_err:
+            logging.error(f"HTTP error occurred: {http_err}")
+        except requests.exceptions.RequestException as req_err:
+            logging.error(f"Error occurred: {req_err}")
+        except Exception as e:
+            logging.error(f"An error occurred: {e}")
 
 
     def replace_user_mentions(text, slack_token):
@@ -375,8 +415,8 @@ def conversion(chat_id):
             try:
                 with open(known_user_path, "r") as file:
                     known_users = json.load(file)
-            except (json.JSONDecodeError, FileNotFoundError):
-                known_users = {}
+            except Exception as e:
+                logging.error(f"An error occurred: {e}")
 
         replacements = {}
         for match in matches:
@@ -384,12 +424,15 @@ def conversion(chat_id):
             if user_id in known_users:
                 user_name = known_users[user_id]
             else:
-                user_name = get_user_info(slack_token, user_id)
+                user_name = get_user_info(user_id)
                 known_users[user_id] = user_name
             replacements[match.group(0)] = user_name
 
-        with open("known_users.json", "w") as file:
-            json.dump(known_users, file)
+        try:
+            with open("known_users.json", "w") as file:
+                json.dump(known_users, file)
+        except Exception as e:
+                logging.error(f"An error occurred: {e}")
 
         for old, new in replacements.items():
             text = text.replace(old, new)

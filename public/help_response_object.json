@@ -21,7 +21,7 @@
 						},
 						{
 							"type": "text",
-							"text": "\n\n\n"
+							"text": "\n\n\n\n"
 						}
 					]
 				},
@@ -59,7 +59,7 @@
 								},
 								{
 									"type": "text",
-									"text": "select date for one day summary",
+									"text": "select date for one day summary.",
 									"style": {
 										"italic": true
 									}
@@ -94,7 +94,36 @@
 								},
 								{
 									"type": "text",
-									"text": "summary of past week",
+									"text": "summary of past seven days.",
+									"style": {
+										"italic": true
+									}
+								}
+							]
+						},
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "/timeline [days]",
+									"style": {
+										"bold": true,
+										"italic": true,
+										"code": true
+									}
+								},
+								{
+									"type": "text",
+									"text": "\t\t\t-> ",
+									"style": {
+										"bold": true,
+										"italic": true
+									}
+								},
+								{
+									"type": "text",
+									"text": "summary of [days] ago till today.",
 									"style": {
 										"italic": true
 									}
@@ -147,13 +176,32 @@
 					"elements": [
 						{
 							"type": "text",
+							"text": "\n\n\n"
+						},
+						{
+							"type": "text",
+							"text": "Examples:",
+							"style": {
+								"bold": true
+							}
+						},
+						{
+							"type": "text",
 							"text": "\n\n"
 						},
 						{
 							"type": "text",
-							"text": "Example:",
+							"text": "/timeline 10",
 							"style": {
-								"bold": true
+								"italic": true,
+								"code": true
+							}
+						},
+						{
+							"type": "text",
+							"text": "\t\t\t\t\t| summary of the past 10 days.",
+							"style": {
+								"italic": true
 							}
 						},
 						{
@@ -170,7 +218,14 @@
 						},
 						{
 							"type": "text",
-							"text": "\n\n"
+							"text": "\t| summary of 6 days (01-01 to 07-01).",
+							"style": {
+								"italic": true
+							}
+						},
+						{
+							"type": "text",
+							"text": "\n\n\n"
 						},
 						{
 							"type": "text",
