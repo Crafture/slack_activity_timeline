@@ -12,74 +12,48 @@
     },
     "days": [
         {
-            "date": "2024-07-30",
-            "hour": "00:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "01:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "02:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "03:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "04:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "05:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "06:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "07:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "08:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "09:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
+            "date": "2024-07-29",
             "hour": "10:00",
-            "activities": []
+            "activities": [
+                {
+                    "timestamp": "10:45:02",
+                    "title": "[ Devlin ] : ' https://static.vecteezy.com/vite/assets/photo-masthead-..",
+                    "description": "[ Devlin ] : ' <a href=\"https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C07CC94NPFX/1722249902.845309\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp"
+                }
+            ]
         },
         {
-            "date": "2024-07-30",
-            "hour": "11:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "12:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "13:00",
-            "activities": []
+            "date": "2024-07-29",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:49:16",
+                    "title": "[ Devlin ] : ' This message contains interactive elements. '",
+                    "description": "[ Devlin ] : ' This message contains interactive elements. ' <br><br><a href=\"/permalink/C07CC94NPFX/1722268156.808909\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:47:25",
+                    "title": "[ Devlin ] : ' This message contains interactive elements. '",
+                    "description": "[ Devlin ] : ' This message contains interactive elements. ' <br><br><a href=\"/permalink/C07CC94NPFX/1722268045.059699\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:34:21",
+                    "title": "[ Devlin ] : ' Pick a date for the deadline., with interactive element..",
+                    "description": "[ Devlin ] : ' Pick a date for the deadline., with interactive elements ' <br><br><a href=\"/permalink/C07CC94NPFX/1722267261.149309\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
         },
         {
             "date": "2024-07-30",
@@ -104,49 +78,26 @@
             ]
         },
         {
-            "date": "2024-07-30",
-            "hour": "15:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "16:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "17:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "18:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "19:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "20:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "21:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "22:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-30",
-            "hour": "23:00",
-            "activities": []
+            "date": "2024-08-02",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:57:41",
+                    "title": "[ Jolien Eijsink ] : ' leuk '",
+                    "description": "[ Jolien Eijsink ] : ' leuk ' <br><br><a href=\"/permalink/C07CC94NPFX/1722589061.215409\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:56:34",
+                    "title": "[ Devlin ] : ' nog een test '",
+                    "description": "[ Devlin ] : ' nog een test ' <br><br><a href=\"/permalink/C07CC94NPFX/1722588994.790069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
         }
     ]
 }

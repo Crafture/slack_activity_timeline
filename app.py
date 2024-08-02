@@ -3,7 +3,6 @@ import json
 import re
 import os
 import aiohttp
-import asyncio
 from dotenv import load_dotenv
 import requests
 import os
@@ -24,37 +23,53 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
+def return_help():
+    try:
+        help_path = os.path.join(app.static_folder, "help_response_object.json")
+        with open(help_path, "r") as json_file:
+            data = json.load(json_file)
+        return jsonify(data), 200
+    except Exception as e:
+        print(e)
+        return jsonify({"error": str(e)}), 500
+
 @app.route('/handle_command', methods=['POST'])
 def return_datepicker():
     token = request.form.get('token')
     if token != VERIFICATION_TOKEN:
-        abort(403)
+        return jsonify({"error": "No verification token"}), 403
 
     text = request.form.get('text')
     user_id = request.form.get('user_id')
     channel_id = request.form.get('channel_id')
-    date_pattern = r'^\d{2}-\d{2}-\d{4}$'
+    date_pattern = r'^(0[1-9]|[12][0-9]|3[01])-(0[1-9]|1[0-2])-\d{4}$'
+    help_message = return_help()
     
     if text:
         if text == "help":
-            return "/timeline -> pick date"
+            return help_message
         if text == "week":
             dates = []
             start_date = datetime.today() + timedelta(days=1)
             dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
             dates.append(start_date.strftime("%d-%m-%Y"))
+        elif text.isdigit():
+            days = int(text)
+            start_date = datetime.today() - timedelta(days=days)
+            end_date = datetime.today()
+            dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
         else:
             dates = text.split(' ')
         if len(dates) == 2 and re.match(date_pattern, dates[0]) and re.match(date_pattern, dates[1]):
             oldest = convert_to_timestamp(dates[0])
             latest = convert_to_timestamp(dates[1])
             if oldest >= latest:
-                return jsonify({"text": "Last date has to be later than the oldest"})
+                return jsonify({"text": "Last date has to be later than the oldest"}), 200
             verification = generate_token(user_id)
             timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
             return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
         else:
-            return jsonify({"text": "Usage example: /timeline 21-01-2024 22-01-2024"})
+            return help_message
     initial_date = datetime.today() - timedelta(weeks=4)
     formatted_initial_date = initial_date.strftime("%Y-%m-%d")
     return_form = {
@@ -135,13 +150,15 @@ def get_history(channel):
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
     verification = request.args.get('verification')
+    if not verification:
+        return send_from_directory(app.static_folder, 'unauthorized.html')
     user_id = verify_token(verification)
     if user_id not in AUTHORIZED_USERS:
         return send_from_directory(app.static_folder, 'invalid_page.html')
 
     params = {
         'channel': channel,
-        'limit': 100,
+        'limit': 250,
     }
 
     if oldest:
@@ -353,9 +370,10 @@ def conversion(chat_id):
         matches = pattern.finditer(text)
 
         known_users = {}
-        if os.path.exists("known_users.json"):
+        known_user_path = os.path.join(app.static_folder, "known_users.json")
+        if os.path.exists(known_user_path):
             try:
-                with open("known_users.json", "r") as file:
+                with open(known_user_path, "r") as file:
                     known_users = json.load(file)
             except (json.JSONDecodeError, FileNotFoundError):
                 known_users = {}
@@ -395,7 +413,6 @@ def conversion(chat_id):
         return name
 
     def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
-        print("process_message")
         daynum = int(msgdate.date().strftime('%u'))
         color = f"#{palette[daynum]}"
         pattern = re.compile(r'<(https?://[^>]+)>')

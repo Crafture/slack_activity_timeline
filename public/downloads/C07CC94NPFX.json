@@ -1,8 +1,58 @@
 {
     "ok": true,
-    "latest": "1722383999.000000",
-    "oldest": "1722297600.000000",
+    "latest": "1722643200.000000",
+    "oldest": "1722038400.000000",
     "messages": [
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1722589061.215409",
+            "client_msg_id": "2dd6993c-9e2c-4bfd-bee0-7301f1d6d349",
+            "text": "leuk",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "eV+Ae",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "leuk"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1722588994.790069",
+            "client_msg_id": "b840f693-e084-4b16-b3a7-0daf929763df",
+            "text": "nog een test",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ZFZjG",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "nog een test"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "user": "U02PLSTMG90",
             "type": "message",
@@ -46,6 +96,151 @@
                                 {
                                     "type": "text",
                                     "text": "test"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1722268156.808909",
+            "text": "This message contains interactive elements.",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "actions",
+                    "block_id": "hhMux",
+                    "elements": [
+                        {
+                            "type": "datepicker",
+                            "action_id": "datepicker-action",
+                            "initial_date": "1990-04-28",
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a date",
+                                "emoji": true
+                            }
+                        },
+                        {
+                            "type": "datepicker",
+                            "action_id": "datepicker-action-2",
+                            "initial_date": "1990-04-28",
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a date",
+                                "emoji": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1722268045.059699",
+            "text": "This message contains interactive elements.",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "actions",
+                    "block_id": "lBdvG",
+                    "elements": [
+                        {
+                            "type": "datepicker",
+                            "action_id": "datepicker-action",
+                            "initial_date": "1990-04-28",
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a date",
+                                "emoji": true
+                            }
+                        },
+                        {
+                            "type": "datepicker",
+                            "action_id": "datepicker-action-2",
+                            "initial_date": "1990-04-28",
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a date",
+                                "emoji": true
+                            }
+                        },
+                        {
+                            "type": "channels_select",
+                            "action_id": "actionId-2",
+                            "initial_channel": "C12345678",
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a channel",
+                                "emoji": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1722267261.149309",
+            "text": "Pick a date for the deadline., with interactive elements",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "section",
+                    "block_id": "section1234",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "Pick a date for the deadline.",
+                        "verbatim": false
+                    },
+                    "accessory": {
+                        "type": "datepicker",
+                        "action_id": "datepicker123",
+                        "initial_date": "1990-04-28",
+                        "placeholder": {
+                            "type": "plain_text",
+                            "text": "Select a date",
+                            "emoji": true
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "user": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1722249902.845309",
+            "client_msg_id": "a5119ffe-2951-46da-b9f3-2f2f81fda8ba",
+            "text": "<https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp>",
+            "team": "T3WLSG6Q3",
+            "attachments": [
+                {
+                    "image_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
+                    "image_width": 750,
+                    "image_height": 864,
+                    "image_bytes": 26144,
+                    "from_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
+                    "id": 1,
+                    "original_url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
+                    "fallback": "750x864px image"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "5oizF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "link",
+                                    "url": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp"
                                 }
                             ]
                         }

@@ -1524,10 +1524,18 @@ const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-e
                 this.scrollTimeline((0, _scrollPositionType.ScrollPosition).End);
             } catch (error) {
                 console.error(`JSON parsing error [${error}]`);
-                const parseAlert = new (0, _alert.Alert)(`
-                    <h3 class="at-m-0">Oops!</h3>
-                    <p>Error parsing the <strong>JSON</strong> file - check the syntax</p>
-                `);
+				if (error.name === 'InvalidStateError') {
+					const parseAlert = new (0, _alert.Alert)(`
+						<h3 class="at-m-0">Oops!</h3>
+						<p>File too large, please try again with a shorter date range.</p>
+					`);
+				}
+				else {
+					const parseAlert = new (0, _alert.Alert)(`
+						<h3 class="at-m-0">Oops!</h3>
+						<p>Error parsing the <strong>JSON</strong> file - check the syntax</p>
+					`);
+				}
             }
         });
     }
@@ -1890,7 +1898,7 @@ const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-e
             // Render date-circle on Timeline
             this.renderCircle(ctx, x, y, (0, _constantsDefault.DefaultConstants).radius, this.style.fillColor, this.style.strokeColor);
             // Render date-label
-            const dateLabel = this.isToday(day.date) ? day.date.toLocaleDateString(this.meta.locale) + " (Today)" : day.date.toLocaleDateString(this.meta.locale) + " (" + this.getHour(day) + ")";
+            const dateLabel = day.date.toLocaleDateString(this.meta.locale) + " (" + this.getHour(day) + ")";
             ctx.fillStyle = this.style.textColor;
             ctx.fillText(dateLabel, x - ctx.measureText(dateLabel).width / 2, y + signAdjustment + (0, _constantsDefault.DefaultConstants).radius * 2 * sign);
         });

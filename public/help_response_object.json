@@ -1,0 +1,203 @@
+{
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "rich_text",
+			"elements": [
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "Here is how to use Timeline:",
+							"style": {
+								"bold": true
+							}
+						},
+						{
+							"type": "text",
+							"text": "\n\n\n"
+						}
+					]
+				},
+				{
+					"type": "rich_text_list",
+					"style": "bullet",
+					"indent": 0,
+					"border": 0,
+					"elements": [
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "/timeline",
+									"style": {
+										"bold": true,
+										"code": true
+									}
+								},
+								{
+									"type": "text",
+									"text": "\t\t\t\t\t"
+								},
+								{
+									"type": "text",
+									"text": "->",
+									"style": {
+										"bold": true
+									}
+								},
+								{
+									"type": "text",
+									"text": " "
+								},
+								{
+									"type": "text",
+									"text": "select date for one day summary",
+									"style": {
+										"italic": true
+									}
+								}
+							]
+						},
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "/timeline week",
+									"style": {
+										"bold": true,
+										"code": true
+									}
+								},
+								{
+									"type": "text",
+									"text": "\t\t\t\t"
+								},
+								{
+									"type": "text",
+									"text": "->",
+									"style": {
+										"bold": true
+									}
+								},
+								{
+									"type": "text",
+									"text": " "
+								},
+								{
+									"type": "text",
+									"text": "summary of past week",
+									"style": {
+										"italic": true
+									}
+								}
+							]
+						},
+						{
+							"type": "rich_text_section",
+							"elements": [
+								{
+									"type": "text",
+									"text": "/timeline [oldest] [latest]",
+									"style": {
+										"bold": true,
+										"code": true
+									}
+								},
+								{
+									"type": "text",
+									"text": "\t"
+								},
+								{
+									"type": "text",
+									"text": "->",
+									"style": {
+										"bold": true
+									}
+								},
+								{
+									"type": "text",
+									"text": " "
+								},
+								{
+									"type": "text",
+									"text": "summary between start and end",
+									"style": {
+										"italic": true
+									}
+								},
+								{
+									"type": "text",
+									"text": " date."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rich_text_section",
+					"elements": [
+						{
+							"type": "text",
+							"text": "\n\n"
+						},
+						{
+							"type": "text",
+							"text": "Example:",
+							"style": {
+								"bold": true
+							}
+						},
+						{
+							"type": "text",
+							"text": "\n"
+						},
+						{
+							"type": "text",
+							"text": "/timeline 01-01-2024 07-01-2024",
+							"style": {
+								"italic": true,
+								"code": true
+							}
+						},
+						{
+							"type": "text",
+							"text": "\n\n"
+						},
+						{
+							"type": "text",
+							"text": "Note: You can also ",
+							"style": {
+								"italic": true
+							}
+						},
+						{
+							"type": "link",
+							"url": "https://slack-activity-timeline.crafture.com/",
+							"text": "manually upload",
+							"style": {
+								"bold": true,
+								"italic": true
+							}
+						},
+						{
+							"type": "text",
+							"text": " pre-formatted files. ",
+							"style": {
+								"italic": true
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
