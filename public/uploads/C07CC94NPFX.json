@@ -12,188 +12,139 @@
     },
     "days": [
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "00:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "01:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "02:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "03:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "04:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "05:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "06:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "07:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "08:00",
-            "activities": [
-                {
-                    "timestamp": "08:09:59",
-                    "title": "[ Timeline ] : ' test '",
-                    "description": "[ Timeline ] : ' test ' <br><br><a href=\"/permalink/C07CC94NPFX/1721635799.415159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                }
-            ]
+            "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "09:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "10:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "11:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "12:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "13:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "14:00",
-            "activities": []
-        },
-        {
-            "date": "2024-07-22",
-            "hour": "15:00",
             "activities": [
                 {
-                    "timestamp": "15:51:17",
-                    "title": "[ Devlin ] : ' plaatjes '",
-                    "description": "[ Devlin ] : ' plaatjes ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663477.112219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#57ebff",
-                    "strokeColor": "#000000",
-                    "imgUrl": "https://files.slack.com/files-pri/T3WLSG6Q3-F07D2PEUD1D/logo_livecrowd-photoroom.png"
-                },
-                {
-                    "timestamp": "15:50:50",
-                    "title": "[ Devlin ] : ' ook '",
-                    "description": "[ Devlin ] : ' ook ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663450.112849\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
+                    "timestamp": "14:03:14",
+                    "title": "[ Jolien Eijsink ] : ' hoi '",
+                    "description": "[ Jolien Eijsink ] : ' hoi ' <br><br><a href=\"/permalink/C07CC94NPFX/1722348194.537599\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 },
                 {
-                    "timestamp": "15:50:48",
-                    "title": "[ Devlin ] : ' en '",
-                    "description": "[ Devlin ] : ' en ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663448.154519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "15:50:43",
-                    "title": "[ Devlin ] : ' testen '",
-                    "description": "[ Devlin ] : ' testen ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663443.452199\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "15:50:41",
-                    "title": "[ Devlin ] : ' te '",
-                    "description": "[ Devlin ] : ' te ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663441.468199\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "15:50:40",
-                    "title": "[ Devlin ] : ' om '",
-                    "description": "[ Devlin ] : ' om ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663440.346939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
-                    "strokeColor": "#C27B25",
-                    "imgUrl": ""
-                },
-                {
-                    "timestamp": "15:50:38",
-                    "title": "[ Devlin ] : ' berichten '",
-                    "description": "[ Devlin ] : ' berichten ' <br><br><a href=\"/permalink/C07CC94NPFX/1721663438.668149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
-                    "fillColor": "#FF0000",
+                    "timestamp": "14:02:41",
+                    "title": "[ Devlin ] : ' test '",
+                    "description": "[ Devlin ] : ' test ' <br><br><a href=\"/permalink/C07CC94NPFX/1722348161.854219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 }
             ]
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
+            "hour": "15:00",
+            "activities": []
+        },
+        {
+            "date": "2024-07-30",
             "hour": "16:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "17:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "18:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "19:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "20:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "21:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "22:00",
             "activities": []
         },
         {
-            "date": "2024-07-22",
+            "date": "2024-07-30",
             "hour": "23:00",
             "activities": []
         }

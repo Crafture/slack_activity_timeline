@@ -44,16 +44,16 @@ def return_datepicker():
             dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
             dates.append(start_date.strftime("%d-%m-%Y"))
         else:
-        #     dates = text.split(' ')
-        # if len(dates) == 2 and re.match(date_pattern, dates[0]) and re.match(date_pattern, dates[1]):
-        #     oldest = convert_to_timestamp(dates[0])
-        #     latest = convert_to_timestamp(dates[1])
-        #     if oldest >= latest:
-        #         return jsonify({"text": "Last date has to be later than the oldest"})
-        #     verification = generate_token(user_id)
-        #     timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
-        #     return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
-        # else:
+            dates = text.split(' ')
+        if len(dates) == 2 and re.match(date_pattern, dates[0]) and re.match(date_pattern, dates[1]):
+            oldest = convert_to_timestamp(dates[0])
+            latest = convert_to_timestamp(dates[1])
+            if oldest >= latest:
+                return jsonify({"text": "Last date has to be later than the oldest"})
+            verification = generate_token(user_id)
+            timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
+            return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+        else:
             return jsonify({"text": "Usage example: /timeline 21-01-2024 22-01-2024"})
     initial_date = datetime.today() - timedelta(weeks=4)
     formatted_initial_date = initial_date.strftime("%Y-%m-%d")
@@ -293,22 +293,32 @@ def conversion(chat_id):
         if array:
             first_timestamp = float(array[0]['ts'])
             last_timestamp = float(array[-1]['ts'])
-            first_date = datetime.fromtimestamp(first_timestamp)
-            last_date = datetime.fromtimestamp(last_timestamp)
+            first_date = datetime.fromtimestamp(first_timestamp) + timedelta(hours=2)
+            last_date = datetime.fromtimestamp(last_timestamp) + timedelta(hours=2)
         else:
             return {"message": "No available messages"}, 400
 
-        while last_date <= first_date:
-            print('first_date: ', first_date, ' <= ', 'last_date: ', last_date)
-            date_str = first_date.date().isoformat()
-            for hour in range(24):
-                hour_str = f"{hour:02d}:00"
-                exportdata['days'].append({
-                    'date': date_str,
-                    'hour': hour_str,
-                    'activities': []
-                })
-            last_date += timedelta(days=1)
+		if first_date - last_date > timedelta(hours=24):
+			while last_date <= first_date:
+				date_str = first_date.date().isoformat()
+				for hour in range(24):
+					hour_str = f"{hour:02d}:00"
+					exportdata['days'].append({
+						'date': date_str,
+						'hour': hour_str,
+						'activities': []
+					})
+
+		else:
+			while last_date <= first_date:
+				date_str = last_date.date().isoformat()
+				hour_str = last_date.strftime('%H:00')
+				exportdata['days'].append({
+					'date': date_str,
+					'hour': hour_str,
+					'activities': []
+				})
+				last_date += timedelta(hours=1)
 
         for message in array:
             timestamp = float(message.get('ts'))
@@ -396,9 +406,6 @@ def conversion(chat_id):
 
     def process_message(msgdate, message, date_str, hour_str, slack_token, channel_id):
         print("process_message")
-        palette = {
-            1: "FF0000", 2: "00FF00", 3: "0000FF", 4: "FFFF00", 5: "FF00FF", 6: "00FFFF", 7: "F0F0F0"
-        }
         daynum = int(msgdate.date().strftime('%u'))
         color = f"#{palette[daynum]}"
         pattern = re.compile(r'<(https?://[^>]+)>')
