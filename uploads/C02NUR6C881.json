@@ -1,0 +1,907 @@
+{
+    "meta": {
+        "version": "1.4.0",
+        "locale": "en-nl"
+    },
+    "style": {
+        "textColor": "#000000",
+        "timelineStrokeColor": "#24ff6d",
+        "strokeColor": "#353C4B",
+        "backgroundColor": "#F7F6EB",
+        "fillColor": "#F2E7DC"
+    },
+    "days": [
+        {
+            "date": "2024-04-29",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:31:06",
+                    "title": "[ Arnold ] : ' <!channel> Boodschappen van AH komen vandaag tussen 13:..",
+                    "description": "[ Arnold ] : ' <!channel> Boodschappen van AH komen vandaag tussen 13:30 en 14:30 (o.a. volkoren bollen, fruiten eieren). Crisp komt tussen 12:200 en 12:20 (o.a. volkoren boord, wit brood en witte bollen) ' <br><br><a href=\"/permalink/C02NUR6C881/1714383066.369799\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-02",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:32:01",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga zo weer boodschappen bestellen, zijn e..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga zo weer boodschappen bestellen, zijn er verzoeken? ' <br><br><a href=\"/permalink/C02NUR6C881/1714649521.192169\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:49:32",
+                    "title": "[ Femke ] : ' Komkommer '",
+                    "description": "[ Femke ] : ' Komkommer ' <br><br><a href=\"/permalink/C02NUR6C881/1714650572.717679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-07",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:32:32",
+                    "title": "[ Arnold ] : ' Vaatwas tabletten via kruidvat besteld '",
+                    "description": "[ Arnold ] : ' Vaatwas tabletten via kruidvat besteld ' <br><br><a href=\"/permalink/C02NUR6C881/1715092352.658789\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-10",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:54:57",
+                    "title": "[ Arwind Gajadien ] : ' Hidde wil jij even kijknen '",
+                    "description": "[ Arwind Gajadien ] : ' Hidde wil jij even kijknen ' <br><br><a href=\"/permalink/C02NUR6C881/1715338497.940849\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:54:41",
+                    "title": "[ Arnold ] : ' <!channel> Ik heb een boodschappenlijst gemaakt, wilt i..",
+                    "description": "[ Arnold ] : ' <!channel> Ik heb een boodschappenlijst gemaakt, wilt iemand vandaag na de lunch de gele kolom invullen, dan zal ik boodschappen voor de komende week bestellen.\n<a href=\"https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1715338481.872649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-10",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:31:44",
+                    "title": "[ Hidde ] : ' Arnold ik heb de gele kolom ingevuld, dus je kan boodsch..",
+                    "description": "[ Hidde ] : ' Arnold ik heb de gele kolom ingevuld, dus je kan boodschappen bestellen:grinning: ' <br><br><a href=\"/permalink/C02NUR6C881/1715344304.479519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-10",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:53:05",
+                    "title": "[ Jolien Eijsink ] : ' blikjes ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' blikjes ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1715349185.587589\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-10",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:28:11",
+                    "title": "[ Arwind Gajadien ] : ' Arnold Noodles '",
+                    "description": "[ Arwind Gajadien ] : ' Arnold Noodles ' <br><br><a href=\"/permalink/C02NUR6C881/1715354891.722769\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-10",
+            "hour": "19:00",
+            "activities": [
+                {
+                    "timestamp": "19:13:18",
+                    "title": "[ Arnold ] : ' Jolien Eijsink Ze zijn tijdelijk niet meer leverbaar. I..",
+                    "description": "[ Arnold ] : ' Jolien Eijsink Ze zijn tijdelijk niet meer leverbaar. Ik drink het zelf niet, als ik een alternatief ga uitzoeken, zie ik een kleine kans van goed slagen. Tot morgen 12:00 kan er nog iets aan de bestelling toegevoegd worden. Wil jij kijken voor een alternatief? ' <br><br><a href=\"/permalink/C02NUR6C881/1715368398.249739\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:13:40",
+                    "title": "[ Arnold ] : ' https://www.ah.nl/mijnlijst '",
+                    "description": "[ Arnold ] : ' <a href=\"https://www.ah.nl/mijnlijst\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1715368420.433269\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:21:16",
+                    "title": "[ Jolien Eijsink ] : ' Deze ook niet? '",
+                    "description": "[ Jolien Eijsink ] : ' Deze ook niet? ' <br><br><a href=\"/permalink/C02NUR6C881/1715368876.923289\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:25:36",
+                    "title": "[ Arnold ] : ' Yep, die wel. Ik doe van beide 2 '",
+                    "description": "[ Arnold ] : ' Yep, die wel. Ik doe van beide 2 ' <br><br><a href=\"/permalink/C02NUR6C881/1715369136.127829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:26:15",
+                    "title": "[ Jolien Eijsink ] : ' Oh nee alleen die original is goed hoor, thanks..",
+                    "description": "[ Jolien Eijsink ] : ' Oh nee alleen die original is goed hoor, thanks! ' <br><br><a href=\"/permalink/C02NUR6C881/1715369175.776969\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "19:26:35",
+                    "title": "[ Arnold ] : ' Ok, regel ik '",
+                    "description": "[ Arnold ] : ' Ok, regel ik ' <br><br><a href=\"/permalink/C02NUR6C881/1715369195.637259\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:59:05",
+                    "title": "[ Arnold ] : ' <!channel> Wilt iemand na de lunch onze voorraad weer c..",
+                    "description": "[ Arnold ] : ' <!channel> Wilt iemand na de lunch onze voorraad weer checken? Dan zal ik boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met onze voorraad.\n<a href=\"https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1715943545.601249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:16:13",
+                    "title": "[ Stallon ] : ' Hidde :heart: '",
+                    "description": "[ Stallon ] : ' Hidde :heart: ' <br><br><a href=\"/permalink/C02NUR6C881/1715944573.866229\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:09:41",
+                    "title": "[ Hidde ] : ' Arnold ik heb de lijst ingevuld! '",
+                    "description": "[ Hidde ] : ' Arnold ik heb de lijst ingevuld! ' <br><br><a href=\"/permalink/C02NUR6C881/1715947781.871839\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:18:29",
+                    "title": "[ Arnold ] : ' Thx, ga ik de bestellingen regelen '",
+                    "description": "[ Arnold ] : ' Thx, ga ik de bestellingen regelen ' <br><br><a href=\"/permalink/C02NUR6C881/1715959109.808809\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-17",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:26:22",
+                    "title": "[ Arnold ] : ' Papieren handdoekjes voor de toilet moet bij de Macro g..",
+                    "description": "[ Arnold ] : ' Papieren handdoekjes voor de toilet moet bij de Macro gehaald worden. ' <br><br><a href=\"/permalink/C02NUR6C881/1715966782.858239\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-05-28",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:38:12",
+                    "title": "[ Arnold ] : ' Propia Handdoek Z-vouw 2 laags 24x23 '",
+                    "description": "[ Arnold ] : ' Propia Handdoek Z-vouw 2 laags 24x23 ' <br><br><a href=\"/permalink/C02NUR6C881/1716885492.945619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-06",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:23:38",
+                    "title": "[ Arnold ] : ' <!channel> Wilt iemand onze voorraad checken? Dan zal i..",
+                    "description": "[ Arnold ] : ' <!channel> Wilt iemand onze voorraad checken? Dan zal ik later de boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met wat we nog hebben. <a href=\"https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1717673018.578319\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:58:09",
+                    "title": "[ Femke ] : ' Ga ik straks doen! '",
+                    "description": "[ Femke ] : ' Ga ik straks doen! ' <br><br><a href=\"/permalink/C02NUR6C881/1717675089.910779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:59:01",
+                    "title": "[ Arnold ] : ' Alvast bedankt '",
+                    "description": "[ Arnold ] : ' Alvast bedankt ' <br><br><a href=\"/permalink/C02NUR6C881/1717675141.691839\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-06",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:18:31",
+                    "title": "[ Femke ] : ' Arnold sorry beetje vertraging maar hij is ingevuld '",
+                    "description": "[ Femke ] : ' Arnold sorry beetje vertraging maar hij is ingevuld ' <br><br><a href=\"/permalink/C02NUR6C881/1717683511.507399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-07",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:31:10",
+                    "title": "[ Arnold ] : ' Geen probleem, de boodschappen voor volgende week zijn ..",
+                    "description": "[ Arnold ] : ' Geen probleem, de boodschappen voor volgende week zijn zojuist besteld. ' <br><br><a href=\"/permalink/C02NUR6C881/1717763470.027029\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-10",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:50:59",
+                    "title": "[ Arnold ] : ' *Lavazza koffiebonen:* AH heeft ze voor \u20ac 16,30 per kil..",
+                    "description": "[ Arnold ] : ' *Lavazza koffiebonen:* AH heeft ze voor \u20ac 16,30 per kilo. KoffieCasa (kvk 76877388) heeft ze voor \u20ac 11.69 per kilo, er komt dan 5 \u00e1 6 euro verzendkosten bij, afhankelijk van welke verzender we kiezen.\n\n<a href=\"https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&amp;gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE|https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%[\u2026]bE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1718016659.040009\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://www.koffiecasa.nl/wp-content/uploads/Lavazza-Qualita-Rossa-1.png"
+                }
+            ]
+        },
+        {
+            "date": "2024-06-25",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:22:01",
+                    "title": "[ Arwind Gajadien ] : ' :eyes: '",
+                    "description": "[ Arwind Gajadien ] : ' :eyes: ' <br><br><a href=\"/permalink/C02NUR6C881/1719310921.511069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:21:42",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' https://www.amazon.com/NERF-NER0225-Elite-Dart..",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' <a href=\"https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1719310902.461139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-06-28",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:46:33",
+                    "title": "[ Jolien Eijsink ] : ' <!channel> heeft toevallig iemand al boodschapp..",
+                    "description": "[ Jolien Eijsink ] : ' <!channel> heeft toevallig iemand al boodschappen besteld? anders doe ik het, maar niet dat we een dubbele bestelling hebben ofzo ' <br><br><a href=\"/permalink/C02NUR6C881/1719567993.625649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-05",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:51:28",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Noedels?  ' <br><br><a href=\"/permalink/C02NUR6C881/1720176688.237499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:11:07",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Radler!! '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Radler!! ' <br><br><a href=\"/permalink/C02NUR6C881/1720174267.925949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:10:31",
+                    "title": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: '",
+                    "description": "[ Jarn\u00e9 ] : ' Perenijsjes :bug: ' <br><br><a href=\"/permalink/C02NUR6C881/1720174231.180779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:09:40",
+                    "title": "[ Arwind Gajadien ] : ' Welke ijsjesssssss '",
+                    "description": "[ Arwind Gajadien ] : ' Welke ijsjesssssss ' <br><br><a href=\"/permalink/C02NUR6C881/1720174180.210369\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:09:24",
+                    "title": "[ Jarn\u00e9 ] : ' Een bulk ijsjes '",
+                    "description": "[ Jarn\u00e9 ] : ' Een bulk ijsjes ' <br><br><a href=\"/permalink/C02NUR6C881/1720174164.552399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:09:15",
+                    "title": "[ Arwind Gajadien ] : ' flessen water '",
+                    "description": "[ Arwind Gajadien ] : ' flessen water ' <br><br><a href=\"/permalink/C02NUR6C881/1720174155.664079\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:09:08",
+                    "title": "[ Arwind Gajadien ] : ' dingen die we in bulk kunnen halen '",
+                    "description": "[ Arwind Gajadien ] : ' dingen die we in bulk kunnen halen ' <br><br><a href=\"/permalink/C02NUR6C881/1720174148.605959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:59",
+                    "title": "[ Arwind Gajadien ] : ' be more specific '",
+                    "description": "[ Arwind Gajadien ] : ' be more specific ' <br><br><a href=\"/permalink/C02NUR6C881/1720174139.927249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:39",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Vlokken '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Vlokken ' <br><br><a href=\"/permalink/C02NUR6C881/1720174119.781869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:29",
+                    "title": "[ Arwind Gajadien ] : ' blikjes Jolien Eijsink '",
+                    "description": "[ Arwind Gajadien ] : ' blikjes Jolien Eijsink ' <br><br><a href=\"/permalink/C02NUR6C881/1720174109.441299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:26",
+                    "title": "[ Arwind Gajadien ] : ' cola zero '",
+                    "description": "[ Arwind Gajadien ] : ' cola zero ' <br><br><a href=\"/permalink/C02NUR6C881/1720174106.040139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:21",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1720174101.727649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:17",
+                    "title": "[ Arwind Gajadien ] : ' cola flesjes en blikjes '",
+                    "description": "[ Arwind Gajadien ] : ' cola flesjes en blikjes ' <br><br><a href=\"/permalink/C02NUR6C881/1720174097.957479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:04",
+                    "title": "[ Arwind Gajadien ] : ' Sligro shit '",
+                    "description": "[ Arwind Gajadien ] : ' Sligro shit ' <br><br><a href=\"/permalink/C02NUR6C881/1720174084.357049\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:00",
+                    "title": "[ Arwind Gajadien ] : ' <!channel> '",
+                    "description": "[ Arwind Gajadien ] : ' <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1720174080.113859\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-05",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:33:20",
+                    "title": "[ Carido Steinbach ] : ' Carido Steinbach has joined the channel '",
+                    "description": "[ Carido Steinbach ] : ' Carido Steinbach has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1720179200.336109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:33:17",
+                    "title": "[ Arwind Gajadien ] : ' Kawish Gajadien Carido Steinbach '",
+                    "description": "[ Arwind Gajadien ] : ' Kawish Gajadien Carido Steinbach ' <br><br><a href=\"/permalink/C02NUR6C881/1720179197.906829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:33:33",
+                    "title": "[ Arwind Gajadien ] : ' Carido Steinbach '",
+                    "description": "[ Arwind Gajadien ] : ' Carido Steinbach ' <br><br><a href=\"/permalink/C02NUR6C881/1720179213.580479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-08",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:30:57",
+                    "title": "[ Jolien Eijsink ] : ' Femke kan jij zien hoe laat de boodschappen kom..",
+                    "description": "[ Jolien Eijsink ] : ' Femke kan jij zien hoe laat de boodschappen komen? ' <br><br><a href=\"/permalink/C02NUR6C881/1720434657.762719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:34:02",
+                    "title": "[ Femke ] : ' Uhmm nee heb nog geen inlogs ofzo  '",
+                    "description": "[ Femke ] : ' Uhmm nee heb nog geen inlogs ofzo  ' <br><br><a href=\"/permalink/C02NUR6C881/1720434842.431429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-11",
+            "hour": "16:00",
+            "activities": [
+                {
+                    "timestamp": "16:54:58",
+                    "title": "[ Femke ] : ' <!channel> Iemand nog verzoekjes? :shopping_trolley: '",
+                    "description": "[ Femke ] : ' <!channel> Iemand nog verzoekjes? :shopping_trolley: ' <br><br><a href=\"/permalink/C02NUR6C881/1720716898.416389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:55:19",
+                    "title": "[ Joy ] : ' sterrenmunt thee '",
+                    "description": "[ Joy ] : ' sterrenmunt thee ' <br><br><a href=\"/permalink/C02NUR6C881/1720716919.603669\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:57:11",
+                    "title": "[ Huey Arends ] : ' That Don\u2019t Impress Me Much - Shania Twain '",
+                    "description": "[ Huey Arends ] : ' That Don\u2019t Impress Me Much - Shania Twain ' <br><br><a href=\"/permalink/C02NUR6C881/1720717031.168679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-11",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:34:02",
+                    "title": "[ Pim Vrakking ] : ' Limonade siroop (karvan cevitam aardbei suikervri..",
+                    "description": "[ Pim Vrakking ] : ' Limonade siroop (karvan cevitam aardbei suikervrij?) ' <br><br><a href=\"/permalink/C02NUR6C881/1720719242.462949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:34:11",
+                    "title": "[ Pim Vrakking ] : ' Noedels (yumyum kip) '",
+                    "description": "[ Pim Vrakking ] : ' Noedels (yumyum kip) ' <br><br><a href=\"/permalink/C02NUR6C881/1720719251.590249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:34:37",
+                    "title": "[ Pim Vrakking ] : ' Genoeg speculaas :clown_face:  '",
+                    "description": "[ Pim Vrakking ] : ' Genoeg speculaas :clown_face:  ' <br><br><a href=\"/permalink/C02NUR6C881/1720719277.345319\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:36:06",
+                    "title": "[ Femke ] : ' Pim Vrakking je bent net te laat sorry :face_with_open_e..",
+                    "description": "[ Femke ] : ' Pim Vrakking je bent net te laat sorry :face_with_open_eyes_and_hand_over_mouth: volgende keer bestel ik het  ' <br><br><a href=\"/permalink/C02NUR6C881/1720719366.668839\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-11",
+            "hour": "21:00",
+            "activities": [
+                {
+                    "timestamp": "21:49:43",
+                    "title": "[ Pim Vrakking ] : ' Is het voor maandag? Want dan kun je nog gewoon t..",
+                    "description": "[ Pim Vrakking ] : ' Is het voor maandag? Want dan kun je nog gewoon toevoegen ' <br><br><a href=\"/permalink/C02NUR6C881/1720734583.600779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-12",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:18:58",
+                    "title": "[ Fetch Usernames ] : ' Fetch Usernames has joined the channel '",
+                    "description": "[ Fetch Usernames ] : ' Fetch Usernames has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1720790338.696959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-12",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:48:08",
+                    "title": "[ Timeline ] : ' Timeline has joined the channel '",
+                    "description": "[ Timeline ] : ' Timeline has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1720795688.505679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-15",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:02:07",
+                    "title": "[ Arwind Gajadien ] : ' Alles is x2 binnengekomen  '",
+                    "description": "[ Arwind Gajadien ] : ' Alles is x2 binnengekomen  ' <br><br><a href=\"/permalink/C02NUR6C881/1721041327.105559\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:01:57",
+                    "title": "[ Arwind Gajadien ] : ' Femke heb je toevallig dubbel besteld? '",
+                    "description": "[ Arwind Gajadien ] : ' Femke heb je toevallig dubbel besteld? ' <br><br><a href=\"/permalink/C02NUR6C881/1721041317.452929\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:09:23",
+                    "title": "[ Femke ] : ' Voor zover ik kan zien niet, is bij ah en crisp allebei ..",
+                    "description": "[ Femke ] : ' Voor zover ik kan zien niet, is bij ah en crisp allebei gewoon 1 bestelling ' <br><br><a href=\"/permalink/C02NUR6C881/1721041763.468499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-15",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:17:54",
+                    "title": "[ Arwind Gajadien ] : ' Er is heel veel brood '",
+                    "description": "[ Arwind Gajadien ] : ' Er is heel veel brood ' <br><br><a href=\"/permalink/C02NUR6C881/1721053074.256289\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:20:22",
+                    "title": "[ Femke ] : ' Ik heb 3 x volkoren bolletjes, 5 x witte bolletjes, 5 x ..",
+                    "description": "[ Femke ] : ' Ik heb 3 x volkoren bolletjes, 5 x witte bolletjes, 5 x half wit en 5 x half bruin besteld  ' <br><br><a href=\"/permalink/C02NUR6C881/1721053222.522869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-22",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:52:17",
+                    "title": "[ Stallon ] : ' <!channel> Nog boodschappen wensen? '",
+                    "description": "[ Stallon ] : ' <!channel> Nog boodschappen wensen? ' <br><br><a href=\"/permalink/C02NUR6C881/1721649137.097899\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:52:48",
+                    "title": "[ Pim Vrakking ] : ' Limonade siroop (karvan cevitam aardbij 0%_ '",
+                    "description": "[ Pim Vrakking ] : ' Limonade siroop (karvan cevitam aardbij 0%_ ' <br><br><a href=\"/permalink/C02NUR6C881/1721649168.342929\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:52:54",
+                    "title": "[ Pim Vrakking ] : ' Yum yum noodles kip '",
+                    "description": "[ Pim Vrakking ] : ' Yum yum noodles kip ' <br><br><a href=\"/permalink/C02NUR6C881/1721649174.743209\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:53:08",
+                    "title": "[ Jarn\u00e9 ] : ' Vlokken met funnies '",
+                    "description": "[ Jarn\u00e9 ] : ' Vlokken met funnies ' <br><br><a href=\"/permalink/C02NUR6C881/1721649188.968379\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:55:24",
+                    "title": "[ Femke ] : ' Pim Vrakking Stallon die limonade is er al '",
+                    "description": "[ Femke ] : ' Pim Vrakking Stallon die limonade is er al ' <br><br><a href=\"/permalink/C02NUR6C881/1721649324.421129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:56:12",
+                    "title": "[ Pim Vrakking ] : ' Waar dan? Staat niet in de normale voorraad plekk..",
+                    "description": "[ Pim Vrakking ] : ' Waar dan? Staat niet in de normale voorraad plekken ' <br><br><a href=\"/permalink/C02NUR6C881/1721649372.286659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:56:16",
+                    "title": "[ Pim Vrakking ] : ' (of ik ben blind) '",
+                    "description": "[ Pim Vrakking ] : ' (of ik ben blind) ' <br><br><a href=\"/permalink/C02NUR6C881/1721649376.036829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:57:02",
+                    "title": "[ Pim Vrakking ] : ' _Ik ben blind_ '",
+                    "description": "[ Pim Vrakking ] : ' _Ik ben blind_ ' <br><br><a href=\"/permalink/C02NUR6C881/1721649422.025429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:58:51",
+                    "title": "[ Femke ] : ' In de koelkast haha '",
+                    "description": "[ Femke ] : ' In de koelkast haha ' <br><br><a href=\"/permalink/C02NUR6C881/1721649531.626709\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:00:18",
+                    "title": "[ Jolien Eijsink ] : ' Femke had jij boodschappen besteld? of aan iema..",
+                    "description": "[ Jolien Eijsink ] : ' Femke had jij boodschappen besteld? of aan iemand overgedragen vanwege je vakantie? ' <br><br><a href=\"/permalink/C02NUR6C881/1721646018.420429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:07:57",
+                    "title": "[ Femke ] : ' Ohhh nee shit helemaal vergeten\u2026 Jolien Eijsink  '",
+                    "description": "[ Femke ] : ' Ohhh nee shit helemaal vergeten\u2026 Jolien Eijsink  ' <br><br><a href=\"/permalink/C02NUR6C881/1721646477.377349\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:47:46",
+                    "title": "[ Jolien Eijsink ] : ' Joy of Stallon kunnen jullie het even overnemen..",
+                    "description": "[ Jolien Eijsink ] : ' Joy of Stallon kunnen jullie het even overnemen deze week? ' <br><br><a href=\"/permalink/C02NUR6C881/1721648866.945149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:48:22",
+                    "title": "[ Stallon ] : ' Yes, ik bestel gelijk wel even! '",
+                    "description": "[ Stallon ] : ' Yes, ik bestel gelijk wel even! ' <br><br><a href=\"/permalink/C02NUR6C881/1721648902.879219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:49:00",
+                    "title": "[ Stallon ] : ' Jolien Eijsink Heb jij Crisp log in? '",
+                    "description": "[ Stallon ] : ' Jolien Eijsink Heb jij Crisp log in? ' <br><br><a href=\"/permalink/C02NUR6C881/1721648940.047549\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:52:37",
+                    "title": "[ Stallon ] : ' Femke kan jij log in van Crisp sturen? '",
+                    "description": "[ Stallon ] : ' Femke kan jij log in van Crisp sturen? ' <br><br><a href=\"/permalink/C02NUR6C881/1721649157.423389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:54:52",
+                    "title": "[ Femke ] : ' Stallon moet je ff aan arwind vragen '",
+                    "description": "[ Femke ] : ' Stallon moet je ff aan arwind vragen ' <br><br><a href=\"/permalink/C02NUR6C881/1721649292.416879\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-22",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:02:32",
+                    "title": "[ Stallon ] : ' Arwind Gajadien kan je log in van Crisp delen? '",
+                    "description": "[ Stallon ] : ' Arwind Gajadien kan je log in van Crisp delen? ' <br><br><a href=\"/permalink/C02NUR6C881/1721649752.550499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:11:25",
+                    "title": "[ Jolien Eijsink ] : ' Stallon als je bestelt en inlogt met <mailto:bi..",
+                    "description": "[ Jolien Eijsink ] : ' Stallon als je bestelt en inlogt met <mailto:billing@crafture.com|billing@crafture.com> krijgt Arwind Gajadien een code en die deelt hij dan met je ' <br><br><a href=\"/permalink/C02NUR6C881/1721650285.295939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:14:05",
+                    "title": "[ Stallon ] : ' Code verstuurd Arwind Gajadien '",
+                    "description": "[ Stallon ] : ' Code verstuurd Arwind Gajadien ' <br><br><a href=\"/permalink/C02NUR6C881/1721650445.853179\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-07-30",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:44:25",
+                    "title": "[ Sandra ] : ' Sandra has joined the channel '",
+                    "description": "[ Sandra ] : ' Sandra has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1722329065.161289\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-02",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:45:00",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Toiletrollen &amp; curry  '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Toiletrollen &amp; curry  ' <br><br><a href=\"/permalink/C02NUR6C881/1722595500.554159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        }
+    ]
+}

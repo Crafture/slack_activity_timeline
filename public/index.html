@@ -3028,12 +3028,6 @@ class Menu {
                 title: "GitHub (G)",
                 callback: this.timeline.menuOnGitHub.bind(this.timeline),
                 svg: (0, _icons.SVGPaths).About
-            },
-            {
-                title: "Toggle Menu (M)",
-                callback: this.toggleMenuStrip.bind(this),
-                svg: (0, _icons.SVGPaths).Menu,
-                className: "at-menu__item-toggle"
             }
         ].forEach((menuItem)=>{
             this.addMenuItem(menuItem.title, menuItem.callback, menuItem.svg, menuItem.className);

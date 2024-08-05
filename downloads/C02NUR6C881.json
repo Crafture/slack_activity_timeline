@@ -1,0 +1,3081 @@
+{
+    "ok": true,
+    "latest": "1722902400.000000",
+    "oldest": "1714176000.000000",
+    "messages": [
+        {
+            "user": "U0675M5P1UG",
+            "type": "message",
+            "ts": "1722595500.554159",
+            "client_msg_id": "AA02E117-1FB4-4815-82CA-1B3AFFAE6A47",
+            "text": "Toiletrollen &amp; curry ",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "TOyei",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Toiletrollen & curry "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U06DFUFSRG8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U07FB8KCVME",
+            "text": "<@U07FB8KCVME> has joined the channel",
+            "inviter": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1722329065.161289"
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721649137.097899",
+            "client_msg_id": "4bb975a2-3263-4068-ba14-36dcc37a7c8d",
+            "text": "<!channel> Nog boodschappen wensen?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "reply_count": 8,
+            "reply_users_count": 3,
+            "latest_reply": "1721649531.626709",
+            "reply_users": [
+                "U7GL2M2QZ",
+                "U05EQ2K6Z8W",
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "q3rIt",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Nog boodschappen wensen?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1721649168.342929",
+            "client_msg_id": "7feac059-a3b3-4f26-923c-87e24131f9aa",
+            "text": "Limonade siroop (karvan cevitam aardbij 0%_",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "i7jgQ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Limonade siroop (karvan cevitam aardbij 0%_"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U04V6DLELQ4"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1721649174.743209",
+            "client_msg_id": "b6cb65de-0be9-463d-9909-56511417b3e9",
+            "text": "Yum yum noodles kip",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Jhhk7",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Yum yum noodles kip"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U04V6DLELQ4"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U05EQ2K6Z8W",
+            "type": "message",
+            "ts": "1721649188.968379",
+            "client_msg_id": "407b6951-6c57-45e2-b1d1-490e996d51d4",
+            "text": "Vlokken met funnies",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "t8vXF",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Vlokken met funnies"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U04V6DLELQ4"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721649324.421129",
+            "client_msg_id": "6B4B1A8B-4771-420C-8547-9344A1EA9365",
+            "text": "<@U7GL2M2QZ> <@U04V6DLELQ4> die limonade is er al",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "py3HB",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U7GL2M2QZ"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U04V6DLELQ4"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " die limonade is er al"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1721649372.286659",
+            "client_msg_id": "d8bc5237-2b7a-4b9c-acb0-2068e06f6b71",
+            "text": "Waar dan? Staat niet in de normale voorraad plekken",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "SzeOA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Waar dan? Staat niet in de normale voorraad plekken"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1721649376.036829",
+            "client_msg_id": "471cb5ad-6632-4173-842c-8f3f7dc07fbe",
+            "text": "(of ik ben blind)",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "pzMA8",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "(of ik ben blind)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1721649422.025429",
+            "client_msg_id": "8ccff993-0fec-4595-b136-6154101126da",
+            "text": "_Ik ben blind_",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+SWoA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ik ben blind",
+                                    "style": {
+                                        "italic": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721649531.626709",
+            "client_msg_id": "C745BD6E-07AA-4AEF-A338-D7C2D26BD299",
+            "text": "In de koelkast haha",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721649137.097899",
+            "parent_user_id": "U04V6DLELQ4",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "uSn6i",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "In de koelkast haha"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1721646018.420429",
+            "client_msg_id": "dc8b3751-70b3-43e7-9724-69a79bfcac1f",
+            "text": "<@U06DFUFSRG8> had jij boodschappen besteld? of aan iemand overgedragen vanwege je vakantie?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "reply_count": 9,
+            "reply_users_count": 3,
+            "latest_reply": "1721650445.853179",
+            "reply_users": [
+                "U06DFUFSRG8",
+                "U02PLSTMG90",
+                "U04V6DLELQ4"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "3r4HQ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " had jij boodschappen besteld? of aan iemand overgedragen vanwege je vakantie?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721646477.377349",
+            "client_msg_id": "16F095EF-8CA8-4001-90F9-64FE5C61FBF3",
+            "text": "Ohhh nee shit helemaal vergeten\u2026 <@U02PLSTMG90> ",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "nnshO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ohhh nee shit helemaal vergeten"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "\u2026"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U02PLSTMG90"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1721648866.945149",
+            "client_msg_id": "acdb13cd-246a-4285-bce4-e5cd98d3b860",
+            "text": "<@U05EU0DH2LD> of <@U04V6DLELQ4> kunnen jullie het even overnemen deze week?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Gp919",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U05EU0DH2LD"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " of "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U04V6DLELQ4"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " kunnen jullie het even overnemen deze week?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721648902.879219",
+            "client_msg_id": "2d321d97-26af-461f-8936-c301732c8801",
+            "text": "Yes, ik bestel gelijk wel even!",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Q1vJx",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Yes, ik bestel gelijk wel even!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U02PLSTMG90"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "heart",
+                    "users": [
+                        "U05EU0DH2LD"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721648940.047549",
+            "client_msg_id": "c215aa9d-d2a9-425d-a7bc-7899bfaa75af",
+            "text": "<@U02PLSTMG90> Heb jij Crisp log in?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "RZWNq",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U02PLSTMG90"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Heb jij Crisp log in?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "x",
+                    "users": [
+                        "U02PLSTMG90"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721649157.423389",
+            "edited": {
+                "user": "U04V6DLELQ4",
+                "ts": "1721649162.000000"
+            },
+            "client_msg_id": "75ff8ef2-0731-4ecf-9fb3-870f6b2db1f3",
+            "text": "<@U06DFUFSRG8> kan jij log in van Crisp sturen?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "3HkIN",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " kan jij log in van Crisp sturen?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721649292.416879",
+            "client_msg_id": "953F39A5-4F41-4120-B841-3F3FD8FA824C",
+            "text": "<@U04V6DLELQ4> moet je ff aan arwind vragen",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "rwZ5p",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U04V6DLELQ4"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " moet je ff aan arwind vragen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721649752.550499",
+            "client_msg_id": "ba0b9f33-42ef-426d-8985-5b11a3488822",
+            "text": "<@U3WNT6MUJ> kan je log in van Crisp delen?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "E+HIj",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U3WNT6MUJ"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " kan je log in van Crisp delen?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1721650285.295939",
+            "client_msg_id": "0dcd92ff-8e92-446e-8f36-6317efb04638",
+            "text": "<@U04V6DLELQ4> als je bestelt en inlogt met <mailto:billing@crafture.com|billing@crafture.com> krijgt <@U3WNT6MUJ> een code en die deelt hij dan met je",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "GxaHn",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U04V6DLELQ4"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " als je bestelt en inlogt met "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "mailto:billing@crafture.com",
+                                    "text": "billing@crafture.com"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " krijgt "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U3WNT6MUJ"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " een code en die deelt hij dan met je"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U04V6DLELQ4"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1721650445.853179",
+            "client_msg_id": "05efdafe-0172-4b41-8acb-f73794080839",
+            "text": "Code verstuurd <@U3WNT6MUJ>",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721646018.420429",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "DrNbV",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Code verstuurd "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U3WNT6MUJ"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1721041327.105559",
+            "client_msg_id": "187C1599-68E0-4071-A47F-B2859ECCBE00",
+            "text": "Alles is x2 binnengekomen ",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "lbLml",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Alles is x2 binnengekomen "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1721041317.452929",
+            "client_msg_id": "D121A592-BED6-484E-A4BE-9861AE5105B6",
+            "text": "<@U06DFUFSRG8> heb je toevallig dubbel besteld?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721041317.452929",
+            "reply_count": 3,
+            "reply_users_count": 2,
+            "latest_reply": "1721053222.522869",
+            "reply_users": [
+                "U06DFUFSRG8",
+                "U3WNT6MUJ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "njVVH",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " heb je toevallig dubbel besteld?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721041763.468499",
+            "client_msg_id": "8B9B0F39-388C-409F-B248-FA2B855742C2",
+            "text": "Voor zover ik kan zien niet, is bij ah en crisp allebei gewoon 1 bestelling",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721041317.452929",
+            "parent_user_id": "U3WNT6MUJ",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "TJEqB",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Voor zover ik kan zien niet, is bij ah en crisp allebei gewoon 1 bestelling"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U3WNT6MUJ"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1721053074.256289",
+            "client_msg_id": "60ab71e1-1a33-42a6-be94-b70b6f582e10",
+            "text": "Er is heel veel brood",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721041317.452929",
+            "parent_user_id": "U3WNT6MUJ",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BmZVZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Er is heel veel brood"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1721053222.522869",
+            "client_msg_id": "CD9D2BAB-6664-4610-A881-BA2ADBF82C6A",
+            "text": "Ik heb 3 x volkoren bolletjes, 5 x witte bolletjes, 5 x half wit en 5 x half bruin besteld ",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1721041317.452929",
+            "parent_user_id": "U3WNT6MUJ",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "mnFlP",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ik heb 3 x volkoren bolletjes, 5 x witte bolletjes, 5 x half wit en 5 x half bruin besteld "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U07C7A1L0TC",
+            "text": "<@U07C7A1L0TC> has joined the channel",
+            "inviter": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1720795688.505679"
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U07B8U73ZT8",
+            "text": "<@U07B8U73ZT8> has joined the channel",
+            "inviter": "U06QXUN2E9L",
+            "type": "message",
+            "ts": "1720790338.696959"
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1720716898.416389",
+            "client_msg_id": "071d49f9-ca6f-4627-a1fc-473b23474008",
+            "text": "<!channel> Iemand nog verzoekjes? :shopping_trolley:",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "reply_count": 7,
+            "reply_users_count": 4,
+            "latest_reply": "1720734583.600779",
+            "reply_users": [
+                "U05EU0DH2LD",
+                "U03JVEM5J6Q",
+                "U7GL2M2QZ",
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BPpMO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Iemand nog verzoekjes? "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "shopping_trolley",
+                                    "unicode": "1f6d2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05EU0DH2LD",
+            "type": "message",
+            "ts": "1720716919.603669",
+            "client_msg_id": "fb615e2e-fb9c-4310-ae6b-e5d741721458",
+            "text": "sterrenmunt thee",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "tB/RU",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "sterrenmunt thee"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U03JVEM5J6Q",
+            "type": "message",
+            "ts": "1720717031.168679",
+            "client_msg_id": "158B8EDF-6F47-49AA-AD47-3DED79FFF78D",
+            "text": "That Don\u2019t Impress Me Much - Shania Twain",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "y8Xqr",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "That "
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "Don\u2019t"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Impress Me Much - Shania Twain"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "melting_face",
+                    "users": [
+                        "U02PLSTMG90"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "grinning",
+                    "users": [
+                        "U06DFUFSRG8"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "face_with_rolling_eyes",
+                    "users": [
+                        "U06DFUFSRG8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1720719242.462949",
+            "client_msg_id": "4B60B080-FE17-4027-AA71-E2F1EA0FFDC2",
+            "text": "Limonade siroop (karvan cevitam aardbei suikervrij?)",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "JO7QZ",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Limonade siroop (karvan cevitam aardbei suikervrij?)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1720719251.590249",
+            "client_msg_id": "4A149817-D6CA-4A00-AB8A-9C1B3990847C",
+            "text": "Noedels (yumyum kip)",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "l7UUI",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Noedels (yumyum kip)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1720719277.345319",
+            "client_msg_id": "947FED2F-2D70-4388-B740-03EF516847B8",
+            "text": "Genoeg speculaas :clown_face: ",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "WIQpd",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Genoeg speculaas "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "clown_face",
+                                    "unicode": "1f921"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1720719366.668839",
+            "client_msg_id": "343E2021-754B-44FC-828E-48864E1CD470",
+            "text": "<@U7GL2M2QZ> je bent net te laat sorry :face_with_open_eyes_and_hand_over_mouth: volgende keer bestel ik het ",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "x8LDq",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U7GL2M2QZ"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " je bent net te laat sorry "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "face_with_open_eyes_and_hand_over_mouth",
+                                    "unicode": "1fae2"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " volgende keer bestel ik het "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U7GL2M2QZ",
+            "type": "message",
+            "ts": "1720734583.600779",
+            "client_msg_id": "6E6B5656-7735-4FC3-9A75-EBFB599C53D8",
+            "text": "Is het voor maandag? Want dan kun je nog gewoon toevoegen",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720716898.416389",
+            "parent_user_id": "U06DFUFSRG8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "tlviT",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Is het voor maandag? Want dan kun je nog gewoon toevoegen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1720434657.762719",
+            "client_msg_id": "47471e62-8e42-48cb-8eec-5d4beed53ebb",
+            "text": "<@U06DFUFSRG8> kan jij zien hoe laat de boodschappen komen?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720434657.762719",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1720434842.431429",
+            "reply_users": [
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Upv9D",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U06DFUFSRG8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " kan jij zien hoe laat de boodschappen komen?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1720434842.431429",
+            "client_msg_id": "74C8ACD5-4119-4B14-AB48-7E37B4ECB422",
+            "text": "Uhmm nee heb nog geen inlogs ofzo ",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720434657.762719",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "n4t1Y",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Uhmm nee heb nog geen inlogs ofzo "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "subtype": "channel_join",
+            "user": "U04QUFZ80U8",
+            "text": "<@U04QUFZ80U8> has joined the channel",
+            "inviter": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720179200.336109"
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720179197.906829",
+            "client_msg_id": "24ae5dc4-7eb1-41b6-98e8-08d33f57caa2",
+            "text": "<@UNMDFHW81> <@U04QUFZ80U8>",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "kmSA4",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "UNMDFHW81"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U04QUFZ80U8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U0675M5P1UG",
+            "type": "message",
+            "ts": "1720176688.237499",
+            "client_msg_id": "E4F59AFA-2422-428D-A4C1-B04F19694100",
+            "text": "Noedels? ",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "YvlwC",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Noedels? "
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U0675M5P1UG",
+            "type": "message",
+            "ts": "1720174267.925949",
+            "client_msg_id": "dfe06dd5-d380-4de8-838b-b9924a377e24",
+            "text": "Radler!!",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "wUfTC",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Radler!!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05EQ2K6Z8W",
+            "type": "message",
+            "ts": "1720174231.180779",
+            "client_msg_id": "6fbaa87c-bcc5-403a-b895-2212365e9de6",
+            "text": "Perenijsjes :bug:",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "6Rign",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Perenijsjes "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "bug",
+                                    "unicode": "1f41b"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174180.210369",
+            "client_msg_id": "1c884e45-a29a-45ae-b08d-24a04be8f9e8",
+            "text": "Welke ijsjesssssss",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Plxjn",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Welke ijsjesssssss"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05EQ2K6Z8W",
+            "type": "message",
+            "ts": "1720174164.552399",
+            "client_msg_id": "34406c0b-e705-485f-987c-ba2b49df75fa",
+            "text": "Een bulk ijsjes",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "iZKSi",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Een bulk ijsjes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "heart",
+                    "users": [
+                        "U06DFUFSRG8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174155.664079",
+            "client_msg_id": "a4624c46-112e-44ac-b375-dd641a80f53e",
+            "text": "flessen water",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "8Osxt",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "flessen water"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174148.605959",
+            "client_msg_id": "ff3bb384-bcf5-4721-8947-bc5ec06c1cb2",
+            "text": "dingen die we in bulk kunnen halen",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+VHKp",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "dingen die we in bulk kunnen halen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174139.927249",
+            "bot_id": "B4D364WDQ",
+            "text": "be more specific",
+            "team": "T3WLSG6Q3",
+            "bot_profile": {
+                "id": "B4D364WDQ",
+                "deleted": false,
+                "name": "giphy",
+                "updated": 1488505083,
+                "app_id": "A0F827J2C",
+                "icons": {
+                    "image_36": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_72.png",
+                    "image_48": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_48.png",
+                    "image_72": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_72.png"
+                },
+                "team_id": "T3WLSG6Q3"
+            },
+            "blocks": [
+                {
+                    "type": "image",
+                    "block_id": "sntK7",
+                    "image_url": "https://media3.giphy.com/media/7P7GoLwQKi188XajDN/giphy.gif?cid=6104955e5b5467k90c7alewnkvih4coh92xt8qbe4jx93exb&ep=v1_gifs_translate&rid=giphy.gif&ct=g",
+                    "alt_text": "be more specific",
+                    "title": {
+                        "type": "plain_text",
+                        "text": "be more specific",
+                        "emoji": true
+                    },
+                    "image_width": 480,
+                    "image_height": 480,
+                    "image_bytes": 1034292,
+                    "is_animated": true,
+                    "fallback": "480x480px image"
+                },
+                {
+                    "type": "context",
+                    "block_id": "9wQQH",
+                    "elements": [
+                        {
+                            "type": "image",
+                            "image_url": "https://a.slack-edge.com/dc483/img/plugins/giphy/service_32.png",
+                            "alt_text": "giphy logo"
+                        },
+                        {
+                            "type": "mrkdwn",
+                            "text": "Posted using /giphy | GIF by <https://giphy.com/buzzfeed/|BuzzFeed>",
+                            "verbatim": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U0675M5P1UG",
+            "type": "message",
+            "ts": "1720174119.781869",
+            "client_msg_id": "ef28bd91-ce23-4292-b7a6-b884348ebfa4",
+            "text": "Vlokken",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Z4JTg",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Vlokken"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174109.441299",
+            "client_msg_id": "5e23a86a-342d-4217-b06e-c8c1bae83579",
+            "text": "blikjes <@U02PLSTMG90>",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+rXm1",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "blikjes "
+                                },
+                                {
+                                    "type": "user",
+                                    "user_id": "U02PLSTMG90"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174106.040139",
+            "client_msg_id": "0ceb9d61-9585-4d16-87e3-188da6287d76",
+            "text": "cola zero",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "QIfzT",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "cola zero"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1720174101.727649",
+            "client_msg_id": "e38fe66f-e495-41fb-8ff6-a5f4b7ab2f01",
+            "text": "ice tea",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "k347L",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "ice tea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174097.957479",
+            "client_msg_id": "63bff465-1967-4670-a668-82918459d135",
+            "text": "cola flesjes en blikjes",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Qt/6f",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "cola flesjes en blikjes"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174084.357049",
+            "client_msg_id": "297d84c3-c84c-4344-ba22-626e92521bdd",
+            "text": "Sligro shit",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "54P6j",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Sligro shit"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720174080.113859",
+            "client_msg_id": "61c7c447-679d-4970-abe0-3e136356cbff",
+            "text": "<!channel>",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720174080.113859",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1720179213.580479",
+            "reply_users": [
+                "U3WNT6MUJ"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "k8cyc",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1720179213.580479",
+            "client_msg_id": "c0694256-73c8-4a3f-9fb3-a7c7963d49f8",
+            "text": "<@U04QUFZ80U8>",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1720174080.113859",
+            "parent_user_id": "U3WNT6MUJ",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ALRmW",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U04QUFZ80U8"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1719567993.625649",
+            "client_msg_id": "19b7d14b-1538-45f1-85d3-f3fe6d4cb4a5",
+            "text": "<!channel> heeft toevallig iemand al boodschappen besteld? anders doe ik het, maar niet dat we een dubbele bestelling hebben ofzo",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "esstM",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " heeft toevallig iemand al boodschappen besteld? anders doe ik het, maar niet dat we een dubbele bestelling hebben ofzo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "x",
+                    "users": [
+                        "U06DFUFSRG8",
+                        "U04HYP9P7LY",
+                        "U0675M5P1UG"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1719310921.511069",
+            "client_msg_id": "1605706c-5eb2-47aa-8641-9ee4820d6144",
+            "text": ":eyes:",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "kMzJv",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "emoji",
+                                    "name": "eyes",
+                                    "unicode": "1f440"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U0675M5P1UG",
+            "type": "message",
+            "ts": "1719310902.461139",
+            "edited": {
+                "user": "U0675M5P1UG",
+                "ts": "1719310910.000000"
+            },
+            "client_msg_id": "710ab48d-157d-46a9-a903-f9314279d378",
+            "text": "<https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC>",
+            "team": "T3WLSG6Q3",
+            "attachments": [
+                {
+                    "from_url": "https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC",
+                    "service_icon": "https://www.amazon.com/favicon.ico",
+                    "id": 1,
+                    "original_url": "https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC",
+                    "fallback": "Amazon.com: NERF Elite Dart Rover- Picks up 100 Darts! : Toys &amp; Games",
+                    "text": "<http://Amazon.com|Amazon.com>: NERF Elite Dart Rover- Picks up 100 Darts! : Toys &amp; Games",
+                    "title": "Amazon.com: NERF Elite Dart Rover- Picks up 100 Darts! : Toys &amp; Games",
+                    "title_link": "https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC",
+                    "service_name": "amazon.com"
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "sCNXP",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "link",
+                                    "url": "https://www.amazon.com/NERF-NER0225-Elite-Dart-Rover/dp/B07PNJZPZC"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "joy",
+                    "users": [
+                        "U04V6DLELQ4",
+                        "U05EU0DH2LD"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1718016659.040009",
+            "client_msg_id": "2c32fba7-75cd-4951-8cb0-49eb8ac3551c",
+            "text": "*Lavazza koffiebonen:* AH heeft ze voor \u20ac 16,30 per kilo. KoffieCasa (kvk 76877388) heeft ze voor \u20ac 11.69 per kilo, er komt dan 5 \u00e1 6 euro verzendkosten bij, afhankelijk van welke verzender we kiezen.\n\n<https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&amp;gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE|https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%[\u2026]bE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE>",
+            "team": "T3WLSG6Q3",
+            "attachments": [
+                {
+                    "from_url": "https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE",
+                    "image_url": "https://www.koffiecasa.nl/wp-content/uploads/Lavazza-Qualita-Rossa-1.png",
+                    "image_width": 580,
+                    "image_height": 580,
+                    "image_bytes": 152323,
+                    "service_icon": "https://www.koffiecasa.nl/wp-content/uploads/2019/11/cropped-KoffieCasa_favicon-180x180.png",
+                    "id": 1,
+                    "original_url": "https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&amp;gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE",
+                    "fallback": "KoffieCasa: 6x Lavazza Qualita Rossa -Pakket- (6x1kg Koffiebonen) | KoffieCasa",
+                    "text": "Traditionele Italiaanse koffie. Al meer dan 120 jaar een begrip. Met indrukken van chocolade en gedroogd fruit. Een Krachtige Energieke koffie.",
+                    "title": "6x Lavazza Qualita Rossa -Pakket- (6x1kg Koffiebonen) | KoffieCasa",
+                    "title_link": "https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE",
+                    "service_name": "KoffieCasa",
+                    "fields": [
+                        {
+                            "value": "\u20ac69.44",
+                            "title": "Prijs",
+                            "short": true
+                        },
+                        {
+                            "value": "Op voorraad",
+                            "title": "Beschikbaarheid",
+                            "short": true
+                        }
+                    ]
+                }
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ILgDm",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Lavazza koffiebonen:",
+                                    "style": {
+                                        "bold": true
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " AH heeft ze voor \u20ac 16,30 per kilo. KoffieCasa (kvk 76877388) heeft ze voor \u20ac 11.69 per kilo, er komt dan 5 \u00e1 6 euro verzendkosten bij, afhankelijk van welke verzender we kiezen.\n\n"
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%2A_up%2AMQ..%2A_ga%2ANjk1MzMxMzMxLjE3MTgwMTYwNjk.%2A_ga_FVL3ZJZ7CB%2AMTcxODAxNjA2OC4xLjEuMTcxODAxNjQ2MC4wLjAuMA..&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVBCxcdAbE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE",
+                                    "text": "https://www.koffiecasa.nl/product/lavazza-qualita-rossa-pakket-6x1kg/?_gl=1%2A51jbnx%[\u2026]bE6XbfBaguT_1vy0nntIyPR0O9dVFlCPMaBonBFkXtxxO9BoCIqMQAvD_BwE"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "<!channel> Wilt iemand onze voorraad checken? Dan zal ik later de boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met wat we nog hebben. <https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0>",
+            "files": [
+                {
+                    "id": "F072W1RMY3U",
+                    "created": 1715338484,
+                    "timestamp": 1715338484,
+                    "name": "Boodschappen bestellijst (2024)",
+                    "title": "Boodschappen bestellijst (2024)",
+                    "mimetype": "application/vnd.google-apps.spreadsheet",
+                    "filetype": "gsheet",
+                    "pretty_type": "Google Sheets",
+                    "user": "U05D7C80JE8",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 0,
+                    "mode": "external",
+                    "is_external": true,
+                    "external_type": "gdrive",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__64.png",
+                    "thumb_80": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__80.png",
+                    "thumb_360": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__360.png",
+                    "thumb_360_w": 254,
+                    "thumb_360_h": 360,
+                    "thumb_480": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__480.png",
+                    "thumb_480_w": 339,
+                    "thumb_480_h": 480,
+                    "thumb_160": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__160.png",
+                    "thumb_720": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__720.png",
+                    "thumb_720_w": 509,
+                    "thumb_720_h": 720,
+                    "thumb_800": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__800.png",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 1132,
+                    "thumb_960": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__960.png",
+                    "thumb_960_w": 678,
+                    "thumb_960_h": 960,
+                    "thumb_1024": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__1024.png",
+                    "thumb_1024_w": 724,
+                    "thumb_1024_h": 1024,
+                    "thumb_tiny": "AwAwACHSJwcYpaafv06gBuTnHFOpv8Rp1TFt39QCiiiqAafv06m/x9adQA3+I06m/wARp1RDr6sbCiiirEN/jp1IRznNLQA3+I06kxzmlqYq1/UAoooqgP/Z",
+                    "permalink": "https://crafture.slack.com/files/U05D7C80JE8/F072W1RMY3U/boodschappen_bestellijst__2024_",
+                    "is_starred": false,
+                    "external_id": "1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno",
+                    "external_url": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0",
+                    "has_rich_preview": true,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U05D7C80JE8",
+            "display_as_bot": false,
+            "x_files": [
+                "F072W1RMY3U"
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Yy/za",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Wilt iemand onze voorraad checken? Dan zal ik later de boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met wat we nog hebben. "
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1717673018.578319",
+            "client_msg_id": "4efa130b-e6a8-4b6b-b579-6e0d56449517",
+            "thread_ts": "1717673018.578319",
+            "reply_count": 4,
+            "reply_users_count": 2,
+            "latest_reply": "1717763470.027029",
+            "reply_users": [
+                "U06DFUFSRG8",
+                "U05D7C80JE8"
+            ],
+            "is_locked": false,
+            "subscribed": false
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1717675089.910779",
+            "client_msg_id": "D89C696E-1FA1-48E4-8F93-E935DB9DF0A9",
+            "text": "Ga ik straks doen!",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1717673018.578319",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "q9VyB",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ga ik straks doen!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1717675141.691839",
+            "client_msg_id": "8816eea4-ef78-4293-a50e-95a7a2928c22",
+            "text": "Alvast bedankt",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1717673018.578319",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "MxmKA",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Alvast bedankt"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1717683511.507399",
+            "client_msg_id": "C3D73C9C-D200-4A78-A94F-0B35A96BFB3E",
+            "text": "<@U05D7C80JE8> sorry beetje vertraging maar hij is ingevuld",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1717673018.578319",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Vv4G1",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U05D7C80JE8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " sorry beetje vertraging maar hij is ingevuld"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1717763470.027029",
+            "client_msg_id": "86a61b8c-ad8c-45b3-9b26-230a523ad93f",
+            "text": "Geen probleem, de boodschappen voor volgende week zijn zojuist besteld.",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1717673018.578319",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Ri6uO",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Geen probleem, de boodschappen voor volgende week zijn zojuist besteld."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "<!channel> Wilt iemand na de lunch onze voorraad weer checken? Dan zal ik boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met onze voorraad.\n<https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0>",
+            "upload": false,
+            "user": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "pt5iM",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Wilt iemand na de lunch onze voorraad weer checken? Dan zal ik boodschappen voor volgende week bestellen. Graag weer de gele kolom invullen met onze voorraad.\n"
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1715943545.601249",
+            "edited": {
+                "user": "U05D7C80JE8",
+                "ts": "1715944578.000000"
+            },
+            "client_msg_id": "266a5450-0507-40e0-8739-ff6cfcd54fbe",
+            "thread_ts": "1715943545.601249",
+            "reply_count": 5,
+            "reply_users_count": 3,
+            "latest_reply": "1716885492.945619",
+            "reply_users": [
+                "U04V6DLELQ4",
+                "U068G7FCK34",
+                "U05D7C80JE8"
+            ],
+            "is_locked": false,
+            "subscribed": false
+        },
+        {
+            "user": "U04V6DLELQ4",
+            "type": "message",
+            "ts": "1715944573.866229",
+            "client_msg_id": "ea59eed3-3418-4138-96c6-f80a7943e3f5",
+            "text": "<@U068G7FCK34> :heart:",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715943545.601249",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "JDtmC",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U068G7FCK34"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " "
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "heart",
+                                    "unicode": "2764-fe0f"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U068G7FCK34",
+            "type": "message",
+            "ts": "1715947781.871839",
+            "client_msg_id": "6cc99b5a-5036-4a0e-88ad-2ccc9f6af675",
+            "text": "<@U05D7C80JE8> ik heb de lijst ingevuld!",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715943545.601249",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "yRF+p",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U05D7C80JE8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " ik heb de lijst ingevuld!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1715959109.808809",
+            "client_msg_id": "5C17A87C-EADB-4ADB-BA73-196C73A689FB",
+            "text": "Thx, ga ik de bestellingen regelen",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715943545.601249",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "Aa7ha",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Thx, ga ik de bestellingen regelen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1715966782.858239",
+            "client_msg_id": "9c775fcf-c993-43b6-a0db-e22d44b993ee",
+            "text": "Papieren handdoekjes voor de toilet moet bij de Macro gehaald worden.",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715943545.601249",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "keqqh",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Papieren handdoekjes voor de toilet moet bij de Macro gehaald worden."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1716885492.945619",
+            "client_msg_id": "b7325fcb-e6ec-4386-8cc4-ac9558687d66",
+            "text": "Propia Handdoek Z-vouw 2 laags 24x23",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715943545.601249",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "MKrQt",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Propia Handdoek Z-vouw 2 laags 24x23"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1715354891.722769",
+            "client_msg_id": "ea20ff0e-f335-4faa-9e4c-dee37214e907",
+            "text": "<@U05D7C80JE8> Noodles",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "D1ulj",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U05D7C80JE8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Noodles"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U05D7C80JE8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1715349185.587589",
+            "client_msg_id": "3cb3eb16-839d-4808-a61d-6044a27c98f6",
+            "text": "blikjes ice tea",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715349185.587589",
+            "reply_count": 6,
+            "reply_users_count": 2,
+            "latest_reply": "1715369195.637259",
+            "reply_users": [
+                "U05D7C80JE8",
+                "U02PLSTMG90"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "ubXRp",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "blikjes ice tea"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "<@U02PLSTMG90> Ze zijn tijdelijk niet meer leverbaar. Ik drink het zelf niet, als ik een alternatief ga uitzoeken, zie ik een kleine kans van goed slagen. Tot morgen 12:00 kan er nog iets aan de bestelling toegevoegd worden. Wil jij kijken voor een alternatief?",
+            "files": [
+                {
+                    "id": "F072YGPQW1H",
+                    "created": 1715368297,
+                    "timestamp": 1715368297,
+                    "name": "image.png",
+                    "title": "image.png",
+                    "mimetype": "image/png",
+                    "filetype": "png",
+                    "pretty_type": "PNG",
+                    "user": "U05D7C80JE8",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 19080,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://files.slack.com/files-pri/T3WLSG6Q3-F072YGPQW1H/image.png",
+                    "url_private_download": "https://files.slack.com/files-pri/T3WLSG6Q3-F072YGPQW1H/download/image.png",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YGPQW1H-d30cb06902/image_64.png",
+                    "thumb_80": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YGPQW1H-d30cb06902/image_80.png",
+                    "thumb_360": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YGPQW1H-d30cb06902/image_360.png",
+                    "thumb_360_w": 341,
+                    "thumb_360_h": 148,
+                    "thumb_160": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YGPQW1H-d30cb06902/image_160.png",
+                    "original_w": 341,
+                    "original_h": 148,
+                    "thumb_tiny": "AwAUADDQ8vkne/PbNJ5X/TR/zplw0oYCJWJxxjpn3ojlZ2eNhhlA60ASqNo+8W+pp1RgDocf980uF7j9KAH5FFNCqf4R+VKFA6AUALSbRzwOetLRQA3aP8mjaM5p1FAgooooGf/Z",
+                    "permalink": "https://crafture.slack.com/files/U05D7C80JE8/F072YGPQW1H/image.png",
+                    "permalink_public": "https://slack-files.com/T3WLSG6Q3-F072YGPQW1H-932bbae893",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U05D7C80JE8",
+            "display_as_bot": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "gaKyn",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U02PLSTMG90"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Ze zijn tijdelijk niet meer leverbaar. Ik drink het zelf niet, als ik een alternatief ga uitzoeken, zie ik een kleine kans van goed slagen. Tot morgen 12:00 kan er nog iets aan de bestelling toegevoegd worden. Wil jij kijken voor een alternatief?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1715368398.249739",
+            "client_msg_id": "10f13962-e89a-46a6-8dc2-1d7db13686f6",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90"
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1715368420.433269",
+            "client_msg_id": "3d71ab66-c965-4071-b4bb-b2d9e4f83ed2",
+            "text": "<https://www.ah.nl/mijnlijst>",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "+H1kc",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "link",
+                                    "url": "https://www.ah.nl/mijnlijst"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Deze ook niet?",
+            "files": [
+                {
+                    "id": "F072YMCJE4S",
+                    "created": 1715368870,
+                    "timestamp": 1715368870,
+                    "name": "IMG_8642.jpg",
+                    "title": "IMG_8642",
+                    "mimetype": "image/jpeg",
+                    "filetype": "jpg",
+                    "pretty_type": "JPEG",
+                    "user": "U02PLSTMG90",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 116949,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://files.slack.com/files-pri/T3WLSG6Q3-F072YMCJE4S/img_8642.jpg",
+                    "url_private_download": "https://files.slack.com/files-pri/T3WLSG6Q3-F072YMCJE4S/download/img_8642.jpg",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_64.jpg",
+                    "thumb_80": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_80.jpg",
+                    "thumb_360": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_360.jpg",
+                    "thumb_360_w": 279,
+                    "thumb_360_h": 360,
+                    "thumb_480": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_480.jpg",
+                    "thumb_480_w": 372,
+                    "thumb_480_h": 480,
+                    "thumb_160": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_160.jpg",
+                    "thumb_720": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_720.jpg",
+                    "thumb_720_w": 559,
+                    "thumb_720_h": 720,
+                    "thumb_800": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_800.jpg",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 1031,
+                    "thumb_960": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_960.jpg",
+                    "thumb_960_w": 745,
+                    "thumb_960_h": 960,
+                    "thumb_1024": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072YMCJE4S-cd4a5d9241/img_8642_1024.jpg",
+                    "thumb_1024_w": 794,
+                    "thumb_1024_h": 1024,
+                    "original_w": 1170,
+                    "original_h": 1508,
+                    "thumb_tiny": "AwAwACWe681XLR5YdMAniltLjMJ84hdpxljRO2ZWUSBSMcZxVO7RRIC7ckZz60Rd3yspvTctjUEZ9qRuw9QKnWfcR+7ZR6nFQQALAmOOPzoBJcc8EZwetZSqO9kgSLlFFFakmZeITdMcN26Y9KqyK7HOGYDv1rWkt4ppCxJ3dDhqfDAkClUzgnPJq1JIVjNtpUKiOXgj7pP8qdOXW5GCVATg7c81qYBrMvSRd/dUgoOWHHes2le5V9LFuxkkkgLSnLbiOmOKsVV0/PkMSu3LnjGKtUxETOEkIVMsQDwetSjkDIxTG37vlYAfTNB3/wB4f980APoqM+YejAf8BpcSY+8ufpQA8DHSikUED5iCfpS0Af/Z",
+                    "permalink": "https://crafture.slack.com/files/U02PLSTMG90/F072YMCJE4S/img_8642.jpg",
+                    "permalink_public": "https://slack-files.com/T3WLSG6Q3-F072YMCJE4S-38bf0833e9",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                },
+                {
+                    "id": "F072S2SRC86",
+                    "created": 1715368870,
+                    "timestamp": 1715368870,
+                    "name": "IMG_8643.jpg",
+                    "title": "IMG_8643",
+                    "mimetype": "image/jpeg",
+                    "filetype": "jpg",
+                    "pretty_type": "JPEG",
+                    "user": "U02PLSTMG90",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 102828,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://files.slack.com/files-pri/T3WLSG6Q3-F072S2SRC86/img_8643.jpg",
+                    "url_private_download": "https://files.slack.com/files-pri/T3WLSG6Q3-F072S2SRC86/download/img_8643.jpg",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_64.jpg",
+                    "thumb_80": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_80.jpg",
+                    "thumb_360": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_360.jpg",
+                    "thumb_360_w": 293,
+                    "thumb_360_h": 360,
+                    "thumb_480": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_480.jpg",
+                    "thumb_480_w": 391,
+                    "thumb_480_h": 480,
+                    "thumb_160": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_160.jpg",
+                    "thumb_720": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_720.jpg",
+                    "thumb_720_w": 586,
+                    "thumb_720_h": 720,
+                    "thumb_800": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_800.jpg",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 983,
+                    "thumb_960": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_960.jpg",
+                    "thumb_960_w": 782,
+                    "thumb_960_h": 960,
+                    "thumb_1024": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072S2SRC86-3af8c8c5bc/img_8643_1024.jpg",
+                    "thumb_1024_w": 834,
+                    "thumb_1024_h": 1024,
+                    "original_w": 1170,
+                    "original_h": 1437,
+                    "thumb_tiny": "AwAwACe7IzCQgZ/wpI5sFvMyuOgPNRXG0zMGJHT3pm0K5BBxjjNYt2Zoo3JzOxPyKMe9O81vQCoA4Axkj8M0E5C8g5PJAqeafcdl2LincoPrS02P7g+lOrdbGRVmAMpycdKiCEsdoJAHpVpo45HP94dcGnRxrHnbnn1rN07s0U7IqAMDgrke4qO63oIsMQuTkjAzWlVHUdwaEqPUZweOnpTVOzuJyuJp7yNM4aRmQDjJFX6z7Hebhyy8beCAQDz71oVoQRM4SUgLliM8HrUinKgkYJ7U1t+75duPcGkzJ6r+RoAkoqPMn+z+RpT5nYrQA/AzmigZwM9e+KKAP//Z",
+                    "permalink": "https://crafture.slack.com/files/U02PLSTMG90/F072S2SRC86/img_8643.jpg",
+                    "permalink_public": "https://slack-files.com/T3WLSG6Q3-F072S2SRC86-1034da2a59",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "BzeRj",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Deze ook niet?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1715368876.923289",
+            "client_msg_id": "CE0474B7-FDFA-46E0-AFEC-974999249D12",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90"
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1715369136.127829",
+            "client_msg_id": "E448350A-414E-49ED-919A-BA747C2213C9",
+            "text": "Yep, die wel. Ik doe van beide 2",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "P2xpf",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Yep, die wel. Ik doe van beide 2"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U02PLSTMG90",
+            "type": "message",
+            "ts": "1715369175.776969",
+            "client_msg_id": "DCEA17AC-B561-4EC5-ADF6-0022CB105065",
+            "text": "Oh nee alleen die original is goed hoor, thanks!",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "WblN7",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Oh nee alleen die original is goed hoor, thanks!"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1715369195.637259",
+            "client_msg_id": "BF3AF41B-D777-4D0E-B97F-42A72DF5F6C8",
+            "text": "Ok, regel ik",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715349185.587589",
+            "parent_user_id": "U02PLSTMG90",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "JuWsG",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Ok, regel ik"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U3WNT6MUJ",
+            "type": "message",
+            "ts": "1715338497.940849",
+            "client_msg_id": "a39952a2-a7f3-44c5-92fb-19fae3a01613",
+            "text": "<@U068G7FCK34> wil jij even kijknen",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "6bK26",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U068G7FCK34"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " wil jij even kijknen"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U068G7FCK34",
+                        "U05D7C80JE8"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        {
+            "text": "<!channel> Ik heb een boodschappenlijst gemaakt, wilt iemand vandaag na de lunch de gele kolom invullen, dan zal ik boodschappen voor de komende week bestellen.\n<https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0>",
+            "files": [
+                {
+                    "id": "F072W1RMY3U",
+                    "created": 1715338484,
+                    "timestamp": 1715338484,
+                    "name": "Boodschappen bestellijst (2024)",
+                    "title": "Boodschappen bestellijst (2024)",
+                    "mimetype": "application/vnd.google-apps.spreadsheet",
+                    "filetype": "gsheet",
+                    "pretty_type": "Google Sheets",
+                    "user": "U05D7C80JE8",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 0,
+                    "mode": "external",
+                    "is_external": true,
+                    "external_type": "gdrive",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0",
+                    "media_display_type": "unknown",
+                    "thumb_64": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__64.png",
+                    "thumb_80": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__80.png",
+                    "thumb_360": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__360.png",
+                    "thumb_360_w": 254,
+                    "thumb_360_h": 360,
+                    "thumb_480": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__480.png",
+                    "thumb_480_w": 339,
+                    "thumb_480_h": 480,
+                    "thumb_160": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__160.png",
+                    "thumb_720": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__720.png",
+                    "thumb_720_w": 509,
+                    "thumb_720_h": 720,
+                    "thumb_800": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__800.png",
+                    "thumb_800_w": 800,
+                    "thumb_800_h": 1132,
+                    "thumb_960": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__960.png",
+                    "thumb_960_w": 678,
+                    "thumb_960_h": 960,
+                    "thumb_1024": "https://files.slack.com/files-tmb/T3WLSG6Q3-F072W1RMY3U-cb723f7fea/boodschappen_bestellijst__2024__1024.png",
+                    "thumb_1024_w": 724,
+                    "thumb_1024_h": 1024,
+                    "thumb_tiny": "AwAwACHSJwcYpaafv06gBuTnHFOpv8Rp1TFt39QCiiiqAafv06m/x9adQA3+I06m/wARp1RDr6sbCiiirEN/jp1IRznNLQA3+I06kxzmlqYq1/UAoooqgP/Z",
+                    "permalink": "https://crafture.slack.com/files/U05D7C80JE8/F072W1RMY3U/boodschappen_bestellijst__2024_",
+                    "is_starred": false,
+                    "external_id": "1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno",
+                    "external_url": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0",
+                    "has_rich_preview": true,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U05D7C80JE8",
+            "display_as_bot": false,
+            "x_files": [
+                "F072W1RMY3U"
+            ],
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "wGPAh",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Ik heb een boodschappenlijst gemaakt, wilt iemand vandaag na de lunch de gele kolom invullen, dan zal ik boodschappen voor de komende week bestellen.\n"
+                                },
+                                {
+                                    "type": "link",
+                                    "url": "https://docs.google.com/spreadsheets/d/1oH5EWDGCfmKGyWkRUoPO3KJufUU7p56fRheY5_uRBno/edit#gid=0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1715338481.872649",
+            "client_msg_id": "8237c832-1935-4ce6-9498-159d7e095358",
+            "thread_ts": "1715338481.872649",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1715344304.479519",
+            "reply_users": [
+                "U068G7FCK34"
+            ],
+            "is_locked": false,
+            "subscribed": false
+        },
+        {
+            "user": "U068G7FCK34",
+            "type": "message",
+            "ts": "1715344304.479519",
+            "client_msg_id": "79ab20af-8e3c-4a79-b2a1-010cc1322373",
+            "text": "<@U05D7C80JE8> ik heb de gele kolom ingevuld, dus je kan boodschappen bestellen:grinning:",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1715338481.872649",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "r/BF0",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "user",
+                                    "user_id": "U05D7C80JE8"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " ik heb de gele kolom ingevuld, dus je kan boodschappen bestellen"
+                                },
+                                {
+                                    "type": "emoji",
+                                    "name": "grinning",
+                                    "unicode": "1f600"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Vaatwas tabletten via kruidvat besteld",
+            "files": [
+                {
+                    "id": "F071XDPG139",
+                    "created": 1715092331,
+                    "timestamp": 1715092331,
+                    "name": "Kruidvat bestelling vaatwas tabletten.pdf",
+                    "title": "Kruidvat bestelling vaatwas tabletten.pdf",
+                    "mimetype": "application/pdf",
+                    "filetype": "pdf",
+                    "pretty_type": "PDF",
+                    "user": "U05D7C80JE8",
+                    "user_team": "T3WLSG6Q3",
+                    "editable": false,
+                    "size": 217012,
+                    "mode": "hosted",
+                    "is_external": false,
+                    "external_type": "",
+                    "is_public": false,
+                    "public_url_shared": false,
+                    "display_as_bot": false,
+                    "username": "",
+                    "url_private": "https://files.slack.com/files-pri/T3WLSG6Q3-F071XDPG139/kruidvat_bestelling_vaatwas_tabletten.pdf",
+                    "url_private_download": "https://files.slack.com/files-pri/T3WLSG6Q3-F071XDPG139/download/kruidvat_bestelling_vaatwas_tabletten.pdf",
+                    "media_display_type": "unknown",
+                    "thumb_pdf": "https://files.slack.com/files-tmb/T3WLSG6Q3-F071XDPG139-15da64cf24/kruidvat_bestelling_vaatwas_tabletten_thumb_pdf.png",
+                    "thumb_pdf_w": 909,
+                    "thumb_pdf_h": 1286,
+                    "permalink": "https://crafture.slack.com/files/U05D7C80JE8/F071XDPG139/kruidvat_bestelling_vaatwas_tabletten.pdf",
+                    "permalink_public": "https://slack-files.com/T3WLSG6Q3-F071XDPG139-3e963d7fc1",
+                    "is_starred": false,
+                    "has_rich_preview": false,
+                    "file_access": "visible"
+                }
+            ],
+            "upload": false,
+            "user": "U05D7C80JE8",
+            "display_as_bot": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "KKW/c",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Vaatwas tabletten via kruidvat besteld"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "type": "message",
+            "ts": "1715092352.658789",
+            "client_msg_id": "41ff9900-207a-48cc-a410-32710ec8f1b3"
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1714649521.192169",
+            "client_msg_id": "514a5d39-4e84-4f95-a7b8-62ba3802217b",
+            "text": "<!channel> Ik ga zo weer boodschappen bestellen, zijn er verzoeken?",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1714649521.192169",
+            "reply_count": 1,
+            "reply_users_count": 1,
+            "latest_reply": "1714650572.717679",
+            "reply_users": [
+                "U06DFUFSRG8"
+            ],
+            "is_locked": false,
+            "subscribed": false,
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "FMRcy",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Ik ga zo weer boodschappen bestellen, zijn er verzoeken?"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "user": "U06DFUFSRG8",
+            "type": "message",
+            "ts": "1714650572.717679",
+            "client_msg_id": "E942486F-143A-440A-9F53-D2AB976328CF",
+            "text": "Komkommer",
+            "team": "T3WLSG6Q3",
+            "thread_ts": "1714649521.192169",
+            "parent_user_id": "U05D7C80JE8",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "DRLHr",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "text",
+                                    "text": "Komkommer"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "reactions": [
+                {
+                    "name": "white_check_mark",
+                    "users": [
+                        "U05D7C80JE8"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "user": "U05D7C80JE8",
+            "type": "message",
+            "ts": "1714383066.369799",
+            "client_msg_id": "8cb9a0cb-9cba-49b7-9af9-0a1538b2d100",
+            "text": "<!channel> Boodschappen van AH komen vandaag tussen 13:30 en 14:30 (o.a. volkoren bollen, fruiten eieren). Crisp komt tussen 12:200 en 12:20 (o.a. volkoren boord, wit brood en witte bollen)",
+            "team": "T3WLSG6Q3",
+            "blocks": [
+                {
+                    "type": "rich_text",
+                    "block_id": "THYvv",
+                    "elements": [
+                        {
+                            "type": "rich_text_section",
+                            "elements": [
+                                {
+                                    "type": "broadcast",
+                                    "range": "channel"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " Boodschappen van AH komen vandaag tussen 13:30 en 14:30 (o.a. volkoren bollen, fruiten eieren). Crisp komt tussen 12:200 en 12:20 (o.a. volkoren boord, wit brood en witte bollen)"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "has_more": false,
+    "pin_count": 0,
+    "channel_actions_ts": null,
+    "channel_actions_count": 0
+}

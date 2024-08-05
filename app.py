@@ -19,8 +19,8 @@ logging.basicConfig(
 )
 
 load_dotenv()
-UPLOAD_FOLDER = os.path.join(app.static_folder, 'uploads')
-DOWNLOAD_FOLDER = os.path.join(app.static_folder, 'downloads')
+UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads')
+DOWNLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'downloads')
 SECRET_KEY = os.getenv('SECRET_KEY')
 SLACK_TOKEN = os.getenv('SLACK_TOKEN')
 VERIFICATION_TOKEN = os.getenv('VERIFICATION_TOKEN')
@@ -194,6 +194,7 @@ def convert_to_timestamp(date_string):
 # make request for conversation history in slack
 @app.route('/timeline/<channel>')
 def get_history(channel):
+    original_messages = []
     output_file_path = os.path.join(DOWNLOAD_FOLDER, f"{channel}.json")
     oldest = request.args.get('oldest')
     latest = request.args.get('latest')
@@ -228,6 +229,8 @@ def get_history(channel):
             if not data['messages']:
                 logging.info(f"No messages found in channel {channel}.")
                 return send_from_directory(app.static_folder, 'no_messages_found.html')
+            original_messages = data['messages']
+            data['messages'] = merge_messages_with_replies(channel, original_messages)
             with open(output_file_path, 'w') as file:
                 json.dump(data, file, indent=4)
             logging.info(f"Data successfully fetched and written to {output_file_path} for channel {channel}.")
@@ -353,6 +356,45 @@ def get_message_permalink(channel_id, message_ts):
             return send_from_directory(app.static_folder, 'error_fetching_permalink.html'), 500
     else:
         return send_from_directory(app.static_folder, 'error_fetching_permalink.html'), 500
+
+def fetch_conversation_replies(channel, timestamp):
+    url = "https://slack.com/api/conversations.replies"
+    headers = {
+        "Authorization": f"Bearer {SLACK_TOKEN}",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+    params = {
+        "channel": channel,
+        "ts": timestamp
+    }
+    
+    try:
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()
+        data = response.json()
+        
+        if not data.get("ok"):
+            raise ValueError(f"Error from Slack API: {data.get('error', 'Unknown error')}")
+        
+        return data.get("messages", [])
+    
+    except requests.exceptions.RequestException as req_err:
+        print(f"Request error occurred: {req_err}")
+    except ValueError as val_err:
+        print(val_err)
+
+
+def merge_messages_with_replies(channel, messages):
+    all_messages = []
+    
+    for message in messages:
+        all_messages.append(message)
+        if 'thread_ts' in message and message['ts'] == message['thread_ts']:
+            logging.info(message['ts'])
+            thread_replies = fetch_conversation_replies(channel, message['thread_ts'])
+            all_messages.extend(thread_replies[1:])
+    
+    return all_messages
 
 def conversion(chat_id):
     palette = ["BAFFFF", "FFC4C4", "DABFFF", "BAFFC9", "FFFFBA", "FFDFBA", "FFB3BA"]
@@ -539,6 +581,8 @@ def conversion(chat_id):
                     activity['imgUrl'] = attachment.get('image_url')
                     activity['fillColor'] = '#57ebff'
                     break
+        if files:
+            activity['description'] += f'<br><br><p style="font-style: italic; color: gray;">Image only available in slack</p>'
 
         date_found = False
         for day in exportdata['days']:
