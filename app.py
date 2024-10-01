@@ -212,7 +212,7 @@ def get_history(channel):
 
     params = {
         'channel': channel,
-        'limit': 250,
+        'limit': 100,
     }
 
     if oldest:
@@ -229,6 +229,8 @@ def get_history(channel):
             if not data['messages']:
                 logging.info(f"No messages found in channel {channel}.")
                 return send_from_directory(app.static_folder, 'no_messages_found.html')
+            if get_number_of_messages(data) >= 100:
+                send_from_directory(app.static_folder, 'too_many_messages.html')
             original_messages = data['messages']
             data['messages'] = merge_messages_with_replies(channel, original_messages)
             with open(output_file_path, 'w') as file:
@@ -250,6 +252,9 @@ def get_history(channel):
         logging.error(f"An error occurred: {e}")
         return {"error": f"An error occurred: {e}"}, 500
 
+def get_number_of_messages(data):
+	if data['messages']:
+		return len(data['messages'])
 
 # generate JSON web token
 def generate_token(user_id):

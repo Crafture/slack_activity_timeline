@@ -1,0 +1,3072 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+        <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='rgb(59, 67, 82)' class='bi bi-diagram-3-fill' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z'/%3E%3C/svg%3E" type="image/svg+xml">
+        <title>Activity Timeline</title>
+    </head>
+    <body>
+        <!-- Inline-style when bundling to single html file -->
+        <style>* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.at-m-0 {
+  margin: 0;
+}
+
+.at-d-none {
+  display: none !important;
+}
+
+.at-link {
+  color: #6397c2;
+  text-decoration: none;
+}
+
+.at-link:focus {
+  text-decoration: underline;
+}
+
+.at-animations--bounce {
+  animation: .25s forwards at-bounce;
+}
+
+.at-animations--slide-in-left {
+  animation: .25s forwards at-bounce-in-top;
+}
+
+@keyframes at-bounce {
+  0% {
+    transform: scale(.95);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes at-bounce-in-top {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.at-canvas {
+  display: block;
+}
+
+.at-canvas--highlight {
+  background-color: #c9e2f3;
+  transition: background-color .1s ease-in-out;
+}
+
+.at-modal-backdrop {
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+  text-align: center;
+  background-color: #0009;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.at-modal-backdrop--fixed {
+  position: fixed;
+}
+
+.at-modal {
+  text-align: left;
+  max-width: 1350px;
+  min-width: 450px;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 2rem 1rem;
+  padding: 1.5rem;
+  display: inline-block;
+  box-shadow: 1px 1px #0000004d;
+}
+
+.at-modal__header {
+  place-content: center space-between;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.at-modal__title {
+  color: #3b4352;
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+.at-modal__close {
+  color: #3b4352;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+.at-modal__content {
+  color: #3b4352;
+}
+
+.at-modal__content > :last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 576px) {
+  .at-modal {
+    min-width: calc(100% - 2rem);
+  }
+}
+
+.at-dialog-backdrop {
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+  text-align: center;
+  background-color: #0009;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.at-dialog-backdrop--fixed {
+  position: fixed;
+}
+
+.at-dialog {
+  max-width: 90%;
+  color: #3b4352;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  display: inline-block;
+  box-shadow: 1px 1px #0000004d;
+}
+
+.at-dialog__input {
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.at-dialog__btn {
+  padding: .5rem .625rem;
+}
+
+.at-dialog__btn:last-child {
+  margin-left: .5rem;
+}
+
+.at-dialog__btn:only-child {
+  margin: 0;
+}
+
+.at-canvas {
+  display: block;
+}
+
+.at-canvas--highlight {
+  background-color: #c9e2f3;
+  transition: background-color .1s ease-in-out;
+}
+
+.at-btn {
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px #0000001a;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  background-color: #0000;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: background-color .15s ease-in-out;
+  display: inline-flex;
+  box-shadow: 1px 1px #0003;
+}
+
+.at-btn:focus {
+  -webkit-tap-highlight-color: transparent;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  outline: none;
+}
+
+.at-btn--round {
+  border-radius: 50%;
+}
+
+.at-btn--blank {
+  box-shadow: none;
+  color: #3b4352;
+  padding: 0;
+}
+
+.at-btn--blank:focus {
+  box-shadow: 0 0 0 3px #959dad80;
+}
+
+.at-btn--blue-mid {
+  background-color: #6397c2;
+}
+
+.at-btn--blue-mid:focus {
+  box-shadow: 0 0 0 3px #6397c280;
+}
+
+.at-btn--blue-mid:hover {
+  background-color: #0166a5;
+}
+
+.at-menu {
+  max-width: calc(100% - 2rem);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px;
+  animation: .4s .2s forwards at-bounce-in-top;
+  display: flex;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  overflow: auto;
+  transform: translateY(calc(-100% - 1rem));
+}
+
+.at-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.at-menu__item {
+  margin-left: .5rem;
+}
+
+.at-menu__item:first-child {
+  margin: 0;
+}
+
+.at-menu__icon {
+  filter: drop-shadow(1px 1px #0000001a);
+}
+
+
+
+</style>
+
+        <canvas id="activity-timeline" class="at-canvas" tabindex="0"></canvas>
+
+        <!-- Inline-js when bundling to single html file -->
+        <script>// modules are defined as an array
+// [ module function, map of requires ]
+//
+// map of requires is short require name -> numeric require
+//
+// anything defined in a previous bundle is accessed via the
+// orig method which is the require for previous bundles
+
+(function (modules, entry, mainEntry, parcelRequireName, globalName) {
+  /* eslint-disable no-undef */
+  var globalObject =
+    typeof globalThis !== 'undefined'
+      ? globalThis
+      : typeof self !== 'undefined'
+      ? self
+      : typeof window !== 'undefined'
+      ? window
+      : typeof global !== 'undefined'
+      ? global
+      : {};
+  /* eslint-enable no-undef */
+
+  // Save the require from previous bundle to this closure if any
+  var previousRequire =
+    typeof globalObject[parcelRequireName] === 'function' &&
+    globalObject[parcelRequireName];
+
+  var cache = previousRequire.cache || {};
+  // Do not use `require` to prevent Webpack from trying to bundle this call
+  var nodeRequire =
+    typeof module !== 'undefined' &&
+    typeof module.require === 'function' &&
+    module.require.bind(module);
+
+  function newRequire(name, jumped) {
+    if (!cache[name]) {
+      if (!modules[name]) {
+        // if we cannot find the module within our internal map or
+        // cache jump to the current global require ie. the last bundle
+        // that was added to the page.
+        var currentRequire =
+          typeof globalObject[parcelRequireName] === 'function' &&
+          globalObject[parcelRequireName];
+        if (!jumped && currentRequire) {
+          return currentRequire(name, true);
+        }
+
+        // If there are other bundles on this page the require from the
+        // previous one is saved to 'previousRequire'. Repeat this as
+        // many times as there are bundles until the module is found or
+        // we exhaust the require chain.
+        if (previousRequire) {
+          return previousRequire(name, true);
+        }
+
+        // Try the node require function if it exists.
+        if (nodeRequire && typeof name === 'string') {
+          return nodeRequire(name);
+        }
+
+        var err = new Error("Cannot find module '" + name + "'");
+        err.code = 'MODULE_NOT_FOUND';
+        throw err;
+      }
+
+      localRequire.resolve = resolve;
+      localRequire.cache = {};
+
+      var module = (cache[name] = new newRequire.Module(name));
+
+      modules[name][0].call(
+        module.exports,
+        localRequire,
+        module,
+        module.exports,
+        this
+      );
+    }
+
+    return cache[name].exports;
+
+    function localRequire(x) {
+      var res = localRequire.resolve(x);
+      return res === false ? {} : newRequire(res);
+    }
+
+    function resolve(x) {
+      var id = modules[name][1][x];
+      return id != null ? id : x;
+    }
+  }
+
+  function Module(moduleName) {
+    this.id = moduleName;
+    this.bundle = newRequire;
+    this.exports = {};
+  }
+
+  newRequire.isParcelRequire = true;
+  newRequire.Module = Module;
+  newRequire.modules = modules;
+  newRequire.cache = cache;
+  newRequire.parent = previousRequire;
+  newRequire.register = function (id, exports) {
+    modules[id] = [
+      function (require, module) {
+        module.exports = exports;
+      },
+      {},
+    ];
+  };
+
+  Object.defineProperty(newRequire, 'root', {
+    get: function () {
+      return globalObject[parcelRequireName];
+    },
+  });
+
+  globalObject[parcelRequireName] = newRequire;
+
+  for (var i = 0; i < entry.length; i++) {
+    newRequire(entry[i]);
+  }
+
+  if (mainEntry) {
+    // Expose entry point to Node, AMD or browser globals
+    // Based on https://github.com/ForbesLindesay/umd/blob/master/template.js
+    var mainExports = newRequire(mainEntry);
+
+    // CommonJS
+    if (typeof exports === 'object' && typeof module !== 'undefined') {
+      module.exports = mainExports;
+
+      // RequireJS
+    } else if (typeof define === 'function' && define.amd) {
+      define(function () {
+        return mainExports;
+      });
+
+      // <script>
+    } else if (globalName) {
+      this[globalName] = mainExports;
+    }
+  }
+})({"6C1Gh":[function(require,module,exports) {
+var global = arguments[3];
+var HMR_HOST = null;
+var HMR_PORT = null;
+var HMR_SECURE = false;
+var HMR_ENV_HASH = "d6ea1d42532a7575";
+module.bundle.HMR_BUNDLE_ID = "fe43b14b346f1550";
+"use strict";
+/* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
+import type {
+  HMRAsset,
+  HMRMessage,
+} from '@parcel/reporter-dev-server/src/HMRServer.js';
+interface ParcelRequire {
+  (string): mixed;
+  cache: {|[string]: ParcelModule|};
+  hotData: {|[string]: mixed|};
+  Module: any;
+  parent: ?ParcelRequire;
+  isParcelRequire: true;
+  modules: {|[string]: [Function, {|[string]: string|}]|};
+  HMR_BUNDLE_ID: string;
+  root: ParcelRequire;
+}
+interface ParcelModule {
+  hot: {|
+    data: mixed,
+    accept(cb: (Function) => void): void,
+    dispose(cb: (mixed) => void): void,
+    // accept(deps: Array<string> | string, cb: (Function) => void): void,
+    // decline(): void,
+    _acceptCallbacks: Array<(Function) => void>,
+    _disposeCallbacks: Array<(mixed) => void>,
+  |};
+}
+interface ExtensionContext {
+  runtime: {|
+    reload(): void,
+    getURL(url: string): string;
+    getManifest(): {manifest_version: number, ...};
+  |};
+}
+declare var module: {bundle: ParcelRequire, ...};
+declare var HMR_HOST: string;
+declare var HMR_PORT: string;
+declare var HMR_ENV_HASH: string;
+declare var HMR_SECURE: boolean;
+declare var chrome: ExtensionContext;
+declare var browser: ExtensionContext;
+declare var __parcel__import__: (string) => Promise<void>;
+declare var __parcel__importScripts__: (string) => Promise<void>;
+declare var globalThis: typeof self;
+declare var ServiceWorkerGlobalScope: Object;
+*/ var OVERLAY_ID = "__parcel__error__overlay__";
+var OldModule = module.bundle.Module;
+function Module(moduleName) {
+    OldModule.call(this, moduleName);
+    this.hot = {
+        data: module.bundle.hotData[moduleName],
+        _acceptCallbacks: [],
+        _disposeCallbacks: [],
+        accept: function(fn) {
+            this._acceptCallbacks.push(fn || function() {});
+        },
+        dispose: function(fn) {
+            this._disposeCallbacks.push(fn);
+        }
+    };
+    module.bundle.hotData[moduleName] = undefined;
+}
+module.bundle.Module = Module;
+module.bundle.hotData = {};
+var checkedAssets, assetsToDispose, assetsToAccept /*: Array<[ParcelRequire, string]> */ ;
+function getHostname() {
+    return HMR_HOST || (location.protocol.indexOf("http") === 0 ? location.hostname : "localhost");
+}
+function getPort() {
+    return HMR_PORT || location.port;
+} // eslint-disable-next-line no-redeclare
+var parent = module.bundle.parent;
+if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
+    var hostname = getHostname();
+    var port = getPort();
+    var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
+    var ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/"); // Web extension context
+    var extCtx = typeof chrome === "undefined" ? typeof browser === "undefined" ? null : browser : chrome; // Safari doesn't support sourceURL in error stacks.
+    // eval may also be disabled via CSP, so do a quick check.
+    var supportsSourceURL = false;
+    try {
+        (0, eval)('throw new Error("test"); //# sourceURL=test.js');
+    } catch (err) {
+        supportsSourceURL = err.stack.includes("test.js");
+    } // $FlowFixMe
+    ws.onmessage = async function(event) {
+        checkedAssets = {} /*: {|[string]: boolean|} */ ;
+        assetsToAccept = [];
+        assetsToDispose = [];
+        var data = JSON.parse(event.data);
+        if (data.type === "update") {
+            // Remove error overlay if there is one
+            if (typeof document !== "undefined") removeErrorOverlay();
+            let assets = data.assets.filter((asset)=>asset.envHash === HMR_ENV_HASH); // Handle HMR Update
+            let handled = assets.every((asset)=>{
+                return asset.type === "css" || asset.type === "js" && hmrAcceptCheck(module.bundle.root, asset.id, asset.depsByBundle);
+            });
+            if (handled) {
+                console.clear(); // Dispatch custom event so other runtimes (e.g React Refresh) are aware.
+                if (typeof window !== "undefined" && typeof CustomEvent !== "undefined") window.dispatchEvent(new CustomEvent("parcelhmraccept"));
+                await hmrApplyUpdates(assets); // Dispose all old assets.
+                let processedAssets = {} /*: {|[string]: boolean|} */ ;
+                for(let i = 0; i < assetsToDispose.length; i++){
+                    let id = assetsToDispose[i][1];
+                    if (!processedAssets[id]) {
+                        hmrDispose(assetsToDispose[i][0], id);
+                        processedAssets[id] = true;
+                    }
+                } // Run accept callbacks. This will also re-execute other disposed assets in topological order.
+                processedAssets = {};
+                for(let i = 0; i < assetsToAccept.length; i++){
+                    let id = assetsToAccept[i][1];
+                    if (!processedAssets[id]) {
+                        hmrAccept(assetsToAccept[i][0], id);
+                        processedAssets[id] = true;
+                    }
+                }
+            } else fullReload();
+        }
+        if (data.type === "error") {
+            // Log parcel errors to console
+            for (let ansiDiagnostic of data.diagnostics.ansi){
+                let stack = ansiDiagnostic.codeframe ? ansiDiagnostic.codeframe : ansiDiagnostic.stack;
+                console.error("\uD83D\uDEA8 [parcel]: " + ansiDiagnostic.message + "\n" + stack + "\n\n" + ansiDiagnostic.hints.join("\n"));
+            }
+            if (typeof document !== "undefined") {
+                // Render the fancy html overlay
+                removeErrorOverlay();
+                var overlay = createErrorOverlay(data.diagnostics.html); // $FlowFixMe
+                document.body.appendChild(overlay);
+            }
+        }
+    };
+    ws.onerror = function(e) {
+        console.error(e.message);
+    };
+    ws.onclose = function() {
+        console.warn("[parcel] \uD83D\uDEA8 Connection to the HMR server was lost");
+    };
+}
+function removeErrorOverlay() {
+    var overlay = document.getElementById(OVERLAY_ID);
+    if (overlay) {
+        overlay.remove();
+        console.log("[parcel] ✨ Error resolved");
+    }
+}
+function createErrorOverlay(diagnostics) {
+    var overlay = document.createElement("div");
+    overlay.id = OVERLAY_ID;
+    let errorHTML = '<div style="background: black; opacity: 0.85; font-size: 16px; color: white; position: fixed; height: 100%; width: 100%; top: 0px; left: 0px; padding: 30px; font-family: Menlo, Consolas, monospace; z-index: 9999;">';
+    for (let diagnostic of diagnostics){
+        let stack = diagnostic.frames.length ? diagnostic.frames.reduce((p, frame)=>{
+            return `${p}
+<a href="/__parcel_launch_editor?file=${encodeURIComponent(frame.location)}" style="text-decoration: underline; color: #888" onclick="fetch(this.href); return false">${frame.location}</a>
+${frame.code}`;
+        }, "") : diagnostic.stack;
+        errorHTML += `
+      <div>
+        <div style="font-size: 18px; font-weight: bold; margin-top: 20px;">
+          🚨 ${diagnostic.message}
+        </div>
+        <pre>${stack}</pre>
+        <div>
+          ${diagnostic.hints.map((hint)=>"<div>\uD83D\uDCA1 " + hint + "</div>").join("")}
+        </div>
+        ${diagnostic.documentation ? `<div>📝 <a style="color: violet" href="${diagnostic.documentation}" target="_blank">Learn more</a></div>` : ""}
+      </div>
+    `;
+    }
+    errorHTML += "</div>";
+    overlay.innerHTML = errorHTML;
+    return overlay;
+}
+function fullReload() {
+    if ("reload" in location) location.reload();
+    else if (extCtx && extCtx.runtime && extCtx.runtime.reload) extCtx.runtime.reload();
+}
+function getParents(bundle, id) /*: Array<[ParcelRequire, string]> */ {
+    var modules = bundle.modules;
+    if (!modules) return [];
+    var parents = [];
+    var k, d, dep;
+    for(k in modules)for(d in modules[k][1]){
+        dep = modules[k][1][d];
+        if (dep === id || Array.isArray(dep) && dep[dep.length - 1] === id) parents.push([
+            bundle,
+            k
+        ]);
+    }
+    if (bundle.parent) parents = parents.concat(getParents(bundle.parent, id));
+    return parents;
+}
+function updateLink(link) {
+    var newLink = link.cloneNode();
+    newLink.onload = function() {
+        if (link.parentNode !== null) // $FlowFixMe
+        link.parentNode.removeChild(link);
+    };
+    newLink.setAttribute("href", link.getAttribute("href").split("?")[0] + "?" + Date.now()); // $FlowFixMe
+    link.parentNode.insertBefore(newLink, link.nextSibling);
+}
+var cssTimeout = null;
+function reloadCSS() {
+    if (cssTimeout) return;
+    cssTimeout = setTimeout(function() {
+        var links = document.querySelectorAll('link[rel="stylesheet"]');
+        for(var i = 0; i < links.length; i++){
+            // $FlowFixMe[incompatible-type]
+            var href = links[i].getAttribute("href");
+            var hostname = getHostname();
+            var servedFromHMRServer = hostname === "localhost" ? new RegExp("^(https?:\\/\\/(0.0.0.0|127.0.0.1)|localhost):" + getPort()).test(href) : href.indexOf(hostname + ":" + getPort());
+            var absolute = /^https?:\/\//i.test(href) && href.indexOf(location.origin) !== 0 && !servedFromHMRServer;
+            if (!absolute) updateLink(links[i]);
+        }
+        cssTimeout = null;
+    }, 50);
+}
+function hmrDownload(asset) {
+    if (asset.type === "js") {
+        if (typeof document !== "undefined") {
+            let script = document.createElement("script");
+            script.src = asset.url + "?t=" + Date.now();
+            if (asset.outputFormat === "esmodule") script.type = "module";
+            return new Promise((resolve, reject)=>{
+                var _document$head;
+                script.onload = ()=>resolve(script);
+                script.onerror = reject;
+                (_document$head = document.head) === null || _document$head === void 0 || _document$head.appendChild(script);
+            });
+        } else if (typeof importScripts === "function") {
+            // Worker scripts
+            if (asset.outputFormat === "esmodule") return import(asset.url + "?t=" + Date.now());
+            else return new Promise((resolve, reject)=>{
+                try {
+                    importScripts(asset.url + "?t=" + Date.now());
+                    resolve();
+                } catch (err) {
+                    reject(err);
+                }
+            });
+        }
+    }
+}
+async function hmrApplyUpdates(assets) {
+    global.parcelHotUpdate = Object.create(null);
+    let scriptsToRemove;
+    try {
+        // If sourceURL comments aren't supported in eval, we need to load
+        // the update from the dev server over HTTP so that stack traces
+        // are correct in errors/logs. This is much slower than eval, so
+        // we only do it if needed (currently just Safari).
+        // https://bugs.webkit.org/show_bug.cgi?id=137297
+        // This path is also taken if a CSP disallows eval.
+        if (!supportsSourceURL) {
+            let promises = assets.map((asset)=>{
+                var _hmrDownload;
+                return (_hmrDownload = hmrDownload(asset)) === null || _hmrDownload === void 0 ? void 0 : _hmrDownload.catch((err)=>{
+                    // Web extension bugfix for Chromium
+                    // https://bugs.chromium.org/p/chromium/issues/detail?id=1255412#c12
+                    if (extCtx && extCtx.runtime && extCtx.runtime.getManifest().manifest_version == 3) {
+                        if (typeof ServiceWorkerGlobalScope != "undefined" && global instanceof ServiceWorkerGlobalScope) {
+                            extCtx.runtime.reload();
+                            return;
+                        }
+                        asset.url = extCtx.runtime.getURL("/__parcel_hmr_proxy__?url=" + encodeURIComponent(asset.url + "?t=" + Date.now()));
+                        return hmrDownload(asset);
+                    }
+                    throw err;
+                });
+            });
+            scriptsToRemove = await Promise.all(promises);
+        }
+        assets.forEach(function(asset) {
+            hmrApply(module.bundle.root, asset);
+        });
+    } finally{
+        delete global.parcelHotUpdate;
+        if (scriptsToRemove) scriptsToRemove.forEach((script)=>{
+            if (script) {
+                var _document$head2;
+                (_document$head2 = document.head) === null || _document$head2 === void 0 || _document$head2.removeChild(script);
+            }
+        });
+    }
+}
+function hmrApply(bundle, asset) {
+    var modules = bundle.modules;
+    if (!modules) return;
+    if (asset.type === "css") reloadCSS();
+    else if (asset.type === "js") {
+        let deps = asset.depsByBundle[bundle.HMR_BUNDLE_ID];
+        if (deps) {
+            if (modules[asset.id]) {
+                // Remove dependencies that are removed and will become orphaned.
+                // This is necessary so that if the asset is added back again, the cache is gone, and we prevent a full page reload.
+                let oldDeps = modules[asset.id][1];
+                for(let dep in oldDeps)if (!deps[dep] || deps[dep] !== oldDeps[dep]) {
+                    let id = oldDeps[dep];
+                    let parents = getParents(module.bundle.root, id);
+                    if (parents.length === 1) hmrDelete(module.bundle.root, id);
+                }
+            }
+            if (supportsSourceURL) // Global eval. We would use `new Function` here but browser
+            // support for source maps is better with eval.
+            (0, eval)(asset.output);
+             // $FlowFixMe
+            let fn = global.parcelHotUpdate[asset.id];
+            modules[asset.id] = [
+                fn,
+                deps
+            ];
+        } else if (bundle.parent) hmrApply(bundle.parent, asset);
+    }
+}
+function hmrDelete(bundle, id) {
+    let modules = bundle.modules;
+    if (!modules) return;
+    if (modules[id]) {
+        // Collect dependencies that will become orphaned when this module is deleted.
+        let deps = modules[id][1];
+        let orphans = [];
+        for(let dep in deps){
+            let parents = getParents(module.bundle.root, deps[dep]);
+            if (parents.length === 1) orphans.push(deps[dep]);
+        } // Delete the module. This must be done before deleting dependencies in case of circular dependencies.
+        delete modules[id];
+        delete bundle.cache[id]; // Now delete the orphans.
+        orphans.forEach((id)=>{
+            hmrDelete(module.bundle.root, id);
+        });
+    } else if (bundle.parent) hmrDelete(bundle.parent, id);
+}
+function hmrAcceptCheck(bundle, id, depsByBundle) {
+    if (hmrAcceptCheckOne(bundle, id, depsByBundle)) return true;
+     // Traverse parents breadth first. All possible ancestries must accept the HMR update, or we'll reload.
+    let parents = getParents(module.bundle.root, id);
+    let accepted = false;
+    while(parents.length > 0){
+        let v = parents.shift();
+        let a = hmrAcceptCheckOne(v[0], v[1], null);
+        if (a) // If this parent accepts, stop traversing upward, but still consider siblings.
+        accepted = true;
+        else {
+            // Otherwise, queue the parents in the next level upward.
+            let p = getParents(module.bundle.root, v[1]);
+            if (p.length === 0) {
+                // If there are no parents, then we've reached an entry without accepting. Reload.
+                accepted = false;
+                break;
+            }
+            parents.push(...p);
+        }
+    }
+    return accepted;
+}
+function hmrAcceptCheckOne(bundle, id, depsByBundle) {
+    var modules = bundle.modules;
+    if (!modules) return;
+    if (depsByBundle && !depsByBundle[bundle.HMR_BUNDLE_ID]) {
+        // If we reached the root bundle without finding where the asset should go,
+        // there's nothing to do. Mark as "accepted" so we don't reload the page.
+        if (!bundle.parent) return true;
+        return hmrAcceptCheck(bundle.parent, id, depsByBundle);
+    }
+    if (checkedAssets[id]) return true;
+    checkedAssets[id] = true;
+    var cached = bundle.cache[id];
+    assetsToDispose.push([
+        bundle,
+        id
+    ]);
+    if (!cached || cached.hot && cached.hot._acceptCallbacks.length) {
+        assetsToAccept.push([
+            bundle,
+            id
+        ]);
+        return true;
+    }
+}
+function hmrDispose(bundle, id) {
+    var cached = bundle.cache[id];
+    bundle.hotData[id] = {};
+    if (cached && cached.hot) cached.hot.data = bundle.hotData[id];
+    if (cached && cached.hot && cached.hot._disposeCallbacks.length) cached.hot._disposeCallbacks.forEach(function(cb) {
+        cb(bundle.hotData[id]);
+    });
+    delete bundle.cache[id];
+}
+function hmrAccept(bundle, id) {
+    // Execute the module.
+    bundle(id); // Run the accept callbacks in the new version of the module.
+    var cached = bundle.cache[id];
+    if (cached && cached.hot && cached.hot._acceptCallbacks.length) cached.hot._acceptCallbacks.forEach(function(cb) {
+        var assetsToAlsoAccept = cb(function() {
+            return getParents(module.bundle.root, id);
+        });
+        if (assetsToAlsoAccept && assetsToAccept.length) {
+            assetsToAlsoAccept.forEach(function(a) {
+                hmrDispose(a[0], a[1]);
+            }); // $FlowFixMe[method-unbinding]
+            assetsToAccept.push.apply(assetsToAccept, assetsToAlsoAccept);
+        }
+    });
+}
+
+},{}],"8SNpy":[function(require,module,exports) {
+var _mainTs = require("./ts/main.ts");
+
+},{"./ts/main.ts":"4j3ZX"}],"4j3ZX":[function(require,module,exports) {
+var _timeline = require("./modules/Timeline");
+/**
+ * Initiate Timeline instance
+ * This will render the landing page
+ */ const timelineElement = document.getElementById("activity-timeline");
+const timeline = new (0, _timeline.Timeline)(timelineElement);
+
+},{"./modules/Timeline":"hDJ3n"}],"hDJ3n":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Timeline", ()=>Timeline);
+var _menu = require("./menu/Menu");
+var _modal = require("./modal/Modal");
+var _alert = require("./dialog/Alert");
+var _download = require("./helpers/Download");
+var _dataDefault = require("../defaults/data.default");
+var _zoomDefault = require("../defaults/zoom.default");
+var _scrollPositionType = require("../types/scroll-position.type");
+var _positionDefault = require("../defaults/position.default");
+var _constantsDefault = require("../defaults/constants.default");
+// Third party CSV parser
+var _papaparse = require("papaparse");
+var _papaparseDefault = parcelHelpers.interopDefault(_papaparse);
+// Get version information from package.json
+const VERSION = require("4323c091af398fa3").version;
+// Reference to target element used when panning the canvas
+const SCROLLABLE_TARGET = document.documentElement;
+// Canvas needs to factor in the device resolution in order to look sharp on high-res retina screens/mobile devices etc.
+const DEVICE_PIXEL_RATIO = window.devicePixelRatio || 1;
+// URL to the raw GitHub JSON object containing information from the developer
+const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-endpoints/main/endpoints/activity-timeline.json";
+/**
+ * Class to render Timeline on a HTMLCanvasElement
+ */ class Timeline {
+    constructor(canvas){
+        this.canvas = canvas;
+        this.isDragging = false;
+        this.zoom = (0, _zoomDefault.DefaultZoom);
+        this.dragPosition = (0, _positionDefault.DefaultPosition);
+        this.menu = new (0, _menu.Menu)(this);
+        // Set default language and style, can be overridden from the JSON/CSV-files
+        this.meta = (0, _dataDefault.DefaultData).meta;
+        this.style = (0, _dataDefault.DefaultData).style;
+        // Disable default browser behaviour
+        [
+            "wheel",
+            "dragenter",
+            "dragover",
+            "dragleave",
+            "drop",
+            "contextmenu",
+            "mousedown"
+        ].forEach((eventName)=>{
+            document.addEventListener(eventName, this.onEventPrevent, {
+                passive: false
+            });
+        });
+        // Can't disable default keydown completely or F5, F12, Arrow keys etc won't work 
+        document.addEventListener("keydown", this.onKeyDown);
+        // Re-render canvas if the window is resized
+        window.addEventListener("resize", this.onResize.bind(this));
+        // Application specific listeners
+        this.canvas.addEventListener("drop", this.onCanvasDrop.bind(this));
+        this.canvas.addEventListener("click", this.onCanvasClick.bind(this));
+        this.canvas.addEventListener("wheel", this.onCanvasWheel.bind(this));
+        this.canvas.addEventListener("keydown", this.onCanvasKeyDown.bind(this));
+        this.canvas.addEventListener("mousemove", this.onCanvasMouseMove.bind(this));
+        this.canvas.addEventListener("mousedown", this.onCanvasMouseDown.bind(this));
+        // Highlight drop area when item is dragged over it
+        [
+            "dragenter",
+            "dragover"
+        ].forEach((eventName)=>{
+            this.canvas.addEventListener(eventName, this.highlight.bind(this));
+        });
+        // Remove highlight background when file leaves or is dropped
+        [
+            "dragleave",
+            "drop"
+        ].forEach((eventName)=>{
+            this.canvas.addEventListener(eventName, this.unhighlight.bind(this));
+        });
+        // Render the landing page as the default screen
+        this.renderLandingPage();
+        // Set focus to enable keybord inputs
+        // Note: The HTML Canvas element must have tabindex="0" attribute or focus/keyboard input won't work
+        this.canvas.focus();
+    }
+    // --------------------------------------------------------------
+    // Event methods
+    // --------------------------------------------------------------
+    /**
+     * Prevent Browser default behaviour and propagation
+     * @param event Event
+     */ onEventPrevent(event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    /**
+     * KeyDown EventListener - Disable default browser zoom
+     * Can't disable default keydown completely or F5, F12, Arrow keys etc won't work 
+     * @param event KeybordEvent
+     */ onKeyDown(event) {
+        const key = event.key.toLowerCase();
+        if ((event.ctrlKey || event.metaKey) && (key === "+" || key === "-")) {
+            event.preventDefault();
+            event.stopPropagation();
+        }
+    }
+    /**
+     * MouseDown EventListener
+     * @param event MouseEvent
+     */ onCanvasMouseDown(event) {
+        this.canvas.focus();
+        this.dragPosition = {
+            left: SCROLLABLE_TARGET.scrollLeft,
+            top: SCROLLABLE_TARGET.scrollTop,
+            x: event.clientX,
+            y: event.clientY
+        };
+        // Store references to these events to be able to remove them later
+        this.canvasMouseMoveCallback = this.onCanvasMouseDrag.bind(this);
+        this.canvasMouseUpCallback = this.onCanvasMouseUp.bind(this);
+        this.canvas.addEventListener("mousemove", this.canvasMouseMoveCallback);
+        // This listener must be on the document and not the canvas
+        // Or it will get stuck if the mouse is moved outside the window/canvas
+        document.addEventListener("mouseup", this.canvasMouseUpCallback);
+    }
+    /**
+     * MouseMove EventListener
+     * @param event MouseEvent
+     */ onCanvasMouseDrag(event) {
+        this.canvas.style.cursor = "grabbing";
+        this.isDragging = true;
+        // How far the mouse has been moved
+        const dx = event.clientX - this.dragPosition.x;
+        const dy = event.clientY - this.dragPosition.y;
+        SCROLLABLE_TARGET.scrollLeft = this.dragPosition.left - dx;
+        SCROLLABLE_TARGET.scrollTop = this.dragPosition.top - dy;
+    }
+    /**
+     * KeyDown EventListener
+     * Note: The HTML Canvas element must have tabindex="0" attribute or keyboard input won't work
+     * @param event KeybordEvent
+     */ onCanvasKeyDown(event) {
+        const key = event.key.toLowerCase();
+        const allowedKeysOnLandingPage = [
+            "m",
+            "g",
+            "o"
+        ];
+        // Don't trigger shortcut if no data or more complex predefined shortcut by browser
+        if (!this.hasData() && !allowedKeysOnLandingPage.includes(key) || event.ctrlKey || event.shiftKey) return;
+        const commands = {
+            "g": this.menuOnGitHub.bind(this),
+            "s": this.menuOnAlignStart.bind(this),
+            "e": this.menuOnAlignEnd.bind(this),
+            "c": this.menuOnAlignCenter.bind(this),
+            "z": this.menuOnZoomReset.bind(this),
+            "i": this.menuOnInfo.bind(this),
+            "h": this.menuOnLandingPage.bind(this),
+            "o": this.menuOnDataImport.bind(this),
+            "p": this.menuOnExportPNG.bind(this),
+            "d": this.menuOnDataExport.bind(this),
+            "n": this.menuOnFetchNotification.bind(this),
+            "+": this.menuOnZoomDelta.bind(this, 1),
+            "-": this.menuOnZoomDelta.bind(this, -1),
+            "m": this.menu.toggleMenuStrip.bind(this.menu)
+        };
+        commands[key]?.call();
+    }
+    /**
+     * MouseMove EventListener
+     * @param event MouseEvent
+     */ onCanvasMouseMove(event) {
+        const activity = this.hitDetection(event.clientX, event.clientY);
+        const cursor = activity ? "pointer" : "default";
+        this.canvas.style.cursor = cursor;
+    }
+    /**
+     * WheelEvent EventListener - Zooms and re-renders the canvas
+     * @param event WheelEvent
+     */ onCanvasWheel(event) {
+        // Disable default vertical scroll of canvas
+        event.preventDefault();
+        event.stopPropagation();
+        // Don't zoom the landing page and only allow zoom if ctrlKey is down
+        if (!this.hasData() || !event.ctrlKey) return;
+        // The sign needs to be fliped or the scrolling will be inverted from what user expects
+        const flipSign = -1;
+        const deltaY = event.deltaY * flipSign;
+        this.zoomTimeline(event.clientX, event.clientY, deltaY);
+    }
+    /**
+     * Handles all click events on the canvas
+     * The coordinates are checked against the plotted activities to display modal window for the correct activity
+     * @param event Browser DragEvent
+     */ onCanvasClick(event) {
+        // Check if the canvas was dragged
+        // If so reset the bit and exit this event since it was not intended as a click on an activity
+        if (this.isDragging) {
+            this.isDragging = false;
+            return;
+        }
+        const activity = this.hitDetection(event.clientX, event.clientY);
+        if (activity && activity.imgUrl) {
+            const title = `
+                <span style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    margin-right: 0.5rem;
+                    flex-shrink: 0;
+                    background-color: ${activity.fillColor};
+                    border: 2px solid ${activity.strokeColor};
+                "></span>
+                ${activity.title}
+            `;
+            const content = `
+                <p>${activity.description}</p>
+                <p>${activity.timestamp.toLocaleString(this.meta.locale)}</p>
+				<img src="${activity.imgUrl}" alt="Image not available" width="500" height="auto"> 
+            `;
+            const modal = new (0, _modal.Modal)(title, content);
+        }
+        if (activity && !activity.imgUrl) {
+            const title = `
+                <span style="
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    margin-right: 0.5rem;
+                    flex-shrink: 0;
+                    background-color: ${activity.fillColor};
+                    border: 2px solid ${activity.strokeColor};
+                "></span>
+                ${activity.title}
+            `;
+            const content = `
+                <p>${activity.description}</p>
+                <p>${activity.timestamp.toLocaleString(this.meta.locale)}</p>
+            `;
+            const modal = new (0, _modal.Modal)(title, content);
+        }
+    }
+    /**
+     * MouseUp EventListener
+     */ onCanvasMouseUp() {
+        this.canvas.removeEventListener("mousemove", this.canvasMouseMoveCallback);
+        // This listener must be on the document and not the canvas
+        // Or it will get stuck if the mouse is moved outside the window/canvas
+        document.removeEventListener("mouseup", this.canvasMouseUpCallback);
+        this.canvas.style.cursor = "default";
+    }
+    /**
+     * When a file is dropped on the canvas
+     * @param event Browser DragEvent
+     */ onCanvasDrop(event) {
+        const dataTransfer = event.dataTransfer;
+        const files = dataTransfer.files;
+        // Can only parse and display one file at the time
+        // Take the first file that was dropped
+        const firstFile = files.item(0);
+        this.handleFileBeforeParse(firstFile);
+    }
+    /**
+    * Triggered by event when the window is resized
+    */ onResize() {
+        if (this.hasData()) this.render();
+        else this.renderLandingPage();
+    }
+    // --------------------------------------------------------------
+    // Menu callback methods
+    // --------------------------------------------------------------
+    /**
+     * Callback function from Menu - Resets to Landing Page
+     */ menuOnLandingPage() {
+        this.days = (0, _dataDefault.DefaultData).days;
+        this.style = (0, _dataDefault.DefaultData).style;
+        this.meta = (0, _dataDefault.DefaultData).meta;
+        this.renderLandingPage();
+    }
+    /**
+     * Callback function from Menu - Pans to the start (left) of the Timeline
+     */ menuOnAlignStart() {
+        this.scrollTimeline((0, _scrollPositionType.ScrollPosition).Start);
+    }
+    /**
+     * Callback function from Menu - Pans to the end (right) of the Timeline
+     */ menuOnAlignEnd() {
+        this.scrollTimeline((0, _scrollPositionType.ScrollPosition).End);
+    }
+    /**
+     * Callback function from Menu - Pans to the center of the Timeline
+     */ menuOnAlignCenter() {
+        this.scrollTimeline((0, _scrollPositionType.ScrollPosition).Center);
+    }
+    /**
+     * Callback function from Menu - Exports Timeline as PNG
+     */ menuOnExportPNG() {
+        if (!this.hasData()) return;
+        const dataURL = this.canvas.toDataURL("image/png", 1.0);
+        (0, _download.download)(this.fileData.name + ".png", dataURL);
+    }
+    /**
+     * Callback function from Menu - Displays GitHub information
+     */ menuOnGitHub() {
+        const aboutAlert = new (0, _alert.Alert)(`
+            <h3 class="at-m-0">GitHub</h3>
+            <p>Developed by Qulle <a href="https://github.com/qulle/activity-timeline" target="_blank" class="at-link">github.com/qulle/activity-timeline</a></p>
+        `);
+    }
+    /**
+     * Callback function from Menu - Displays Info about the current Timeline
+     */ menuOnInfo() {
+        if (!this.hasData()) return;
+        let maxActivities = 0;
+        let minActivities = Number.MAX_VALUE;
+        let totActivities = 0;
+        this.days.forEach((day)=>{
+            const dayLenght = day.activities.length;
+            if (dayLenght > maxActivities) maxActivities = dayLenght;
+            if (dayLenght < minActivities) minActivities = dayLenght;
+            totActivities += dayLenght;
+        });
+        const startDate = this.days[0].date;
+        const endDate = this.days[this.days.length - 1].date;
+        const dateDiff = endDate.getTime() - startDate.getTime();
+        const timePeriod = Math.ceil(dateDiff / 86400000);
+        const avarage = totActivities / this.days.length;
+        const percent = this.days.length / timePeriod * 100;
+        const content = `
+            <h3>📝 File meta</h3>
+            <p>File: <strong>${this.fileData.name}.${this.fileData.extension}</strong></p>
+            <p>Opened: <strong>${this.fileData.opened.toLocaleTimeString(this.meta.locale)}</strong></p>
+            <p>Localization: <strong>${this.meta.locale}</strong></p>
+            <h3>📉 Statistics</h3>
+            <p>First date: <strong>${startDate.toLocaleDateString(this.meta.locale)}</strong></p>
+            <p>Last date: <strong>${endDate.toLocaleDateString(this.meta.locale)}</strong></p>
+            <p>Time period: <strong>${timePeriod} days</strong></p>
+            <p>Activities on: <strong>${this.days.length} days</strong> corresponding to <strong>${Number(percent.toFixed(2))}%</strong> of time period</p>
+            <p>Total activites: <strong>${totActivities} st</strong></p>
+            <p>Most activites in a day: <strong>${maxActivities} st</strong></p>
+            <p>Least activites in a day: <strong>${minActivities} st</strong></p>
+            <p>Avarage activites in a day: <strong>${Number(avarage.toFixed(2))} st</strong></p>
+        `;
+        const modal = new (0, _modal.Modal)("Current Timeline", content);
+    }
+    /**
+     * Callback function from Menu - Resets Zoom to default value
+     */ menuOnZoomReset() {
+        if (!this.hasData()) return;
+        this.resetZoom();
+    }
+    /**
+     * Callback function from Menu - Zooms in or out based on delta value
+     * @param deltaY Positive value = Zoom in, Negative value = Zoom out
+     */ menuOnZoomDelta(deltaY) {
+        if (!this.hasData()) return;
+        // Zoom using center of window as reference point
+        const centerX = window.innerWidth / 2;
+        const centerY = window.innerHeight / 2;
+        this.zoomTimeline(centerX, centerY, deltaY);
+    }
+    /**
+     * Callback function from Menu - Import file to render
+     */ menuOnDataImport() {
+        const fileDialog = document.createElement("input");
+        fileDialog.className = "at-d-none";
+        fileDialog.setAttribute("type", "file");
+        fileDialog.setAttribute("accept", ".json, .csv");
+        fileDialog.addEventListener("change", (event)=>{
+            const fileDialog = event.target;
+            const firstFile = fileDialog.files[0];
+            this.handleFileBeforeParse(firstFile);
+        });
+        // Open the dialog
+        fileDialog.click();
+    }
+    /**
+     * Callback function from Menu - Export data to JSON or CSV file
+     */ menuOnDataExport() {
+        if (!this.hasData()) return;
+        // Note: Swapped file-formats to save in the format that was not opened
+        const fileParsers = {
+            "json": this.exportAsCSV.bind(this),
+            "csv": this.exportAsJSON.bind(this)
+        };
+        const parser = fileParsers[this.fileData.extension];
+        if (parser) parser.call();
+        else {
+            const fileTypeAlert = new (0, _alert.Alert)(`
+                <h3 class="at-m-0">Oops!</h3>
+                <p>Could not decide fileformat - report as <a href="https://github.com/qulle/activity-timeline/issues" target="_blank" class="at-link">bug</a></p>
+            `);
+        }
+    }
+    menuOnFetchNotification() {
+        const notificationModal = new (0, _modal.Modal)("Notifications", "<p>Loading notifications...</p>");
+        const timestamp = new Date().getTime().toString();
+        fetch(`${NOTIFICATION_URL}?cache=${timestamp}`, {
+            method: "GET",
+            headers: {
+                "Accept": "application/json"
+            }
+        }).then((response)=>{
+            if (!Boolean(response.ok)) return Promise.reject(`${response.status} ${response.statusText}`);
+            return response.json();
+        }).then((data)=>{
+            let features = "";
+            if (data.features.length === 0) features = "<p>No features currently under development</p>";
+            else data.features.forEach((feature)=>{
+                features += `<p>${feature}</p>`;
+            });
+            const notification = {
+                message: data.message,
+                latest: {
+                    version: data.latest.version,
+                    released: data.latest.released
+                },
+                features: features
+            };
+            this.setNotificationModalContent(notificationModal, notification);
+        }).catch((error)=>{
+            const notification = {
+                message: "Glad you are using my App, hope you find it useful!",
+                error: "Data from the GitHub repo could not be fetched"
+            };
+            this.setNotificationModalContent(notificationModal, notification);
+            console.error(`Fetch error [${error}]`);
+        });
+    }
+    setNotificationModalContent(modal, notification) {
+        const content = `
+            <h3>👋 From Qulle</h3>
+            <p>${notification.message}</p>
+            <h3>🔭 Your version</h3>
+            <p>
+                <a href="https://github.com/qulle/activity-timeline/tree/main/examples/v${VERSION}" target="_blank" class="at-link">
+                    v${VERSION}
+                </a>
+            </p>
+            ${Boolean(notification.latest) && Boolean(notification.latest.version) && Boolean(notification.latest.released) ? `
+                    <h3>🚀 Latest version</h3>
+                    <p>
+                        <a href="https://github.com/qulle/activity-timeline/tree/main/examples/v${notification.latest.version}" target="_blank" class="at-link">
+                            v${notification.latest.version} - ${new Date(notification.latest.released).toLocaleDateString(this.meta.locale)}
+                        </a>
+                    </p>
+                ` : ""}
+            ${Boolean(notification.features) && notification.features.length > 0 ? `
+                    <h3>💡 New features under development</h3>
+                    ${notification.features}
+                ` : ""}
+            ${Boolean(notification.error) && notification.error.length > 0 ? `
+                    <h3>📡 Fetch error</h3>
+                    <p>${notification.error}</p>
+                ` : ""}
+        `;
+        modal.setContent(content);
+    }
+    // --------------------------------------------------------------
+    // Logical methods
+    // --------------------------------------------------------------
+    /**
+     * Export the loaded data as CSV-file (JSON file was opened by user)
+     */ exportAsCSV() {
+        const data = {
+            meta: {
+                ...this.meta
+            },
+            style: {
+                ...this.style
+            },
+            days: [
+                ...this.days
+            ]
+        };
+        const lineBreak = "\r\n";
+        const json = JSON.stringify(data, (key, value)=>{
+            // Remove days from the JSON to be stored as meta in the 5th column
+            if (key === "days") value = undefined;
+            return value;
+        });
+        let csv = `Timestamp;Title;Description;Fill Color;Stroke Color;${json}${lineBreak}`;
+        data.days.forEach((day)=>{
+            day.activities.forEach((activity)=>{
+                csv += `${activity.timestamp.toLocaleString(data.meta.locale)};${activity.title};${activity.description};${activity.fillColor};${activity.strokeColor}${lineBreak}`;
+            });
+        });
+        // Remove last lineBreak from output to avoid empty line in the CSV-file
+        csv = csv.replace(/\r\n*$/, "");
+        (0, _download.download)(this.fileData.name + ".csv", csv);
+    }
+    /**
+     * Export the loaded data as JSON-file (CSV file was opened by user)
+     */ exportAsJSON() {
+        const data = {
+            meta: {
+                ...this.meta
+            },
+            style: {
+                ...this.style
+            },
+            days: [
+                ...this.days
+            ]
+        };
+        const indentationSpaces = 4;
+        const json = JSON.stringify(data, (key, value)=>{
+            // Remove the coordinates from the output, only used internally
+            if (key === "x" || key === "y") value = undefined;
+            // Remove default time information from the date
+            if (key === "date") value = new Date(value).toLocaleDateString(data.meta.locale);
+            // When a JSON-file is loaded the data + time is added together
+            // Split them apart to not have duplication of information in the file
+            if (key === "timestamp") value = new Date(value).toLocaleTimeString(data.meta.locale);
+            return value;
+        }, indentationSpaces);
+        (0, _download.download)(this.fileData.name + ".json", json);
+    }
+    /**
+     * Handles preparation and verifying file extension before parsing the file
+     * @param file File to be parsed
+     */ handleFileBeforeParse(file) {
+        const index = file.name.lastIndexOf(".");
+        const filename = file.name.substring(0, index) || file.name;
+        const extension = file.name.substring(index + 1).toLowerCase() || file.name;
+        // Store information about the opened file, used at other palces
+        this.fileData = {
+            name: filename,
+            extension: extension,
+            opened: new Date()
+        };
+        const fileParsers = {
+            "json": this.parseJSONFile,
+            "csv": this.parseCSVFile
+        };
+        const parser = fileParsers[extension];
+        if (parser) parser.call(this, file);
+        else {
+            const fileTypeAlert = new (0, _alert.Alert)(`
+                <h3 class="at-m-0">Oops!</h3>
+                <p>Can only parse <strong>.json</strong> or <strong>.csv</strong> files</p>
+            `);
+        }
+    }
+    /**
+     * Zoom in or out at a given X, Y coordinate
+     * @param deltaY Positive value = Zoom in, Negative value = Zoom out
+     */ zoomTimeline(mouseX, mouseY, deltaY) {
+        const direction = Math.sign(deltaY);
+        let referenceZoomPoint = {
+            x: (mouseX + SCROLLABLE_TARGET.scrollLeft) / this.zoom.value,
+            y: (mouseY + SCROLLABLE_TARGET.scrollTop) / this.zoom.value
+        };
+        this.zoom.value += direction * this.zoom.factor * this.zoom.value;
+        // Keep the zoom-value in the range min, max given in the zoom object
+        this.zoom.value = Math.max(this.zoom.min, Math.min(this.zoom.max, this.zoom.value));
+        let targetZoomPoint = {
+            x: referenceZoomPoint.x * this.zoom.value - mouseX,
+            y: referenceZoomPoint.y * this.zoom.value - mouseY
+        };
+        // Render the Timeline with the new zoom
+        this.render();
+        // Scroll target area in to view (where the mouse is placed when zooming)
+        SCROLLABLE_TARGET.scrollLeft = targetZoomPoint.x;
+        SCROLLABLE_TARGET.scrollTop = targetZoomPoint.y;
+    }
+    /**
+     * Scroll Timeline to vertical center and horizontal discrete location
+     * @param position 'start' | 'end' | 'center'
+     */ scrollTimeline(position) {
+        if (!this.hasData()) return;
+        // Had problems with this.canvas.scrollIntoView({behaviour: 'smooth', block: 'center', inline: 'end'})
+        // It worked fine in Firefox but didn't fully work in Chrome, so i went for a manual approach
+        // Always center vertically as the Timeline's X-axis is most interesting
+        const verticalMidWindow = window.innerHeight / 2;
+        const verticalMidCanvas = parseInt(this.canvas.style.height, 10) / 2;
+        const dY = Math.abs(verticalMidWindow - verticalMidCanvas);
+        // Pick horizontal position
+        const canvasCSSWidth = parseInt(this.canvas.style.width, 10);
+        const horizontalMidWindow = window.innerWidth / 2;
+        const horizontalPositions = {
+            "start": 0,
+            "end": canvasCSSWidth,
+            "center": Math.abs(horizontalMidWindow - canvasCSSWidth / 2)
+        };
+        const dX = horizontalPositions[position];
+        window.scrollTo({
+            top: dY,
+            left: dX,
+            behavior: "smooth"
+        });
+    }
+    /**
+     * Resets zoom level to standard and re-renders Timeline
+     */ resetZoom() {
+        this.zoom.value = 1;
+        // Only re-render the Timeline, not the Landing Page
+        // We are already rendering the Landing Page when the resetZoom method is called
+        if (this.hasData()) this.render();
+    }
+    /**
+     * Highlight drop area when item is dragged over it
+     */ highlight() {
+        this.canvas.classList.add((0, _constantsDefault.DefaultConstants).highlightClass);
+    }
+    /**
+     * Remove highlight background when file leaves or is dropped
+     */ unhighlight() {
+        this.canvas.classList.remove((0, _constantsDefault.DefaultConstants).highlightClass);
+    }
+    /**
+     * Parse the given JSON-file that was dropped and render the Timeline
+     * @param file The file that was dropped
+     */ parseJSONFile(file) {
+        const reader = new FileReader();
+        reader.readAsText(file);
+        reader.addEventListener("loadend", ()=>{
+            let currentDate;
+            try {
+                // Parse the JSON-file and convert date and timestamps to date objects, easier to work with later
+                const json = reader.result;
+                const parse = JSON.parse(json, function(key, value) {
+                    if (key === "date") {
+                        currentDate = value;
+                        value = new Date(value);
+                    } else if (key === "timestamp") value = new Date(currentDate + " " + value);
+                    else if (key === "hour") value = value.trim();
+                    if (typeof value === "string") value.trim();
+                    return value;
+                });
+                const data = {
+                    meta: {
+                        ...(0, _dataDefault.DefaultData).meta,
+                        ...parse["meta"] || {}
+                    },
+                    style: {
+                        ...(0, _dataDefault.DefaultData).style,
+                        ...parse["style"] || {}
+                    },
+                    days: [
+                        ...(0, _dataDefault.DefaultData).days,
+                        ...parse["days"] || []
+                    ]
+                };
+                this.setData(data);
+                this.render();
+                this.scrollTimeline((0, _scrollPositionType.ScrollPosition).End);
+            } catch (error) {
+                console.error(`JSON parsing error [${error}]`);
+				if (error.name === 'InvalidStateError') {
+					const parseAlert = new (0, _alert.Alert)(`
+						<h3 class="at-m-0">Oops!</h3>
+						<p>File too large, please try again with a shorter date range.</p>
+					`);
+				}
+				else {
+					const parseAlert = new (0, _alert.Alert)(`
+						<h3 class="at-m-0">Oops!</h3>
+						<p>Error parsing the <strong>JSON</strong> file - check the syntax</p>
+					`);
+				}
+            }
+        });
+    }
+    /**
+     * Parse the given CSV file that was dropped and render the Timeline
+     * @param file The file that was dropped
+     */ parseCSVFile(file) {
+        const reader = new FileReader();
+        reader.readAsText(file, "iso-8859-1");
+        reader.addEventListener("loadend", ()=>{
+            try {
+                let meta = {};
+                let style = {};
+                // Remove ghost lines that dosen't contain any data what so ever - Excel might not remove the delimiter
+                const csv = reader.result.replace(";;;;;", "") // Ghost rows in files with JSON Data
+                .replace(";;;;", "") // Ghost rows in files without JSON Data
+                .trim(); // Remove pre- and post linebreaks
+                const headerNames = [
+                    "timestamp",
+                    "title",
+                    "description",
+                    "fillColor",
+                    "strokeColor",
+                    "json"
+                ];
+                const parse = (0, _papaparseDefault.default).parse(csv, {
+                    header: true,
+                    delimiter: ";",
+                    skipEmptyLines: true,
+                    transformHeader: function(header, index) {
+                        // Check if there is data in the 5th column, this is meta and/or style in JSON format
+                        if (index === 5) {
+                            const jsonHeader = JSON.parse(header);
+                            meta = jsonHeader["meta"];
+                            style = jsonHeader["style"];
+                        }
+                        // Replace header names from the users file to the correct internal name
+                        // Note: Important that the user provides the columns in the correct order
+                        return headerNames[index];
+                    },
+                    transform: function(value, header) {
+                        return value.trim();
+                    }
+                });
+                // If there was a 5th column with JSON data
+                // Remove that empty property from the data
+                parse.data.forEach((row)=>{
+                    delete row["json"];
+                });
+                // Group the activites by date 
+                const groupedDays = parse.data.reduce((activites, row)=>{
+                    const date = new Date(row.timestamp);
+                    const dateString = date.toDateString();
+                    // Update timestamp from string to Date object, easier to work with later
+                    row.timestamp = date;
+                    // Create day if not exist
+                    if (!activites[dateString]) activites[dateString] = [];
+                    // Add row/activity to the correct day in the array
+                    activites[dateString].push(row);
+                    return activites;
+                }, {});
+                // Re-arrange the structure of the object
+                const days = Object.keys(groupedDays).map((date)=>{
+                    return {
+                        date: new Date(date),
+                        activities: groupedDays[date]
+                    };
+                });
+                const data = {
+                    meta: {
+                        ...(0, _dataDefault.DefaultData).meta,
+                        ...meta || {}
+                    },
+                    style: {
+                        ...(0, _dataDefault.DefaultData).style,
+                        ...style || {}
+                    },
+                    days: [
+                        ...(0, _dataDefault.DefaultData).days,
+                        ...days || []
+                    ]
+                };
+                this.setData(data);
+                this.render();
+                this.scrollTimeline((0, _scrollPositionType.ScrollPosition).End);
+            } catch (error) {
+                console.error(`CSV parsing error [${error}]`);
+                const parseAlert = new (0, _alert.Alert)(`
+                    <h3 class="at-m-0">Oops!</h3>
+                    <p>Error parsing the <strong>CSV</strong> file - check the syntax</p>
+                `);
+            }
+        });
+    }
+    /**
+     * Check if the data array has data to render
+     * @returns True if array holds data, False otherwise
+     */ hasData() {
+        return Array.isArray(this.days) && this.days.length > 0;
+    }
+    /**
+     * Calculates the width of the canvas base on the data to be rendered
+     * @returns Width of the canvas, minimum width is the window.innerWidth
+     */ calculateWidth(pixelRatio) {
+        // window.innerWidth is the minimum width of the canvas
+        let width = window.innerWidth * pixelRatio;
+        // Calculate appropriate width
+        let calculatedWidth = 0;
+        // Add default padding
+        calculatedWidth += (0, _constantsDefault.DefaultConstants).xPadding * pixelRatio * (this.zoom.value > 1 ? this.zoom.value : 1);
+        // Add required width based on data to be rendered
+        calculatedWidth += (0, _constantsDefault.DefaultConstants).stepDistanceXAxis * pixelRatio * this.zoom.value * this.days.length;
+        if (calculatedWidth > width) width = calculatedWidth;
+        return width;
+    }
+    /**
+     * Calculates the height of the canvas base on the data to be rendered
+     * @returns Height of the canvas, minimum height is the window.innerHeight
+     */ calculateHeight(pixelRatio) {
+        // window.innerHeight is the minimum height of the canvas
+        let height = window.innerHeight * pixelRatio;
+        let maxActivitiesOnYAxis = 0;
+        // Find the day with most activites to be rendered on the Y-axis
+        this.days.forEach((day)=>{
+            if (day.activities.length > maxActivitiesOnYAxis) maxActivitiesOnYAxis = day.activities.length;
+        });
+        // Calculate appropriate height
+        let calculatedHeight = 0;
+        // Add default padding
+        calculatedHeight += (0, _constantsDefault.DefaultConstants).yPadding * pixelRatio * (this.zoom.value > 1 ? this.zoom.value : 1);
+        // Add required height based on data to be rendered (both directions on Y-axis)
+        calculatedHeight += (0, _constantsDefault.DefaultConstants).stepDistanceYAxis * pixelRatio * this.zoom.value * maxActivitiesOnYAxis * 2;
+        if (calculatedHeight > height) height = calculatedHeight;
+        return height;
+    }
+    /**
+     * Calculates the Y-coordinate for where to render the X-axis
+     * @returns Y-coordinate for where to render the X-axis
+     */ getVerticalMid() {
+        return (this.canvas.height / 2 - this.style.lineThickness / 2) / (this.zoom.value * DEVICE_PIXEL_RATIO);
+    }
+    /**
+     * Check if date is todays date
+     * @param date Value to be checked
+     * @returns True if date is today otherwise False
+     */ isToday(date) {
+        const now = new Date();
+        return date.getFullYear() === now.getFullYear() && date.getMonth() === now.getMonth() && date.getDate() === now.getDate();
+    }
+    /**
+     * Gets the long version of weekday from a given date
+     * @param date Value to be converted to weekday
+     * @returns Weekday in format [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+     */ getWeekDayName(date) {
+        // Translate date to weekday name
+        const weekDay = date.toLocaleString(this.meta.locale, {
+            weekday: "long"
+        });
+        // Make the first letter capialized
+        return weekDay.charAt(0).toUpperCase() + weekDay.slice(1);
+    }
+    getHour(day) {
+        return day.hour || "00:00"; // Return the hour from the activity or default to "00:00"
+    }
+    /**
+     * Checks direction to render activities/labels on the Y-axis
+     * @param index Iterator-index from loop
+     * @returns True if rendering towards top, False if towards bottom
+     */ isTop(index) {
+        return index % 2 === 0;
+    }
+    /**
+     * Checks direction to render activities/labels on the Y-axis
+     * @param index Iterator-index from loop
+     * @returns True if rendering towards bottom, False if towards top
+     */ isBottom(index) {
+        return !this.isTop(index);
+    }
+    /**
+     * Get the Activity that corresponds to the clicked/hovered location in the canvas
+     * @param x X-coordinate
+     * @param y Y-coordinate
+     * @returns The clicked Activity, undefined if no activity is found
+     */ hitDetection(x, y) {
+        if (!this.hasData()) return undefined;
+        // The coordinates must be translated to accommodate for scrolling in the canvas
+        const rect = this.canvas.getBoundingClientRect();
+        const relX = (x - rect.left) / (this.zoom.value * DEVICE_PIXEL_RATIO);
+        const relY = (y - rect.top) / (this.zoom.value * DEVICE_PIXEL_RATIO);
+        // How far the detection will be checked away from the clicked coordinate
+        const tolerance = (0, _constantsDefault.DefaultConstants).radius / DEVICE_PIXEL_RATIO;
+        // Perform collision detection
+        for(let a = 0; a < this.days.length; a++)for(let b = 0; b < this.days[a].activities.length; b++){
+            const activity = this.days[a].activities[b];
+            if (activity.x >= relX - tolerance && activity.x <= relX + tolerance && activity.y >= relY - tolerance && activity.y <= relY + tolerance) return activity;
+        }
+        return undefined;
+    }
+    /**
+     * Sets the data to be rendered on the Timeline
+     * Sorts both days and activites in ascending order
+     * @param data Meta, Style and Array of days to be rendered
+     */ setData(data) {
+        // Note: The data has been merged with the default data and handled in specific ways in the JSON/CSV-parse methods
+        // The data should be 100% valid when it arrives here
+        this.meta = data.meta;
+        this.style = data.style;
+        this.days = data.days;
+        // Sort days in ascending order
+        this.days.sort((left, right)=>{
+            return left.date.getTime() - right.date.getTime();
+        });
+        // Sort activities in each day in ascending order
+        this.days.forEach((day)=>{
+            day.activities.sort((left, right)=>{
+                return left.timestamp.getTime() - right.timestamp.getTime();
+            });
+        });
+        if (this.meta.version !== VERSION) {
+            const versionAlert = new (0, _alert.Alert)(`
+                <h3 class="at-m-0">Possibly version mismatch</h3>
+                <p>Application version <strong>v${VERSION}</strong> and JSON version <strong>v${this.meta.version}</strong></p>
+            `);
+        }
+    }
+    // --------------------------------------------------------------
+    // Render methods
+    // --------------------------------------------------------------
+    /**
+     * Renders a circle in the canvas at a given coordinate
+     * @param ctx HTMLCanvas 2d-context
+     * @param x X-coordinate 
+     * @param y Y-cordinate
+     * @param radius Radius of the circle
+     * @param fillColor Fillcolor of the circle
+     * @param strokeColor Strokecolor of the circle
+     */ renderCircle(ctx, x, y, radius, fillColor, strokeColor) {
+        ctx.fillStyle = fillColor;
+        ctx.strokeStyle = strokeColor;
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+    }
+    /**
+     * Renders the landing page when the app is first started
+     */ renderLandingPage() {
+        // Reset zoom, the user might have zoomed the Timeline and then navigated to the Landing Page
+        this.resetZoom();
+        // Context to render elements on
+        const ctx = this.canvas.getContext("2d");
+        // Set canvas width and height based no the window and the devicePixelRatio
+        this.canvas.width = window.innerWidth * DEVICE_PIXEL_RATIO;
+        this.canvas.height = window.innerHeight * DEVICE_PIXEL_RATIO;
+        // Clear the canvas
+        ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        // Note: This will affect all things that are drawn. 
+        // In some places values must be corrected by multiplying or dividing with the zoom.value
+        ctx.scale(this.zoom.value * DEVICE_PIXEL_RATIO, this.zoom.value * DEVICE_PIXEL_RATIO);
+        // Set the canvas element width and height to shrink the canvas on devices that have ratio > 1
+        this.canvas.style.width = window.innerWidth + "px";
+        this.canvas.style.height = window.innerHeight + "px";
+        // Calculate appropriate dimensions for the drop square
+        const dropSquareWidth = window.innerWidth < (0, _constantsDefault.DefaultConstants).ladingPageWidth + (0, _constantsDefault.DefaultConstants).canvasInternalPadding ? 0.9 * window.innerWidth : (0, _constantsDefault.DefaultConstants).ladingPageWidth;
+        const dropSquareHeight = window.innerHeight < (0, _constantsDefault.DefaultConstants).ladingPageHeight + (0, _constantsDefault.DefaultConstants).canvasInternalPadding ? 0.9 * window.innerHeight : (0, _constantsDefault.DefaultConstants).ladingPageHeight;
+        // Render drop square
+        ctx.fillStyle = "#E9E9E9";
+        ctx.lineWidth = this.style.lineThickness;
+        ctx.strokeStyle = this.style.strokeColor;
+        ctx.setLineDash([
+            6
+        ]);
+        ctx.fillRect(window.innerWidth / 2 - dropSquareWidth / 2, window.innerHeight / 2 - dropSquareHeight / 1.8, dropSquareWidth, dropSquareHeight);
+        ctx.strokeRect(window.innerWidth / 2 - dropSquareWidth / 2, window.innerHeight / 2 - dropSquareHeight / 1.8, dropSquareWidth, dropSquareHeight);
+        // Note: The Path2D SVG is generated for size 100 * 76
+        const dropIconDimensions = {
+            width: 100,
+            height: 76
+        };
+        const dropIconSVGPath = new Path2D("M37.5 21.875C37.5 19.3886 38.4877 17.004 40.2459 15.2459C42.004 13.4877 44.3886 12.5 46.875 12.5H53.125C55.6114 12.5 57.996 13.4877 59.7541 15.2459C61.5123 17.004 62.5 19.3886 62.5 21.875V28.125C62.5 30.6114 61.5123 32.996 59.7541 34.7541C57.996 36.5123 55.6114 37.5 53.125 37.5V43.75H87.5C88.3288 43.75 89.1237 44.0792 89.7097 44.6653C90.2958 45.2513 90.625 46.0462 90.625 46.875V53.125C90.625 53.9538 90.2958 54.7487 89.7097 55.3347C89.1237 55.9208 88.3288 56.25 87.5 56.25C86.6712 56.25 85.8763 55.9208 85.2903 55.3347C84.7042 54.7487 84.375 53.9538 84.375 53.125V50H53.125V53.125C53.125 53.9538 52.7958 54.7487 52.2097 55.3347C51.6237 55.9208 50.8288 56.25 50 56.25C49.1712 56.25 48.3763 55.9208 47.7903 55.3347C47.2042 54.7487 46.875 53.9538 46.875 53.125V50H15.625V53.125C15.625 53.9538 15.2958 54.7487 14.7097 55.3347C14.1237 55.9208 13.3288 56.25 12.5 56.25C11.6712 56.25 10.8763 55.9208 10.2903 55.3347C9.70424 54.7487 9.375 53.9538 9.375 53.125V46.875C9.375 46.0462 9.70424 45.2513 10.2903 44.6653C10.8763 44.0792 11.6712 43.75 12.5 43.75H46.875V37.5C44.3886 37.5 42.004 36.5123 40.2459 34.7541C38.4877 32.996 37.5 30.6114 37.5 28.125V21.875ZM0 71.875C0 69.3886 0.98772 67.004 2.74587 65.2459C4.50403 63.4877 6.8886 62.5 9.375 62.5H15.625C18.1114 62.5 20.496 63.4877 22.2541 65.2459C24.0123 67.004 25 69.3886 25 71.875V78.125C25 80.6114 24.0123 82.996 22.2541 84.7541C20.496 86.5123 18.1114 87.5 15.625 87.5H9.375C6.8886 87.5 4.50403 86.5123 2.74587 84.7541C0.98772 82.996 0 80.6114 0 78.125L0 71.875ZM37.5 71.875C37.5 69.3886 38.4877 67.004 40.2459 65.2459C42.004 63.4877 44.3886 62.5 46.875 62.5H53.125C55.6114 62.5 57.996 63.4877 59.7541 65.2459C61.5123 67.004 62.5 69.3886 62.5 71.875V78.125C62.5 80.6114 61.5123 82.996 59.7541 84.7541C57.996 86.5123 55.6114 87.5 53.125 87.5H46.875C44.3886 87.5 42.004 86.5123 40.2459 84.7541C38.4877 82.996 37.5 80.6114 37.5 78.125V71.875ZM75 71.875C75 69.3886 75.9877 67.004 77.7459 65.2459C79.504 63.4877 81.8886 62.5 84.375 62.5H90.625C93.1114 62.5 95.496 63.4877 97.2541 65.2459C99.0123 67.004 100 69.3886 100 71.875V78.125C100 80.6114 99.0123 82.996 97.2541 84.7541C95.496 86.5123 93.1114 87.5 90.625 87.5H84.375C81.8886 87.5 79.504 86.5123 77.7459 84.7541C75.9877 82.996 75 80.6114 75 78.125V71.875Z");
+        // Render drop text
+        const dropLabel = "DROP TIMELINE DATA FILE";
+        ctx.font = `italic bold 20px Arial`;
+        ctx.fillStyle = this.style.textColor;
+        ctx.fillText(dropLabel, window.innerWidth / 2 - ctx.measureText(dropLabel).width / 2, window.innerHeight / 2 + dropIconDimensions.height / 2);
+        // Render version text
+        const versionLabel = "Version " + VERSION;
+        ctx.font = `italic 14px Arial`;
+        ctx.fillText(versionLabel, window.innerWidth / 2 - ctx.measureText(versionLabel).width / 2, window.innerHeight / 2 + dropIconDimensions.height / 2 + 20);
+        // Render drop icon
+        ctx.translate(window.innerWidth / 2 - dropIconDimensions.width / 2, window.innerHeight / 2 - dropIconDimensions.height - 20);
+        ctx.fill(dropIconSVGPath);
+    }
+    /**
+     * Renders the Timeline on the canvas based on the given data
+     */ render() {
+        // Context to render elements on
+        const ctx = this.canvas.getContext("2d");
+        // Set canvas width and height based no the data and the devicePixelRatio
+        const resolutionWidth = this.calculateWidth(DEVICE_PIXEL_RATIO);
+        const resolutionHeight = this.calculateHeight(DEVICE_PIXEL_RATIO);
+        this.canvas.width = resolutionWidth;
+        this.canvas.height = resolutionHeight;
+        // Clear the canvas
+        ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        // Canvas background
+        ctx.fillStyle = this.style.backgroundColor;
+        ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+        // Note: This will affect all things that are drawn. 
+        // In some places values must be corrected by multiplying or dividing with the zoom.value
+        ctx.scale(this.zoom.value * DEVICE_PIXEL_RATIO, this.zoom.value * DEVICE_PIXEL_RATIO);
+        // Set the canvas element width and height to shrink the canvas on devices that have ratio > 1
+        this.canvas.style.width = Number(resolutionWidth / DEVICE_PIXEL_RATIO) + "px";
+        this.canvas.style.height = Number(resolutionHeight / DEVICE_PIXEL_RATIO) + "px";
+        // Get the mid of the canvas, must come after the calculate width/height
+        const mid = this.getVerticalMid();
+        // Default style
+        ctx.font = `bold ${this.style.fontSize}px Arial`;
+        ctx.strokeStyle = this.style.timelineStrokeColor;
+        ctx.lineWidth = this.style.lineThickness;
+        ctx.lineCap = "round";
+        // Render main Timeline
+        ctx.beginPath();
+        ctx.moveTo((0, _constantsDefault.DefaultConstants).canvasInternalPadding, mid);
+        ctx.lineTo(this.canvas.width / (this.zoom.value * DEVICE_PIXEL_RATIO) - (0, _constantsDefault.DefaultConstants).canvasInternalPadding, mid);
+        ctx.stroke();
+        // Render each day on Timeline
+        this.days.forEach((day, index)=>{
+            const x = (0, _constantsDefault.DefaultConstants).xPadding + (0, _constantsDefault.DefaultConstants).stepDistanceXAxis * index;
+            const y = mid;
+            // If placement is top or bottom direction on the Y-axis
+            const sign = this.isTop(index) ? 1 : -1;
+            // Adjust for the text height on top position label when rendering activities towards bottom
+            const signAdjustment = this.isBottom(index) ? this.style.fontSize / 2 : 0;
+            // Render day Timeline
+            ctx.strokeStyle = this.style.timelineStrokeColor;
+            ctx.beginPath();
+            ctx.setLineDash([
+                5,
+                8
+            ]);
+            ctx.moveTo(x, y);
+            ctx.lineTo(x, y + day.activities.length * (0, _constantsDefault.DefaultConstants).stepDistanceYAxis * -sign);
+            ctx.stroke();
+            ctx.setLineDash([]);
+            // Render activities from that day
+            day.activities.forEach((activity, index)=>{
+                // Render activity-circle
+                const posX = x;
+                const posY = y + (0, _constantsDefault.DefaultConstants).stepDistanceYAxis * (index + 1) * -sign;
+                this.renderCircle(ctx, posX, posY, (0, _constantsDefault.DefaultConstants).radius, activity.fillColor, activity.strokeColor);
+                // Store coordinates where the activity was rendered, this will be used in the click-event
+                activity.x = posX / DEVICE_PIXEL_RATIO;
+                activity.y = posY / DEVICE_PIXEL_RATIO;
+                // Render activity-label
+                ctx.fillStyle = this.style.textColor;
+                ctx.fillText(activity.title, x + (0, _constantsDefault.DefaultConstants).radius * 1.5, y + (0, _constantsDefault.DefaultConstants).stepDistanceYAxis * (index + 1) * -sign - 10 + this.style.fontSize / 2);
+                ctx.fillText(activity.timestamp.toLocaleTimeString(this.meta.locale), x + (0, _constantsDefault.DefaultConstants).radius * 1.5, y + (0, _constantsDefault.DefaultConstants).stepDistanceYAxis * (index + 1) * -sign + 8 + this.style.fontSize / 2);
+            });
+            // Render date-circle on Timeline
+            this.renderCircle(ctx, x, y, (0, _constantsDefault.DefaultConstants).radius, this.style.fillColor, this.style.strokeColor);
+            // Render date-label
+            const dateLabel = day.date.toLocaleDateString(this.meta.locale) + " (" + this.getHour(day) + ")";
+            ctx.fillStyle = this.style.textColor;
+            ctx.fillText(dateLabel, x - ctx.measureText(dateLabel).width / 2, y + signAdjustment + (0, _constantsDefault.DefaultConstants).radius * 2 * sign);
+        });
+    }
+}
+
+},{"./modal/Modal":"8MNHj","./dialog/Alert":"ekOfd","./helpers/Download":"5xK1O","../defaults/data.default":"ioA2P","../defaults/zoom.default":"aRmnB","../types/scroll-position.type":"iF9VA","../defaults/position.default":"k3WBG","../defaults/constants.default":"88HBh","papaparse":"5w3wE","4323c091af398fa3":"dIKiH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./menu/Menu":"gBPN6"}],"8MNHj":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Modal", ()=>Modal);
+var _modalBase = require("./ModalBase");
+var _modalBaseDefault = parcelHelpers.interopDefault(_modalBase);
+class Modal extends (0, _modalBaseDefault.default) {
+    constructor(title, content){
+        super(title);
+        const modalContent = document.createElement("div");
+        modalContent.className = "at-modal__content";
+        modalContent.innerHTML = content;
+        this.modalContent = modalContent;
+        this.show(modalContent);
+    }
+    setContent(content) {
+        this.modalContent.innerHTML = content;
+    }
+}
+
+},{"./ModalBase":"6BfDQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6BfDQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _trapFocus = require("../helpers/TrapFocus");
+var _icons = require("../helpers/Icons");
+const ANIMATION_CLASS = "at-animations--bounce";
+class ModalBase {
+    constructor(title){
+        const modalBackdrop = document.createElement("div");
+        modalBackdrop.className = "at-modal-backdrop at-modal-backdrop--fixed";
+        modalBackdrop.setAttribute("tabindex", "-1");
+        modalBackdrop.addEventListener("keydown", (0, _trapFocus.trapFocus));
+        modalBackdrop.addEventListener("click", this.bounceAnimation.bind(this));
+        const modal = document.createElement("div");
+        modal.className = "at-modal at-animations--bounce";
+        const modalHeader = document.createElement("div");
+        modalHeader.className = "at-modal__header";
+        const modalTitle = document.createElement("h3");
+        modalTitle.className = "at-modal__title";
+        modalTitle.innerHTML = title;
+        const modalClose = document.createElement("button");
+        modalClose.setAttribute("type", "button");
+        modalClose.className = "at-modal__close at-btn at-btn--blank";
+        modalClose.innerHTML = (0, _icons.getIcon)({
+            path: (0, _icons.SVGPaths).Close,
+            fill: "none",
+            stroke: "currentColor"
+        });
+        modalClose.addEventListener("click", (event)=>{
+            event.preventDefault();
+            this.close();
+        });
+        modalBackdrop.appendChild(modal);
+        modal.appendChild(modalHeader);
+        modalHeader.appendChild(modalTitle);
+        modalHeader.appendChild(modalClose);
+        this.modalBackdrop = modalBackdrop;
+        this.modal = modal;
+        window.addEventListener("keyup", (event)=>{
+            if (event.key.toLowerCase() === "escape") this.close();
+        });
+    }
+    isSelf(event) {
+        return event.target !== this.modalBackdrop;
+    }
+    runAnimation() {
+        this.modal.classList.remove(ANIMATION_CLASS);
+        this.modal.offsetWidth;
+        this.modal.classList.add(ANIMATION_CLASS);
+    }
+    bounceAnimation(event) {
+        if (this.isSelf(event)) return;
+        this.runAnimation();
+    }
+    show(modalContent) {
+        this.modal.appendChild(modalContent);
+        document.body.appendChild(this.modalBackdrop);
+        this.modalBackdrop.focus();
+    }
+    close() {
+        this.modalBackdrop.removeEventListener("keydown", (0, _trapFocus.trapFocus));
+        this.modalBackdrop.remove();
+    }
+}
+exports.default = ModalBase;
+
+},{"../helpers/TrapFocus":"2nbVV","../helpers/Icons":"7YvtL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2nbVV":[function(require,module,exports) {
+/**
+ * Traps the focus to always stay in the target component
+ * @param event KeyboardEvent
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "trapFocus", ()=>trapFocus);
+const trapFocus = function(event) {
+    const isTabKey = event.key === "Tab";
+    if (!Boolean(isTabKey)) return;
+    const elements = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+    const firstElement = this.querySelectorAll(elements)[0];
+    const content = this.querySelectorAll(elements);
+    const lastElement = content[content.length - 1];
+    if (Boolean(event.shiftKey)) {
+        if (document.activeElement === firstElement) {
+            lastElement.focus();
+            event.preventDefault();
+        }
+    } else if (document.activeElement === lastElement) {
+        firstElement.focus();
+        event.preventDefault();
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"7YvtL":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "SVGPaths", ()=>SVGPaths);
+parcelHelpers.export(exports, "getIcon", ()=>getIcon);
+var _iconDefault = require("../../defaults/icon.default");
+const getIcon = function(icon) {
+    const options = {
+        ...(0, _iconDefault.DefaultIcon),
+        ...icon
+    };
+    return `
+        <svg xmlns="http://www.w3.org/2000/svg"
+            width="${options.width}"
+            height="${options.height}"
+            fill="${options.fill}"
+            stroke="${options.stroke}"
+            class="${options.class}"
+            viewBox="0 0 16 16">
+            ${options.path}
+        </svg>
+    `;
+};
+const SVGPaths = {
+    About: `
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    `,
+    AlignCenter: `
+        <path d="M8 4a.5.5 0 0 1 .5.5v8a.5.5 0 1 1-1 0v-8a.49.49 0 0 1 .158-.363A.493.493 0 0 1 8 4zM0 8.5a.495.495 0 0 1 .146-.352A.502.502 0 0 1 .5 8h4.793L3.146 5.855A.504.504 0 0 1 3 5.5c0-.133.053-.258.146-.352a.573.573 0 0 1 .2-.125.502.502 0 0 1 .508.125l3 3c.025.024.046.051.064.079l.045.082A.498.498 0 0 1 7 8.5l-.01.102-.027.09a.493.493 0 0 1-.11.163l-3 3A.498.498 0 0 1 3.5 12a.498.498 0 0 1-.354-.852L5.293 9H.5a.531.531 0 0 1-.178-.031.606.606 0 0 1-.111-.059l-.065-.055A.504.504 0 0 1 0 8.5zM15.96 8.309a.504.504 0 0 1-.256.648.529.529 0 0 1-.204.043h-4.793l2.148 2.148c.05.051.086.11.112.172a.505.505 0 0 1-.111.535.503.503 0 0 1-.356.145.498.498 0 0 1-.354-.145l-3-3a.46.46 0 0 1-.107-.164.486.486 0 0 1 0-.382l.053-.094.054-.067 3-3a.557.557 0 0 1 .196-.125.506.506 0 0 1 .66.477.504.504 0 0 1-.147.355L10.707 8H15.5a.501.501 0 0 1 .46.309z"/>
+    `,
+    AlignEnd: `
+        <path fill-rule="evenodd" d="M3 8a.5.5 0 0 1 .5-.5h6.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H3.5A.5.5 0 0 1 3 8Z"/>
+        <path fill-rule="evenodd" d="M12.5 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5Z"/>
+    `,
+    AlignStart: `
+        <path fill-rule="evenodd" d="M13 8a.5.5 0 0 0-.5-.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H12.5A.5.5 0 0 0 13 8Z"/>
+        <path fill-rule="evenodd" d="M3.5 4a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 1 0v-7a.5.5 0 0 0-.5-.5Z"/>
+    `,
+    Bell: `
+        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+    `,
+    Close: `
+        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+    `,
+    ExportData: `
+        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+        <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>  
+    `,
+    ExportImage: `
+        <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+        <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
+    `,
+    GitHub: `
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    `,
+    Import: `
+        <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+        <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+    `,
+    Info: `
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>  
+    `,
+    Logo: `
+        <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"/>
+    `,
+    Menu: `
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+    `,
+    ZoomIn: `
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+        <path d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z"/>
+        <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5z"/>
+    `,
+    ZoomOut: `
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+        <path d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z"/>
+        <path fill-rule="evenodd" d="M3 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+    `,
+    ZoomReset: `
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+    `
+};
+
+},{"../../defaults/icon.default":"5OTap","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5OTap":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultIcon", ()=>DefaultIcon);
+const DefaultIcon = {
+    width: 24,
+    height: 24,
+    fill: "currentColor",
+    stroke: "none",
+    class: "",
+    path: ""
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ekOfd":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Alert", ()=>Alert);
+var _dialogBase = require("./DialogBase");
+var _dialogBaseDefault = parcelHelpers.interopDefault(_dialogBase);
+class Alert extends (0, _dialogBaseDefault.default) {
+    constructor(content){
+        super();
+        const dialog = document.createElement("div");
+        dialog.className = "at-dialog at-dialog--alert at-animations--bounce";
+        dialog.innerHTML = content;
+        const buttonWrapper = document.createElement("div");
+        buttonWrapper.className = "at-dialog__button-wrapper";
+        const okButton = document.createElement("button");
+        okButton.setAttribute("type", "button");
+        okButton.className = "at-dialog__btn at-btn at-btn--blue-mid";
+        okButton.innerText = "Got it!";
+        okButton.addEventListener("click", (event)=>{
+            this.close();
+        });
+        buttonWrapper.appendChild(okButton);
+        dialog.appendChild(buttonWrapper);
+        this.dialogBackdrop.appendChild(dialog);
+        document.body.appendChild(this.dialogBackdrop);
+        this.dialogBackdrop.focus();
+    }
+}
+
+},{"./DialogBase":"4UO0t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4UO0t":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _trapFocus = require("../helpers/TrapFocus");
+const ANIMATION_CLASS = "at-animations--bounce";
+class DialogBase {
+    constructor(){
+        const dialogBackdrop = document.createElement("div");
+        dialogBackdrop.className = "at-dialog-backdrop at-dialog-backdrop--fixed";
+        dialogBackdrop.setAttribute("tabindex", "-1");
+        dialogBackdrop.addEventListener("keydown", (0, _trapFocus.trapFocus));
+        dialogBackdrop.addEventListener("click", this.bounceAnimation.bind(this));
+        this.dialogBackdrop = dialogBackdrop;
+        window.addEventListener("keyup", (event)=>{
+            if (event.key.toLowerCase() === "escape") this.close();
+        });
+    }
+    isSelf(event) {
+        return event.target !== this.dialogBackdrop;
+    }
+    runAnimation() {
+        const dialog = this.dialogBackdrop.firstElementChild;
+        dialog.classList.remove(ANIMATION_CLASS);
+        dialog.offsetWidth;
+        dialog.classList.add(ANIMATION_CLASS);
+    }
+    bounceAnimation(event) {
+        if (this.isSelf(event)) return;
+        this.runAnimation();
+    }
+    close() {
+        this.dialogBackdrop.removeEventListener("keydown", (0, _trapFocus.trapFocus));
+        this.dialogBackdrop.remove();
+    }
+}
+exports.default = DialogBase;
+
+},{"../helpers/TrapFocus":"2nbVV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5xK1O":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "download", ()=>download);
+const download = function(filename, content) {
+    const downloadTrigger = document.createElement("a");
+    downloadTrigger.style.display = "none";
+    downloadTrigger.setAttribute("download", filename);
+    const data = isImage(filename) ? content : `data:text/plain;charset=utf-8,${encodeURIComponent(content)}`;
+    downloadTrigger.setAttribute("href", data);
+    downloadTrigger.click();
+};
+const isImage = function(filename) {
+    if (!filename.includes(".")) return false;
+    return filename.split(".").pop().match(/jpg|jpeg|png|gif|svg/i) !== null;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ioA2P":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultData", ()=>DefaultData);
+var _metaDefault = require("./meta.default");
+var _styleDefault = require("./style.default");
+/**
+ * Main default object containing the complete object used in the Timeline
+ * This object is merged with the loaded JSON-file using the spread operator
+ */ const DefaultData = {
+    meta: (0, _metaDefault.DefaultMeta),
+    style: (0, _styleDefault.DefaultStyle),
+    days: []
+};
+
+},{"./meta.default":"3onga","./style.default":"4bQA7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3onga":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultMeta", ()=>DefaultMeta);
+const VERION = require("2760f293618f12d6").version;
+/**
+ * Default object containing meta information 
+ * This data can be overridden from the JSON-file
+ * "meta": {
+ *     "locale": "sv-se"
+ * }
+ * "style": {...},
+ * "days": [...]
+ */ const DefaultMeta = {
+    version: VERION,
+    locale: "en-us"
+};
+
+},{"2760f293618f12d6":"dIKiH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dIKiH":[function(require,module,exports) {
+module.exports = JSON.parse('{"name":"activity-timeline","version":"1.4.0","author":"Qulle","license":"BSD-2-Clause license","description":"Portable activity timeline that draws the timeline based on data given in JSON or CSV format.","keywords":["timeline","canvas"],"repository":{"type":"git","url":"git+https://github.com/qulle/activity-timeline.git"},"homepage":"https://github.com/qulle/activity-timeline#readme","bugs":{"url":"https://github.com/qulle/activity-timeline/issues"},"scripts":{"start":"parcel src/index.html --open","build":"parcel build --public-url . src/index.html","clean":"rm -rf dist/ .parcel-cache/"},"devDependencies":{"@parcel/transformer-sass":"^2.8.3","@types/node":"^18.15.11","@types/papaparse":"^5.3.7","parcel":"^2.8.3"},"dependencies":{"papaparse":"^5.4.1"}}');
+
+},{}],"4bQA7":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultStyle", ()=>DefaultStyle);
+/**
+ * Default object containing style information
+ * This data can be overridden from the JSON-file
+ * "style": {
+ *     "backgroundColor": "#3B4352"
+ * },
+ * "days": [...]
+ */ const DefaultStyle = {
+    fontSize: 14,
+    lineThickness: 2,
+    timelineStrokeColor: "#3B4352",
+    strokeColor: "#3B4352",
+    fillColor: "#BAC8D3",
+    textColor: "#3B4352",
+    backgroundColor: "#FFFFFF"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aRmnB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultZoom", ()=>DefaultZoom);
+const DefaultZoom = {
+    value: 1,
+    factor: 0.05,
+    min: 0.25,
+    max: 2.5
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iF9VA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ScrollPosition", ()=>ScrollPosition);
+let ScrollPosition;
+(function(ScrollPosition) {
+    ScrollPosition["Start"] = "start";
+    ScrollPosition["End"] = "end";
+    ScrollPosition["Center"] = "center";
+})(ScrollPosition || (ScrollPosition = {}));
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k3WBG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultPosition", ()=>DefaultPosition);
+const DefaultPosition = {
+    left: 0,
+    top: 0,
+    x: 0,
+    y: 0
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"88HBh":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "DefaultConstants", ()=>DefaultConstants);
+const DefaultConstants = {
+    highlightClass: "at-canvas--highlight",
+    ladingPageWidth: 600,
+    ladingPageHeight: 300,
+    radius: 18,
+    stepDistanceXAxis: 300,
+    stepDistanceYAxis: 80,
+    canvasInternalPadding: 20,
+    xPadding: 150,
+    yPadding: 80
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5w3wE":[function(require,module,exports) {
+/* @license
+Papa Parse
+v5.4.1
+https://github.com/mholt/PapaParse
+License: MIT
+*/ !function(e, t) {
+    "function" == typeof define && define.amd ? define([], t) : module.exports = t();
+}(this, function s() {
+    "use strict";
+    var f = "undefined" != typeof self ? self : "undefined" != typeof window ? window : void 0 !== f ? f : {};
+    var n = !f.document && !!f.postMessage, o = f.IS_PAPA_WORKER || !1, a = {}, u = 0, b = {
+        parse: function(e, t) {
+            var r = (t = t || {}).dynamicTyping || !1;
+            J(r) && (t.dynamicTypingFunction = r, r = {});
+            if (t.dynamicTyping = r, t.transform = !!J(t.transform) && t.transform, t.worker && b.WORKERS_SUPPORTED) {
+                var i = function() {
+                    if (!b.WORKERS_SUPPORTED) return !1;
+                    var e = (r = f.URL || f.webkitURL || null, i = s.toString(), b.BLOB_URL || (b.BLOB_URL = r.createObjectURL(new Blob([
+                        "var global = (function() { if (typeof self !== 'undefined') { return self; } if (typeof window !== 'undefined') { return window; } if (typeof global !== 'undefined') { return global; } return {}; })(); global.IS_PAPA_WORKER=true; ",
+                        "(",
+                        i,
+                        ")();"
+                    ], {
+                        type: "text/javascript"
+                    })))), t = new f.Worker(e);
+                    var r, i;
+                    return t.onmessage = _, t.id = u++, a[t.id] = t;
+                }();
+                return i.userStep = t.step, i.userChunk = t.chunk, i.userComplete = t.complete, i.userError = t.error, t.step = J(t.step), t.chunk = J(t.chunk), t.complete = J(t.complete), t.error = J(t.error), delete t.worker, void i.postMessage({
+                    input: e,
+                    config: t,
+                    workerId: i.id
+                });
+            }
+            var n = null;
+            b.NODE_STREAM_INPUT, "string" == typeof e ? (e = function(e) {
+                if (65279 === e.charCodeAt(0)) return e.slice(1);
+                return e;
+            }(e), n = t.download ? new l(t) : new p(t)) : !0 === e.readable && J(e.read) && J(e.on) ? n = new g(t) : (f.File && e instanceof File || e instanceof Object) && (n = new c(t));
+            return n.stream(e);
+        },
+        unparse: function(e, t) {
+            var n = !1, _ = !0, m = ",", y = "\r\n", s = '"', a = s + s, r = !1, i = null, o = !1;
+            !function() {
+                if ("object" != typeof t) return;
+                "string" != typeof t.delimiter || b.BAD_DELIMITERS.filter(function(e) {
+                    return -1 !== t.delimiter.indexOf(e);
+                }).length || (m = t.delimiter);
+                ("boolean" == typeof t.quotes || "function" == typeof t.quotes || Array.isArray(t.quotes)) && (n = t.quotes);
+                "boolean" != typeof t.skipEmptyLines && "string" != typeof t.skipEmptyLines || (r = t.skipEmptyLines);
+                "string" == typeof t.newline && (y = t.newline);
+                "string" == typeof t.quoteChar && (s = t.quoteChar);
+                "boolean" == typeof t.header && (_ = t.header);
+                if (Array.isArray(t.columns)) {
+                    if (0 === t.columns.length) throw new Error("Option columns is empty");
+                    i = t.columns;
+                }
+                void 0 !== t.escapeChar && (a = t.escapeChar + s);
+                ("boolean" == typeof t.escapeFormulae || t.escapeFormulae instanceof RegExp) && (o = t.escapeFormulae instanceof RegExp ? t.escapeFormulae : /^[=+\-@\t\r].*$/);
+            }();
+            var u = new RegExp(Q(s), "g");
+            "string" == typeof e && (e = JSON.parse(e));
+            if (Array.isArray(e)) {
+                if (!e.length || Array.isArray(e[0])) return h(null, e, r);
+                if ("object" == typeof e[0]) return h(i || Object.keys(e[0]), e, r);
+            } else if ("object" == typeof e) return "string" == typeof e.data && (e.data = JSON.parse(e.data)), Array.isArray(e.data) && (e.fields || (e.fields = e.meta && e.meta.fields || i), e.fields || (e.fields = Array.isArray(e.data[0]) ? e.fields : "object" == typeof e.data[0] ? Object.keys(e.data[0]) : []), Array.isArray(e.data[0]) || "object" == typeof e.data[0] || (e.data = [
+                e.data
+            ])), h(e.fields || [], e.data || [], r);
+            throw new Error("Unable to serialize unrecognized input");
+            function h(e, t, r) {
+                var i = "";
+                "string" == typeof e && (e = JSON.parse(e)), "string" == typeof t && (t = JSON.parse(t));
+                var n = Array.isArray(e) && 0 < e.length, s = !Array.isArray(t[0]);
+                if (n && _) {
+                    for(var a = 0; a < e.length; a++)0 < a && (i += m), i += v(e[a], a);
+                    0 < t.length && (i += y);
+                }
+                for(var o = 0; o < t.length; o++){
+                    var u = n ? e.length : t[o].length, h = !1, f = n ? 0 === Object.keys(t[o]).length : 0 === t[o].length;
+                    if (r && !n && (h = "greedy" === r ? "" === t[o].join("").trim() : 1 === t[o].length && 0 === t[o][0].length), "greedy" === r && n) {
+                        for(var d = [], l = 0; l < u; l++){
+                            var c = s ? e[l] : l;
+                            d.push(t[o][c]);
+                        }
+                        h = "" === d.join("").trim();
+                    }
+                    if (!h) {
+                        for(var p = 0; p < u; p++){
+                            0 < p && !f && (i += m);
+                            var g = n && s ? e[p] : p;
+                            i += v(t[o][g], p);
+                        }
+                        o < t.length - 1 && (!r || 0 < u && !f) && (i += y);
+                    }
+                }
+                return i;
+            }
+            function v(e, t) {
+                if (null == e) return "";
+                if (e.constructor === Date) return JSON.stringify(e).slice(1, 25);
+                var r = !1;
+                o && "string" == typeof e && o.test(e) && (e = "'" + e, r = !0);
+                var i = e.toString().replace(u, a);
+                return (r = r || !0 === n || "function" == typeof n && n(e, t) || Array.isArray(n) && n[t] || function(e, t) {
+                    for(var r = 0; r < t.length; r++)if (-1 < e.indexOf(t[r])) return !0;
+                    return !1;
+                }(i, b.BAD_DELIMITERS) || -1 < i.indexOf(m) || " " === i.charAt(0) || " " === i.charAt(i.length - 1)) ? s + i + s : i;
+            }
+        }
+    };
+    if (b.RECORD_SEP = String.fromCharCode(30), b.UNIT_SEP = String.fromCharCode(31), b.BYTE_ORDER_MARK = "\uFEFF", b.BAD_DELIMITERS = [
+        "\r",
+        "\n",
+        '"',
+        b.BYTE_ORDER_MARK
+    ], b.WORKERS_SUPPORTED = !n && !!f.Worker, b.NODE_STREAM_INPUT = 1, b.LocalChunkSize = 10485760, b.RemoteChunkSize = 5242880, b.DefaultDelimiter = ",", b.Parser = E, b.ParserHandle = r, b.NetworkStreamer = l, b.FileStreamer = c, b.StringStreamer = p, b.ReadableStreamStreamer = g, f.jQuery) {
+        var d = f.jQuery;
+        d.fn.parse = function(o) {
+            var r = o.config || {}, u = [];
+            return this.each(function(e) {
+                if (!("INPUT" === d(this).prop("tagName").toUpperCase() && "file" === d(this).attr("type").toLowerCase() && f.FileReader) || !this.files || 0 === this.files.length) return !0;
+                for(var t = 0; t < this.files.length; t++)u.push({
+                    file: this.files[t],
+                    inputElem: this,
+                    instanceConfig: d.extend({}, r)
+                });
+            }), e(), this;
+            function e() {
+                if (0 !== u.length) {
+                    var e, t, r, i, n = u[0];
+                    if (J(o.before)) {
+                        var s = o.before(n.file, n.inputElem);
+                        if ("object" == typeof s) {
+                            if ("abort" === s.action) return e = "AbortError", t = n.file, r = n.inputElem, i = s.reason, void (J(o.error) && o.error({
+                                name: e
+                            }, t, r, i));
+                            if ("skip" === s.action) return void h();
+                            "object" == typeof s.config && (n.instanceConfig = d.extend(n.instanceConfig, s.config));
+                        } else if ("skip" === s) return void h();
+                    }
+                    var a = n.instanceConfig.complete;
+                    n.instanceConfig.complete = function(e) {
+                        J(a) && a(e, n.file, n.inputElem), h();
+                    }, b.parse(n.file, n.instanceConfig);
+                } else J(o.complete) && o.complete();
+            }
+            function h() {
+                u.splice(0, 1), e();
+            }
+        };
+    }
+    function h(e) {
+        this._handle = null, this._finished = !1, this._completed = !1, this._halted = !1, this._input = null, this._baseIndex = 0, this._partialLine = "", this._rowCount = 0, this._start = 0, this._nextChunk = null, this.isFirstChunk = !0, this._completeResults = {
+            data: [],
+            errors: [],
+            meta: {}
+        }, (function(e) {
+            var t = w(e);
+            t.chunkSize = parseInt(t.chunkSize), e.step || e.chunk || (t.chunkSize = null);
+            this._handle = new r(t), (this._handle.streamer = this)._config = t;
+        }).call(this, e), this.parseChunk = function(e, t) {
+            if (this.isFirstChunk && J(this._config.beforeFirstChunk)) {
+                var r = this._config.beforeFirstChunk(e);
+                void 0 !== r && (e = r);
+            }
+            this.isFirstChunk = !1, this._halted = !1;
+            var i = this._partialLine + e;
+            this._partialLine = "";
+            var n = this._handle.parse(i, this._baseIndex, !this._finished);
+            if (!this._handle.paused() && !this._handle.aborted()) {
+                var s = n.meta.cursor;
+                this._finished || (this._partialLine = i.substring(s - this._baseIndex), this._baseIndex = s), n && n.data && (this._rowCount += n.data.length);
+                var a = this._finished || this._config.preview && this._rowCount >= this._config.preview;
+                if (o) f.postMessage({
+                    results: n,
+                    workerId: b.WORKER_ID,
+                    finished: a
+                });
+                else if (J(this._config.chunk) && !t) {
+                    if (this._config.chunk(n, this._handle), this._handle.paused() || this._handle.aborted()) return void (this._halted = !0);
+                    n = void 0, this._completeResults = void 0;
+                }
+                return this._config.step || this._config.chunk || (this._completeResults.data = this._completeResults.data.concat(n.data), this._completeResults.errors = this._completeResults.errors.concat(n.errors), this._completeResults.meta = n.meta), this._completed || !a || !J(this._config.complete) || n && n.meta.aborted || (this._config.complete(this._completeResults, this._input), this._completed = !0), a || n && n.meta.paused || this._nextChunk(), n;
+            }
+            this._halted = !0;
+        }, this._sendError = function(e) {
+            J(this._config.error) ? this._config.error(e) : o && this._config.error && f.postMessage({
+                workerId: b.WORKER_ID,
+                error: e,
+                finished: !1
+            });
+        };
+    }
+    function l(e) {
+        var i;
+        (e = e || {}).chunkSize || (e.chunkSize = b.RemoteChunkSize), h.call(this, e), this._nextChunk = n ? function() {
+            this._readChunk(), this._chunkLoaded();
+        } : function() {
+            this._readChunk();
+        }, this.stream = function(e) {
+            this._input = e, this._nextChunk();
+        }, this._readChunk = function() {
+            if (this._finished) this._chunkLoaded();
+            else {
+                if (i = new XMLHttpRequest, this._config.withCredentials && (i.withCredentials = this._config.withCredentials), n || (i.onload = v(this._chunkLoaded, this), i.onerror = v(this._chunkError, this)), i.open(this._config.downloadRequestBody ? "POST" : "GET", this._input, !n), this._config.downloadRequestHeaders) {
+                    var e = this._config.downloadRequestHeaders;
+                    for(var t in e)i.setRequestHeader(t, e[t]);
+                }
+                if (this._config.chunkSize) {
+                    var r = this._start + this._config.chunkSize - 1;
+                    i.setRequestHeader("Range", "bytes=" + this._start + "-" + r);
+                }
+                try {
+                    i.send(this._config.downloadRequestBody);
+                } catch (e) {
+                    this._chunkError(e.message);
+                }
+                n && 0 === i.status && this._chunkError();
+            }
+        }, this._chunkLoaded = function() {
+            4 === i.readyState && (i.status < 200 || 400 <= i.status ? this._chunkError() : (this._start += this._config.chunkSize ? this._config.chunkSize : i.responseText.length, this._finished = !this._config.chunkSize || this._start >= function(e) {
+                var t = e.getResponseHeader("Content-Range");
+                if (null === t) return -1;
+                return parseInt(t.substring(t.lastIndexOf("/") + 1));
+            }(i), this.parseChunk(i.responseText)));
+        }, this._chunkError = function(e) {
+            var t = i.statusText || e;
+            this._sendError(new Error(t));
+        };
+    }
+    function c(e) {
+        var i, n;
+        (e = e || {}).chunkSize || (e.chunkSize = b.LocalChunkSize), h.call(this, e);
+        var s = "undefined" != typeof FileReader;
+        this.stream = function(e) {
+            this._input = e, n = e.slice || e.webkitSlice || e.mozSlice, s ? ((i = new FileReader).onload = v(this._chunkLoaded, this), i.onerror = v(this._chunkError, this)) : i = new FileReaderSync, this._nextChunk();
+        }, this._nextChunk = function() {
+            this._finished || this._config.preview && !(this._rowCount < this._config.preview) || this._readChunk();
+        }, this._readChunk = function() {
+            var e = this._input;
+            if (this._config.chunkSize) {
+                var t = Math.min(this._start + this._config.chunkSize, this._input.size);
+                e = n.call(e, this._start, t);
+            }
+            var r = i.readAsText(e, this._config.encoding);
+            s || this._chunkLoaded({
+                target: {
+                    result: r
+                }
+            });
+        }, this._chunkLoaded = function(e) {
+            this._start += this._config.chunkSize, this._finished = !this._config.chunkSize || this._start >= this._input.size, this.parseChunk(e.target.result);
+        }, this._chunkError = function() {
+            this._sendError(i.error);
+        };
+    }
+    function p(e) {
+        var r;
+        h.call(this, e = e || {}), this.stream = function(e) {
+            return r = e, this._nextChunk();
+        }, this._nextChunk = function() {
+            if (!this._finished) {
+                var e, t = this._config.chunkSize;
+                return t ? (e = r.substring(0, t), r = r.substring(t)) : (e = r, r = ""), this._finished = !r, this.parseChunk(e);
+            }
+        };
+    }
+    function g(e) {
+        h.call(this, e = e || {});
+        var t = [], r = !0, i = !1;
+        this.pause = function() {
+            h.prototype.pause.apply(this, arguments), this._input.pause();
+        }, this.resume = function() {
+            h.prototype.resume.apply(this, arguments), this._input.resume();
+        }, this.stream = function(e) {
+            this._input = e, this._input.on("data", this._streamData), this._input.on("end", this._streamEnd), this._input.on("error", this._streamError);
+        }, this._checkIsFinished = function() {
+            i && 1 === t.length && (this._finished = !0);
+        }, this._nextChunk = function() {
+            this._checkIsFinished(), t.length ? this.parseChunk(t.shift()) : r = !0;
+        }, this._streamData = v(function(e) {
+            try {
+                t.push("string" == typeof e ? e : e.toString(this._config.encoding)), r && (r = !1, this._checkIsFinished(), this.parseChunk(t.shift()));
+            } catch (e) {
+                this._streamError(e);
+            }
+        }, this), this._streamError = v(function(e) {
+            this._streamCleanUp(), this._sendError(e);
+        }, this), this._streamEnd = v(function() {
+            this._streamCleanUp(), i = !0, this._streamData("");
+        }, this), this._streamCleanUp = v(function() {
+            this._input.removeListener("data", this._streamData), this._input.removeListener("end", this._streamEnd), this._input.removeListener("error", this._streamError);
+        }, this);
+    }
+    function r(m) {
+        var a, o, u, i = Math.pow(2, 53), n = -i, s = /^\s*-?(\d+\.?|\.\d+|\d+\.\d+)([eE][-+]?\d+)?\s*$/, h = /^((\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z))|(\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d([+-][0-2]\d:[0-5]\d|Z)))$/, t = this, r = 0, f = 0, d = !1, e = !1, l = [], c = {
+            data: [],
+            errors: [],
+            meta: {}
+        };
+        if (J(m.step)) {
+            var p = m.step;
+            m.step = function(e) {
+                if (c = e, _()) g();
+                else {
+                    if (g(), 0 === c.data.length) return;
+                    r += e.data.length, m.preview && r > m.preview ? o.abort() : (c.data = c.data[0], p(c, t));
+                }
+            };
+        }
+        function y(e) {
+            return "greedy" === m.skipEmptyLines ? "" === e.join("").trim() : 1 === e.length && 0 === e[0].length;
+        }
+        function g() {
+            return c && u && (k("Delimiter", "UndetectableDelimiter", "Unable to auto-detect delimiting character; defaulted to '" + b.DefaultDelimiter + "'"), u = !1), m.skipEmptyLines && (c.data = c.data.filter(function(e) {
+                return !y(e);
+            })), _() && function() {
+                if (!c) return;
+                function e(e, t) {
+                    J(m.transformHeader) && (e = m.transformHeader(e, t)), l.push(e);
+                }
+                if (Array.isArray(c.data[0])) {
+                    for(var t = 0; _() && t < c.data.length; t++)c.data[t].forEach(e);
+                    c.data.splice(0, 1);
+                } else c.data.forEach(e);
+            }(), function() {
+                if (!c || !m.header && !m.dynamicTyping && !m.transform) return c;
+                function e(e, t) {
+                    var r, i = m.header ? {} : [];
+                    for(r = 0; r < e.length; r++){
+                        var n = r, s = e[r];
+                        m.header && (n = r >= l.length ? "__parsed_extra" : l[r]), m.transform && (s = m.transform(s, n)), s = v(n, s), "__parsed_extra" === n ? (i[n] = i[n] || [], i[n].push(s)) : i[n] = s;
+                    }
+                    return m.header && (r > l.length ? k("FieldMismatch", "TooManyFields", "Too many fields: expected " + l.length + " fields but parsed " + r, f + t) : r < l.length && k("FieldMismatch", "TooFewFields", "Too few fields: expected " + l.length + " fields but parsed " + r, f + t)), i;
+                }
+                var t = 1;
+                !c.data.length || Array.isArray(c.data[0]) ? (c.data = c.data.map(e), t = c.data.length) : c.data = e(c.data, 0);
+                m.header && c.meta && (c.meta.fields = l);
+                return f += t, c;
+            }();
+        }
+        function _() {
+            return m.header && 0 === l.length;
+        }
+        function v(e, t) {
+            var r;
+            return r = e, m.dynamicTypingFunction && void 0 === m.dynamicTyping[r] && (m.dynamicTyping[r] = m.dynamicTypingFunction(r)), !0 === (m.dynamicTyping[r] || m.dynamicTyping) ? "true" === t || "TRUE" === t || "false" !== t && "FALSE" !== t && (function(e) {
+                if (s.test(e)) {
+                    var t = parseFloat(e);
+                    if (n < t && t < i) return !0;
+                }
+                return !1;
+            }(t) ? parseFloat(t) : h.test(t) ? new Date(t) : "" === t ? null : t) : t;
+        }
+        function k(e, t, r, i) {
+            var n = {
+                type: e,
+                code: t,
+                message: r
+            };
+            void 0 !== i && (n.row = i), c.errors.push(n);
+        }
+        this.parse = function(e, t, r) {
+            var i = m.quoteChar || '"';
+            if (m.newline || (m.newline = function(e, t) {
+                e = e.substring(0, 1048576);
+                var r = new RegExp(Q(t) + "([^]*?)" + Q(t), "gm"), i = (e = e.replace(r, "")).split("\r"), n = e.split("\n"), s = 1 < n.length && n[0].length < i[0].length;
+                if (1 === i.length || s) return "\n";
+                for(var a = 0, o = 0; o < i.length; o++)"\n" === i[o][0] && a++;
+                return a >= i.length / 2 ? "\r\n" : "\r";
+            }(e, i)), u = !1, m.delimiter) J(m.delimiter) && (m.delimiter = m.delimiter(e), c.meta.delimiter = m.delimiter);
+            else {
+                var n = function(e, t, r, i, n) {
+                    var s, a, o, u;
+                    n = n || [
+                        ",",
+                        "	",
+                        "|",
+                        ";",
+                        b.RECORD_SEP,
+                        b.UNIT_SEP
+                    ];
+                    for(var h = 0; h < n.length; h++){
+                        var f = n[h], d = 0, l = 0, c = 0;
+                        o = void 0;
+                        for(var p = new E({
+                            comments: i,
+                            delimiter: f,
+                            newline: t,
+                            preview: 10
+                        }).parse(e), g = 0; g < p.data.length; g++)if (r && y(p.data[g])) c++;
+                        else {
+                            var _ = p.data[g].length;
+                            l += _, void 0 !== o ? 0 < _ && (d += Math.abs(_ - o), o = _) : o = _;
+                        }
+                        0 < p.data.length && (l /= p.data.length - c), (void 0 === a || d <= a) && (void 0 === u || u < l) && 1.99 < l && (a = d, s = f, u = l);
+                    }
+                    return {
+                        successful: !!(m.delimiter = s),
+                        bestDelimiter: s
+                    };
+                }(e, m.newline, m.skipEmptyLines, m.comments, m.delimitersToGuess);
+                n.successful ? m.delimiter = n.bestDelimiter : (u = !0, m.delimiter = b.DefaultDelimiter), c.meta.delimiter = m.delimiter;
+            }
+            var s = w(m);
+            return m.preview && m.header && s.preview++, a = e, o = new E(s), c = o.parse(a, t, r), g(), d ? {
+                meta: {
+                    paused: !0
+                }
+            } : c || {
+                meta: {
+                    paused: !1
+                }
+            };
+        }, this.paused = function() {
+            return d;
+        }, this.pause = function() {
+            d = !0, o.abort(), a = J(m.chunk) ? "" : a.substring(o.getCharIndex());
+        }, this.resume = function() {
+            t.streamer._halted ? (d = !1, t.streamer.parseChunk(a, !0)) : setTimeout(t.resume, 3);
+        }, this.aborted = function() {
+            return e;
+        }, this.abort = function() {
+            e = !0, o.abort(), c.meta.aborted = !0, J(m.complete) && m.complete(c), a = "";
+        };
+    }
+    function Q(e) {
+        return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+    function E(j) {
+        var z, M = (j = j || {}).delimiter, P = j.newline, U = j.comments, q = j.step, N = j.preview, B = j.fastMode, K = z = void 0 === j.quoteChar || null === j.quoteChar ? '"' : j.quoteChar;
+        if (void 0 !== j.escapeChar && (K = j.escapeChar), ("string" != typeof M || -1 < b.BAD_DELIMITERS.indexOf(M)) && (M = ","), U === M) throw new Error("Comment character same as delimiter");
+        !0 === U ? U = "#" : ("string" != typeof U || -1 < b.BAD_DELIMITERS.indexOf(U)) && (U = !1), "\n" !== P && "\r" !== P && "\r\n" !== P && (P = "\n");
+        var W = 0, H = !1;
+        this.parse = function(i, t, r) {
+            if ("string" != typeof i) throw new Error("Input must be a string");
+            var n = i.length, e = M.length, s = P.length, a = U.length, o = J(q), u = [], h = [], f = [], d = W = 0;
+            if (!i) return L();
+            if (j.header && !t) {
+                var l = i.split(P)[0].split(M), c = [], p = {}, g = !1;
+                for(var _ in l){
+                    var m = l[_];
+                    J(j.transformHeader) && (m = j.transformHeader(m, _));
+                    var y = m, v = p[m] || 0;
+                    for(0 < v && (g = !0, y = m + "_" + v), p[m] = v + 1; c.includes(y);)y = y + "_" + v;
+                    c.push(y);
+                }
+                if (g) {
+                    var k = i.split(P);
+                    k[0] = c.join(M), i = k.join(P);
+                }
+            }
+            if (B || !1 !== B && -1 === i.indexOf(z)) {
+                for(var b = i.split(P), E = 0; E < b.length; E++){
+                    if (f = b[E], W += f.length, E !== b.length - 1) W += P.length;
+                    else if (r) return L();
+                    if (!U || f.substring(0, a) !== U) {
+                        if (o) {
+                            if (u = [], I(f.split(M)), F(), H) return L();
+                        } else I(f.split(M));
+                        if (N && N <= E) return u = u.slice(0, N), L(!0);
+                    }
+                }
+                return L();
+            }
+            for(var w = i.indexOf(M, W), R = i.indexOf(P, W), C = new RegExp(Q(K) + Q(z), "g"), S = i.indexOf(z, W);;)if (i[W] !== z) {
+                if (U && 0 === f.length && i.substring(W, W + a) === U) {
+                    if (-1 === R) return L();
+                    W = R + s, R = i.indexOf(P, W), w = i.indexOf(M, W);
+                } else if (-1 !== w && (w < R || -1 === R)) f.push(i.substring(W, w)), W = w + e, w = i.indexOf(M, W);
+                else {
+                    if (-1 === R) break;
+                    if (f.push(i.substring(W, R)), D(R + s), o && (F(), H)) return L();
+                    if (N && u.length >= N) return L(!0);
+                }
+            } else for(S = W, W++;;){
+                if (-1 === (S = i.indexOf(z, S + 1))) return r || h.push({
+                    type: "Quotes",
+                    code: "MissingQuotes",
+                    message: "Quoted field unterminated",
+                    row: u.length,
+                    index: W
+                }), T();
+                if (S === n - 1) return T(i.substring(W, S).replace(C, z));
+                if (z !== K || i[S + 1] !== K) {
+                    if (z === K || 0 === S || i[S - 1] !== K) {
+                        -1 !== w && w < S + 1 && (w = i.indexOf(M, S + 1)), -1 !== R && R < S + 1 && (R = i.indexOf(P, S + 1));
+                        var O = A(-1 === R ? w : Math.min(w, R));
+                        if (i.substr(S + 1 + O, e) === M) {
+                            f.push(i.substring(W, S).replace(C, z)), i[W = S + 1 + O + e] !== z && (S = i.indexOf(z, W)), w = i.indexOf(M, W), R = i.indexOf(P, W);
+                            break;
+                        }
+                        var x = A(R);
+                        if (i.substring(S + 1 + x, S + 1 + x + s) === P) {
+                            if (f.push(i.substring(W, S).replace(C, z)), D(S + 1 + x + s), w = i.indexOf(M, W), S = i.indexOf(z, W), o && (F(), H)) return L();
+                            if (N && u.length >= N) return L(!0);
+                            break;
+                        }
+                        h.push({
+                            type: "Quotes",
+                            code: "InvalidQuotes",
+                            message: "Trailing quote on quoted field is malformed",
+                            row: u.length,
+                            index: W
+                        }), S++;
+                    }
+                } else S++;
+            }
+            return T();
+            function I(e) {
+                u.push(e), d = W;
+            }
+            function A(e) {
+                var t = 0;
+                if (-1 !== e) {
+                    var r = i.substring(S + 1, e);
+                    r && "" === r.trim() && (t = r.length);
+                }
+                return t;
+            }
+            function T(e) {
+                return r || (void 0 === e && (e = i.substring(W)), f.push(e), W = n, I(f), o && F()), L();
+            }
+            function D(e) {
+                W = e, I(f), f = [], R = i.indexOf(P, W);
+            }
+            function L(e) {
+                return {
+                    data: u,
+                    errors: h,
+                    meta: {
+                        delimiter: M,
+                        linebreak: P,
+                        aborted: H,
+                        truncated: !!e,
+                        cursor: d + (t || 0)
+                    }
+                };
+            }
+            function F() {
+                q(L()), u = [], h = [];
+            }
+        }, this.abort = function() {
+            H = !0;
+        }, this.getCharIndex = function() {
+            return W;
+        };
+    }
+    function _(e) {
+        var t = e.data, r = a[t.workerId], i = !1;
+        if (t.error) r.userError(t.error, t.file);
+        else if (t.results && t.results.data) {
+            var n = {
+                abort: function() {
+                    i = !0, m(t.workerId, {
+                        data: [],
+                        errors: [],
+                        meta: {
+                            aborted: !0
+                        }
+                    });
+                },
+                pause: y,
+                resume: y
+            };
+            if (J(r.userStep)) {
+                for(var s = 0; s < t.results.data.length && (r.userStep({
+                    data: t.results.data[s],
+                    errors: t.results.errors,
+                    meta: t.results.meta
+                }, n), !i); s++);
+                delete t.results;
+            } else J(r.userChunk) && (r.userChunk(t.results, n, t.file), delete t.results);
+        }
+        t.finished && !i && m(t.workerId, t.results);
+    }
+    function m(e, t) {
+        var r = a[e];
+        J(r.userComplete) && r.userComplete(t), r.terminate(), delete a[e];
+    }
+    function y() {
+        throw new Error("Not implemented.");
+    }
+    function w(e) {
+        if ("object" != typeof e || null === e) return e;
+        var t = Array.isArray(e) ? [] : {};
+        for(var r in e)t[r] = w(e[r]);
+        return t;
+    }
+    function v(e, t) {
+        return function() {
+            e.apply(t, arguments);
+        };
+    }
+    function J(e) {
+        return "function" == typeof e;
+    }
+    return o && (f.onmessage = function(e) {
+        var t = e.data;
+        void 0 === b.WORKER_ID && t && (b.WORKER_ID = t.workerId);
+        if ("string" == typeof t.input) f.postMessage({
+            workerId: b.WORKER_ID,
+            results: b.parse(t.input, t.config),
+            finished: !0
+        });
+        else if (f.File && t.input instanceof File || t.input instanceof Object) {
+            var r = b.parse(t.input, t.config);
+            r && f.postMessage({
+                workerId: b.WORKER_ID,
+                results: r,
+                finished: !0
+            });
+        }
+    }), (l.prototype = Object.create(h.prototype)).constructor = l, (c.prototype = Object.create(h.prototype)).constructor = c, (p.prototype = Object.create(p.prototype)).constructor = p, (g.prototype = Object.create(h.prototype)).constructor = g, b;
+});
+
+},{}],"gBPN6":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Menu", ()=>Menu);
+var _icons = require("../helpers/Icons");
+class Menu {
+    constructor(timeline){
+        this.timeline = timeline;
+        this.create();
+    }
+    create() {
+        // Create menu element
+        this.menu = document.createElement("div");
+        this.menu.className = "at-menu";
+        [
+            {
+                title: "Landing Page (H)",
+                callback: this.timeline.menuOnLandingPage.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Logo
+            },
+            {
+                title: "Current Timeline (I)",
+                callback: this.timeline.menuOnInfo.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Info
+            },
+            {
+                title: "Align Start (S)",
+                callback: this.timeline.menuOnAlignStart.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).AlignStart
+            },
+            {
+                title: "Align Center (C)",
+                callback: this.timeline.menuOnAlignCenter.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).AlignCenter
+            },
+            {
+                title: "Align End (E)",
+                callback: this.timeline.menuOnAlignEnd.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).AlignEnd
+            },
+            {
+                title: "Reset Zoom (Z)",
+                callback: this.timeline.menuOnZoomReset.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ZoomReset
+            },
+            {
+                title: "Zoom Out (-)",
+                callback: this.timeline.menuOnZoomDelta.bind(this.timeline, -1),
+                svg: (0, _icons.SVGPaths).ZoomOut
+            },
+            {
+                title: "Zoom In (+)",
+                callback: this.timeline.menuOnZoomDelta.bind(this.timeline, 1),
+                svg: (0, _icons.SVGPaths).ZoomIn
+            },
+            {
+                title: "Export PNG (P)",
+                callback: this.timeline.menuOnExportPNG.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ExportImage
+            },
+            {
+                title: "Import Timeline Data (O)",
+                callback: this.timeline.menuOnDataImport.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Import
+            },
+            {
+                title: "Export Timeline Data (D)",
+                callback: this.timeline.menuOnDataExport.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ExportData
+            },
+            {
+                title: "Notifications (N)",
+                callback: this.timeline.menuOnFetchNotification.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Bell
+            },
+            {
+                title: "GitHub (G)",
+                callback: this.timeline.menuOnGitHub.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).About
+            }
+        ].forEach((menuItem)=>{
+            this.addMenuItem(menuItem.title, menuItem.callback, menuItem.svg, menuItem.className);
+        });
+        document.body.appendChild(this.menu);
+    }
+    toggleMenuStrip() {
+        const children = [
+            ...this.menu.children
+        ];
+        const targetChildren = children.filter((child)=>{
+            return !child.classList.contains("at-menu__item-toggle");
+        });
+        targetChildren.forEach((child)=>{
+            child.classList.toggle("at-d-none");
+        });
+    }
+    addMenuItem(title, callback, svg, className = "") {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `at-btn at-btn--blue-mid at-btn--round at-menu__item ${className}`;
+        button.title = title;
+        button.innerHTML = (0, _icons.getIcon)({
+            path: svg,
+            fill: "currentColor",
+            stroke: "none",
+            class: "at-menu__icon",
+            width: 20,
+            height: 20
+        });
+        button.addEventListener("click", ()=>{
+            callback();
+        });
+        this.menu.appendChild(button);
+    }
+}
+
+},{"../helpers/Icons":"7YvtL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["6C1Gh","8SNpy"], "8SNpy", "parcelRequire5c84")
+
+</script>
+    </body>
+</html>
