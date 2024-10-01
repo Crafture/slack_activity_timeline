@@ -12,6 +12,2804 @@
     },
     "days": [
         {
+            "date": "2023-06-06",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:21:59",
+                    "title": "[ Stallon ] : ' citroen limonade 0% '",
+                    "description": "[ Stallon ] : ' citroen limonade 0% ' <br><br><a href=\"/permalink/C02NUR6C881/1686046919.335029\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:21:58",
+                    "title": "[ Arwind Gajadien ] : ' melkchocola '",
+                    "description": "[ Arwind Gajadien ] : ' melkchocola ' <br><br><a href=\"/permalink/C02NUR6C881/1686046918.294159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-06",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:21:15",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1686050475.296919\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:08:04",
+                    "title": "[ Pim Vrakking ] : ' Dit word allemaal volgende week meegenomen, :ah: ..",
+                    "description": "[ Pim Vrakking ] : ' Dit word allemaal volgende week meegenomen, :ah: komt vanmiddag al binnen. Fruitthee is wel besteld ' <br><br><a href=\"/permalink/C02NUR6C881/1686049684.652199\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-07",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:43:44",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=b8..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=b87d5c22f16f428eae3c330632b46857|https://tracking.routigo.com/?trackingCode=b87d5c22f16f428eae3c330632b46857\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1686127424.008039\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-06-07",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:06:42",
+                    "title": "[ Deactivated User ] : ' De havermelk is op (sorry havermelk haters) '",
+                    "description": "[ Deactivated User ] : ' De havermelk is op (sorry havermelk haters) ' <br><br><a href=\"/permalink/C02NUR6C881/1686150402.216979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:04:20",
+                    "title": "[ Arwind Gajadien ] : ' orange juice '",
+                    "description": "[ Arwind Gajadien ] : ' orange juice ' <br><br><a href=\"/permalink/C02NUR6C881/1686150260.633689\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:04:14",
+                    "title": "[ Arwind Gajadien ] : ' sinaasappel mango juice '",
+                    "description": "[ Arwind Gajadien ] : ' sinaasappel mango juice ' <br><br><a href=\"/permalink/C02NUR6C881/1686150254.054449\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-12",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:29:42",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1686565782.503179\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:18:48",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Iemand nog (niet genoemde) :ah: wensen..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Iemand nog (niet genoemde) :ah: wensen? Ik ben nu een lijstje aan het samenstellen ' <br><br><a href=\"/permalink/C02NUR6C881/1686565128.301489\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:08:33",
+                    "title": "[ Pim Vrakking ] : ' In de voorraadkast staan nog 2 pakken, 1 edaarvan..",
+                    "description": "[ Pim Vrakking ] : ' In de voorraadkast staan nog 2 pakken, 1 edaarvan staat nu in de koelkast ' <br><br><a href=\"/permalink/C02NUR6C881/1686564513.997059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-12",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:25:14",
+                    "title": "[ Pim Vrakking ] : '  '",
+                    "description": "[ Pim Vrakking ] : '  ' <br><br><a href=\"/permalink/C02NUR6C881/1686569114.957109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-12",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:22:42",
+                    "title": "[ Jolien Eijsink ] : ' ohn '",
+                    "description": "[ Jolien Eijsink ] : ' ohn ' <br><br><a href=\"/permalink/C02NUR6C881/1686572562.211979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:23:04",
+                    "title": "[ Jolien Eijsink ] : ' gewoon heel veel zin in ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' gewoon heel veel zin in ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1686572584.601629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-19",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:52:05",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Nog iemand boodschappen wensen voor :a..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Nog iemand boodschappen wensen voor :ah:? ' <br><br><a href=\"/permalink/C02NUR6C881/1687179125.801969\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-20",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:48:50",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=e1..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=e186caea6a0d4b739e4d24898c48ac90|https://tracking.routigo.com/?trackingCode=e186caea6a0d4b739e4d24898c48ac90\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1687265330.330879\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-06-22",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:28:33",
+                    "title": "[ Deactivated User ] : '  Kinderchocolade \nMad sauce \nAppels\nBananen \n..",
+                    "description": "[ Deactivated User ] : '  Kinderchocolade \nMad sauce \nAppels\nBananen \nGeitenkaas \n ' <br><br><a href=\"/permalink/C02NUR6C881/1687429713.479679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-22",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:49:22",
+                    "title": "[ Deactivated User ] : ' Crisp en AH zijn besteld voor maandag tussen ..",
+                    "description": "[ Deactivated User ] : ' Crisp en AH zijn besteld voor maandag tussen 10-12 ' <br><br><a href=\"/permalink/C02NUR6C881/1687434562.897469\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:48:00",
+                    "title": "[ Jolien Eijsink ] : ' Lekker Deactivated User  '",
+                    "description": "[ Jolien Eijsink ] : ' Lekker Deactivated User  ' <br><br><a href=\"/permalink/C02NUR6C881/1687434480.228429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:47:37",
+                    "title": "[ Deactivated User ] : ' Staan 2 pakken van in de vriezer Jolien Eijsi..",
+                    "description": "[ Deactivated User ] : ' Staan 2 pakken van in de vriezer Jolien Eijsink ' <br><br><a href=\"/permalink/C02NUR6C881/1687434457.323319\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:47:15",
+                    "title": "[ Jolien Eijsink ] : ' Festini aardbei '",
+                    "description": "[ Jolien Eijsink ] : ' Festini aardbei ' <br><br><a href=\"/permalink/C02NUR6C881/1687434435.415549\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:46:48",
+                    "title": "[ Deactivated User ] : ' nog boodschappen wensen bij de ah <!channel> ..",
+                    "description": "[ Deactivated User ] : ' nog boodschappen wensen bij de ah <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1687434408.379719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-26",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:55:10",
+                    "title": "[ Jolien Eijsink ] : ' papieren handdoekjes Deactivated User '",
+                    "description": "[ Jolien Eijsink ] : ' papieren handdoekjes Deactivated User ' <br><br><a href=\"/permalink/C02NUR6C881/1687776910.530849\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-27",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:52:07",
+                    "title": "[ Pim Vrakking ] : ' Appels '",
+                    "description": "[ Pim Vrakking ] : ' Appels ' <br><br><a href=\"/permalink/C02NUR6C881/1687855927.874609\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:52:06",
+                    "title": "[ Pim Vrakking ] : ' Koffiebonen '",
+                    "description": "[ Pim Vrakking ] : ' Koffiebonen ' <br><br><a href=\"/permalink/C02NUR6C881/1687855926.210759\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-06-30",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:50:11",
+                    "title": "[ Joy ] : ' Joy has joined the channel '",
+                    "description": "[ Joy ] : ' Joy has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1688125811.541799\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-03",
+            "hour": "01:00",
+            "activities": [
+                {
+                    "timestamp": "01:55:46",
+                    "title": "[ Deactivated User ] : ' Pim Vrakking Zou jij de aankomende week AH wi..",
+                    "description": "[ Deactivated User ] : ' Pim Vrakking Zou jij de aankomende week AH willen bestellen , en mij helpen herinneren dat ik donderdag of vrijdag (in mijn vakantie) Crisp bestel ' <br><br><a href=\"/permalink/C02NUR6C881/1688349346.638019\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "01:55:04",
+                    "title": "[ Deactivated User ] : ' Ik heb Crisp net besteld voor dinsdag tussen ..",
+                    "description": "[ Deactivated User ] : ' Ik heb Crisp net besteld voor dinsdag tussen 10-12. <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1688349304.993419\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-03",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:13:08",
+                    "title": "[ Jolien Eijsink ] : ' bolletjes '",
+                    "description": "[ Jolien Eijsink ] : ' bolletjes ' <br><br><a href=\"/permalink/C02NUR6C881/1688393588.920939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:24",
+                    "title": "[ Pim Vrakking ] : ' Komen met crisp '",
+                    "description": "[ Pim Vrakking ] : ' Komen met crisp ' <br><br><a href=\"/permalink/C02NUR6C881/1688393604.394719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:05",
+                    "title": "[ Jolien Eijsink ] : ' pindakaas met stukjes noot '",
+                    "description": "[ Jolien Eijsink ] : ' pindakaas met stukjes noot ' <br><br><a href=\"/permalink/C02NUR6C881/1688393585.976389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:04",
+                    "title": "[ Nicky Duijf ] : ' Magere melk '",
+                    "description": "[ Nicky Duijf ] : ' Magere melk ' <br><br><a href=\"/permalink/C02NUR6C881/1688393584.945129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:14:42",
+                    "title": "[ Pim Vrakking ] : ' houdbaar of \"vers\"? '",
+                    "description": "[ Pim Vrakking ] : ' houdbaar of \"vers\"? ' <br><br><a href=\"/permalink/C02NUR6C881/1688393682.765339\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:14:55",
+                    "title": "[ Nicky Duijf ] : ' vers please '",
+                    "description": "[ Nicky Duijf ] : ' vers please ' <br><br><a href=\"/permalink/C02NUR6C881/1688393695.850149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:00",
+                    "title": "[ Jolien Eijsink ] : ' chocola '",
+                    "description": "[ Jolien Eijsink ] : ' chocola ' <br><br><a href=\"/permalink/C02NUR6C881/1688393580.302129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:18",
+                    "title": "[ Pim Vrakking ] : ' Wat voor chocola '",
+                    "description": "[ Pim Vrakking ] : ' Wat voor chocola ' <br><br><a href=\"/permalink/C02NUR6C881/1688393598.237629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:28",
+                    "title": "[ Jolien Eijsink ] : ' alle soorten en maten '",
+                    "description": "[ Jolien Eijsink ] : ' alle soorten en maten ' <br><br><a href=\"/permalink/C02NUR6C881/1688393608.052399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:40",
+                    "title": "[ Pim Vrakking ] : ' Ik mag geen chocola ik weet er niks van '",
+                    "description": "[ Pim Vrakking ] : ' Ik mag geen chocola ik weet er niks van ' <br><br><a href=\"/permalink/C02NUR6C881/1688393620.044149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:40",
+                    "title": "[ Jolien Eijsink ] : ' melk met nootjes, melk zonder nootjes '",
+                    "description": "[ Jolien Eijsink ] : ' melk met nootjes, melk zonder nootjes ' <br><br><a href=\"/permalink/C02NUR6C881/1688393620.963749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:13:45",
+                    "title": "[ Jolien Eijsink ] : ' melk met lu '",
+                    "description": "[ Jolien Eijsink ] : ' melk met lu ' <br><br><a href=\"/permalink/C02NUR6C881/1688393625.001189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:20:31",
+                    "title": "[ Giovanni van Duuren ] : ' chocolate '",
+                    "description": "[ Giovanni van Duuren ] : ' chocolate ' <br><br><a href=\"/permalink/C02NUR6C881/1688394031.882429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:22:03",
+                    "title": "[ Pim Vrakking ] : '  '",
+                    "description": "[ Pim Vrakking ] : '  ' <br><br><a href=\"/permalink/C02NUR6C881/1688394123.966269\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:12:57",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1688393577.683009\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:12:48",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Zijn er nog dringende :ah: boodschappe..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Zijn er nog dringende :ah: boodschappen? Ik ben nu een lijstje aan het samenstellen ' <br><br><a href=\"/permalink/C02NUR6C881/1688393568.923789\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-04",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:12:46",
+                    "title": "[ Jarn\u00e9 ] : ' Jarn\u00e9 has joined the channel '",
+                    "description": "[ Jarn\u00e9 ] : ' Jarn\u00e9 has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1688458366.441919\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-04",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:56:32",
+                    "title": "[ Deactivated User ] : ' Kuipje boter! '",
+                    "description": "[ Deactivated User ] : ' Kuipje boter! ' <br><br><a href=\"/permalink/C02NUR6C881/1688471792.017659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-04",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:14:21",
+                    "title": "[ Giovanni van Duuren ] : ' Boterhamzakjes zijn ook op '",
+                    "description": "[ Giovanni van Duuren ] : ' Boterhamzakjes zijn ook op ' <br><br><a href=\"/permalink/C02NUR6C881/1688472861.362259\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:14:12",
+                    "title": "[ Giovanni van Duuren ] : ' Hela Curry '",
+                    "description": "[ Giovanni van Duuren ] : ' Hela Curry ' <br><br><a href=\"/permalink/C02NUR6C881/1688472852.180759\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:04:22",
+                    "title": "[ Pim Vrakking ] : ' Komt morgen met de AH boodschappen! '",
+                    "description": "[ Pim Vrakking ] : ' Komt morgen met de AH boodschappen! ' <br><br><a href=\"/permalink/C02NUR6C881/1688472262.994199\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-12",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:26:33",
+                    "title": "[ Arwind Gajadien ] : ' Wasmiddel! '",
+                    "description": "[ Arwind Gajadien ] : ' Wasmiddel! ' <br><br><a href=\"/permalink/C02NUR6C881/1689153993.360489\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:25:06",
+                    "title": "[ Jolien Eijsink ] : ' :point_up::skin-tone-3: '",
+                    "description": "[ Jolien Eijsink ] : ' :point_up::skin-tone-3: ' <br><br><a href=\"/permalink/C02NUR6C881/1689153906.039649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:22:02",
+                    "title": "[ Deactivated User ] : ' De havermelk is op :rabbit: '",
+                    "description": "[ Deactivated User ] : ' De havermelk is op :rabbit: ' <br><br><a href=\"/permalink/C02NUR6C881/1689153722.491559\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:25:06",
+                    "title": "[ Jolien Eijsink ] : ' :point_up::skin-tone-3: '",
+                    "description": "[ Jolien Eijsink ] : ' :point_up::skin-tone-3: ' <br><br><a href=\"/permalink/C02NUR6C881/1689153906.039649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-17",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:37:39",
+                    "title": "[ Gian Luca ] : ' Pim Vrakking deze graag https://www.ah.nl/producten/..",
+                    "description": "[ Gian Luca ] : ' Pim Vrakking deze graag <a href=\"https://www.ah.nl/producten/product/wi457334/lavazza-qualita-rossa-filterkoffie|https://www.ah.nl/producten/product/wi457334/lavazza-qualita-rossa-filterkoffie\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1689590259.112829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:37:29",
+                    "title": "[ Deactivated User ] : ' Crisp is besteld voor morgen en komt tussen 9..",
+                    "description": "[ Deactivated User ] : ' Crisp is besteld voor morgen en komt tussen 9-1 binnen  ' <br><br><a href=\"/permalink/C02NUR6C881/1689590249.503119\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:36:03",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Iemand nog (niet genoemde) :ah: wensen..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Iemand nog (niet genoemde) :ah: wensen? ' <br><br><a href=\"/permalink/C02NUR6C881/1689590163.536209\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-07-18",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:13:24",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=f4..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=f409bff5bbaa416e9ba6562c3ef65b5c\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1689668004.420439\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-07-24",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:56:08",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=85..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=85190be27226408ea0ccef2c1e217c93|https://tracking.routigo.com/?trackingCode=85190be27226408ea0ccef2c1e217c93\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1690188968.560529\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-07-28",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:56:18",
+                    "title": "[ Arwind Gajadien ] : ' Cola '",
+                    "description": "[ Arwind Gajadien ] : ' Cola ' <br><br><a href=\"/permalink/C02NUR6C881/1690556178.009059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:56:03",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Ik ga nu :ah: boodschappen samenstelle..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Ik ga nu :ah: boodschappen samenstellen en bestellen voor maandag, iemand nog wensen? ' <br><br><a href=\"/permalink/C02NUR6C881/1690556163.873579\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-03",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:21:40",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Ik ga weer :ah: boodschappen samenstel..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Ik ga weer :ah: boodschappen samenstellen, dus als er nog wensen zijn of dingen op zijn hoor ik dat graag binnen nu en ~30 min ' <br><br><a href=\"/permalink/C02NUR6C881/1691068900.453669\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:25:08",
+                    "title": "[ Joy ] : ' Sterrenmunt thee '",
+                    "description": "[ Joy ] : ' Sterrenmunt thee ' <br><br><a href=\"/permalink/C02NUR6C881/1691069108.109479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-03",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:00:37",
+                    "title": "[ Nicky Duijf ] : ' Magere melk als het nog kan '",
+                    "description": "[ Nicky Duijf ] : ' Magere melk als het nog kan ' <br><br><a href=\"/permalink/C02NUR6C881/1691071237.965909\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:00:41",
+                    "title": "[ Nicky Duijf ] : ' Verse '",
+                    "description": "[ Nicky Duijf ] : ' Verse ' <br><br><a href=\"/permalink/C02NUR6C881/1691071241.548239\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:00:57",
+                    "title": "[ Pim Vrakking ] : ' Ik ga even kijken of ik nog mag toevoegen '",
+                    "description": "[ Pim Vrakking ] : ' Ik ga even kijken of ik nog mag toevoegen ' <br><br><a href=\"/permalink/C02NUR6C881/1691071257.741259\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:01:17",
+                    "title": "[ Nicky Duijf ] : ' Bedankt  '",
+                    "description": "[ Nicky Duijf ] : ' Bedankt  ' <br><br><a href=\"/permalink/C02NUR6C881/1691071277.475739\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:02:20",
+                    "title": "[ Pim Vrakking ] : ' Magere melk is toegevoegd Nicky Duijf! '",
+                    "description": "[ Pim Vrakking ] : ' Magere melk is toegevoegd Nicky Duijf! ' <br><br><a href=\"/permalink/C02NUR6C881/1691071340.336589\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:02:32",
+                    "title": "[ Nicky Duijf ] : ' Top thnx '",
+                    "description": "[ Nicky Duijf ] : ' Top thnx ' <br><br><a href=\"/permalink/C02NUR6C881/1691071352.026389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-07",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:29:10",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=e0..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=e05fa1447ed447d9bf45a8b296b0c9c7|https://tracking.routigo.com/?trackingCode=e05fa1447ed447d9bf45a8b296b0c9c7\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1691400550.373469\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-08-09",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:13:46",
+                    "title": "[ Deactivated User ] : ' Deactivated User has joined the channel '",
+                    "description": "[ Deactivated User ] : ' Deactivated User has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1691572426.705119\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-14",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:46:28",
+                    "title": "[ Jarn\u00e9 ] : ' Peper en zout '",
+                    "description": "[ Jarn\u00e9 ] : ' Peper en zout ' <br><br><a href=\"/permalink/C02NUR6C881/1692002788.930419\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:43:55",
+                    "title": "[ Giovanni van Duuren ] : ' Vlokken '",
+                    "description": "[ Giovanni van Duuren ] : ' Vlokken ' <br><br><a href=\"/permalink/C02NUR6C881/1692002635.003299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:42:30",
+                    "title": "[ Deactivated User ] : ' cup-a-soup tomaat :slightly_smiling_face: '",
+                    "description": "[ Deactivated User ] : ' cup-a-soup tomaat :slightly_smiling_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1692002550.606649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:41:44",
+                    "title": "[ Nicky Duijf ] : ' Verse magere melk, 2 pakken aub '",
+                    "description": "[ Nicky Duijf ] : ' Verse magere melk, 2 pakken aub ' <br><br><a href=\"/permalink/C02NUR6C881/1692002504.410479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:40:52",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Aan allen die nog boodschappen wensen ..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Aan allen die nog boodschappen wensen hebben; _*graag in dit kanaal!*_ Ik ga nu een lijstje samenstellen voor (hopelijk) morgen ' <br><br><a href=\"/permalink/C02NUR6C881/1692002452.120459\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-15",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:37:30",
+                    "title": "[ Pim Vrakking ] : ' Jasmijn thee '",
+                    "description": "[ Pim Vrakking ] : ' Jasmijn thee ' <br><br><a href=\"/permalink/C02NUR6C881/1692099450.597529\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-15",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:40:05",
+                    "title": "[ Deactivated User ] : ' nope helaas niet '",
+                    "description": "[ Deactivated User ] : ' nope helaas niet ' <br><br><a href=\"/permalink/C02NUR6C881/1692106805.403909\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:39:22",
+                    "title": "[ Pim Vrakking ] : ' Het is niet goed :( '",
+                    "description": "[ Pim Vrakking ] : ' Het is niet goed :( ' <br><br><a href=\"/permalink/C02NUR6C881/1692106762.948549\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:39:16",
+                    "title": "[ Deactivated User ] : ' Als het goed is :) '",
+                    "description": "[ Deactivated User ] : ' Als het goed is :) ' <br><br><a href=\"/permalink/C02NUR6C881/1692106756.403319\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:39:09",
+                    "title": "[ Deactivated User ] : ' Ligt in de vriezer Deactivated User  '",
+                    "description": "[ Deactivated User ] : ' Ligt in de vriezer Deactivated User  ' <br><br><a href=\"/permalink/C02NUR6C881/1692106749.108689\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:38:48",
+                    "title": "[ Deactivated User ] : ' wit brood '",
+                    "description": "[ Deactivated User ] : ' wit brood ' <br><br><a href=\"/permalink/C02NUR6C881/1692106728.638429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:37:54",
+                    "title": "[ Stallon ] : ' voorraadje '",
+                    "description": "[ Stallon ] : ' voorraadje ' <br><br><a href=\"/permalink/C02NUR6C881/1692106674.686219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:37:36",
+                    "title": "[ Pim Vrakking ] : ' 6 pakken? Heb je dorst? '",
+                    "description": "[ Pim Vrakking ] : ' 6 pakken? Heb je dorst? ' <br><br><a href=\"/permalink/C02NUR6C881/1692106656.564959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:21:02",
+                    "title": "[ Stallon ] : ' net laatste pak open gemaakt '",
+                    "description": "[ Stallon ] : ' net laatste pak open gemaakt ' <br><br><a href=\"/permalink/C02NUR6C881/1692105662.931629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:20:51",
+                    "title": "[ Stallon ] : ' oatly haver barista 6 pakken :slightly_smiling_face: '",
+                    "description": "[ Stallon ] : ' oatly haver barista 6 pakken :slightly_smiling_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1692105651.251109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:20:10",
+                    "title": "[ Arwind Gajadien ] : ' verschillende soorten thee '",
+                    "description": "[ Arwind Gajadien ] : ' verschillende soorten thee ' <br><br><a href=\"/permalink/C02NUR6C881/1692105610.506529\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:19:54",
+                    "title": "[ Arwind Gajadien ] : ' Cola '",
+                    "description": "[ Arwind Gajadien ] : ' Cola ' <br><br><a href=\"/permalink/C02NUR6C881/1692105594.870629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-21",
+            "hour": "05:00",
+            "activities": [
+                {
+                    "timestamp": "05:56:03",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=7d..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=7d633ffa0a964eb385c79516603ba35e|https://tracking.routigo.com/?trackingCode=7d633ffa0a964eb385c79516603ba35e\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1692597363.264439\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-08-23",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:04:23",
+                    "title": "[ Deactivated User ] : ' Deactivated User has joined the channel '",
+                    "description": "[ Deactivated User ] : ' Deactivated User has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1692777863.916329\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-23",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:10:43",
+                    "title": "[ Deactivated User ] : ' kinder chocolade '",
+                    "description": "[ Deactivated User ] : ' kinder chocolade ' <br><br><a href=\"/permalink/C02NUR6C881/1692803443.819739\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-24",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:35:54",
+                    "title": "[ Jolien Eijsink ] : ' Chocolade  '",
+                    "description": "[ Jolien Eijsink ] : ' Chocolade  ' <br><br><a href=\"/permalink/C02NUR6C881/1692891354.821299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:35:45",
+                    "title": "[ Nicky Duijf ] : ' Rijste wafels '",
+                    "description": "[ Nicky Duijf ] : ' Rijste wafels ' <br><br><a href=\"/permalink/C02NUR6C881/1692891345.853129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:35:22",
+                    "title": "[ Jolien Eijsink ] : ' Ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' Ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1692891322.212489\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:35:18",
+                    "title": "[ Nicky Duijf ] : ' 1 pak magere verse melk '",
+                    "description": "[ Nicky Duijf ] : ' 1 pak magere verse melk ' <br><br><a href=\"/permalink/C02NUR6C881/1692891318.004249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:34:50",
+                    "title": "[ Arwind Gajadien ] : ' fruit '",
+                    "description": "[ Arwind Gajadien ] : ' fruit ' <br><br><a href=\"/permalink/C02NUR6C881/1692891290.292789\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:34:34",
+                    "title": "[ Arwind Gajadien ] : ' thee '",
+                    "description": "[ Arwind Gajadien ] : ' thee ' <br><br><a href=\"/permalink/C02NUR6C881/1692891274.547799\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:34:24",
+                    "title": "[ Pim Vrakking ] : ' <!channel> we gaan weer boodschappen bestellen, d..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> we gaan weer boodschappen bestellen, dus graag aanvragen die niet hierboven staan in de thread! ' <br><br><a href=\"/permalink/C02NUR6C881/1692891264.490809\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-28",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:18:23",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=99..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=99bd253a5c5047ccb910b3aa03341392|https://tracking.routigo.com/?trackingCode=99bd253a5c5047ccb910b3aa03341392\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1693210703.415749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-08-28",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:57:28",
+                    "title": "[ Deactivated User ] : ' tomaten cuppasoup :) '",
+                    "description": "[ Deactivated User ] : ' tomaten cuppasoup :) ' <br><br><a href=\"/permalink/C02NUR6C881/1693231048.877949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-28",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:54:50",
+                    "title": "[ Deactivated User ] : ' Staat in de kast !  '",
+                    "description": "[ Deactivated User ] : ' Staat in de kast !  ' <br><br><a href=\"/permalink/C02NUR6C881/1693238090.876449\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-08-29",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:58:41",
+                    "title": "[ Deactivated User ] : ' ^ moet toch wel besteld worden '",
+                    "description": "[ Deactivated User ] : ' ^ moet toch wel besteld worden ' <br><br><a href=\"/permalink/C02NUR6C881/1693299521.959359\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-01",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:32:07",
+                    "title": "[ Deactivated User ] : ' Deactivated User has joined the channel '",
+                    "description": "[ Deactivated User ] : ' Deactivated User has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1693557127.911599\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-04",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:59:10",
+                    "title": "[ Pim Vrakking ] : ' <!channel> PSA Ik ga nu AH boodschappen samenstel..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> PSA Ik ga nu AH boodschappen samenstellen voor (hopelijk) morgen! Graag nog niet genoemde aanvragen binnen nu en ~10 min ' <br><br><a href=\"/permalink/C02NUR6C881/1693817950.539709\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-08",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:54:20",
+                    "title": "[ Deactivated User ] : ' Boodschappen zijn besteld en komen maandag bi..",
+                    "description": "[ Deactivated User ] : ' Boodschappen zijn besteld en komen maandag binnen :slightly_smiling_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1694166860.310659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:52:22",
+                    "title": "[ Jolien Eijsink ] : ' ice tea '",
+                    "description": "[ Jolien Eijsink ] : ' ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1694166742.819359\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:45:20",
+                    "title": "[ Deactivated User ] : ' brood :)\n\nen tomaten cup-a-soup '",
+                    "description": "[ Deactivated User ] : ' brood :)\n\nen tomaten cup-a-soup ' <br><br><a href=\"/permalink/C02NUR6C881/1694166320.507739\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:44:32",
+                    "title": "[ Gian Luca ] : ' Eieren graag! '",
+                    "description": "[ Gian Luca ] : ' Eieren graag! ' <br><br><a href=\"/permalink/C02NUR6C881/1694166272.937959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:44:03",
+                    "title": "[ Deactivated User ] : ' Nog boodschappen wensen <!channel> '",
+                    "description": "[ Deactivated User ] : ' Nog boodschappen wensen <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1694166243.303729\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-11",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:15:38",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=ef..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=ef7791500a864be9a149343051b0e5e4\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1694423738.256609\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-09-14",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:49:35",
+                    "title": "[ Stallon ] : ' Havermelk!! '",
+                    "description": "[ Stallon ] : ' Havermelk!! ' <br><br><a href=\"/permalink/C02NUR6C881/1694684975.577109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:48:47",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Attentie attentie: als je nog :ah: boo..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Attentie attentie: als je nog :ah: boodschappenwensen hebt hoor ik dat graag zsm onderstaand! ' <br><br><a href=\"/permalink/C02NUR6C881/1694684927.767039\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-14",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:28:56",
+                    "title": "[ Arwind Gajadien ] : ' manderijnen '",
+                    "description": "[ Arwind Gajadien ] : ' manderijnen ' <br><br><a href=\"/permalink/C02NUR6C881/1694694536.035679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:54",
+                    "title": "[ Arwind Gajadien ] : ' bananen? '",
+                    "description": "[ Arwind Gajadien ] : ' bananen? ' <br><br><a href=\"/permalink/C02NUR6C881/1694694534.279829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:23",
+                    "title": "[ Arwind Gajadien ] : ' icetea? Jolien Eijsink '",
+                    "description": "[ Arwind Gajadien ] : ' icetea? Jolien Eijsink ' <br><br><a href=\"/permalink/C02NUR6C881/1694694503.402509\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:20",
+                    "title": "[ Stallon ] : ' Fuze tea peach '",
+                    "description": "[ Stallon ] : ' Fuze tea peach ' <br><br><a href=\"/permalink/C02NUR6C881/1694694500.111459\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:13",
+                    "title": "[ Arwind Gajadien ] : ' cola zero blikjes '",
+                    "description": "[ Arwind Gajadien ] : ' cola zero blikjes ' <br><br><a href=\"/permalink/C02NUR6C881/1694694493.059909\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:04",
+                    "title": "[ Arwind Gajadien ] : ' cola flesjes '",
+                    "description": "[ Arwind Gajadien ] : ' cola flesjes ' <br><br><a href=\"/permalink/C02NUR6C881/1694694484.017249\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:29:24",
+                    "title": "[ Pim Vrakking ] : ' Die glazen flesjes komen niet van :ah: , dus daar..",
+                    "description": "[ Pim Vrakking ] : ' Die glazen flesjes komen niet van :ah: , dus daar ga ik helaas niet over ' <br><br><a href=\"/permalink/C02NUR6C881/1694694564.298219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:00",
+                    "title": "[ Deactivated User ] : ' chocolade pepernuts '",
+                    "description": "[ Deactivated User ] : ' chocolade pepernuts ' <br><br><a href=\"/permalink/C02NUR6C881/1694694480.380429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:31",
+                    "title": "[ Pim Vrakking ] : ' Welke? ik heb wit toegevoegd '",
+                    "description": "[ Pim Vrakking ] : ' Welke? ik heb wit toegevoegd ' <br><br><a href=\"/permalink/C02NUR6C881/1694694511.617469\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:28:00",
+                    "title": "[ Arwind Gajadien ] : ' paprika chips '",
+                    "description": "[ Arwind Gajadien ] : ' paprika chips ' <br><br><a href=\"/permalink/C02NUR6C881/1694694480.105149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:27:46",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Last call voor extra boodschappenwense..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Last call voor extra boodschappenwensen ' <br><br><a href=\"/permalink/C02NUR6C881/1694694466.688349\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:22:12",
+                    "title": "[ Deactivated User ] : ' pepernuts '",
+                    "description": "[ Deactivated User ] : ' pepernuts ' <br><br><a href=\"/permalink/C02NUR6C881/1694694132.583979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-15",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:06:45",
+                    "title": "[ Deactivated User ] : ' https://www.ah.nl/producten/product/wi383073/..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://www.ah.nl/producten/product/wi383073/oldtimers-scheepsknopen\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1694790405.424779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:06:43",
+                    "title": "[ Deactivated User ] : '  '",
+                    "description": "[ Deactivated User ] : '  ' <br><br><a href=\"/permalink/C02NUR6C881/1694790403.339949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-18",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:24:03",
+                    "title": "[ Deactivated User ] : ' oke moeten we weer naar sligroo ergens '",
+                    "description": "[ Deactivated User ] : ' oke moeten we weer naar sligroo ergens ' <br><br><a href=\"/permalink/C02NUR6C881/1695032643.678009\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:23:47",
+                    "title": "[ Jolien Eijsink ] : ' nee '",
+                    "description": "[ Jolien Eijsink ] : ' nee ' <br><br><a href=\"/permalink/C02NUR6C881/1695032627.593189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:23:39",
+                    "title": "[ Deactivated User ] : ' Ligt dat niet meer in de kast Jolien Eijsink ..",
+                    "description": "[ Deactivated User ] : ' Ligt dat niet meer in de kast Jolien Eijsink ' <br><br><a href=\"/permalink/C02NUR6C881/1695032619.131499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:10:16",
+                    "title": "[ Jolien Eijsink ] : ' Papieren handdoekjes wc '",
+                    "description": "[ Jolien Eijsink ] : ' Papieren handdoekjes wc ' <br><br><a href=\"/permalink/C02NUR6C881/1695031816.822409\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-18",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:29:30",
+                    "title": "[ Arwind Gajadien ] : ' normale kipfilet naast de gerookte versie '",
+                    "description": "[ Arwind Gajadien ] : ' normale kipfilet naast de gerookte versie ' <br><br><a href=\"/permalink/C02NUR6C881/1695036570.965859\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-09-19",
+            "hour": "07:00",
+            "activities": [
+                {
+                    "timestamp": "07:25:47",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=c8..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=c89c38396dea4f21b36c3e02a0c47c58|https://tracking.routigo.com/?trackingCode=c89c38396dea4f21b36c3e02a0c47c58\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1695108347.058979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-09-22",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:32:16",
+                    "title": "[ Nicky Duijf ] : ' Magere melk vers '",
+                    "description": "[ Nicky Duijf ] : ' Magere melk vers ' <br><br><a href=\"/permalink/C02NUR6C881/1695393136.850839\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:14:35",
+                    "title": "[ Deactivated User ] : ' nog boodschappen wensen <!channel> '",
+                    "description": "[ Deactivated User ] : ' nog boodschappen wensen <!channel> ' <br><br><a href=\"/permalink/C02NUR6C881/1695392075.168179\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-02",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:48:07",
+                    "title": "[ Jolien Eijsink ] : ' chocola '",
+                    "description": "[ Jolien Eijsink ] : ' chocola ' <br><br><a href=\"/permalink/C02NUR6C881/1696240087.368619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:52:21",
+                    "title": "[ Pim Vrakking ] : ' Wat voor soort '",
+                    "description": "[ Pim Vrakking ] : ' Wat voor soort ' <br><br><a href=\"/permalink/C02NUR6C881/1696240341.109899\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:57:10",
+                    "title": "[ Giovanni van Duuren ] : ' https://www.youtube.com/watch?v=AConkkWXH7..",
+                    "description": "[ Giovanni van Duuren ] : ' <a href=\"https://www.youtube.com/watch?v=AConkkWXH7I\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1696240630.910519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:46:28",
+                    "title": "[ Nicky Duijf ] : ' verse magere melk '",
+                    "description": "[ Nicky Duijf ] : ' verse magere melk ' <br><br><a href=\"/permalink/C02NUR6C881/1696239988.110429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:45:11",
+                    "title": "[ Jarn\u00e9 ] : ' Havermelk '",
+                    "description": "[ Jarn\u00e9 ] : ' Havermelk ' <br><br><a href=\"/permalink/C02NUR6C881/1696239911.801479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:44:19",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Ik ben as we speak :ah: boodschappen a..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Ik ben as we speak :ah: boodschappen aan het samenstellen, dus gelieve alle aanvragen hieronder! ' <br><br><a href=\"/permalink/C02NUR6C881/1696239859.090429\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-02",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:02:14",
+                    "title": "[ Jolien Eijsink ] : ' met nootjes '",
+                    "description": "[ Jolien Eijsink ] : ' met nootjes ' <br><br><a href=\"/permalink/C02NUR6C881/1696240934.618179\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:04:09",
+                    "title": "[ Pim Vrakking ] : ' Hazelnoot of hele noot? '",
+                    "description": "[ Pim Vrakking ] : ' Hazelnoot of hele noot? ' <br><br><a href=\"/permalink/C02NUR6C881/1696241049.275939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:04:18",
+                    "title": "[ Jolien Eijsink ] : ' allebei '",
+                    "description": "[ Jolien Eijsink ] : ' allebei ' <br><br><a href=\"/permalink/C02NUR6C881/1696241058.236899\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:04:33",
+                    "title": "[ Pim Vrakking ] : ' damn '",
+                    "description": "[ Pim Vrakking ] : ' damn ' <br><br><a href=\"/permalink/C02NUR6C881/1696241073.317749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-05",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:13:52",
+                    "title": "[ Jolien Eijsink ] : ' Papieren handdoekjes voor de wc? '",
+                    "description": "[ Jolien Eijsink ] : ' Papieren handdoekjes voor de wc? ' <br><br><a href=\"/permalink/C02NUR6C881/1696504432.269109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:14:09",
+                    "title": "[ Deactivated User ] : ' Moeten we nogmaals voor naar de sligro , even..",
+                    "description": "[ Deactivated User ] : ' Moeten we nogmaals voor naar de sligro , even kijken wanneer ' <br><br><a href=\"/permalink/C02NUR6C881/1696504449.814619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:13:32",
+                    "title": "[ Jolien Eijsink ] : ' Handzeep staat onderin dat kastje '",
+                    "description": "[ Jolien Eijsink ] : ' Handzeep staat onderin dat kastje ' <br><br><a href=\"/permalink/C02NUR6C881/1696504412.539519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:13:51",
+                    "title": "[ Deactivated User ] : ' Is de laatste die we hebben gepakt Jolien Eij..",
+                    "description": "[ Deactivated User ] : ' Is de laatste die we hebben gepakt Jolien Eijsink  ' <br><br><a href=\"/permalink/C02NUR6C881/1696504431.362529\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:09:50",
+                    "title": "[ Deactivated User ] : ' Handzeep '",
+                    "description": "[ Deactivated User ] : ' Handzeep ' <br><br><a href=\"/permalink/C02NUR6C881/1696504190.768389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:08:51",
+                    "title": "[ Deactivated User ] : ' Boter  '",
+                    "description": "[ Deactivated User ] : ' Boter  ' <br><br><a href=\"/permalink/C02NUR6C881/1696504131.652399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-05",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:05:27",
+                    "title": "[ Giovanni van Duuren ] : ' Hela Curry is op '",
+                    "description": "[ Giovanni van Duuren ] : ' Hela Curry is op ' <br><br><a href=\"/permalink/C02NUR6C881/1696507527.450519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-10",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:35:47",
+                    "title": "[ Arwind Gajadien ] : ' BOTERRRRR '",
+                    "description": "[ Arwind Gajadien ] : ' BOTERRRRR ' <br><br><a href=\"/permalink/C02NUR6C881/1696926947.944449\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:35:23",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=9a..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=9acb68a6a65243eabe87b4f1049309df|https://tracking.routigo.com/?trackingCode=9acb68a6a65243eabe87b4f1049309df\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1696926923.065719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-10-10",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:56:42",
+                    "title": "[ Jolien Eijsink ] : ' paracetamol '",
+                    "description": "[ Jolien Eijsink ] : ' paracetamol ' <br><br><a href=\"/permalink/C02NUR6C881/1696935402.520979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-12",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:04:44",
+                    "title": "[ Stallon ] : ' Havermelk :upside_down_face: '",
+                    "description": "[ Stallon ] : ' Havermelk :upside_down_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1697097884.290169\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:04:15",
+                    "title": "[ Pim Vrakking ] : ' <!channel> BOODSCHAPPEN TIJD! Graag onderstaand a..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> BOODSCHAPPEN TIJD! Graag onderstaand al jullie AH boodschappenwensen! ' <br><br><a href=\"/permalink/C02NUR6C881/1697097855.807399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-12",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:07:29",
+                    "title": "[ Arwind Gajadien ] : ' Boter '",
+                    "description": "[ Arwind Gajadien ] : ' Boter ' <br><br><a href=\"/permalink/C02NUR6C881/1697101649.471609\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-19",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:41:39",
+                    "title": "[ Pim Vrakking ] : ' <!channel> HET IS WEER EENS DIE TIJD VAN DE WEEEE..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> HET IS WEER EENS DIE TIJD VAN DE WEEEEEEEEK! Tijd voor boodschappen, dus graag alle wensen ondestaand! ' <br><br><a href=\"/permalink/C02NUR6C881/1697722899.659929\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-26",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:37:06",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Raad eens hoe laat het is? 10:37, klop..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Raad eens hoe laat het is? 10:37, klopt. Maar het is ook tijd voor de BOODSCHAPPEEEEEEEENN...! Graag alle aanvragen onderstaand, als ze zijn besteld vink ik ze af :white_check_mark: ' <br><br><a href=\"/permalink/C02NUR6C881/1698309426.469579\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:50:57",
+                    "title": "[ Gian Luca ] : ' Deze graag!\nhttps://www.ah.nl/producten/product/wi45..",
+                    "description": "[ Gian Luca ] : ' Deze graag!\n<a href=\"https://www.ah.nl/producten/product/wi457334/lavazza-qualita-rossa-filterkoffie\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1698310257.071089\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-26",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:06:22",
+                    "title": "[ Huey Arends ] : ' Volle melk '",
+                    "description": "[ Huey Arends ] : ' Volle melk ' <br><br><a href=\"/permalink/C02NUR6C881/1698311182.766559\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:06:57",
+                    "title": "[ Pim Vrakking ] : ' Ik zal even vragen of ze de pakken niet eerst hal..",
+                    "description": "[ Pim Vrakking ] : ' Ik zal even vragen of ze de pakken niet eerst half leeggooien v\u00f3\u00f3r het bezorgen ' <br><br><a href=\"/permalink/C02NUR6C881/1698311217.687019\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-10-30",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:03:42",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=9d..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=9d16eec9a59a4a0d9a23772a9680a571\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1698660222.554659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-11-01",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:42:09",
+                    "title": "[ Pim Vrakking ] : ' Ook met nootjes '",
+                    "description": "[ Pim Vrakking ] : ' Ook met nootjes ' <br><br><a href=\"/permalink/C02NUR6C881/1698838929.959279\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:41:42",
+                    "title": "[ Pim Vrakking ] : ' Peanut cheese '",
+                    "description": "[ Pim Vrakking ] : ' Peanut cheese ' <br><br><a href=\"/permalink/C02NUR6C881/1698838902.798339\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-02",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:45:01",
+                    "title": "[ Nicky Duijf ] : ' Verse magere melk en 2 pakjes rookvlees totaal '",
+                    "description": "[ Nicky Duijf ] : ' Verse magere melk en 2 pakjes rookvlees totaal ' <br><br><a href=\"/permalink/C02NUR6C881/1698929101.627349\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:45:40",
+                    "title": "[ Deactivated User ] : ' rookvlees heb ik er 2 van besteld bij crisp !..",
+                    "description": "[ Deactivated User ] : ' rookvlees heb ik er 2 van besteld bij crisp ! Pim Vrakking ' <br><br><a href=\"/permalink/C02NUR6C881/1698929140.493159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:46:00",
+                    "title": "[ Nicky Duijf ] : ' Oh top thnx! '",
+                    "description": "[ Nicky Duijf ] : ' Oh top thnx! ' <br><br><a href=\"/permalink/C02NUR6C881/1698929160.750569\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:42:53",
+                    "title": "[ Giovanni van Duuren ] : ' Ijsthee is op geloof ik '",
+                    "description": "[ Giovanni van Duuren ] : ' Ijsthee is op geloof ik ' <br><br><a href=\"/permalink/C02NUR6C881/1698928973.576679\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:39:59",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Ik zie ik zie wat jij niet ziet en de ..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Ik zie ik zie wat jij niet ziet en de kleur is.... BOODSCHAPPEN! Graag alle boodschappen wensen onderstaand! ' <br><br><a href=\"/permalink/C02NUR6C881/1698928799.761129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-02",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:13:13",
+                    "title": "[ Jarn\u00e9 ] : ' Shiracha :hot_pepper: '",
+                    "description": "[ Jarn\u00e9 ] : ' Shiracha :hot_pepper: ' <br><br><a href=\"/permalink/C02NUR6C881/1698930793.341669\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-09",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:46:53",
+                    "title": "[ Jarn\u00e9 ] : ' Curry saus '",
+                    "description": "[ Jarn\u00e9 ] : ' Curry saus ' <br><br><a href=\"/permalink/C02NUR6C881/1699541213.619469\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:21:20",
+                    "title": "[ Pim Vrakking ] : ' <!channel> boodschappentijd! Aanvragen onderstaan..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> boodschappentijd! Aanvragen onderstaand graag! ' <br><br><a href=\"/permalink/C02NUR6C881/1699539680.588069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-09",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:26:46",
+                    "title": "[ Pim Vrakking ] : ' Hebben we nog staan Jarn\u00e9 '",
+                    "description": "[ Pim Vrakking ] : ' Hebben we nog staan Jarn\u00e9 ' <br><br><a href=\"/permalink/C02NUR6C881/1699543606.705999\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-14",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:15:15",
+                    "title": "[ Deactivated User ] : ' Rijstwafels '",
+                    "description": "[ Deactivated User ] : ' Rijstwafels ' <br><br><a href=\"/permalink/C02NUR6C881/1699960515.074329\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-16",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:45:09",
+                    "title": "[ Pim Vrakking ] : ' mandarijnen, nog meer dan vorige week '",
+                    "description": "[ Pim Vrakking ] : ' mandarijnen, nog meer dan vorige week ' <br><br><a href=\"/permalink/C02NUR6C881/1700135109.634169\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:44:54",
+                    "title": "[ Deactivated User ] : ' 2 pakken vlokken  '",
+                    "description": "[ Deactivated User ] : ' 2 pakken vlokken  ' <br><br><a href=\"/permalink/C02NUR6C881/1700135094.291189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:44:47",
+                    "title": "[ Deactivated User ] : ' Havermout\nKwark \nEieren \nBananen \nVlokken  '",
+                    "description": "[ Deactivated User ] : ' Havermout\nKwark \nEieren \nBananen \nVlokken  ' <br><br><a href=\"/permalink/C02NUR6C881/1700135087.056479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-17",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:02:51",
+                    "title": "[ Pim Vrakking ] : ' <!channel> TIJD VOOR BOODSCHAPPEN! Wil je iets he..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> TIJD VOOR BOODSCHAPPEN! Wil je iets hebben? Jammer. Zeg maar wel, maar ik kijk wel even hoe het loopt. Verrassing of het er wel of niet bij zit maandag :wink: ' <br><br><a href=\"/permalink/C02NUR6C881/1700215371.829989\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:14:49",
+                    "title": "[ Gian Luca ] : ' Graag:\n3 x https://www.ah.nl/producten/product/wi234..",
+                    "description": "[ Gian Luca ] : ' Graag:\n3 x <a href=\"https://www.ah.nl/producten/product/wi234872/mutti-pomodori-pelati|https://www.ah.nl/producten/product/wi234872/mutti-pomodori-pelati\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n1 x <a href=\"https://www.ah.nl/producten/product/wi478224/zanetti-parmigiano-reggiano-30|https://www.ah.nl/producten/product/wi478224/zanetti-parmigiano-reggiano-30\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n1 x <a href=\"https://www.ah.nl/producten/product/wi509631/ah-kookroom|https://www.ah.nl/producten/product/wi509631/ah-kookroom\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n2 x <a href=\"https://www.ah.nl/producten/product/wi477354/la-molisana-spaghetti|https://www.ah.nl/producten/product/wi477354/la-molisana-spaghetti\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n1 x <a href=\"https://www.ah.nl/producten/product/wi477355/la-molisana-penne-rigate|https://www.ah.nl/producten/product/wi477355/la-molisana-penne-rigate\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n1 x <a href=\"https://www.ah.nl/producten/product/wi525846/ah-sjalotten|https://www.ah.nl/producten/product/wi525846/ah-sjalotten\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n1 x <a href=\"https://www.ah.nl/producten/product/wi465692/beretta-pancetta-blokjes|https://www.ah.nl/producten/product/wi465692/beretta-pancetta-blokjes\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1700216089.812189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:17:17",
+                    "title": "[ Pim Vrakking ] : ' Gian Luca Beretta pancetta blokjes zijn niet leve..",
+                    "description": "[ Pim Vrakking ] : ' Gian Luca Beretta pancetta blokjes zijn niet leverbaar. ' <br><br><a href=\"/permalink/C02NUR6C881/1700216237.915009\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:17:43",
+                    "title": "[ Gian Luca ] : ' Ahh helaas, dan slaan we die over. Thanks Pim Vrakki..",
+                    "description": "[ Gian Luca ] : ' Ahh helaas, dan slaan we die over. Thanks Pim Vrakking ! ' <br><br><a href=\"/permalink/C02NUR6C881/1700216263.456839\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-20",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:31:54",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Dani\u00ebl Rios Mol has joined the channel '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Dani\u00ebl Rios Mol has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1700472714.324499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-11-23",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:29:51",
+                    "title": "[ Stallon ] : ' Sterrenmunt thee '",
+                    "description": "[ Stallon ] : ' Sterrenmunt thee ' <br><br><a href=\"/permalink/C02NUR6C881/1700753391.839729\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:21:58",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Havermelk! '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Havermelk! ' <br><br><a href=\"/permalink/C02NUR6C881/1700752918.487219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:21:21",
+                    "title": "[ Pim Vrakking ] : ' <!channel> HEAR YE HEAR YE, het is tijd om je boo..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> HEAR YE HEAR YE, het is tijd om je boodschappenwensen onder dit bericht te delen, we gaan weer samenstellen voor volgende week. ' <br><br><a href=\"/permalink/C02NUR6C881/1700752881.608619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-12-04",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:34:16",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=9f..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=9f81ceecc2d54ca5bc8b023da90a307d\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1701682456.176589\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-12-04",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:20:53",
+                    "title": "[ Hidde ] : ' Hidde has joined the channel '",
+                    "description": "[ Hidde ] : ' Hidde has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1701685253.173659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-12-08",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:21:33",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' havermelk! ohnee toch niet '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' havermelk! ohnee toch niet ' <br><br><a href=\"/permalink/C02NUR6C881/1702030893.164459\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:21:57",
+                    "title": "[ Deactivated User ] : ' staan nog in de kast :slightly_smiling_face: ..",
+                    "description": "[ Deactivated User ] : ' staan nog in de kast :slightly_smiling_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1702030917.133149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:18:17",
+                    "title": "[ Jolien Eijsink ] : ' chocola '",
+                    "description": "[ Jolien Eijsink ] : ' chocola ' <br><br><a href=\"/permalink/C02NUR6C881/1702030697.620829\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:17:57",
+                    "title": "[ Deactivated User ] : ' <!channel> Ik ga boodschappen bestellen, nog ..",
+                    "description": "[ Deactivated User ] : ' <!channel> Ik ga boodschappen bestellen, nog wensen?? ' <br><br><a href=\"/permalink/C02NUR6C881/1702030677.392199\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2023-12-11",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:03:18",
+                    "title": "[ Deactivated User ] : ' https://tracking.routigo.com/?trackingCode=d3..",
+                    "description": "[ Deactivated User ] : ' <a href=\"https://tracking.routigo.com/?trackingCode=d3dfd9769f9b40bc91f01ae82cd8e2e2|https://tracking.routigo.com/?trackingCode=d3dfd9769f9b40bc91f01ae82cd8e2e2\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1702281798.823099\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#57ebff",
+                    "strokeColor": "#FF0000",
+                    "imgUrl": "https://test-tracking.routigo.com/assets/png/meta-img.png"
+                }
+            ]
+        },
+        {
+            "date": "2023-12-18",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:48:17",
+                    "title": "[ Jarn\u00e9 ] : ' Currry '",
+                    "description": "[ Jarn\u00e9 ] : ' Currry ' <br><br><a href=\"/permalink/C02NUR6C881/1702892897.705059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:47:55",
+                    "title": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen ko..",
+                    "description": "[ Deactivated User ] : ' <!channel> nog boodschappen wensen? Morgen komt het dan binnen :0 ' <br><br><a href=\"/permalink/C02NUR6C881/1702892875.813509\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-04",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:38:53",
+                    "title": "[ Pim Vrakking ] : ' <!channel> Boodschappen voor volgende week gaan s..",
+                    "description": "[ Pim Vrakking ] : ' <!channel> Boodschappen voor volgende week gaan samengesteld worden, graag alle wensen onderstaand! ' <br><br><a href=\"/permalink/C02NUR6C881/1704371933.174739\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:37:47",
+                    "title": "[ Pim Vrakking ] : ' chilisaus '",
+                    "description": "[ Pim Vrakking ] : ' chilisaus ' <br><br><a href=\"/permalink/C02NUR6C881/1704371867.768559\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:37:44",
+                    "title": "[ Pim Vrakking ] : ' handzeep '",
+                    "description": "[ Pim Vrakking ] : ' handzeep ' <br><br><a href=\"/permalink/C02NUR6C881/1704371864.930749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:37:41",
+                    "title": "[ Pim Vrakking ] : ' boterhamzakjes '",
+                    "description": "[ Pim Vrakking ] : ' boterhamzakjes ' <br><br><a href=\"/permalink/C02NUR6C881/1704371861.404499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-08",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:50:35",
+                    "title": "[ Femke ] : ' Femke has joined the channel '",
+                    "description": "[ Femke ] : ' Femke has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1704703835.881299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-09",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:55:48",
+                    "title": "[ Arnold ] : ' Arnold has joined the channel '",
+                    "description": "[ Arnold ] : ' Arnold has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1704804948.357749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:54:44",
+                    "title": "[ Jolien Eijsink ] : ' koffie '",
+                    "description": "[ Jolien Eijsink ] : ' koffie ' <br><br><a href=\"/permalink/C02NUR6C881/1704804884.964399\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-09",
+            "hour": "16:00",
+            "activities": [
+                {
+                    "timestamp": "16:14:11",
+                    "title": "[ Deactivated User ] : ' between '",
+                    "description": "[ Deactivated User ] : ' between ' <br><br><a href=\"/permalink/C02NUR6C881/1704816851.510189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-15",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:42:40",
+                    "title": "[ Deactivated User ] : ' Deactivated User has joined the channel '",
+                    "description": "[ Deactivated User ] : ' Deactivated User has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1705326160.871009\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-25",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:08:30",
+                    "title": "[ Pim Vrakking ] : ' Speculaas '",
+                    "description": "[ Pim Vrakking ] : ' Speculaas ' <br><br><a href=\"/permalink/C02NUR6C881/1706173710.097919\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-25",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:58:50",
+                    "title": "[ Pim Vrakking ] : ' geitenkaas '",
+                    "description": "[ Pim Vrakking ] : ' geitenkaas ' <br><br><a href=\"/permalink/C02NUR6C881/1706191130.749559\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-01-29",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:50:25",
+                    "title": "[ Arnold ] : ' Crisp had vanochtend doorgegeven dat er geen bruine bol..",
+                    "description": "[ Arnold ] : ' Crisp had vanochtend doorgegeven dat er geen bruine bolletjes bij de levering van deze week zitten. ' <br><br><a href=\"/permalink/C02NUR6C881/1706518225.986089\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-01",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:34:43",
+                    "title": "[ Arnold ] : ' Ik ga vandaag na de lunch boodschappen voor volgende we..",
+                    "description": "[ Arnold ] : ' Ik ga vandaag na de lunch boodschappen voor volgende week bestellen. Als er verzoeken zijn, hoor ik dat graag. ' <br><br><a href=\"/permalink/C02NUR6C881/1706776483.186449\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-06",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:15:57",
+                    "title": "[ Deactivated User ] : ' Deactivated User has joined the channel '",
+                    "description": "[ Deactivated User ] : ' Deactivated User has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1707210957.364099\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-06",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:28:52",
+                    "title": "[ Arnold ] : ' Toiletpapier  '",
+                    "description": "[ Arnold ] : ' Toiletpapier  ' <br><br><a href=\"/permalink/C02NUR6C881/1707240532.210709\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-08",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:50:56",
+                    "title": "[ Stallon ] : ' Katja biggetjes :pig:  '",
+                    "description": "[ Stallon ] : ' Katja biggetjes :pig:  ' <br><br><a href=\"/permalink/C02NUR6C881/1707393056.649929\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:49:55",
+                    "title": "[ Deactivated User ] : ' Pure hagelslag '",
+                    "description": "[ Deactivated User ] : ' Pure hagelslag ' <br><br><a href=\"/permalink/C02NUR6C881/1707392995.877469\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:47:52",
+                    "title": "[ Deactivated User ] : ' Blikjes ice tea '",
+                    "description": "[ Deactivated User ] : ' Blikjes ice tea ' <br><br><a href=\"/permalink/C02NUR6C881/1707392872.845519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:47:27",
+                    "title": "[ Pim Vrakking ] : ' Yum yum kip noedels '",
+                    "description": "[ Pim Vrakking ] : ' Yum yum kip noedels ' <br><br><a href=\"/permalink/C02NUR6C881/1707392847.833669\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:44:11",
+                    "title": "[ Pim Vrakking ] : ' Honing '",
+                    "description": "[ Pim Vrakking ] : ' Honing ' <br><br><a href=\"/permalink/C02NUR6C881/1707392651.249499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:30:02",
+                    "title": "[ Stallon ] : ' Noodles '",
+                    "description": "[ Stallon ] : ' Noodles ' <br><br><a href=\"/permalink/C02NUR6C881/1707391802.858819\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:28:19",
+                    "title": "[ Stallon ] : ' Witte chocolade vlokken  '",
+                    "description": "[ Stallon ] : ' Witte chocolade vlokken  ' <br><br><a href=\"/permalink/C02NUR6C881/1707391699.584229\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:28:08",
+                    "title": "[ Stallon ] : ' Krokovlokken  '",
+                    "description": "[ Stallon ] : ' Krokovlokken  ' <br><br><a href=\"/permalink/C02NUR6C881/1707391688.931969\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:26:44",
+                    "title": "[ Pim Vrakking ] : ' (meer) speculaar '",
+                    "description": "[ Pim Vrakking ] : ' (meer) speculaar ' <br><br><a href=\"/permalink/C02NUR6C881/1707391604.214779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:26:08",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga na de lunchpauze weer boodschappen bes..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga na de lunchpauze weer boodschappen bestellen. Zijn er verzoeken? ' <br><br><a href=\"/permalink/C02NUR6C881/1707391568.425999\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:25:11",
+                    "title": "[ Arnold ] : ' Plijsters '",
+                    "description": "[ Arnold ] : ' Plijsters ' <br><br><a href=\"/permalink/C02NUR6C881/1707391511.516349\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-08",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:16:40",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Wraps! '",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Wraps! ' <br><br><a href=\"/permalink/C02NUR6C881/1707394600.938629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:16:03",
+                    "title": "[ Arnold ] : ' 2 extra witte en bruine bolletjes '",
+                    "description": "[ Arnold ] : ' 2 extra witte en bruine bolletjes ' <br><br><a href=\"/permalink/C02NUR6C881/1707394563.754929\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-12",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:29:04",
+                    "title": "[ Arnold ] : ' De boodschappen van Crisp worden vandaag tussen 12:40 e..",
+                    "description": "[ Arnold ] : ' De boodschappen van Crisp worden vandaag tussen 12:40 en 13:00 geleverd. Ze gaven aan dat jonge kaas dit keer niet leverbaar is en dat wij in plaats daarvan belegen kaas krijgen ' <br><br><a href=\"/permalink/C02NUR6C881/1707730144.079109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-12",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:40:22",
+                    "title": "[ Arnold ] : ' Iets vertraagd, levering wordt tussen 12:55 en 13:15 '",
+                    "description": "[ Arnold ] : ' Iets vertraagd, levering wordt tussen 12:55 en 13:15 ' <br><br><a href=\"/permalink/C02NUR6C881/1707734422.835889\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-12",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:42:09",
+                    "title": "[ Arnold ] : ' Ze zijn nog wat vertraagd, hopelijk binnen een half uur..",
+                    "description": "[ Arnold ] : ' Ze zijn nog wat vertraagd, hopelijk binnen een half uurtje ' <br><br><a href=\"/permalink/C02NUR6C881/1707738129.752059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-15",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:50:01",
+                    "title": "[ Nicky Duijf ] : ' Verse magere melk '",
+                    "description": "[ Nicky Duijf ] : ' Verse magere melk ' <br><br><a href=\"/permalink/C02NUR6C881/1708005001.687729\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:49:35",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er ..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga zo de boodschappen bestellen. Zijn er verzoeken? ' <br><br><a href=\"/permalink/C02NUR6C881/1708004975.718149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-15",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:28:17",
+                    "title": "[ Deactivated User ] : ' :knife_fork_plate: '",
+                    "description": "[ Deactivated User ] : ' :knife_fork_plate: ' <br><br><a href=\"/permalink/C02NUR6C881/1708007297.483049\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:24:59",
+                    "title": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? '",
+                    "description": "[ Arnold ] : ' Wil je voor een paar mensen avondeten maken? ' <br><br><a href=\"/permalink/C02NUR6C881/1708007099.026949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:22:57",
+                    "title": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  '",
+                    "description": "[ Gian Luca ] : ' Kawish Gajadien hier kunnen we wel wat mee  ' <br><br><a href=\"/permalink/C02NUR6C881/1708006977.217649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:22:46",
+                    "title": "[ Gian Luca ] : ' https://www.ah.nl/producten/product/wi509631/ah-kook..",
+                    "description": "[ Gian Luca ] : ' <a href=\"https://www.ah.nl/producten/product/wi509631/ah-kookroom|https://www.ah.nl/producten/product/wi509631/ah-kookroom\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n<a href=\"https://www.ah.nl/producten/product/wi492786/royal-funghi-gedroogd-eekhoorntjesbrood|https://www.ah.nl/producten/product/wi492786/royal-funghi-gedroogd-eekhoorntjesbrood\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n<a href=\"https://www.ah.nl/producten/product/wi2090/grand-italia-spaghetti-tradizionali|https://www.ah.nl/producten/product/wi2090/grand-italia-spaghetti-tradizionali\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n2x <a href=\"https://www.ah.nl/producten/product/wi234848/mutti-polpa|https://www.ah.nl/producten/product/wi234848/mutti-polpa\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n\n<a href=\"https://www.ah.nl/producten/product/wi155600/ah-aardappelschijfjes|https://www.ah.nl/producten/product/wi155600/ah-aardappelschijfjes\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n<a href=\"https://www.ah.nl/producten/product/wi567317/ah-gorgonzola-55|https://www.ah.nl/producten/product/wi567317/ah-gorgonzola-55\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n<a href=\"https://www.ah.nl/producten/product/wi478224/zanetti-parmigiano-reggiano-30|https://www.ah.nl/producten/product/wi478224/zanetti-parmigiano-reggiano-30\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1708006966.816729\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:14:49",
+                    "title": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  '",
+                    "description": "[ Kawish Gajadien ] : ' Gian Luca wilt nog wel wat :face_in_clouds:  ' <br><br><a href=\"/permalink/C02NUR6C881/1708006489.523689\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:09:31",
+                    "title": "[ Arnold ] : ' 1 pak genoeg of heb je liever een kalf? '",
+                    "description": "[ Arnold ] : ' 1 pak genoeg of heb je liever een kalf? ' <br><br><a href=\"/permalink/C02NUR6C881/1708006171.130629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:10:09",
+                    "title": "[ Nicky Duijf ] : ' 2  '",
+                    "description": "[ Nicky Duijf ] : ' 2  ' <br><br><a href=\"/permalink/C02NUR6C881/1708006209.899489\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:10:27",
+                    "title": "[ Nicky Duijf ] : ' Of een melk koe '",
+                    "description": "[ Nicky Duijf ] : ' Of een melk koe ' <br><br><a href=\"/permalink/C02NUR6C881/1708006227.732149\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:10:53",
+                    "title": "[ Arnold ] : ' dan is het niet meer mager LOL '",
+                    "description": "[ Arnold ] : ' dan is het niet meer mager LOL ' <br><br><a href=\"/permalink/C02NUR6C881/1708006253.717629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-19",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:08:15",
+                    "title": "[ Arnold ] : ' Ik verwacht dat de boodschappen van Crisp voor 13:00 be..",
+                    "description": "[ Arnold ] : ' Ik verwacht dat de boodschappen van Crisp voor 13:00 bezorgd worden en die van AH voor 12:45 ' <br><br><a href=\"/permalink/C02NUR6C881/1708340895.226389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-02-26",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:49:35",
+                    "title": "[ Arnold ] : ' Ik verwacht de boodschappen van Crisp voor 13:00 en AH ..",
+                    "description": "[ Arnold ] : ' Ik verwacht de boodschappen van Crisp voor 13:00 en AH voor 13:30 ' <br><br><a href=\"/permalink/C02NUR6C881/1708944575.864619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-04",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:02:19",
+                    "title": "[ Arnold ] : ' De boodschappen van AH komen laat vandaag, verwacht tus..",
+                    "description": "[ Arnold ] : ' De boodschappen van AH komen laat vandaag, verwacht tussen 13:20 en 14:00\nCrisp verwacht ik tussen 12:25 en 12:50 ' <br><br><a href=\"/permalink/C02NUR6C881/1709550139.507619\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-07",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:21:55",
+                    "title": "[ Deactivated User ] : ' mozzarella en pesto graag :blush: '",
+                    "description": "[ Deactivated User ] : ' mozzarella en pesto graag :blush: ' <br><br><a href=\"/permalink/C02NUR6C881/1709814115.580999\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:21:27",
+                    "title": "[ Jolien Eijsink ] : ' chocola, alle verschillende smaken '",
+                    "description": "[ Jolien Eijsink ] : ' chocola, alle verschillende smaken ' <br><br><a href=\"/permalink/C02NUR6C881/1709814087.999979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:07:57",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga straks weer boodschappen bestellen, zi..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga straks weer boodschappen bestellen, zijn er verzoeken? ' <br><br><a href=\"/permalink/C02NUR6C881/1709813277.860189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-14",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:24:26",
+                    "title": "[ Arnold ] : ' Ik zal na de lunch weer boodschappen doen. Zijn er verz..",
+                    "description": "[ Arnold ] : ' Ik zal na de lunch weer boodschappen doen. Zijn er verzoeken + of -? ' <br><br><a href=\"/permalink/C02NUR6C881/1710415466.687719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-14",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:17:05",
+                    "title": "[ Jarn\u00e9 ] : ' Calve pindakaas met stukjes '",
+                    "description": "[ Jarn\u00e9 ] : ' Calve pindakaas met stukjes ' <br><br><a href=\"/permalink/C02NUR6C881/1710425825.355379\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "14:18:43",
+                    "title": "[ Arnold ] : ' Te laat :wink:. Maar ik heb hem wel meegenomen in de be..",
+                    "description": "[ Arnold ] : ' Te laat :wink:. Maar ik heb hem wel meegenomen in de bestelling ' <br><br><a href=\"/permalink/C02NUR6C881/1710425923.629389\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-20",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:37:05",
+                    "title": "[ Jarn\u00e9 ] : ' Unicura zeep '",
+                    "description": "[ Jarn\u00e9 ] : ' Unicura zeep ' <br><br><a href=\"/permalink/C02NUR6C881/1710949025.345519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-21",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:15:14",
+                    "title": "[ Arnold ] : ' Ik wil na de lunch weer boodschappen bestellen, zijn er..",
+                    "description": "[ Arnold ] : ' Ik wil na de lunch weer boodschappen bestellen, zijn er verzoeken?\nAls iets niet meer besteld hoeft te worden, dan hoor ik het graag. ' <br><br><a href=\"/permalink/C02NUR6C881/1711019714.423869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:16:14",
+                    "title": "[ Femke ] : ' Mozzarella x2 en pesto '",
+                    "description": "[ Femke ] : ' Mozzarella x2 en pesto ' <br><br><a href=\"/permalink/C02NUR6C881/1711019774.379119\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-25",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:03:44",
+                    "title": "[ Devlin ] : ' Devlin has joined the channel '",
+                    "description": "[ Devlin ] : ' Devlin has joined the channel ' <br><br><a href=\"/permalink/C02NUR6C881/1711357424.697189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-25",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:34:59",
+                    "title": "[ Arnold ] : ' <!channel>\nIk kreeg het verzoek om voortaan VOLKOREN bo..",
+                    "description": "[ Arnold ] : ' <!channel>\nIk kreeg het verzoek om voortaan VOLKOREN bollen te bestellen i.p.v. bruine bollen.\nDit zal ik dan via AH i.p.v. Crisp doen.\nIk verwacht hier geen bezwaar op, anders hoor ik het graag en kunnen we e.e.a. combineren ' <br><br><a href=\"/permalink/C02NUR6C881/1711366499.012849\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:57:51",
+                    "title": "[ Jolien Eijsink ] : ' chocola '",
+                    "description": "[ Jolien Eijsink ] : ' chocola ' <br><br><a href=\"/permalink/C02NUR6C881/1711706271.385419\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:46:10",
+                    "title": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  '",
+                    "description": "[ Pim Vrakking ] : ' Kalkoen filet s.v.p. :pray:  ' <br><br><a href=\"/permalink/C02NUR6C881/1711705570.711569\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:45:03",
+                    "title": "[ Nicky Duijf ] : ' Zou er verse magere melk op het boodschappenlijstj..",
+                    "description": "[ Nicky Duijf ] : ' Zou er verse magere melk op het boodschappenlijstje kunnen?  ' <br><br><a href=\"/permalink/C02NUR6C881/1711705503.566219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-03-29",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:18:51",
+                    "title": "[ Jarn\u00e9 ] : ' Crispy chilli svp :hot_pepper: https://www.ah.nl/product..",
+                    "description": "[ Jarn\u00e9 ] : ' Crispy chilli svp :hot_pepper: <a href=\"https://www.ah.nl/producten/product/wi553362/old-mother-crispy-chilli-in-oil\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C02NUR6C881/1711707531.061599\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-02",
+            "hour": "07:00",
+            "activities": [
+                {
+                    "timestamp": "07:21:06",
+                    "title": "[ Arnold ] : ' Zal ik met de volgende bestelling meenemen '",
+                    "description": "[ Arnold ] : ' Zal ik met de volgende bestelling meenemen ' <br><br><a href=\"/permalink/C02NUR6C881/1712042466.626109\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "07:20:53",
+                    "title": "[ Arnold ] : ' Wil je aangeven wat je in gedachte hebt? '",
+                    "description": "[ Arnold ] : ' Wil je aangeven wat je in gedachte hebt? ' <br><br><a href=\"/permalink/C02NUR6C881/1712042453.778069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "07:20:16",
+                    "title": "[ Arnold ] : ' Zit tussen de bestellingen die wij vandaag ontvangen '",
+                    "description": "[ Arnold ] : ' Zit tussen de bestellingen die wij vandaag ontvangen ' <br><br><a href=\"/permalink/C02NUR6C881/1712042416.138359\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "07:19:51",
+                    "title": "[ Arnold ] : ' Ik zal dit voortaan mee bestellen '",
+                    "description": "[ Arnold ] : ' Ik zal dit voortaan mee bestellen ' <br><br><a href=\"/permalink/C02NUR6C881/1712042391.175299\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-02",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:44:32",
+                    "title": "[ Arnold ] : ' Ik verwacht vandaag de boodschappen van Crisp tussen 12..",
+                    "description": "[ Arnold ] : ' Ik verwacht vandaag de boodschappen van Crisp tussen 12:30 en 13:00, van AH tussen 12:15 en 13:15 ' <br><br><a href=\"/permalink/C02NUR6C881/1712047472.691639\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-02",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:48:50",
+                    "title": "[ Arnold ] : ' <!channel> planning levering boodschappen ah (o.a. boll..",
+                    "description": "[ Arnold ] : ' <!channel> planning levering boodschappen ah (o.a. bolletjes) is naar verwachting voor 13:20 ' <br><br><a href=\"/permalink/C02NUR6C881/1712054930.567129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#DABFFF",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-04",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:28:49",
+                    "title": "[ Arnold ] : ' <!channel> Na de lunch ga ik weer boodschappen bestelle..",
+                    "description": "[ Arnold ] : ' <!channel> Na de lunch ga ik weer boodschappen bestellen. De laatste verzoeken neem ik hierin mee.\nHet viel mij op dat we weinig toiletpapier hebben, ik zal dit bestellen, zodat we weer voorzien zijn.\nAls er verzoeken zijn, dan hoor ik het graag ' <br><br><a href=\"/permalink/C02NUR6C881/1712226529.373989\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-04",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:32:50",
+                    "title": "[ Arnold ] : ' Hoi Jolien, ik ben bezig met bestellen. Wil jij aangeve..",
+                    "description": "[ Arnold ] : ' Hoi Jolien, ik ben bezig met bestellen. Wil jij aangeven wat je wilt dat ik bestel? ' <br><br><a href=\"/permalink/C02NUR6C881/1712230370.088769\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:35:44",
+                    "title": "[ Jolien Eijsink ] : ' gewoon chocola, milka, met nootjes, verschillen..",
+                    "description": "[ Jolien Eijsink ] : ' gewoon chocola, milka, met nootjes, verschillende smaken ' <br><br><a href=\"/permalink/C02NUR6C881/1712230544.768549\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-04-11",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:51:19",
+                    "title": "[ Stallon ] : ' Pita broodjes '",
+                    "description": "[ Stallon ] : ' Pita broodjes ' <br><br><a href=\"/permalink/C02NUR6C881/1712836279.111789\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "11:45:07",
+                    "title": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er ver..",
+                    "description": "[ Arnold ] : ' <!channel> Ik ga zo boodschappen bestellen, zijn er verzoeken? ' <br><br><a href=\"/permalink/C02NUR6C881/1712835907.614309\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
             "date": "2024-04-29",
             "hour": "09:00",
             "activities": [
@@ -898,6 +3696,48 @@
                     "title": "[ Dani\u00ebl Rios Mol ] : ' Toiletrollen &amp; curry  '",
                     "description": "[ Dani\u00ebl Rios Mol ] : ' Toiletrollen &amp; curry  ' <br><br><a href=\"/permalink/C02NUR6C881/1722595500.554159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
                     "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-15",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:29:02",
+                    "title": "[ Femke ] : ' <!channel> Zou iemand het boodschappenlijstje vandaag of..",
+                    "description": "[ Femke ] : ' <!channel> Zou iemand het boodschappenlijstje vandaag of morgen in willen vullen? Dan kan ik bestellen :sun_with_face: ' <br><br><a href=\"/permalink/C02NUR6C881/1723717742.360959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-19",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:00:13",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Bestelling crisp is binnen, was voor de deur g..",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Bestelling crisp is binnen, was voor de deur gezet  ' <br><br><a href=\"/permalink/C02NUR6C881/1724054413.811959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-26",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:31:28",
+                    "title": "[ Femke ] : ' Appie komt tussen 11.20 en 12.20, crisp was niet nodig :..",
+                    "description": "[ Femke ] : ' Appie komt tussen 11.20 en 12.20, crisp was niet nodig :truck:  ' <br><br><a href=\"/permalink/C02NUR6C881/1724661088.874139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
                     "strokeColor": "#C27B25",
                     "imgUrl": ""
                 }

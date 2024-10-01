@@ -1026,10 +1026,17 @@ const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-e
         // Don't trigger shortcut if no data or more complex predefined shortcut by browser
         if (!this.hasData() && !allowedKeysOnLandingPage.includes(key) || event.ctrlKey || event.shiftKey) return;
         const commands = {
+            "g": this.menuOnGitHub.bind(this),
             "s": this.menuOnAlignStart.bind(this),
             "e": this.menuOnAlignEnd.bind(this),
             "c": this.menuOnAlignCenter.bind(this),
+            "z": this.menuOnZoomReset.bind(this),
+            "i": this.menuOnInfo.bind(this),
             "h": this.menuOnLandingPage.bind(this),
+            "o": this.menuOnDataImport.bind(this),
+            "p": this.menuOnExportPNG.bind(this),
+            "d": this.menuOnDataExport.bind(this),
+            "n": this.menuOnFetchNotification.bind(this),
             "+": this.menuOnZoomDelta.bind(this, 1),
             "-": this.menuOnZoomDelta.bind(this, -1),
             "m": this.menu.toggleMenuStrip.bind(this.menu)
@@ -1163,6 +1170,63 @@ const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-e
         this.scrollTimeline((0, _scrollPositionType.ScrollPosition).Center);
     }
     /**
+     * Callback function from Menu - Exports Timeline as PNG
+     */ menuOnExportPNG() {
+        if (!this.hasData()) return;
+        const dataURL = this.canvas.toDataURL("image/png", 1.0);
+        (0, _download.download)(this.fileData.name + ".png", dataURL);
+    }
+    /**
+     * Callback function from Menu - Displays GitHub information
+     */ menuOnGitHub() {
+        const aboutAlert = new (0, _alert.Alert)(`
+            <h3 class="at-m-0">GitHub</h3>
+            <p>Developed by Qulle <a href="https://github.com/qulle/activity-timeline" target="_blank" class="at-link">github.com/qulle/activity-timeline</a></p>
+        `);
+    }
+    /**
+     * Callback function from Menu - Displays Info about the current Timeline
+     */ menuOnInfo() {
+        if (!this.hasData()) return;
+        let maxActivities = 0;
+        let minActivities = Number.MAX_VALUE;
+        let totActivities = 0;
+        this.days.forEach((day)=>{
+            const dayLenght = day.activities.length;
+            if (dayLenght > maxActivities) maxActivities = dayLenght;
+            if (dayLenght < minActivities) minActivities = dayLenght;
+            totActivities += dayLenght;
+        });
+        const startDate = this.days[0].date;
+        const endDate = this.days[this.days.length - 1].date;
+        const dateDiff = endDate.getTime() - startDate.getTime();
+        const timePeriod = Math.ceil(dateDiff / 86400000);
+        const avarage = totActivities / this.days.length;
+        const percent = this.days.length / timePeriod * 100;
+        const content = `
+            <h3>📝 File meta</h3>
+            <p>File: <strong>${this.fileData.name}.${this.fileData.extension}</strong></p>
+            <p>Opened: <strong>${this.fileData.opened.toLocaleTimeString(this.meta.locale)}</strong></p>
+            <p>Localization: <strong>${this.meta.locale}</strong></p>
+            <h3>📉 Statistics</h3>
+            <p>First date: <strong>${startDate.toLocaleDateString(this.meta.locale)}</strong></p>
+            <p>Last date: <strong>${endDate.toLocaleDateString(this.meta.locale)}</strong></p>
+            <p>Time period: <strong>${timePeriod} days</strong></p>
+            <p>Activities on: <strong>${this.days.length} days</strong> corresponding to <strong>${Number(percent.toFixed(2))}%</strong> of time period</p>
+            <p>Total activites: <strong>${totActivities} st</strong></p>
+            <p>Most activites in a day: <strong>${maxActivities} st</strong></p>
+            <p>Least activites in a day: <strong>${minActivities} st</strong></p>
+            <p>Avarage activites in a day: <strong>${Number(avarage.toFixed(2))} st</strong></p>
+        `;
+        const modal = new (0, _modal.Modal)("Current Timeline", content);
+    }
+    /**
+     * Callback function from Menu - Resets Zoom to default value
+     */ menuOnZoomReset() {
+        if (!this.hasData()) return;
+        this.resetZoom();
+    }
+    /**
      * Callback function from Menu - Zooms in or out based on delta value
      * @param deltaY Positive value = Zoom in, Negative value = Zoom out
      */ menuOnZoomDelta(deltaY) {
@@ -1171,6 +1235,74 @@ const NOTIFICATION_URL = "https://raw.githubusercontent.com/qulle/notification-e
         const centerX = window.innerWidth / 2;
         const centerY = window.innerHeight / 2;
         this.zoomTimeline(centerX, centerY, deltaY);
+    }
+    /**
+     * Callback function from Menu - Import file to render
+     */ menuOnDataImport() {
+        const fileDialog = document.createElement("input");
+        fileDialog.className = "at-d-none";
+        fileDialog.setAttribute("type", "file");
+        fileDialog.setAttribute("accept", ".json, .csv");
+        fileDialog.addEventListener("change", (event)=>{
+            const fileDialog = event.target;
+            const firstFile = fileDialog.files[0];
+            this.handleFileBeforeParse(firstFile);
+        });
+        // Open the dialog
+        fileDialog.click();
+    }
+    /**
+     * Callback function from Menu - Export data to JSON or CSV file
+     */ menuOnDataExport() {
+        if (!this.hasData()) return;
+        // Note: Swapped file-formats to save in the format that was not opened
+        const fileParsers = {
+            "json": this.exportAsCSV.bind(this),
+            "csv": this.exportAsJSON.bind(this)
+        };
+        const parser = fileParsers[this.fileData.extension];
+        if (parser) parser.call();
+        else {
+            const fileTypeAlert = new (0, _alert.Alert)(`
+                <h3 class="at-m-0">Oops!</h3>
+                <p>Could not decide fileformat - report as <a href="https://github.com/qulle/activity-timeline/issues" target="_blank" class="at-link">bug</a></p>
+            `);
+        }
+    }
+    menuOnFetchNotification() {
+        const notificationModal = new (0, _modal.Modal)("Notifications", "<p>Loading notifications...</p>");
+        const timestamp = new Date().getTime().toString();
+        fetch(`${NOTIFICATION_URL}?cache=${timestamp}`, {
+            method: "GET",
+            headers: {
+                "Accept": "application/json"
+            }
+        }).then((response)=>{
+            if (!Boolean(response.ok)) return Promise.reject(`${response.status} ${response.statusText}`);
+            return response.json();
+        }).then((data)=>{
+            let features = "";
+            if (data.features.length === 0) features = "<p>No features currently under development</p>";
+            else data.features.forEach((feature)=>{
+                features += `<p>${feature}</p>`;
+            });
+            const notification = {
+                message: data.message,
+                latest: {
+                    version: data.latest.version,
+                    released: data.latest.released
+                },
+                features: features
+            };
+            this.setNotificationModalContent(notificationModal, notification);
+        }).catch((error)=>{
+            const notification = {
+                message: "Glad you are using my App, hope you find it useful!",
+                error: "Data from the GitHub repo could not be fetched"
+            };
+            this.setNotificationModalContent(notificationModal, notification);
+            console.error(`Fetch error [${error}]`);
+        });
     }
     setNotificationModalContent(modal, notification) {
         const content = `
@@ -2838,6 +2970,11 @@ class Menu {
                 svg: (0, _icons.SVGPaths).Logo
             },
             {
+                title: "Current Timeline (I)",
+                callback: this.timeline.menuOnInfo.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Info
+            },
+            {
                 title: "Align Start (S)",
                 callback: this.timeline.menuOnAlignStart.bind(this.timeline),
                 svg: (0, _icons.SVGPaths).AlignStart
@@ -2853,6 +2990,11 @@ class Menu {
                 svg: (0, _icons.SVGPaths).AlignEnd
             },
             {
+                title: "Reset Zoom (Z)",
+                callback: this.timeline.menuOnZoomReset.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ZoomReset
+            },
+            {
                 title: "Zoom Out (-)",
                 callback: this.timeline.menuOnZoomDelta.bind(this.timeline, -1),
                 svg: (0, _icons.SVGPaths).ZoomOut
@@ -2861,10 +3003,36 @@ class Menu {
                 title: "Zoom In (+)",
                 callback: this.timeline.menuOnZoomDelta.bind(this.timeline, 1),
                 svg: (0, _icons.SVGPaths).ZoomIn
+            },
+            {
+                title: "Export PNG (P)",
+                callback: this.timeline.menuOnExportPNG.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ExportImage
+            },
+            {
+                title: "Import Timeline Data (O)",
+                callback: this.timeline.menuOnDataImport.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Import
+            },
+            {
+                title: "Export Timeline Data (D)",
+                callback: this.timeline.menuOnDataExport.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).ExportData
+            },
+            {
+                title: "Notifications (N)",
+                callback: this.timeline.menuOnFetchNotification.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).Bell
+            },
+            {
+                title: "GitHub (G)",
+                callback: this.timeline.menuOnGitHub.bind(this.timeline),
+                svg: (0, _icons.SVGPaths).About
             }
         ].forEach((menuItem)=>{
             this.addMenuItem(menuItem.title, menuItem.callback, menuItem.svg, menuItem.className);
         });
+        document.body.appendChild(this.menu);
     }
     toggleMenuStrip() {
         const children = [

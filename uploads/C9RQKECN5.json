@@ -1,0 +1,719 @@
+{
+    "meta": {
+        "version": "1.4.0",
+        "locale": "en-nl"
+    },
+    "style": {
+        "textColor": "#000000",
+        "timelineStrokeColor": "#24ff6d",
+        "strokeColor": "#353C4B",
+        "backgroundColor": "#F7F6EB",
+        "fillColor": "#F2E7DC"
+    },
+    "days": [
+        {
+            "date": "2024-08-07",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:59:24",
+                    "title": "[ Violet Venema ] : ' <!channel> Bedankt allemaal voor jullie inzet vo..",
+                    "description": "[ Violet Venema ] : ' <!channel> Bedankt allemaal voor jullie inzet voor It Ends With Us. Het was een prachtig event! :cherry_blossom: ' <br><br><a href=\"/permalink/C9RQKECN5/1723021164.375059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:57:21",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema jullie ook bedankt! :bouquet:\nIk ..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema jullie ook bedankt! :bouquet:\nIk heb hier een preview van de aftermail met daarin een button naar een selectie van de foto\u2019s: <a href=\"https://univrsl.to/4023/IEWU/Aftermail\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\nHierbij alle foto\u2019s voor jullie: <a href=\"https://we.tl/t-MLBReiNGIM\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\nEn ik stel deze tekst voor als WhatsApp-bericht: ' <br><br><a href=\"/permalink/C9RQKECN5/1723024641.714219\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:41:06",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema hebben jullie nog feedback? Ander..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema hebben jullie nog feedback? Anders stel ik voor, bij akkoord, om ze zo te versturen - zodat iedereen z\u2019n foto\u2019s nog een beetje op tijd heeft :slightly_smiling_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723030866.979809\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:33:47",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink sorry kom hier nu pas aan toe '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink sorry kom hier nu pas aan toe ' <br><br><a href=\"/permalink/C9RQKECN5/1723034027.541159\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:33:52",
+                    "title": "[ Violet Venema ] : ' checking '",
+                    "description": "[ Violet Venema ] : ' checking ' <br><br><a href=\"/permalink/C9RQKECN5/1723034032.510099\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:36:32",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink zouden we voor tekst deze keer al..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink zouden we voor tekst deze keer alles 'je' kunnen zeggen ipv 'u'? ' <br><br><a href=\"/permalink/C9RQKECN5/1723034192.345229\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:38:15",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema kan zeker hoor, maar had het zo g..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema kan zeker hoor, maar had het zo gedaan omdat de communicatie in de uitnodiging en aanmeldbevestiging ook \u2018u\u2019 was ' <br><br><a href=\"/permalink/C9RQKECN5/1723034295.575139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:43:30",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema aangepast: https://univrsl.to/402..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema aangepast: <a href=\"https://univrsl.to/4023/IEWU/Aftermail\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C9RQKECN5/1723034610.403809\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:44:54",
+                    "title": "[ Violet Venema ] : ' Ja snap ik helemaal. nu dat ik de meiden van gis..",
+                    "description": "[ Violet Venema ] : ' Ja snap ik helemaal. nu dat ik de meiden van gisteravond gezien  heb ik denk ik dat dit hun wat meer aanspreekt :slightly_smiling_face:  thanks! ' <br><br><a href=\"/permalink/C9RQKECN5/1723034694.046139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:45:06",
+                    "title": "[ Violet Venema ] : ' foto input aftermail heb ik nog paar kleine opme..",
+                    "description": "[ Violet Venema ] : ' foto input aftermail heb ik nog paar kleine opmerkingen ' <br><br><a href=\"/permalink/C9RQKECN5/1723034706.857139\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:56:57",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink liever deze drie er uit: '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink liever deze drie er uit: ' <br><br><a href=\"/permalink/C9RQKECN5/1723035417.558589\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:57:57",
+                    "title": "[ Violet Venema ] : ' voorkeur deze fotos erbij:\n102, 092, 53 '",
+                    "description": "[ Violet Venema ] : ' voorkeur deze fotos erbij:\n102, 092, 53 ' <br><br><a href=\"/permalink/C9RQKECN5/1723035477.255609\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "13:00",
+            "activities": [
+                {
+                    "timestamp": "13:38:40",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink ja goed om te overwegen. UPI kan ..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink ja goed om te overwegen. UPI kan haar ook een bericht sturen . Daisy Durge :point_up_2: ' <br><br><a href=\"/permalink/C9RQKECN5/1723037920.655939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:37:24",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema hierbij voor de vorm ook de scanl..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema hierbij voor de vorm ook de scanlijst (bijna iedereen was er natuurlijk :slightly_smiling_face:), maar ik zie dat de tickets van Naomi van As ook weer zijn gescand, maar ze was er uiteraard zelf (weer) niet. Misschien is het een idee om haar van de genodigdenlijst te halen? ' <br><br><a href=\"/permalink/C9RQKECN5/1723037844.178209\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:14:54",
+                    "title": "[ Huey Arends ] : ' https://vimeo.com/crafture/review/995811764/aec75a..",
+                    "description": "[ Huey Arends ] : ' <a href=\"https://vimeo.com/crafture/review/995811764/aec75ac5f0\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> Violet Venema hier de eerste versie van de shoutout video. Als deze akkoord is kunnen we snel de kleurcorrectie doen. ' <br><br><a href=\"/permalink/C9RQKECN5/1723036494.477749\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:43:06",
+                    "title": "[ Violet Venema ] : ' Huey Arends dankje voor de edit. ik mis alleen d..",
+                    "description": "[ Violet Venema ] : ' Huey Arends dankje voor de edit. ik mis alleen de sfeer / de experience van het event. Om dit te kunnen realiseren kun je er quotes uithalen.\n\n\n*Uitgangspunt:* \n Veel sfeershots. Live-action foto\u2019s. Er is geen groot loper moment met BN-ers. De gasten zijn vooral fans en booktokkers.\n\n\n*Sfeer:* \n Zacht, lief, positief, rustgevend, dames die een leuke tijd met elkaar hebben.\n Deze sfeer aanhouden:\n<a href=\"https://www.instagram.com/p/C9uxhZDIJkY/\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a>\n Zo organisch mogelijk / niet een \u2018advertentie gevoel\u2019. Liefst geen mensen die recht in de camera kijken.\n\n*Focus:* Op het proces van het bloemschikken, de flowershop, alle dames in de zaal die de film gaan kijken, uitloop. ' <br><br><a href=\"/permalink/C9RQKECN5/1723038186.110909\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:44:40",
+                    "title": "[ Violet Venema ] : ' Huey Arends Jolien Eijsink de video edits van de..",
+                    "description": "[ Violet Venema ] : ' Huey Arends Jolien Eijsink de video edits van de social gisteravond zijn perfect, kunne we die anders pakken? met wat quotes erbij en dan hebben we m ' <br><br><a href=\"/permalink/C9RQKECN5/1723038280.639699\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:55:49",
+                    "title": "[ Huey Arends ] : ' Violet Venema ik ga ermee aan de slag. In combinat..",
+                    "description": "[ Huey Arends ] : ' Violet Venema ik ga ermee aan de slag. In combinatie met de quotes, probeer je wel een andere indruk achter te laten dan de instagram video die je nu meestuurt en ook dan de gister gemaakte stories. Dan edit je om de mensen en hun verhalen heen. Wanneer je als kijker mensen hoort praten, wil je hier een gezicht bij. Ook pas je als editor dan de flow van een edit aan op basis van het ritme van het verhaal (de quotes), in plaats van het ritme van de muziek. Dit is namelijk niet waar iemands focus op dat moment op ligt. ' <br><br><a href=\"/permalink/C9RQKECN5/1723038949.005819\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:01:04",
+                    "title": "[ Jolien Eijsink ] : ' Jarn\u00e9 :point_up::skin-tone-3: '",
+                    "description": "[ Jolien Eijsink ] : ' Jarn\u00e9 :point_up::skin-tone-3: ' <br><br><a href=\"/permalink/C9RQKECN5/1723035664.510349\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:06:23",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink waren er trouwens ook fotos van d..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink waren er trouwens ook fotos van de perswand met de bloemen links en rechts er naast? de herdenking :stuck_out_tongue: ' <br><br><a href=\"/permalink/C9RQKECN5/1723035983.182759\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:12:45",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema heb het even nagevraagd bij Damon..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema heb het even nagevraagd bij Damon, maar nee heeft \u2019ie niet - zag er denk ik inderdaad net iets te gek uit als een begrafenis :coffin: :joy: ' <br><br><a href=\"/permalink/C9RQKECN5/1723036365.849419\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:13:15",
+                    "title": "[ Jolien Eijsink ] : ' Foto\u2019s zijn aangepast! '",
+                    "description": "[ Jolien Eijsink ] : ' Foto\u2019s zijn aangepast! ' <br><br><a href=\"/permalink/C9RQKECN5/1723036395.182809\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:14:56",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink dankje en akkoord! '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink dankje en akkoord! ' <br><br><a href=\"/permalink/C9RQKECN5/1723036496.617869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:15:54",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema allebei (mail en WhatsApp)? Dan g..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema allebei (mail en WhatsApp)? Dan ga ik ze zo klaarmaken en versturen :saluting_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723036554.560239\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "13:33:46",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink yes! '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink yes! ' <br><br><a href=\"/permalink/C9RQKECN5/1723037626.664789\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:15:01",
+                    "title": "[ Violet Venema ] : ' Huey Arends yes begrijpelijk dat het qua edit we..",
+                    "description": "[ Violet Venema ] : ' Huey Arends yes begrijpelijk dat het qua edit weird is om audio te horen zonder gezicht. Je kan de quote weglaten, maar eigenlijk nog beter, je kunt de lange 20 sec spot eruit halen en dan eindigen we alleen met een eindkaart. of een stukje van het einde van de spot. dan heb je meer ruimte! ' <br><br><a href=\"/permalink/C9RQKECN5/1723040101.984919\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:08:46",
+                    "title": "[ Huey Arends ] : ' https://vimeo.com/crafture/review/995851088/71215a..",
+                    "description": "[ Huey Arends ] : ' <a href=\"https://vimeo.com/crafture/review/995851088/71215a7383\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> (versie zonder quotes)\n<a href=\"https://vimeo.com/crafture/review/995851164/ff690909df\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> (versie met quotes) ' <br><br><a href=\"/permalink/C9RQKECN5/1723043326.206479\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:08:54",
+                    "title": "[ Huey Arends ] : ' Een van deze twee meer naar smaak Violet Venema '",
+                    "description": "[ Huey Arends ] : ' Een van deze twee meer naar smaak Violet Venema ' <br><br><a href=\"/permalink/C9RQKECN5/1723043334.260729\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:32:00",
+                    "title": "[ Violet Venema ] : ' Huey Arends met quotes is top. ik zet nog een pa..",
+                    "description": "[ Violet Venema ] : ' Huey Arends met quotes is top. ik zet nog een paar comments in vimeo ' <br><br><a href=\"/permalink/C9RQKECN5/1723044720.079959\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:33:14",
+                    "title": "[ Violet Venema ] : ' done '",
+                    "description": "[ Violet Venema ] : ' done ' <br><br><a href=\"/permalink/C9RQKECN5/1723044794.100649\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "16:00",
+            "activities": [
+                {
+                    "timestamp": "16:47:26",
+                    "title": "[ Huey Arends ] : ' Vimeo-link is aangepast Violet Venema '",
+                    "description": "[ Huey Arends ] : ' Vimeo-link is aangepast Violet Venema ' <br><br><a href=\"/permalink/C9RQKECN5/1723049246.783509\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:53:17",
+                    "title": "[ Violet Venema ] : ' is het deze?\nhttps://vimeo.com/crafture/review/9..",
+                    "description": "[ Violet Venema ] : ' is het deze?\n<a href=\"https://vimeo.com/crafture/review/995851164/ff690909df\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> (versie met quotes) ' <br><br><a href=\"/permalink/C9RQKECN5/1723049597.362669\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-07",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:38:00",
+                    "title": "[ Huey Arends ] : ' Yes '",
+                    "description": "[ Huey Arends ] : ' Yes ' <br><br><a href=\"/permalink/C9RQKECN5/1723052280.569979\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#BAFFC9",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-08",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:53:56",
+                    "title": "[ Violet Venema ] : ' Huey Arends hi! ziet er top uit.\nJolien Eijsink ..",
+                    "description": "[ Violet Venema ] : ' Huey Arends hi! ziet er top uit.\nJolien Eijsink NIEUW: we love this video. Zouden we een versie 2 van de 16x9 kunnen maken met engelse ondertiteling zodat ik hiermee kan pronken bij de studio in LA? :smile: ' <br><br><a href=\"/permalink/C9RQKECN5/1723110836.993189\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-08",
+            "hour": "10:00",
+            "activities": [
+                {
+                    "timestamp": "10:21:16",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema yes! We gaan versie 1 dan onderti..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema yes! We gaan versie 1 dan ondertitelen met Nederlandse dynamic subs, versie 2 wordt dan met \u2018standaard\u2019 subs in het Engels of wil je daar ook dynamic subs? ' <br><br><a href=\"/permalink/C9RQKECN5/1723112476.045509\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "10:47:46",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink standaard helemaal oke :slightly_..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink standaard helemaal oke :slightly_smiling_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723114066.697659\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-08",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:41:03",
+                    "title": "[ Violet Venema ] : ' Huey Arends thanks! kan alleen de motion van de ..",
+                    "description": "[ Violet Venema ] : ' Huey Arends thanks! kan alleen de motion van de graphics 'zachter'? meer dromerige stijl. hier een voorbeeldje: ' <br><br><a href=\"/permalink/C9RQKECN5/1723131663.335759\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:43:44",
+                    "title": "[ Huey Arends ] : ' Gaan we doen. '",
+                    "description": "[ Huey Arends ] : ' Gaan we doen. ' <br><br><a href=\"/permalink/C9RQKECN5/1723131824.572519\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:29:19",
+                    "title": "[ Huey Arends ] : ' https://vimeo.com/crafture/review/996219072/b9d425..",
+                    "description": "[ Huey Arends ] : ' <a href=\"https://vimeo.com/crafture/review/996219072/b9d425da87\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> Violet Venema Ter check de Dynamic Subs ' <br><br><a href=\"/permalink/C9RQKECN5/1723130959.586409\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-08",
+            "hour": "16:00",
+            "activities": [
+                {
+                    "timestamp": "16:19:09",
+                    "title": "[ Huey Arends ] : ' Violet Venema vimeo-link is vervangen. We hebben h..",
+                    "description": "[ Huey Arends ] : ' Violet Venema vimeo-link is vervangen. We hebben het  zachter gemaakt; maar door het grotere lettertype en de snelheid waarin mensen praten is het lastig om \u00e9cht bij het voorbeeld in de buurt te komen.\n\nAls je dat wilt dan zouden we alles in dat lettertype moeten doen. Dat zouden we morgenvroeg op kunnen pakken, maar dan verliest het wel iets van het 'dynamische'. ' <br><br><a href=\"/permalink/C9RQKECN5/1723133949.332019\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:19:18",
+                    "title": "[ Huey Arends ] : ' Let me know '",
+                    "description": "[ Huey Arends ] : ' Let me know ' <br><br><a href=\"/permalink/C9RQKECN5/1723133958.474869\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "16:22:52",
+                    "title": "[ Violet Venema ] : ' Huey Arends prima laten we zo houden.  '",
+                    "description": "[ Violet Venema ] : ' Huey Arends prima laten we zo houden.  ' <br><br><a href=\"/permalink/C9RQKECN5/1723134172.887279\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFFFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-09",
+            "hour": "07:00",
+            "activities": [
+                {
+                    "timestamp": "07:49:38",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Goeiemorgen Violet Venema! Ik zag in Vimeo nog..",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Goeiemorgen Violet Venema! Ik zag in Vimeo nog 1 comment staan ter aanpassing, was dit het enige nog? Zo ja, gaan wij beginnen met de reformats. Laat maar weten! ' <br><br><a href=\"/permalink/C9RQKECN5/1723189778.914059\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-09",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:43:50",
+                    "title": "[ Jolien Eijsink ] : ' En heb je toevallig ook al de social copy voor ..",
+                    "description": "[ Jolien Eijsink ] : ' En heb je toevallig ook al de social copy voor ons Violet Venema? ' <br><br><a href=\"/permalink/C9RQKECN5/1723193030.226369\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:50:59",
+                    "title": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol hello! yes het enige '",
+                    "description": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol hello! yes het enige ' <br><br><a href=\"/permalink/C9RQKECN5/1723193459.081339\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "08:51:06",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink coming up! '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink coming up! ' <br><br><a href=\"/permalink/C9RQKECN5/1723193466.936599\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-09",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:55:28",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Hi Violet Venema! Hier twee 3D uitingen voor d..",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Hi Violet Venema! Hier twee 3D uitingen voor de It Ends With Us COOH ' <br><br><a href=\"/permalink/C9RQKECN5/1723218928.790039\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:38:21",
+                    "title": "[ Arwind Gajadien ] : ' Hier alvast de eerste quotes. We hebben ze ook..",
+                    "description": "[ Arwind Gajadien ] : ' Hier alvast de eerste quotes. We hebben ze ook om hun social handle gevraagd.\n\n\nZo meeslepend! Er zijn aardig wat traantjes gelaten - @marijebooks\n\n\"Een emotionele rollercoaster!\" - @jenniferleest\n\n\u201cPrachtig, emotioneel en mooi uitgevoerd.\u201d - @bookswithwendy\n\n@paulaleest heeft er 2 ingestuurd:\n\"Neem tissues mee naar de bioscoop\"\n\"Een prachtig verhaal dat je in je hart raakt\"\n\n\u201cNet zo intens als het boek!\u201d -\n@daansbooks ' <br><br><a href=\"/permalink/C9RQKECN5/1723217901.511279\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:38:20",
+                    "title": "[ Arwind Gajadien ] : ' Dani\u00ebl Rios Mol '",
+                    "description": "[ Arwind Gajadien ] : ' Dani\u00ebl Rios Mol ' <br><br><a href=\"/permalink/C9RQKECN5/1723217900.847129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:09:56",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink\nIt Ends With Us draait nu overal ..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink\nIt Ends With Us draait nu overal in de bioscoop:cherry_blossom: De verfilming van de wereldwijde bestseller. Met Blake Lively en Justin Baldoni. ' <br><br><a href=\"/permalink/C9RQKECN5/1723216196.089879\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:10:35",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink denken jullie dat het dit weekend..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink denken jullie dat het dit weekend evt nog geplaatst kan worden ? alle participanten zijn ook akkoord trouwens :slightly_smiling_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723216235.805939\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:10:49",
+                    "title": "[ Jolien Eijsink ] : ' dan kan het zo zelfs al worden gepost :slightly..",
+                    "description": "[ Jolien Eijsink ] : ' dan kan het zo zelfs al worden gepost :slightly_smiling_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723216249.785549\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:15:40",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink ons social team vraagt of we het ..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink ons social team vraagt of we het voor morgen in kunnen plannen omdat we al best wat IEWU dingen vandaag geplaatst hebben. kan dat nog? ' <br><br><a href=\"/permalink/C9RQKECN5/1723216540.049409\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:15:47",
+                    "title": "[ Jolien Eijsink ] : ' We hebben dit als thumb Violet Venema '",
+                    "description": "[ Jolien Eijsink ] : ' We hebben dit als thumb Violet Venema ' <br><br><a href=\"/permalink/C9RQKECN5/1723216547.816779\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:16:03",
+                    "title": "[ Jolien Eijsink ] : ' ja morgen kan ook hoor '",
+                    "description": "[ Jolien Eijsink ] : ' ja morgen kan ook hoor ' <br><br><a href=\"/permalink/C9RQKECN5/1723216563.421949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:17:10",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink prachtig '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink prachtig ' <br><br><a href=\"/permalink/C9RQKECN5/1723216630.895919\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:17:15",
+                    "title": "[ Violet Venema ] : ' akkoord '",
+                    "description": "[ Violet Venema ] : ' akkoord ' <br><br><a href=\"/permalink/C9RQKECN5/1723216635.290629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-09",
+            "hour": "17:00",
+            "activities": [
+                {
+                    "timestamp": "17:33:07",
+                    "title": "[ Arwind Gajadien ] : ' Gaan we doen '",
+                    "description": "[ Arwind Gajadien ] : ' Gaan we doen ' <br><br><a href=\"/permalink/C9RQKECN5/1723224787.020359\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "17:24:43",
+                    "title": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol mooi! Arwind Gajadien zouden jul..",
+                    "description": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol mooi! Arwind Gajadien zouden jullie voor de zekerheid kunnen testen of de comment groot genoeg/leesbaar is als je eraan voorbij zou lopen/rijden/fietsen/kruipen? ' <br><br><a href=\"/permalink/C9RQKECN5/1723224283.817629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFDFBA",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "07:00",
+            "activities": [
+                {
+                    "timestamp": "07:36:35",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema en de versie met de Engelse subs ..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema en de versie met de Engelse subs (toch maar ook met dynamic subs gedaan, hadden we toch al staan): <a href=\"https://vimeo.com/997624809/4ea7b73253?share=copy\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C9RQKECN5/1723448195.699499\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "07:50:30",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink thanks! 1 kleine opmerking in de ..",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink thanks! 1 kleine opmerking in de comments gezet ' <br><br><a href=\"/permalink/C9RQKECN5/1723449030.937379\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "08:00",
+            "activities": [
+                {
+                    "timestamp": "08:11:09",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema is aangepast en verwerkt!\nhttps:/..",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema is aangepast en verwerkt!\n<a href=\"https://vimeo.com/997624809/4ea7b73253?share=copy\" target=\"_blank\" style=\"text-decoration: underline; color: black; font-weight: bold;\">Klik hier om link te openen.</a> ' <br><br><a href=\"/permalink/C9RQKECN5/1723450269.803629\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "09:00",
+            "activities": [
+                {
+                    "timestamp": "09:14:30",
+                    "title": "[ Violet Venema ] : ' Jolien Eijsink super snel :fire: '",
+                    "description": "[ Violet Venema ] : ' Jolien Eijsink super snel :fire: ' <br><br><a href=\"/permalink/C9RQKECN5/1723454070.084369\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "09:15:04",
+                    "title": "[ Violet Venema ] : ' Heel veel dank. geen uploads hiervoor nodig. all..",
+                    "description": "[ Violet Venema ] : ' Heel veel dank. geen uploads hiervoor nodig. alleen het 16x9 bestand zelf :slightly_smiling_face: ' <br><br><a href=\"/permalink/C9RQKECN5/1723454104.248379\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "11:00",
+            "activities": [
+                {
+                    "timestamp": "11:24:50",
+                    "title": "[ Jolien Eijsink ] : ' Violet Venema here you go! '",
+                    "description": "[ Jolien Eijsink ] : ' Violet Venema here you go! ' <br><br><a href=\"/permalink/C9RQKECN5/1723461890.400719\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "12:00",
+            "activities": [
+                {
+                    "timestamp": "12:46:25",
+                    "title": "[ Arwind Gajadien ] : ' Violet Venema in navolging van mailtje :point_..",
+                    "description": "[ Arwind Gajadien ] : ' Violet Venema in navolging van mailtje :point_up_2::skin-tone-5: ' <br><br><a href=\"/permalink/C9RQKECN5/1723466785.902949\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "12:46:20",
+                    "title": "[ Arwind Gajadien ] : '  '",
+                    "description": "[ Arwind Gajadien ] : '  ' <br><br><a href=\"/permalink/C9RQKECN5/1723466780.879129\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a><br><br><p style=\"font-style: italic; color: gray;\">Image only available in slack</p>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "14:00",
+            "activities": [
+                {
+                    "timestamp": "14:26:29",
+                    "title": "[ Dani\u00ebl Rios Mol ] : ' Hi Violet Venema! Hebben jullie al een idee me..",
+                    "description": "[ Dani\u00ebl Rios Mol ] : ' Hi Violet Venema! Hebben jullie al een idee met welke van de bovenstaande versies jullie verder willen gaan? Dan kunnen wij zsm de andere uitingen opmaken ' <br><br><a href=\"/permalink/C9RQKECN5/1723472789.023769\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        },
+        {
+            "date": "2024-08-12",
+            "hour": "15:00",
+            "activities": [
+                {
+                    "timestamp": "15:03:24",
+                    "title": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol ze zijn in principe beiden goed...",
+                    "description": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol ze zijn in principe beiden goed. maar als we moeten kiezen zou ik gaan voor comments onderin omdat dit wellicht logischer is als je iets van boven naar beneden scant. ' <br><br><a href=\"/permalink/C9RQKECN5/1723475004.748899\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                },
+                {
+                    "timestamp": "15:01:08",
+                    "title": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol sorry dat was me niet duidelijk...",
+                    "description": "[ Violet Venema ] : ' Dani\u00ebl Rios Mol sorry dat was me niet duidelijk. ik dacht dat ze allemaal ingezet werden ' <br><br><a href=\"/permalink/C9RQKECN5/1723474868.767069\" target=\"_blank\" style=\"text-decoration: underline; color: green; font-weight: bold;\">Open in slack</a>",
+                    "fillColor": "#FFC4C4",
+                    "strokeColor": "#C27B25",
+                    "imgUrl": ""
+                }
+            ]
+        }
+    ]
+}

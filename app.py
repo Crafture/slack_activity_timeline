@@ -31,6 +31,10 @@ AUTHORIZED_USERS = os.getenv('AUTHORIZED_USERS').split(',')
 def index():
     return render_template('index.html')
 
+@app.route('/intern')
+def index_intern():
+    return render_template('index_intern.html')
+
 def return_json_message(filename):
     try:
         help_path = os.path.join(app.static_folder, filename)
@@ -70,78 +74,84 @@ def validate_int(text):
 # entry point slack
 @app.route('/handle_command', methods=['POST'])
 def return_datepicker():
-    token = request.form.get('token')
-    unauthorized_message = return_json_message("unauthorized.json")
-    if token != VERIFICATION_TOKEN:
-        return jsonify({"error": "No verification token"}), 403
+    try:
+        token = request.form.get('token')
+        unauthorized_message = return_json_message("unauthorized.json")
+        if token != VERIFICATION_TOKEN:
+            return jsonify({"error": "No verification token"}), 403
 
-    text = request.form.get('text')
-    user_id = request.form.get('user_id')
-    if user_id not in AUTHORIZED_USERS:
-        return unauthorized_message
-    channel_id = request.form.get('channel_id')
-    help_message = return_json_message("help_response_object.json")
-    
-    if text:
-        if text == "help":
-            return help_message
-        if text == "week":
-            dates = []
-            start_date = datetime.today() + timedelta(days=1)
-            dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
-            dates.append(start_date.strftime("%d-%m-%Y"))
-        elif text.isdigit():
-            if validate_int(text) == False:
-                return jsonify({"text": "Please try again with a lower number"}), 200
+        text = request.form.get('text')
+        user_id = request.form.get('user_id')
+        if user_id not in AUTHORIZED_USERS:
+            return unauthorized_message
+        channel_id = request.form.get('channel_id')
+        help_message = return_json_message("help_response_object.json")
+        
+        if text:
+            if text == "help":
+                return help_message
+            if "week" in text:
+                dates = []
+                start_date = datetime.today() + timedelta(days=1)
+                dates.append((start_date - timedelta(weeks=1)).strftime("%d-%m-%Y"))
+                dates.append(start_date.strftime("%d-%m-%Y"))
+            elif text.isdigit():
+                if not validate_int(text):
+                    return jsonify({"text": "Please try again with a lower number"}), 200
+                else:
+                    days = int(text)
+                    start_date = datetime.today() - timedelta(days=days)
+                    end_date = datetime.today() + timedelta(days=1)
+                    dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
             else:
-                days = int(text)
-                start_date = datetime.today() - timedelta(days=days)
-                end_date = datetime.today() + timedelta(days=1)
-                dates = [start_date.strftime("%d-%m-%Y"), end_date.strftime("%d-%m-%Y")]
-        else:
-            dates = text.split(' ')
-        if len(dates) == 2:
-            if validate_date(dates[0]) == True and validate_date(dates[1]) == True:
-                oldest = convert_to_timestamp(dates[0])
-                latest = convert_to_timestamp(dates[1])
-                if oldest >= latest:
-                    return jsonify({"text": "Last date has to be later than the oldest"}), 200
-                verification = generate_token(user_id)
-                timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
-                return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+                dates = text.split(' ')
+            
+            if len(dates) == 2:
+                if validate_date(dates[0]) and validate_date(dates[1]):
+                    oldest = convert_to_timestamp(dates[0])
+                    latest = convert_to_timestamp(dates[1])
+                    if oldest >= latest:
+                        return jsonify({"text": "Last date has to be later than the oldest"}), 200
+                    verification = generate_token(user_id)
+                    timeline_url = f"https://slack-activity-timeline.crafture.com/timeline/{channel_id}?verification={verification}&oldest={oldest}&latest={latest}"
+                    return jsonify({"text": f"Click here to see Timeline: {timeline_url}"})
+                else:
+                    return jsonify({"text": "Please check if the dates you're trying to use are valid. For more information, type: /timeline help"}), 200
             else:
-                return jsonify({"text": "Please check if the dates you're trying to use are valid. For more information, type: /timeline help"}), 200
-        else:
-            return help_message
-    initial_date = datetime.today() + timedelta(days=1)
-    formatted_initial_date = initial_date.strftime("%Y-%m-%d")
-    return_form = {
-        "blocks": [
-            {
-                "type": "section",
-                "text": {
-                    "type": "mrkdwn",
-                    "text": "To get timeline, *select a date*."
-                }
-            },
-            {
-                "type": "actions",
-                "elements": [
-                    {
-                        "type": "datepicker",
-                        "initial_date": formatted_initial_date,
-                        "placeholder": {
-                            "type": "plain_text",
-                            "text": "Select a date",
-                            "emoji": True
-                        },
-                        "action_id": "datepicker-action-2"
+                return help_message
+        initial_date = datetime.today() + timedelta(days=1)
+        formatted_initial_date = initial_date.strftime("%Y-%m-%d")
+        return_form = {
+            "blocks": [
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "To get timeline, *select a date*."
                     }
-                ]
-            }
-        ]
-    }
-    return jsonify(return_form)
+                },
+                {
+                    "type": "actions",
+                    "elements": [
+                        {
+                            "type": "datepicker",
+                            "initial_date": formatted_initial_date,
+                            "placeholder": {
+                                "type": "plain_text",
+                                "text": "Select a date",
+                                "emoji": True
+                            },
+                            "action_id": "datepicker-action-2"
+                        }
+                    ]
+                }
+            ]
+        }
+        return jsonify(return_form)
+    except Exception as e:
+        logging.error(f"Error: {e}")
+        return help_message
+
 
 # where the data being sent by the date picker goes to
 @app.route('/interactivity', methods=['POST'])
@@ -253,7 +263,8 @@ def get_history(channel):
 
 # generate JSON web token
 def generate_token(user_id):
-    expiration = datetime.now(timezone.utc) + timedelta(minutes=10)
+    ttl = 10080
+    expiration = datetime.now(timezone.utc) + timedelta(minutes=ttl)
     token = jwt.encode({
         'user_id': user_id,
         'exp': expiration
